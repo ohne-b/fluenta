@@ -1,0 +1,947 @@
+{
+  "missions": [
+    {
+      "content": {
+        "id": "mission.migration.5",
+        "revision": 1
+      },
+      "title": {
+        "language": "es",
+        "text": "Encontrar soluciones"
+      },
+      "question": {
+        "language": "es",
+        "text": "¿Qué hace que una propuesta sea justa y viable?"
+      },
+      "outcome": {
+        "de": "Verteidige einen Vorschlag und beantworte einen begründeten Einwand.",
+        "en": "Defend a proposal and answer a reasonable objection."
+      },
+      "description": {
+        "de": "Verbinde Textverständnis, nützliche Wendungen und eine eigene Antwort.",
+        "en": "Connect understanding, useful expressions and your own response."
+      },
+      "band": "B2",
+      "lesson": {
+        "id": "mission.migration.5.lesson",
+        "revision": 1
+      },
+      "challenge": {
+        "id": "mission.migration.5.assessment",
+        "revision": 1
+      },
+      "vocabulary": [
+        {
+          "id": "lex.propuesta",
+          "revision": 1
+        },
+        {
+          "id": "lex.medida",
+          "revision": 1
+        },
+        {
+          "id": "lex.acceso",
+          "revision": 1
+        },
+        {
+          "id": "lex.vivienda",
+          "revision": 1
+        },
+        {
+          "id": "lex.coste",
+          "revision": 1
+        },
+        {
+          "id": "lex.beneficio",
+          "revision": 1
+        },
+        {
+          "id": "lex.plazo",
+          "revision": 1
+        },
+        {
+          "id": "lex.frente",
+          "revision": 1
+        },
+        {
+          "id": "lex.acuerdo",
+          "revision": 1
+        },
+        {
+          "id": "lex.evaluar",
+          "revision": 1
+        }
+      ],
+      "sources": [
+        {
+          "title": "LehrplanPLUS · Spanisch 12/13, erhöhtes Anforderungsniveau",
+          "url": "https://www.lehrplanplus.bayern.de/fachlehrplan/gymnasium/12/spanisch/erhoeht",
+          "accessed": "2026-09-19",
+          "note": {
+            "de": "Zuordnung zu Themen und Kompetenzen; die Sammlungen sind redaktionell gegliedert.",
+            "en": "Mapping to themes and skills; collection titles are editorial groupings."
+          }
+        },
+        {
+          "title": "IOM · Glossary on Migration",
+          "url": "https://publications.iom.int/books/international-migration-law-ndeg34-glossary-migration",
+          "accessed": "2026-09-19",
+          "note": {
+            "de": "Begrifflicher Hintergrund. Die Personen und Ereignisse in den Lesetexten sind erfunden.",
+            "en": "Terminological background. People and events in the readings are fictional."
+          }
+        }
+      ],
+      "attribution": {
+        "de": "Originaler Lerntext · Personen, Gespräche und lokale Projekte sind erfunden. Synthetische Sprachausgabe.",
+        "en": "Original learning text · People, conversations and local projects are fictional. Synthetic speech."
+      },
+      "order": 5
+    }
+  ],
+  "lessons": [
+    {
+      "content": {
+        "id": "mission.migration.5.lesson",
+        "revision": 1
+      },
+      "title": {
+        "language": "es",
+        "text": "Encontrar soluciones"
+      },
+      "objectives": [
+        {
+          "id": "mission.migration.5.objective",
+          "revision": 1
+        }
+      ],
+      "activities": [
+        {
+          "id": "mission.migration.5.input",
+          "revision": 1
+        },
+        {
+          "id": "mission.migration.5.comprehension",
+          "revision": 1
+        },
+        {
+          "id": "lex.propuesta.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.medida.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.acceso.listening",
+          "revision": 1
+        },
+        {
+          "id": "mission.migration.5.prepare",
+          "revision": 1
+        },
+        {
+          "id": "mission.migration.5.speak",
+          "revision": 1
+        }
+      ],
+      "estimated_minutes": 22
+    }
+  ],
+  "objectives": [
+    {
+      "content": {
+        "id": "mission.migration.5.objective",
+        "revision": 1
+      },
+      "band": "B2",
+      "can_do": {
+        "de": "Verteidige einen Vorschlag und beantworte einen begründeten Einwand.",
+        "en": "Defend a proposal and answer a reasonable objection."
+      },
+      "prerequisites": [],
+      "explanation_refs": [],
+      "grammar_topics": [
+        "es.b1.subjunctive.grammar",
+        "es.b2.argumentation.grammar"
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "content": {
+        "id": "mission.migration.5.input",
+        "revision": 1
+      },
+      "instruction": {
+        "de": "Lies oder höre den Text. Öffne nützliche Wendungen bei Bedarf.",
+        "en": "Read or listen. Open useful expressions when you need them."
+      },
+      "objectives": [
+        {
+          "id": "mission.migration.5.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "reading"
+      ],
+      "task": {
+        "kind": "explanation",
+        "material": {
+          "id": "mission.migration.5.reading",
+          "revision": 1
+        }
+      },
+      "evidence_scope": "source_language",
+      "usage": "practice",
+      "lexical": [],
+      "preparation": false
+    },
+    {
+      "content": {
+        "id": "mission.migration.5.comprehension",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "¿Qué indicador responde mejor al objetivo del proyecto?"
+      },
+      "objectives": [
+        {
+          "id": "mission.migration.5.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "mission.migration.5.reading",
+          "revision": 1
+        }
+      ],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "reading"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "option.0",
+            "label": {
+              "language": "es",
+              "text": "Si las personas encuentran el servicio adecuado."
+            }
+          },
+          {
+            "id": "option.1",
+            "label": {
+              "language": "es",
+              "text": "Solo el número de visitas, aunque se repitan."
+            }
+          },
+          {
+            "id": "option.2",
+            "label": {
+              "language": "es",
+              "text": "El número de carteles colocados en la sala."
+            }
+          }
+        ],
+        "correct_ids": [
+          "option.0"
+        ],
+        "explanation": {
+          "id": "mission.migration.5.comprehension.feedback",
+          "revision": 1
+        }
+      },
+      "evidence_scope": "source_language",
+      "usage": "practice",
+      "lexical": [],
+      "preparation": false
+    },
+    {
+      "content": {
+        "id": "mission.migration.5.prepare",
+        "revision": 1
+      },
+      "instruction": {
+        "de": "Bereite deine Antwort vor",
+        "en": "Prepare your response"
+      },
+      "objectives": [
+        {
+          "id": "mission.migration.5.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "reading"
+      ],
+      "task": {
+        "kind": "explanation",
+        "material": {
+          "id": "mission.migration.5.preparation",
+          "revision": 1
+        }
+      },
+      "evidence_scope": "source_language",
+      "usage": "practice",
+      "lexical": [],
+      "preparation": true
+    },
+    {
+      "content": {
+        "id": "mission.migration.5.write",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "Intervén ante la comisión del barrio: defiende o modifica la propuesta, menciona dos detalles del texto y responde al problema de continuidad. Habla 90–120 segundos o escribe 130–200 palabras."
+      },
+      "objectives": [
+        {
+          "id": "mission.migration.5.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "mission.migration.5.reading",
+          "revision": 1
+        }
+      ],
+      "hints": [
+        {
+          "id": "mission.migration.5.preparation",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "writing"
+      ],
+      "task": {
+        "kind": "writing",
+        "language": "es",
+        "min_words": 130,
+        "max_words": 200,
+        "rubric": {
+          "id": "mission.migration.5.rubric",
+          "revision": 1
+        }
+      },
+      "evidence_scope": "source_language",
+      "usage": "practice",
+      "lexical": [],
+      "preparation": false
+    },
+    {
+      "content": {
+        "id": "mission.migration.5.speak",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "Intervén ante la comisión del barrio: defiende o modifica la propuesta, menciona dos detalles del texto y responde al problema de continuidad. Habla 90–120 segundos o escribe 130–200 palabras."
+      },
+      "objectives": [
+        {
+          "id": "mission.migration.5.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "mission.migration.5.reading",
+          "revision": 1
+        }
+      ],
+      "hints": [
+        {
+          "id": "mission.migration.5.preparation",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "speaking"
+      ],
+      "task": {
+        "kind": "speaking",
+        "language": "es",
+        "max_seconds": 150,
+        "rubric": {
+          "id": "mission.migration.5.rubric",
+          "revision": 1
+        },
+        "keyboard_alternative": {
+          "id": "mission.migration.5.write",
+          "revision": 1
+        }
+      },
+      "evidence_scope": "source_language",
+      "usage": "practice",
+      "lexical": [],
+      "preparation": false
+    },
+    {
+      "content": {
+        "id": "mission.migration.5.challenge",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "Redacta una recomendación para el consejo escolar. Valora la propuesta, identifica un problema que los portátiles no resuelven por sí solos y responde a un contraargumento. 140–210 palabras."
+      },
+      "objectives": [
+        {
+          "id": "mission.migration.5.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "mission.migration.5.unseen",
+          "revision": 1
+        }
+      ],
+      "hints": [],
+      "reveal_policy": "after_session",
+      "skills": [
+        "writing",
+        "reading"
+      ],
+      "task": {
+        "kind": "writing",
+        "language": "es",
+        "min_words": 140,
+        "max_words": 210,
+        "rubric": {
+          "id": "mission.migration.5.unseen.rubric",
+          "revision": 1
+        }
+      },
+      "evidence_scope": "source_language",
+      "usage": "assessment",
+      "lexical": [],
+      "preparation": false
+    }
+  ],
+  "materials": [
+    {
+      "content": {
+        "id": "mission.migration.5.reading",
+        "revision": 1
+      },
+      "searchable": true,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Encontrar soluciones"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "de": "Originaler Lerntext · Personen, Gespräche und lokale Projekte sind erfunden. Synthetische Sprachausgabe.",
+              "en": "Original learning text · People, conversations and local projects are fictional. Synthetic speech."
+            }
+          ]
+        },
+        {
+          "kind": "audio",
+          "speech": {
+            "id": "mission.migration.5.audio",
+            "revision": 1
+          }
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "La asociación del barrio presenta una propuesta ficticia: abrir dos tardes por semana un punto de orientación. La medida busca mejorar el acceso a información sobre estudios, salud y trámites. No promete resolver la falta de vivienda ni sustituir a los servicios profesionales. Su objetivo es indicar a qué servicio acudir y cómo pedir una cita.",
+              "annotations": [
+                {
+                  "start": 34,
+                  "end": 47,
+                  "occurrence": {
+                    "id": "mission.migration.5.reading.p0.o0",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 114,
+                  "end": 120,
+                  "occurrence": {
+                    "id": "mission.migration.5.reading.p0.o1",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 135,
+                  "end": 146,
+                  "occurrence": {
+                    "id": "mission.migration.5.reading.p0.o2",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 225,
+                  "end": 233,
+                  "occurrence": {
+                    "id": "mission.migration.5.reading.p0.o3",
+                    "revision": 1
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "El ayuntamiento pregunta por el coste. Harían falta una sala, una persona coordinadora y materiales comprensibles. El principal beneficio sería reducir viajes y consultas fallidas. Elena, vecina jubilada, apoya la idea, pero advierte que el voluntariado no garantiza continuidad a largo plazo. Omar, estudiante, propone turnos breves y formación inicial; reconoce que eso no sustituye la coordinación profesional.",
+              "annotations": [
+                {
+                  "start": 29,
+                  "end": 37,
+                  "occurrence": {
+                    "id": "mission.migration.5.reading.p1.o0",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 128,
+                  "end": 137,
+                  "occurrence": {
+                    "id": "mission.migration.5.reading.p1.o1",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 279,
+                  "end": 292,
+                  "occurrence": {
+                    "id": "mission.migration.5.reading.p1.o2",
+                    "revision": 1
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Para hacer frente a la falta de recursos, la asociación plantea una prueba de tres meses en un local existente. Quiere llegar a un acuerdo con los servicios municipales sobre qué puede hacer cada parte. Después habrá que evaluar si las personas encuentran realmente el servicio adecuado. Contar visitas no basta: muchas visitas repetidas podrían indicar que el problema sigue sin resolverse. La comisión propone preguntar de forma anónima si la orientación resultó útil y revisar también qué personas no pudieron acceder.",
+              "annotations": [
+                {
+                  "start": 5,
+                  "end": 19,
+                  "occurrence": {
+                    "id": "mission.migration.5.reading.p2.o0",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 119,
+                  "end": 138,
+                  "occurrence": {
+                    "id": "mission.migration.5.reading.p2.o1",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 221,
+                  "end": 228,
+                  "occurrence": {
+                    "id": "mission.migration.5.reading.p2.o2",
+                    "revision": 1
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.migration.5.comprehension.feedback",
+        "revision": 1
+      },
+      "searchable": false,
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "de": "Der Zweck ist passende Orientierung. Besuchszahlen allein belegen diesen Nutzen nicht.",
+              "en": "The purpose is suitable guidance. Visit counts alone do not demonstrate that benefit."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.migration.5.preparation",
+        "revision": 1
+      },
+      "searchable": false,
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "de": "Plane: Was ist die zentrale Aussage? Welche zwei Details helfen? Für wen formulierst du? Notiere Stichwörter, bevor du einen zusammenhängenden Text schreibst oder sprichst.",
+              "en": "Plan: What is the main point? Which two details help? Who is your audience? Note keywords before writing or speaking a connected response."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.migration.5.rubric.model",
+        "revision": 1
+      },
+      "searchable": false,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Una posible respuesta"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Apoyo una prueba de tres meses, siempre que se defina quién coordina el servicio. Usar un local existente reduce el coste inicial y puede mejorar el acceso a información. Sin embargo, Elena tiene razón: depender solo del voluntariado puede provocar interrupciones. Propongo una coordinación profesional y turnos voluntarios de apoyo. Al evaluar el proyecto, no contaría únicamente visitas; preguntaría si la orientación permitió contactar con el servicio adecuado. Si no hay recursos para esa coordinación, convendría reducir el horario antes que prometer una atención que no se puede mantener. La comisión tendría que informar con claridad sobre los límites del servicio: orientar no equivale a resolver de inmediato un problema de vivienda. Para no crear expectativas falsas, cada consulta debería terminar con un siguiente paso concreto. También reservaría una parte de la evaluación para personas que no acudieron, pues un horario poco accesible podría ocultar necesidades importantes.",
+              "annotations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.migration.5.unseen",
+        "revision": 1
+      },
+      "searchable": false,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Otra situación"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Una escuela propone entregar un portátil a cada estudiante que lo necesite. La biblioteca dispone de equipos, pero cierra a las cinco. Algunas familias no tienen conexión estable en casa. Una asociación ofrece prestar dispositivos usados durante seis meses; nadie ha calculado todavía el mantenimiento.",
+              "annotations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.migration.5.unseen.rubric.model",
+        "revision": 1
+      },
+      "searchable": false,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Una posible respuesta"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Prestar portátiles puede reducir una barrera, pero no garantiza estudiar en casa si falta conexión. Además, hay que prever mantenimiento y continuidad después de seis meses. Recomendaría combinar el préstamo con acceso a un espacio conectado y un responsable técnico. El coste es una objeción razonable; por eso empezaría con una prueba limitada y evaluaría si los estudiantes pueden realizar las tareas, no solo cuántos equipos se entregan. El consejo escolar podría empezar preguntando a las familias qué impide realizar las tareas, sin identificar públicamente a quienes necesitan ayuda. Después convendría comprobar el estado de los equipos y acordar quién los repara. Frente a la objeción de que abrir un espacio conectado exige personal, propondría coordinar horarios existentes y limitar la prueba a dos tardes. No prometería una solución permanente con un préstamo temporal. Al terminar, habría que decidir cómo continuar a partir de dificultades concretas, no únicamente del número de dispositivos repartidos.",
+              "annotations": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "speech": [
+    {
+      "content": {
+        "id": "mission.migration.5.reading.p0.o0.audio",
+        "revision": 1
+      },
+      "text": "La asociación del barrio presenta una propuesta ficticia: abrir dos tardes por semana un punto de orientación.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.5.reading.p0.o1.audio",
+        "revision": 1
+      },
+      "text": "La medida busca mejorar el acceso a información sobre estudios, salud y trámites.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.5.reading.p0.o2.audio",
+        "revision": 1
+      },
+      "text": "La medida busca mejorar el acceso a información sobre estudios, salud y trámites.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.5.reading.p0.o3.audio",
+        "revision": 1
+      },
+      "text": "No promete resolver la falta de vivienda ni sustituir a los servicios profesionales.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.5.reading.p1.o0.audio",
+        "revision": 1
+      },
+      "text": "El ayuntamiento pregunta por el coste.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.5.reading.p1.o1.audio",
+        "revision": 1
+      },
+      "text": "El principal beneficio sería reducir viajes y consultas fallidas.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.5.reading.p1.o2.audio",
+        "revision": 1
+      },
+      "text": "Elena, vecina jubilada, apoya la idea, pero advierte que el voluntariado no garantiza continuidad a largo plazo.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.5.reading.p2.o0.audio",
+        "revision": 1
+      },
+      "text": "Para hacer frente a la falta de recursos, la asociación plantea una prueba de tres meses en un local existente.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.5.reading.p2.o1.audio",
+        "revision": 1
+      },
+      "text": "Quiere llegar a un acuerdo con los servicios municipales sobre qué puede hacer cada parte.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.5.reading.p2.o2.audio",
+        "revision": 1
+      },
+      "text": "Después habrá que evaluar si las personas encuentran realmente el servicio adecuado.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.5.audio",
+        "revision": 1
+      },
+      "text": "La asociación del barrio presenta una propuesta ficticia: abrir dos tardes por semana un punto de orientación. La medida busca mejorar el acceso a información sobre estudios, salud y trámites. No promete resolver la falta de vivienda ni sustituir a los servicios profesionales. Su objetivo es indicar a qué servicio acudir y cómo pedir una cita. El ayuntamiento pregunta por el coste. Harían falta una sala, una persona coordinadora y materiales comprensibles. El principal beneficio sería reducir viajes y consultas fallidas. Elena, vecina jubilada, apoya la idea, pero advierte que el voluntariado no garantiza continuidad a largo plazo. Omar, estudiante, propone turnos breves y formación inicial; reconoce que eso no sustituye la coordinación profesional. Para hacer frente a la falta de recursos, la asociación plantea una prueba de tres meses en un local existente. Quiere llegar a un acuerdo con los servicios municipales sobre qué puede hacer cada parte. Después habrá que evaluar si las personas encuentran realmente el servicio adecuado. Contar visitas no basta: muchas visitas repetidas podrían indicar que el problema sigue sin resolverse. La comisión propone preguntar de forma anónima si la orientación resultó útil y revisar también qué personas no pudieron acceder.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    }
+  ],
+  "rubrics": [
+    {
+      "content": {
+        "id": "mission.migration.5.rubric",
+        "revision": 1
+      },
+      "criteria": [
+        {
+          "id": "task",
+          "label": {
+            "de": "Aufgabe und Adressat",
+            "en": "Task and audience"
+          },
+          "guidance": {
+            "de": "Erfülle die konkrete Schreib- oder Sprechabsicht der Aufgabe. Gehe auf die verlangten Teilfragen ein.",
+            "en": "Fulfil the specific writing or speaking purpose and address the requested points."
+          }
+        },
+        {
+          "id": "source",
+          "label": {
+            "de": "Belege und Genauigkeit",
+            "en": "Evidence and accuracy"
+          },
+          "guidance": {
+            "de": "Stütze deine Aussagen auf konkrete Details der Quelle; trenne Beleg, Deutung und eigene Meinung.",
+            "en": "Support claims with specific source details; separate evidence, interpretation and your opinion."
+          }
+        },
+        {
+          "id": "structure",
+          "label": {
+            "de": "Aufbau und Gegenposition",
+            "en": "Structure and alternative view"
+          },
+          "guidance": {
+            "de": "Ordne deine Gedanken nachvollziehbar. Gehe bei einer Diskussion auf einen begründeten Einwand ein.",
+            "en": "Organise ideas clearly. In discussion, address a reasonable objection."
+          }
+        },
+        {
+          "id": "language",
+          "label": {
+            "de": "Sprache",
+            "en": "Language"
+          },
+          "guidance": {
+            "de": "Formuliere verständlich und adressatengerecht. Prüfe Verbformen, Bezüge und passende Verknüpfungen.",
+            "en": "Write or speak clearly for your audience. Check verb forms, reference and suitable connectors."
+          }
+        }
+      ],
+      "model_answers": [
+        {
+          "id": "mission.migration.5.rubric.model",
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.migration.5.unseen.rubric",
+        "revision": 1
+      },
+      "criteria": [
+        {
+          "id": "task",
+          "label": {
+            "de": "Aufgabe und Adressat",
+            "en": "Task and audience"
+          },
+          "guidance": {
+            "de": "Erfülle die neue Aufgabe unabhängig. Belege deine Überlegungen mit der neuen Quelle; bei Sprachmittlung zählen Auswahl und Adressatenbezug, nicht wörtliche Übersetzung.",
+            "en": "Complete the new task independently. Use the new source; mediation requires relevant selection and audience awareness, not literal translation."
+          }
+        },
+        {
+          "id": "source",
+          "label": {
+            "de": "Belege und Genauigkeit",
+            "en": "Evidence and accuracy"
+          },
+          "guidance": {
+            "de": "Stütze deine Aussagen auf konkrete Details der Quelle; trenne Beleg, Deutung und eigene Meinung.",
+            "en": "Support claims with specific source details; separate evidence, interpretation and your opinion."
+          }
+        },
+        {
+          "id": "structure",
+          "label": {
+            "de": "Aufbau und Gegenposition",
+            "en": "Structure and alternative view"
+          },
+          "guidance": {
+            "de": "Ordne deine Gedanken nachvollziehbar. Gehe bei einer Diskussion auf einen begründeten Einwand ein.",
+            "en": "Organise ideas clearly. In discussion, address a reasonable objection."
+          }
+        },
+        {
+          "id": "language",
+          "label": {
+            "de": "Sprache",
+            "en": "Language"
+          },
+          "guidance": {
+            "de": "Formuliere verständlich und adressatengerecht. Prüfe Verbformen, Bezüge und passende Verknüpfungen.",
+            "en": "Write or speak clearly for your audience. Check verb forms, reference and suitable connectors."
+          }
+        }
+      ],
+      "model_answers": [
+        {
+          "id": "mission.migration.5.unseen.rubric.model",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "assessments": [
+    {
+      "content": {
+        "id": "mission.migration.5.assessment",
+        "revision": 1
+      },
+      "title": {
+        "de": "Neue Quelle · unabhängige Aufgabe",
+        "en": "New source · independent challenge"
+      },
+      "activities": [
+        {
+          "id": "mission.migration.5.challenge",
+          "revision": 1
+        }
+      ],
+      "duration_seconds": 1800,
+      "audio_replays": 0
+    }
+  ]
+}

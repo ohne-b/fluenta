@@ -1,0 +1,2060 @@
+{
+  "lessons": [
+    {
+      "content": {
+        "id": "es.a2.pronouns.recognise",
+        "revision": 1
+      },
+      "title": {
+        "slot": "es.a2.pronouns.recognise.title"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.pronouns.practice-objective",
+          "revision": 1
+        }
+      ],
+      "activities": [
+        {
+          "id": "es.a2.pronouns.practice-01",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.pronouns.practice-02",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.pronouns.practice-03",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.pronouns.practice-04",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.pronouns.practice-05",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.pronouns.practice-06",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.pronouns.practice-07",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.pronouns.practice-08",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.pronouns.practice-09",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.pronouns.practice-10",
+          "revision": 1
+        }
+      ],
+      "estimated_minutes": 12
+    },
+    {
+      "content": {
+        "id": "es.a2.pronouns.context",
+        "revision": 1
+      },
+      "title": {
+        "slot": "es.a2.pronouns.context.title"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.pronouns.practice-objective",
+          "revision": 1
+        }
+      ],
+      "activities": [
+        {
+          "id": "es.a2.pronouns.practice-11",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.pronouns.practice-12",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.pronouns.practice-13",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.pronouns.practice-14",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.pronouns.practice-15",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.pronouns.practice-16",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.pronouns.practice-17",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.pronouns.practice-18",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.pronouns.practice-19",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.pronouns.practice-20",
+          "revision": 1
+        }
+      ],
+      "estimated_minutes": 18
+    }
+  ],
+  "objectives": [
+    {
+      "content": {
+        "id": "es.a2.pronouns.practice-objective",
+        "revision": 1
+      },
+      "band": "A2",
+      "can_do": {
+        "slot": "es.a2.pronouns.can-do"
+      },
+      "prerequisites": [],
+      "explanation_refs": [
+        {
+          "id": "es.a2.pronouns.guide",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "content": {
+        "id": "es.a2.pronouns.practice-01",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a2.pronouns.question-01"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.pronouns.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.pronouns.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "La leo."
+            }
+          },
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "Les leo."
+            }
+          },
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "Lo leo."
+            }
+          }
+        ],
+        "correct_ids": [
+          "o0"
+        ],
+        "explanation": {
+          "id": "es.a2.pronouns.feedback-01",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a2.pronouns.practice-02",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a2.pronouns.question-02"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.pronouns.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.pronouns.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "Lo doy el libro."
+            }
+          },
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "La doy el libro."
+            }
+          },
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "Le doy el libro."
+            }
+          }
+        ],
+        "correct_ids": [
+          "o1"
+        ],
+        "explanation": {
+          "id": "es.a2.pronouns.feedback-02",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a2.pronouns.practice-03",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a2.pronouns.question-03"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.pronouns.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.pronouns.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "Le lo doy."
+            }
+          },
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "Lo se doy."
+            }
+          },
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "Se lo doy."
+            }
+          }
+        ],
+        "correct_ids": [
+          "o2"
+        ],
+        "explanation": {
+          "id": "es.a2.pronouns.feedback-03",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a2.pronouns.practice-04",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a2.pronouns.question-04"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.pronouns.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.pronouns.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "Te levantas a las siete."
+            }
+          },
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "Se levantan a las siete."
+            }
+          },
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "Me levanto a las siete."
+            }
+          }
+        ],
+        "correct_ids": [
+          "o0"
+        ],
+        "explanation": {
+          "id": "es.a2.pronouns.feedback-04",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a2.pronouns.practice-05",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a2.pronouns.question-05"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.pronouns.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.pronouns.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "Le"
+            }
+          },
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "La"
+            }
+          },
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "Lo"
+            }
+          }
+        ],
+        "correct_ids": [
+          "o0"
+        ],
+        "explanation": {
+          "id": "es.a2.pronouns.feedback-05",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a2.pronouns.practice-06",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a2.pronouns.question-06"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.pronouns.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.pronouns.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "Los"
+            }
+          },
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "Las"
+            }
+          },
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "Les"
+            }
+          }
+        ],
+        "correct_ids": [
+          "o0"
+        ],
+        "explanation": {
+          "id": "es.a2.pronouns.feedback-06",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a2.pronouns.practice-07",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a2.pronouns.question-07"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.pronouns.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.pronouns.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "Los"
+            }
+          },
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "Las"
+            }
+          },
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "Les"
+            }
+          }
+        ],
+        "correct_ids": [
+          "o0"
+        ],
+        "explanation": {
+          "id": "es.a2.pronouns.feedback-07",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a2.pronouns.practice-08",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a2.pronouns.question-08"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.pronouns.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.pronouns.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "La"
+            }
+          },
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "Se"
+            }
+          },
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "Le"
+            }
+          }
+        ],
+        "correct_ids": [
+          "o0"
+        ],
+        "explanation": {
+          "id": "es.a2.pronouns.feedback-08",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a2.pronouns.practice-09",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a2.pronouns.question-09"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.pronouns.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.pronouns.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "orthography",
+        "inputs": [
+          "keyboard"
+        ],
+        "accepted": [
+          "me"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.a2.pronouns.feedback-09",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a2.pronouns.practice-10",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a2.pronouns.question-10"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.pronouns.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.pronouns.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "orthography",
+        "inputs": [
+          "keyboard"
+        ],
+        "accepted": [
+          "nos"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.a2.pronouns.feedback-10",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a2.pronouns.practice-11",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "En “no lo encuentra”, ¿a qué se refiere lo?"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.pronouns.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "es.a2.pronouns.reading",
+          "revision": 1
+        }
+      ],
+      "hints": [
+        {
+          "id": "es.a2.pronouns.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "A la profesora."
+            }
+          },
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "Al cuaderno."
+            }
+          },
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "A Ana."
+            }
+          }
+        ],
+        "correct_ids": [
+          "o0"
+        ],
+        "explanation": {
+          "id": "es.a2.pronouns.feedback-11",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a2.pronouns.practice-12",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "En “que las leamos”, ¿a qué se refiere las?"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.pronouns.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "es.a2.pronouns.reading",
+          "revision": 1
+        }
+      ],
+      "hints": [
+        {
+          "id": "es.a2.pronouns.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "A las mesas."
+            }
+          },
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "A las hojas."
+            }
+          },
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "A las preguntas del compañero."
+            }
+          }
+        ],
+        "correct_ids": [
+          "o1"
+        ],
+        "explanation": {
+          "id": "es.a2.pronouns.feedback-12",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a2.pronouns.practice-13",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "En “se la explico”, ¿qué se explica?"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.pronouns.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "es.a2.pronouns.reading",
+          "revision": 1
+        }
+      ],
+      "hints": [
+        {
+          "id": "es.a2.pronouns.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "La mesa."
+            }
+          },
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "Una pregunta."
+            }
+          },
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "El cuaderno."
+            }
+          }
+        ],
+        "correct_ids": [
+          "o2"
+        ],
+        "explanation": {
+          "id": "es.a2.pronouns.feedback-13",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a2.pronouns.practice-14",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a2.pronouns.question-14"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.pronouns.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.pronouns.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "orthography",
+        "inputs": [
+          "keyboard"
+        ],
+        "accepted": [
+          "Las"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.a2.pronouns.feedback-14",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a2.pronouns.practice-15",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a2.pronouns.question-15"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.pronouns.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.pronouns.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "orthography",
+        "inputs": [
+          "keyboard"
+        ],
+        "accepted": [
+          "Le"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.a2.pronouns.feedback-15",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a2.pronouns.practice-16",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a2.pronouns.question-16"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.pronouns.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.pronouns.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "orthography",
+        "inputs": [
+          "keyboard"
+        ],
+        "accepted": [
+          "las"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.a2.pronouns.feedback-16",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a2.pronouns.practice-17",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a2.pronouns.question-17"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.pronouns.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.pronouns.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "orthography",
+        "inputs": [
+          "keyboard"
+        ],
+        "accepted": [
+          "os"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.a2.pronouns.feedback-17",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a2.pronouns.practice-18",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a2.pronouns.question-18"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.pronouns.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.pronouns.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "order",
+        "items": [
+          {
+            "id": "w2",
+            "label": {
+              "language": "es",
+              "text": "nos"
+            }
+          },
+          {
+            "id": "w3",
+            "label": {
+              "language": "es",
+              "text": "da"
+            }
+          },
+          {
+            "id": "w4",
+            "label": {
+              "language": "es",
+              "text": "las"
+            }
+          },
+          {
+            "id": "w5",
+            "label": {
+              "language": "es",
+              "text": "hojas"
+            }
+          },
+          {
+            "id": "w6",
+            "label": {
+              "language": "es",
+              "text": "y"
+            }
+          },
+          {
+            "id": "w7",
+            "label": {
+              "language": "es",
+              "text": "nosotros"
+            }
+          },
+          {
+            "id": "w8",
+            "label": {
+              "language": "es",
+              "text": "las"
+            }
+          },
+          {
+            "id": "w9",
+            "label": {
+              "language": "es",
+              "text": "leemos."
+            }
+          },
+          {
+            "id": "w0",
+            "label": {
+              "language": "es",
+              "text": "La"
+            }
+          },
+          {
+            "id": "w1",
+            "label": {
+              "language": "es",
+              "text": "profesora"
+            }
+          }
+        ],
+        "accepted_orders": [
+          [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ]
+        ],
+        "explanation": {
+          "id": "es.a2.pronouns.feedback-18",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a2.pronouns.practice-19",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "¿Qué lee el narrador en la biblioteca?"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.pronouns.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "es.a2.pronouns.listening",
+          "revision": 1
+        }
+      ],
+      "hints": [
+        {
+          "id": "es.a2.pronouns.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "listening",
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "El libro de Marta."
+            }
+          },
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "Un correo."
+            }
+          },
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "Los apuntes."
+            }
+          }
+        ],
+        "correct_ids": [
+          "o0"
+        ],
+        "explanation": {
+          "id": "es.a2.pronouns.feedback-19",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a2.pronouns.practice-20",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a2.pronouns.writing-task"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.pronouns.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.pronouns.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "task": {
+        "kind": "writing",
+        "language": "es",
+        "min_words": 40,
+        "max_words": 130,
+        "rubric": {
+          "id": "es.a2.pronouns.writing-rubric",
+          "revision": 1
+        }
+      }
+    }
+  ],
+  "materials": [
+    {
+      "content": {
+        "id": "es.a2.pronouns.feedback-01",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Lo leo."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a2.pronouns.feedback-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.pronouns.feedback-02",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Le doy el libro."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a2.pronouns.feedback-02"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.pronouns.feedback-03",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Se lo doy."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a2.pronouns.feedback-03"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.pronouns.feedback-04",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Me levanto a las siete."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a2.pronouns.feedback-04"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.pronouns.feedback-05",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "La"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a2.pronouns.guide",
+            "revision": 1
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.pronouns.feedback-06",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Los"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a2.pronouns.guide",
+            "revision": 1
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.pronouns.feedback-07",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Les"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a2.pronouns.guide",
+            "revision": 1
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.pronouns.feedback-08",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Se"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a2.pronouns.guide",
+            "revision": 1
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.pronouns.feedback-09",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Yo me levanto temprano."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a2.pronouns.guide",
+            "revision": 1
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.pronouns.feedback-10",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Nosotros nos sentamos juntos."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a2.pronouns.guide",
+            "revision": 1
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.pronouns.reading",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Antes de clase, Ana busca su cuaderno, pero no lo encuentra. Yo lo veo debajo de una mesa y se lo doy. Después la profesora reparte unas hojas. Nos pide que las leamos y que escribamos las respuestas. Mi compañero no entiende una pregunta y me pide ayuda. Se la explico con un ejemplo. Al final entregamos las hojas a la profesora. Ella las revisa y nos da algunos consejos para el próximo ejercicio."
+            }
+          ]
+        },
+        {
+          "kind": "list",
+          "items": [
+            [
+              {
+                "language": "es",
+                "text": "los apuntes —"
+              },
+              {
+                "slot": "es.a2.pronouns.gloss-0"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "la hoja —"
+              },
+              {
+                "slot": "es.a2.pronouns.gloss-1"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "repartir —"
+              },
+              {
+                "slot": "es.a2.pronouns.gloss-2"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.pronouns.feedback-11",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Al cuaderno."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a2.pronouns.guide",
+            "revision": 1
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.pronouns.feedback-12",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "A las hojas."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a2.pronouns.guide",
+            "revision": 1
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.pronouns.feedback-13",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Una pregunta."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a2.pronouns.guide",
+            "revision": 1
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.pronouns.feedback-14",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Busco las llaves. → Las busco."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a2.pronouns.guide",
+            "revision": 1
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.pronouns.feedback-15",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Explico el problema a Luis. → Le explico el problema."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a2.pronouns.guide",
+            "revision": 1
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.pronouns.feedback-16",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Doy las hojas a mis amigos. → Se las doy."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a2.pronouns.guide",
+            "revision": 1
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.pronouns.feedback-17",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Vosotros os levantáis a las ocho."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a2.pronouns.guide",
+            "revision": 1
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.pronouns.feedback-18",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "La profesora nos da las hojas y nosotros las leemos."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a2.pronouns.guide",
+            "revision": 1
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.pronouns.listening",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "audio",
+          "speech": {
+            "id": "es.a2.pronouns.listening-audio",
+            "revision": 1
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.pronouns.feedback-19",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Los apuntes."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a2.pronouns.guide",
+            "revision": 1
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Tengo el libro de Marta. Se lo doy antes de clase. Después ella me presta sus apuntes y los leo en la biblioteca."
+            }
+          ],
+          "speech": null
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.pronouns.writing-model",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Ana no encuentra su libro. Yo lo veo en mi mesa y se lo doy. Ella me da las gracias. Después buscamos nuestras hojas y las leemos juntos. Ana no entiende una pregunta. Se la explico con un ejemplo y ella escribe la respuesta."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "speech": [
+    {
+      "content": {
+        "id": "es.a2.pronouns.listening-audio",
+        "revision": 1
+      },
+      "text": "Tengo el libro de Marta. Se lo doy antes de clase. Después ella me presta sus apuntes y los leo en la biblioteca.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "content": {
+        "id": "es.a2.pronouns.lexeme-0",
+        "revision": 1
+      },
+      "lemma": "los apuntes",
+      "part_of_speech": "expression",
+      "gloss": {
+        "slot": "es.a2.pronouns.gloss-0"
+      },
+      "accepted_forms": [
+        "los apuntes"
+      ],
+      "examples": [
+        {
+          "id": "es.a2.pronouns.reading",
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.pronouns.lexeme-1",
+        "revision": 1
+      },
+      "lemma": "la hoja",
+      "part_of_speech": "expression",
+      "gloss": {
+        "slot": "es.a2.pronouns.gloss-1"
+      },
+      "accepted_forms": [
+        "la hoja"
+      ],
+      "examples": [
+        {
+          "id": "es.a2.pronouns.reading",
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.pronouns.lexeme-2",
+        "revision": 1
+      },
+      "lemma": "repartir",
+      "part_of_speech": "expression",
+      "gloss": {
+        "slot": "es.a2.pronouns.gloss-2"
+      },
+      "accepted_forms": [
+        "repartir"
+      ],
+      "examples": [
+        {
+          "id": "es.a2.pronouns.reading",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "rubrics": [
+    {
+      "content": {
+        "id": "es.a2.pronouns.writing-rubric",
+        "revision": 1
+      },
+      "criteria": [
+        {
+          "id": "task",
+          "label": {
+            "slot": "es.grammar.rubric.task"
+          },
+          "guidance": {
+            "slot": "es.a2.pronouns.rubric-task"
+          }
+        },
+        {
+          "id": "forms",
+          "label": {
+            "slot": "es.grammar.rubric.forms"
+          },
+          "guidance": {
+            "slot": "es.a2.pronouns.rubric-forms"
+          }
+        },
+        {
+          "id": "cohesion",
+          "label": {
+            "slot": "es.grammar.rubric.connections"
+          },
+          "guidance": {
+            "slot": "es.grammar.rubric.connections-help"
+          }
+        }
+      ],
+      "model_answers": [
+        {
+          "id": "es.a2.pronouns.writing-model",
+          "revision": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "grammar": [
+    {
+      "content": {
+        "id": "es.a1.timetable.grammar",
+        "revision": 4
+      },
+      "title": {
+        "slot": "es.a1.present-regular.topic-title"
+      },
+      "summary": {
+        "slot": "es.a1.present-regular.summary"
+      },
+      "band": "A1",
+      "category": "verbs",
+      "order": 30,
+      "group": {
+        "slot": "es.grammar.present"
+      },
+      "explanations": [
+        {
+          "id": "es.a1.timetable.guide",
+          "revision": 3
+        }
+      ],
+      "lessons": [
+        {
+          "id": "es.a1.present-regular.recognise",
+          "revision": 1
+        },
+        {
+          "id": "es.a1.present-regular.context",
+          "revision": 1
+        },
+        {
+          "id": "es.a1.timetable.lesson",
+          "revision": 4
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "content": {
+        "id": "es.a1.timetable.guide",
+        "revision": 3
+      },
+      "searchable": true,
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a1.present-regular.rule.p1"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a1.present-regular.rule.p2"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Estudio español. Comemos en el instituto. Mis amigos viven cerca. Los lunes escribimos un texto."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "table",
+          "caption": {
+            "slot": "es.a1.present-regular.table-title"
+          },
+          "columns": [
+            {
+              "slot": "es.grammar.person"
+            },
+            {
+              "language": "es",
+              "text": "hablar (-ar)"
+            },
+            {
+              "language": "es",
+              "text": "comer (-er)"
+            },
+            {
+              "language": "es",
+              "text": "vivir (-ir)"
+            }
+          ],
+          "rows": [
+            [
+              {
+                "language": "es",
+                "text": "yo"
+              },
+              {
+                "language": "es",
+                "text": "hablo"
+              },
+              {
+                "language": "es",
+                "text": "como"
+              },
+              {
+                "language": "es",
+                "text": "vivo"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "tú"
+              },
+              {
+                "language": "es",
+                "text": "hablas"
+              },
+              {
+                "language": "es",
+                "text": "comes"
+              },
+              {
+                "language": "es",
+                "text": "vives"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "él / ella / usted"
+              },
+              {
+                "language": "es",
+                "text": "habla"
+              },
+              {
+                "language": "es",
+                "text": "come"
+              },
+              {
+                "language": "es",
+                "text": "vive"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "nosotros / nosotras"
+              },
+              {
+                "language": "es",
+                "text": "hablamos"
+              },
+              {
+                "language": "es",
+                "text": "comemos"
+              },
+              {
+                "language": "es",
+                "text": "vivimos"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "vosotros / vosotras"
+              },
+              {
+                "language": "es",
+                "text": "habláis"
+              },
+              {
+                "language": "es",
+                "text": "coméis"
+              },
+              {
+                "language": "es",
+                "text": "vivís"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "ellos / ellas / ustedes"
+              },
+              {
+                "language": "es",
+                "text": "hablan"
+              },
+              {
+                "language": "es",
+                "text": "comen"
+              },
+              {
+                "language": "es",
+                "text": "viven"
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

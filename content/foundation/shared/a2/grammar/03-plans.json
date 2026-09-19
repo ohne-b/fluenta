@@ -1,0 +1,212 @@
+{
+  "grammar": [
+    {
+      "content": {
+        "id": "es.a2.plans.grammar",
+        "revision": 2
+      },
+      "title": {
+        "slot": "es.a2.plans.grammar.title"
+      },
+      "summary": {
+        "slot": "es.a2.plans.grammar.summary"
+      },
+      "band": "A2",
+      "category": "verbs",
+      "explanations": [
+        {
+          "id": "es.a2.plans.guide",
+          "revision": 2
+        }
+      ],
+      "lessons": [
+        {
+          "id": "es.a2.plans.lesson",
+          "revision": 3
+        }
+      ],
+      "order": 110
+    }
+  ],
+  "materials": [
+    {
+      "content": {
+        "id": "es.a2.plans.guide",
+        "revision": 2
+      },
+      "searchable": true,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "slot": "es.a2.plans.title"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a2.plans.guide"
+            }
+          ]
+        },
+        {
+          "kind": "table",
+          "caption": {
+            "slot": "es.tables.future.caption"
+          },
+          "columns": [
+            {
+              "slot": "es.tables.person"
+            },
+            {
+              "language": "es",
+              "text": "-ar · hablar"
+            },
+            {
+              "language": "es",
+              "text": "-er · comer"
+            },
+            {
+              "language": "es",
+              "text": "-ir · vivir"
+            }
+          ],
+          "rows": [
+            [
+              {
+                "language": "es",
+                "text": "yo"
+              },
+              {
+                "language": "es",
+                "text": "hablaré"
+              },
+              {
+                "language": "es",
+                "text": "comeré"
+              },
+              {
+                "language": "es",
+                "text": "viviré"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "tú"
+              },
+              {
+                "language": "es",
+                "text": "hablarás"
+              },
+              {
+                "language": "es",
+                "text": "comerás"
+              },
+              {
+                "language": "es",
+                "text": "vivirás"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "él / ella / usted"
+              },
+              {
+                "language": "es",
+                "text": "hablará"
+              },
+              {
+                "language": "es",
+                "text": "comerá"
+              },
+              {
+                "language": "es",
+                "text": "vivirá"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "nosotros / nosotras"
+              },
+              {
+                "language": "es",
+                "text": "hablaremos"
+              },
+              {
+                "language": "es",
+                "text": "comeremos"
+              },
+              {
+                "language": "es",
+                "text": "viviremos"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "vosotros / vosotras"
+              },
+              {
+                "language": "es",
+                "text": "hablaréis"
+              },
+              {
+                "language": "es",
+                "text": "comeréis"
+              },
+              {
+                "language": "es",
+                "text": "viviréis"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "ellos / ellas / ustedes"
+              },
+              {
+                "language": "es",
+                "text": "hablarán"
+              },
+              {
+                "language": "es",
+                "text": "comerán"
+              },
+              {
+                "language": "es",
+                "text": "vivirán"
+              }
+            ]
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.tables.future.note"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Voy a repasar los verbos porque mañana tengo un examen. Estudio para aprobar."
+            }
+          ],
+          "speech": {
+            "id": "es.a2.plans.example-audio",
+            "revision": 1
+          }
+        }
+      ]
+    }
+  ]
+}

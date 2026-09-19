@@ -1,0 +1,1 @@
+{"type":"object","properties":{"reply_es":{"type":"string","minLength":1,"maxLength":400},"explanation_native":{"type":"string","maxLength":700},"reference_ids":{"type":"array","maxItems":3,"items":{"type":"string"}}},"required":["reply_es","explanation_native","reference_ids"],"additionalProperties":false}

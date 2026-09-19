@@ -1,0 +1,2060 @@
+{
+  "lessons": [
+    {
+      "content": {
+        "id": "es.a1.present-irregular.recognise",
+        "revision": 1
+      },
+      "title": {
+        "slot": "es.a1.present-irregular.recognise.title"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.present-irregular.practice-objective",
+          "revision": 1
+        }
+      ],
+      "activities": [
+        {
+          "id": "es.a1.present-irregular.practice-01",
+          "revision": 1
+        },
+        {
+          "id": "es.a1.present-irregular.practice-02",
+          "revision": 1
+        },
+        {
+          "id": "es.a1.present-irregular.practice-03",
+          "revision": 1
+        },
+        {
+          "id": "es.a1.present-irregular.practice-04",
+          "revision": 1
+        },
+        {
+          "id": "es.a1.present-irregular.practice-05",
+          "revision": 1
+        },
+        {
+          "id": "es.a1.present-irregular.practice-06",
+          "revision": 1
+        },
+        {
+          "id": "es.a1.present-irregular.practice-07",
+          "revision": 1
+        },
+        {
+          "id": "es.a1.present-irregular.practice-08",
+          "revision": 1
+        },
+        {
+          "id": "es.a1.present-irregular.practice-09",
+          "revision": 1
+        },
+        {
+          "id": "es.a1.present-irregular.practice-10",
+          "revision": 1
+        }
+      ],
+      "estimated_minutes": 12
+    },
+    {
+      "content": {
+        "id": "es.a1.present-irregular.context",
+        "revision": 1
+      },
+      "title": {
+        "slot": "es.a1.present-irregular.context.title"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.present-irregular.practice-objective",
+          "revision": 1
+        }
+      ],
+      "activities": [
+        {
+          "id": "es.a1.present-irregular.practice-11",
+          "revision": 1
+        },
+        {
+          "id": "es.a1.present-irregular.practice-12",
+          "revision": 1
+        },
+        {
+          "id": "es.a1.present-irregular.practice-13",
+          "revision": 1
+        },
+        {
+          "id": "es.a1.present-irregular.practice-14",
+          "revision": 1
+        },
+        {
+          "id": "es.a1.present-irregular.practice-15",
+          "revision": 1
+        },
+        {
+          "id": "es.a1.present-irregular.practice-16",
+          "revision": 1
+        },
+        {
+          "id": "es.a1.present-irregular.practice-17",
+          "revision": 1
+        },
+        {
+          "id": "es.a1.present-irregular.practice-18",
+          "revision": 1
+        },
+        {
+          "id": "es.a1.present-irregular.practice-19",
+          "revision": 1
+        },
+        {
+          "id": "es.a1.present-irregular.practice-20",
+          "revision": 1
+        }
+      ],
+      "estimated_minutes": 18
+    }
+  ],
+  "objectives": [
+    {
+      "content": {
+        "id": "es.a1.present-irregular.practice-objective",
+        "revision": 1
+      },
+      "band": "A1",
+      "can_do": {
+        "slot": "es.a1.present-irregular.can-do"
+      },
+      "prerequisites": [],
+      "explanation_refs": [
+        {
+          "id": "es.a1.present-irregular.guide",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "content": {
+        "id": "es.a1.present-irregular.practice-01",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a1.present-irregular.question-01"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.present-irregular.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a1.present-irregular.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "Va."
+            }
+          },
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "Vamos."
+            }
+          },
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "Voy."
+            }
+          }
+        ],
+        "correct_ids": [
+          "o0"
+        ],
+        "explanation": {
+          "id": "es.a1.present-irregular.feedback-01",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a1.present-irregular.practice-02",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a1.present-irregular.question-02"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.present-irregular.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a1.present-irregular.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "Soy estudiante."
+            }
+          },
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "Hay dos libros."
+            }
+          },
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "Tengo que estudiar."
+            }
+          }
+        ],
+        "correct_ids": [
+          "o1"
+        ],
+        "explanation": {
+          "id": "es.a1.present-irregular.feedback-02",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a1.present-irregular.practice-03",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a1.present-irregular.question-03"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.present-irregular.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a1.present-irregular.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "Sabo la respuesta."
+            }
+          },
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "Sabe la respuesta."
+            }
+          },
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "Sé la respuesta."
+            }
+          }
+        ],
+        "correct_ids": [
+          "o2"
+        ],
+        "explanation": {
+          "id": "es.a1.present-irregular.feedback-03",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a1.present-irregular.practice-04",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a1.present-irregular.question-04"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.present-irregular.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a1.present-irregular.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "Digo."
+            }
+          },
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "Dicen."
+            }
+          },
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "Decimos."
+            }
+          }
+        ],
+        "correct_ids": [
+          "o0"
+        ],
+        "explanation": {
+          "id": "es.a1.present-irregular.feedback-04",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a1.present-irregular.practice-05",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a1.present-irregular.question-05"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.present-irregular.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a1.present-irregular.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "hace"
+            }
+          },
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "hago"
+            }
+          },
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "haco"
+            }
+          }
+        ],
+        "correct_ids": [
+          "o0"
+        ],
+        "explanation": {
+          "id": "es.a1.present-irregular.feedback-05",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a1.present-irregular.practice-06",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a1.present-irregular.question-06"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.present-irregular.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a1.present-irregular.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "tienes"
+            }
+          },
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "tenes"
+            }
+          },
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "tengo"
+            }
+          }
+        ],
+        "correct_ids": [
+          "o0"
+        ],
+        "explanation": {
+          "id": "es.a1.present-irregular.feedback-06",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a1.present-irregular.practice-07",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a1.present-irregular.question-07"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.present-irregular.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a1.present-irregular.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "van"
+            }
+          },
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "voy"
+            }
+          },
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "vamos"
+            }
+          }
+        ],
+        "correct_ids": [
+          "o0"
+        ],
+        "explanation": {
+          "id": "es.a1.present-irregular.feedback-07",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a1.present-irregular.practice-08",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a1.present-irregular.question-08"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.present-irregular.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a1.present-irregular.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "pone"
+            }
+          },
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "pongo"
+            }
+          },
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "pono"
+            }
+          }
+        ],
+        "correct_ids": [
+          "o0"
+        ],
+        "explanation": {
+          "id": "es.a1.present-irregular.feedback-08",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a1.present-irregular.practice-09",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a1.present-irregular.question-09"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.present-irregular.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a1.present-irregular.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "orthography",
+        "inputs": [
+          "keyboard"
+        ],
+        "accepted": [
+          "viene"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.a1.present-irregular.feedback-09",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a1.present-irregular.practice-10",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a1.present-irregular.question-10"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.present-irregular.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a1.present-irregular.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "orthography",
+        "inputs": [
+          "keyboard"
+        ],
+        "accepted": [
+          "sé"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.a1.present-irregular.feedback-10",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a1.present-irregular.practice-11",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "¿Cómo va Pablo al instituto?"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.present-irregular.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "es.a1.present-irregular.reading",
+          "revision": 1
+        }
+      ],
+      "hints": [
+        {
+          "id": "es.a1.present-irregular.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "A pie."
+            }
+          },
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "En autobús."
+            }
+          },
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "En bicicleta."
+            }
+          }
+        ],
+        "correct_ids": [
+          "o0"
+        ],
+        "explanation": {
+          "id": "es.a1.present-irregular.feedback-11",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a1.present-irregular.practice-12",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "¿Quién viene en bicicleta?"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.present-irregular.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "es.a1.present-irregular.reading",
+          "revision": 1
+        }
+      ],
+      "hints": [
+        {
+          "id": "es.a1.present-irregular.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "Pablo."
+            }
+          },
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "Julia."
+            }
+          },
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "El profesor."
+            }
+          }
+        ],
+        "correct_ids": [
+          "o1"
+        ],
+        "explanation": {
+          "id": "es.a1.present-irregular.feedback-12",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a1.present-irregular.practice-13",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "¿Qué tienen que preparar?"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.present-irregular.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "es.a1.present-irregular.reading",
+          "revision": 1
+        }
+      ],
+      "hints": [
+        {
+          "id": "es.a1.present-irregular.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "Una comida."
+            }
+          },
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "Una presentación."
+            }
+          },
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "Un concierto."
+            }
+          }
+        ],
+        "correct_ids": [
+          "o2"
+        ],
+        "explanation": {
+          "id": "es.a1.present-irregular.feedback-13",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a1.present-irregular.practice-14",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a1.present-irregular.question-14"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.present-irregular.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a1.present-irregular.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "orthography",
+        "inputs": [
+          "keyboard"
+        ],
+        "accepted": [
+          "dicen"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.a1.present-irregular.feedback-14",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a1.present-irregular.practice-15",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a1.present-irregular.question-15"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.present-irregular.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a1.present-irregular.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "orthography",
+        "inputs": [
+          "keyboard"
+        ],
+        "accepted": [
+          "tenemos"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.a1.present-irregular.feedback-15",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a1.present-irregular.practice-16",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a1.present-irregular.question-16"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.present-irregular.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a1.present-irregular.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "orthography",
+        "inputs": [
+          "keyboard"
+        ],
+        "accepted": [
+          "salgo"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.a1.present-irregular.feedback-16",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a1.present-irregular.practice-17",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a1.present-irregular.question-17"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.present-irregular.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a1.present-irregular.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "orthography",
+        "inputs": [
+          "keyboard"
+        ],
+        "accepted": [
+          "hacéis"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.a1.present-irregular.feedback-17",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a1.present-irregular.practice-18",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a1.present-irregular.question-18"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.present-irregular.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a1.present-irregular.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "order",
+        "items": [
+          {
+            "id": "w2",
+            "label": {
+              "language": "es",
+              "text": "los"
+            }
+          },
+          {
+            "id": "w3",
+            "label": {
+              "language": "es",
+              "text": "deberes"
+            }
+          },
+          {
+            "id": "w4",
+            "label": {
+              "language": "es",
+              "text": "y"
+            }
+          },
+          {
+            "id": "w5",
+            "label": {
+              "language": "es",
+              "text": "después"
+            }
+          },
+          {
+            "id": "w6",
+            "label": {
+              "language": "es",
+              "text": "voy"
+            }
+          },
+          {
+            "id": "w7",
+            "label": {
+              "language": "es",
+              "text": "a"
+            }
+          },
+          {
+            "id": "w8",
+            "label": {
+              "language": "es",
+              "text": "la"
+            }
+          },
+          {
+            "id": "w9",
+            "label": {
+              "language": "es",
+              "text": "biblioteca."
+            }
+          },
+          {
+            "id": "w0",
+            "label": {
+              "language": "es",
+              "text": "Yo"
+            }
+          },
+          {
+            "id": "w1",
+            "label": {
+              "language": "es",
+              "text": "hago"
+            }
+          }
+        ],
+        "accepted_orders": [
+          [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ]
+        ],
+        "explanation": {
+          "id": "es.a1.present-irregular.feedback-18",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a1.present-irregular.practice-19",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "¿Quién no tiene clase hasta las nueve?"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.present-irregular.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "es.a1.present-irregular.listening",
+          "revision": 1
+        }
+      ],
+      "hints": [
+        {
+          "id": "es.a1.present-irregular.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "listening",
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "El narrador."
+            }
+          },
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "Los dos."
+            }
+          },
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "La hermana."
+            }
+          }
+        ],
+        "correct_ids": [
+          "o0"
+        ],
+        "explanation": {
+          "id": "es.a1.present-irregular.feedback-19",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a1.present-irregular.practice-20",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a1.present-irregular.writing-task"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.present-irregular.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a1.present-irregular.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "task": {
+        "kind": "writing",
+        "language": "es",
+        "min_words": 25,
+        "max_words": 130,
+        "rubric": {
+          "id": "es.a1.present-irregular.writing-rubric",
+          "revision": 1
+        }
+      }
+    }
+  ],
+  "materials": [
+    {
+      "content": {
+        "id": "es.a1.present-irregular.feedback-01",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Voy."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a1.present-irregular.feedback-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.present-irregular.feedback-02",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Tengo que estudiar."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a1.present-irregular.feedback-02"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.present-irregular.feedback-03",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Sé la respuesta."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a1.present-irregular.feedback-03"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.present-irregular.feedback-04",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Decimos."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a1.present-irregular.feedback-04"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.present-irregular.feedback-05",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "hago"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a1.present-irregular.guide",
+            "revision": 1
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.present-irregular.feedback-06",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "tienes"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a1.present-irregular.guide",
+            "revision": 1
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.present-irregular.feedback-07",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "vamos"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a1.present-irregular.guide",
+            "revision": 1
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.present-irregular.feedback-08",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "pongo"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a1.present-irregular.guide",
+            "revision": 1
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.present-irregular.feedback-09",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Ella viene de Alemania. (venir)"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a1.present-irregular.guide",
+            "revision": 1
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.present-irregular.feedback-10",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Yo sé la respuesta. (saber)"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a1.present-irregular.guide",
+            "revision": 1
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.present-irregular.reading",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Me llamo Pablo y tengo quince años. Todos los días salgo de casa a las ocho y voy al instituto en autobús. En clase hago los ejercicios y digo lo que pienso. No siempre sé la respuesta, pero puedo preguntar. Mi amiga Julia viene en bicicleta y pone su mochila junto a mi mesa. Los martes tenemos música. Después vamos juntos a la biblioteca porque tenemos que preparar una presentación para el jueves."
+            }
+          ]
+        },
+        {
+          "kind": "list",
+          "items": [
+            [
+              {
+                "language": "es",
+                "text": "los deberes —"
+              },
+              {
+                "slot": "es.a1.present-irregular.gloss-0"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "la respuesta —"
+              },
+              {
+                "slot": "es.a1.present-irregular.gloss-1"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "la presentación —"
+              },
+              {
+                "slot": "es.a1.present-irregular.gloss-2"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.present-irregular.feedback-11",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "En autobús."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a1.present-irregular.guide",
+            "revision": 1
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.present-irregular.feedback-12",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Julia."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a1.present-irregular.guide",
+            "revision": 1
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.present-irregular.feedback-13",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Una presentación."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a1.present-irregular.guide",
+            "revision": 1
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.present-irregular.feedback-14",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Mis amigos dicen la verdad. (decir)"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a1.present-irregular.guide",
+            "revision": 1
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.present-irregular.feedback-15",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Nosotras tenemos dos exámenes. (tener)"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a1.present-irregular.guide",
+            "revision": 1
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.present-irregular.feedback-16",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Yo salgo de casa a las ocho. (salir)"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a1.present-irregular.guide",
+            "revision": 1
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.present-irregular.feedback-17",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Vosotros hacéis los ejercicios. (hacer)"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a1.present-irregular.guide",
+            "revision": 1
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.present-irregular.feedback-18",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Yo hago los deberes y después voy a la biblioteca."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a1.present-irregular.guide",
+            "revision": 1
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.present-irregular.listening",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "audio",
+          "speech": {
+            "id": "es.a1.present-irregular.listening-audio",
+            "revision": 1
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.present-irregular.feedback-19",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "La hermana."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a1.present-irregular.guide",
+            "revision": 1
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Hoy tengo un examen. Salgo de casa a las siete y voy al instituto a pie. Mi hermana viene más tarde porque no tiene clase hasta las nueve."
+            }
+          ],
+          "speech": null
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.present-irregular.writing-model",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Tengo dos clases por la mañana. Voy al instituto en autobús y hago los ejercicios con una amiga. Después salgo al patio. Por la tarde tengo que preparar una presentación. Mañana voy a hablar delante de la clase."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "speech": [
+    {
+      "content": {
+        "id": "es.a1.present-irregular.listening-audio",
+        "revision": 1
+      },
+      "text": "Hoy tengo un examen. Salgo de casa a las siete y voy al instituto a pie. Mi hermana viene más tarde porque no tiene clase hasta las nueve.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "content": {
+        "id": "es.a1.present-irregular.lexeme-0",
+        "revision": 1
+      },
+      "lemma": "los deberes",
+      "part_of_speech": "expression",
+      "gloss": {
+        "slot": "es.a1.present-irregular.gloss-0"
+      },
+      "accepted_forms": [
+        "los deberes"
+      ],
+      "examples": [
+        {
+          "id": "es.a1.present-irregular.reading",
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.present-irregular.lexeme-1",
+        "revision": 1
+      },
+      "lemma": "la respuesta",
+      "part_of_speech": "expression",
+      "gloss": {
+        "slot": "es.a1.present-irregular.gloss-1"
+      },
+      "accepted_forms": [
+        "la respuesta"
+      ],
+      "examples": [
+        {
+          "id": "es.a1.present-irregular.reading",
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.present-irregular.lexeme-2",
+        "revision": 1
+      },
+      "lemma": "la presentación",
+      "part_of_speech": "expression",
+      "gloss": {
+        "slot": "es.a1.present-irregular.gloss-2"
+      },
+      "accepted_forms": [
+        "la presentación"
+      ],
+      "examples": [
+        {
+          "id": "es.a1.present-irregular.reading",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "rubrics": [
+    {
+      "content": {
+        "id": "es.a1.present-irregular.writing-rubric",
+        "revision": 1
+      },
+      "criteria": [
+        {
+          "id": "task",
+          "label": {
+            "slot": "es.grammar.rubric.task"
+          },
+          "guidance": {
+            "slot": "es.a1.present-irregular.rubric-task"
+          }
+        },
+        {
+          "id": "forms",
+          "label": {
+            "slot": "es.grammar.rubric.forms"
+          },
+          "guidance": {
+            "slot": "es.a1.present-irregular.rubric-forms"
+          }
+        },
+        {
+          "id": "cohesion",
+          "label": {
+            "slot": "es.grammar.rubric.connections"
+          },
+          "guidance": {
+            "slot": "es.grammar.rubric.connections-help"
+          }
+        }
+      ],
+      "model_answers": [
+        {
+          "id": "es.a1.present-irregular.writing-model",
+          "revision": 1
+        }
+      ]
+    }
+  ]
+}

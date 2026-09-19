@@ -1,0 +1,855 @@
+{
+  "missions": [
+    {
+      "content": {
+        "id": "mission.latin-america.1",
+        "revision": 1
+      },
+      "title": {
+        "language": "es",
+        "text": "Chile: escuchar sin generalizar"
+      },
+      "question": {
+        "language": "es",
+        "text": "¿Qué cambia cuando dejamos de hablar de «Latinoamérica» en singular?"
+      },
+      "outcome": {
+        "de": "Untersuche einen chilenischen Fall mit historischem Kontext und vermeide Verallgemeinerungen.",
+        "en": "Examine a Chilean case in historical context and avoid generalisation."
+      },
+      "description": {
+        "de": "Verbinde Textverständnis, nützliche Wendungen und eine eigene Antwort.",
+        "en": "Connect understanding, useful expressions and your own response."
+      },
+      "band": "B2",
+      "lesson": {
+        "id": "mission.latin-america.1.lesson",
+        "revision": 1
+      },
+      "challenge": {
+        "id": "mission.latin-america.1.assessment",
+        "revision": 1
+      },
+      "vocabulary": [
+        {
+          "id": "lex.estereotipo",
+          "revision": 1
+        },
+        {
+          "id": "lex.testimonio",
+          "revision": 1
+        },
+        {
+          "id": "lex.afirmar",
+          "revision": 1
+        },
+        {
+          "id": "lex.contrastar",
+          "revision": 1
+        },
+        {
+          "id": "lex.compartir",
+          "revision": 1
+        },
+        {
+          "id": "lex.reconocer",
+          "revision": 1
+        },
+        {
+          "id": "lex.vinculo",
+          "revision": 1
+        },
+        {
+          "id": "lex.cuenta",
+          "revision": 1
+        }
+      ],
+      "sources": [
+        {
+          "title": "LehrplanPLUS · Spanisch 12/13, erhöhtes Anforderungsniveau",
+          "url": "https://www.lehrplanplus.bayern.de/fachlehrplan/gymnasium/12/spanisch/erhoeht",
+          "accessed": "2026-09-19",
+          "note": {
+            "de": "Zuordnung zu Themen und Kompetenzen; die Sammlungen sind redaktionell gegliedert.",
+            "en": "Mapping to themes and skills; collection titles are editorial groupings."
+          }
+        },
+        {
+          "title": "Biblioteca Nacional de Chile · Golpe de Estado de 1973",
+          "url": "https://www.memoriachilena.gob.cl/602/w3-article-92405.html",
+          "accessed": "2026-09-19",
+          "note": {
+            "de": "Historischer Hintergrund zum Staatsstreich am 11. September 1973.",
+            "en": "Historical background on the coup of 11 September 1973."
+          }
+        }
+      ],
+      "attribution": {
+        "de": "Originaler Lerntext · Sachlicher Einstieg mit Quellen; das anschließende Szenario ist erfunden. Synthetische Sprachausgabe.",
+        "en": "Original learning text · Sourced factual introduction; the following scenario is fictional. Synthetic speech."
+      },
+      "order": 8
+    }
+  ],
+  "lessons": [
+    {
+      "content": {
+        "id": "mission.latin-america.1.lesson",
+        "revision": 1
+      },
+      "title": {
+        "language": "es",
+        "text": "Chile: escuchar sin generalizar"
+      },
+      "objectives": [
+        {
+          "id": "mission.latin-america.1.objective",
+          "revision": 1
+        }
+      ],
+      "activities": [
+        {
+          "id": "mission.latin-america.1.input",
+          "revision": 1
+        },
+        {
+          "id": "mission.latin-america.1.comprehension",
+          "revision": 1
+        },
+        {
+          "id": "lex.estereotipo.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.testimonio.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.afirmar.listening",
+          "revision": 1
+        },
+        {
+          "id": "mission.latin-america.1.prepare",
+          "revision": 1
+        },
+        {
+          "id": "mission.latin-america.1.write",
+          "revision": 1
+        }
+      ],
+      "estimated_minutes": 22
+    }
+  ],
+  "objectives": [
+    {
+      "content": {
+        "id": "mission.latin-america.1.objective",
+        "revision": 1
+      },
+      "band": "B2",
+      "can_do": {
+        "de": "Untersuche einen chilenischen Fall mit historischem Kontext und vermeide Verallgemeinerungen.",
+        "en": "Examine a Chilean case in historical context and avoid generalisation."
+      },
+      "prerequisites": [],
+      "explanation_refs": [],
+      "grammar_topics": [
+        "es.b1.subjunctive.grammar",
+        "es.b2.argumentation.grammar"
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "content": {
+        "id": "mission.latin-america.1.input",
+        "revision": 1
+      },
+      "instruction": {
+        "de": "Lies oder höre den Text. Öffne nützliche Wendungen bei Bedarf.",
+        "en": "Read or listen. Open useful expressions when you need them."
+      },
+      "objectives": [
+        {
+          "id": "mission.latin-america.1.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "reading"
+      ],
+      "task": {
+        "kind": "explanation",
+        "material": {
+          "id": "mission.latin-america.1.reading",
+          "revision": 1
+        }
+      },
+      "evidence_scope": "source_language",
+      "usage": "practice",
+      "lexical": [],
+      "preparation": false
+    },
+    {
+      "content": {
+        "id": "mission.latin-america.1.comprehension",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "¿Qué límite reconoce el texto?"
+      },
+      "objectives": [
+        {
+          "id": "mission.latin-america.1.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "mission.latin-america.1.reading",
+          "revision": 1
+        }
+      ],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "reading"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "option.0",
+            "label": {
+              "language": "es",
+              "text": "Un caso chileno no representa a todos los países ni a todas las familias."
+            }
+          },
+          {
+            "id": "option.1",
+            "label": {
+              "language": "es",
+              "text": "Los archivos eliminan la necesidad de conocer fechas."
+            }
+          },
+          {
+            "id": "option.2",
+            "label": {
+              "language": "es",
+              "text": "Un diálogo ficticio equivale a un testimonio histórico auténtico."
+            }
+          }
+        ],
+        "correct_ids": [
+          "option.0"
+        ],
+        "explanation": {
+          "id": "mission.latin-america.1.comprehension.feedback",
+          "revision": 1
+        }
+      },
+      "evidence_scope": "source_language",
+      "usage": "practice",
+      "lexical": [],
+      "preparation": false
+    },
+    {
+      "content": {
+        "id": "mission.latin-america.1.prepare",
+        "revision": 1
+      },
+      "instruction": {
+        "de": "Bereite deine Antwort vor",
+        "en": "Prepare your response"
+      },
+      "objectives": [
+        {
+          "id": "mission.latin-america.1.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "reading"
+      ],
+      "task": {
+        "kind": "explanation",
+        "material": {
+          "id": "mission.latin-america.1.preparation",
+          "revision": 1
+        }
+      },
+      "evidence_scope": "source_language",
+      "usage": "practice",
+      "lexical": [],
+      "preparation": true
+    },
+    {
+      "content": {
+        "id": "mission.latin-america.1.write",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "Escribe una introducción para el proyecto de intercambio (130–210 palabras). Sitúa el caso chileno, explica dos límites de las fuentes y formula una pregunta abierta para una entrevista respetuosa."
+      },
+      "objectives": [
+        {
+          "id": "mission.latin-america.1.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "mission.latin-america.1.reading",
+          "revision": 1
+        }
+      ],
+      "hints": [
+        {
+          "id": "mission.latin-america.1.preparation",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "writing"
+      ],
+      "task": {
+        "kind": "writing",
+        "language": "es",
+        "min_words": 130,
+        "max_words": 210,
+        "rubric": {
+          "id": "mission.latin-america.1.rubric",
+          "revision": 1
+        }
+      },
+      "evidence_scope": "source_language",
+      "usage": "practice",
+      "lexical": [],
+      "preparation": false
+    },
+    {
+      "content": {
+        "id": "mission.latin-america.1.challenge",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "Evalúa el título y diseña una presentación más precisa. Explica qué aportan las entrevistas y qué afirmaciones exigirían otras fuentes. 130–200 palabras."
+      },
+      "objectives": [
+        {
+          "id": "mission.latin-america.1.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "mission.latin-america.1.unseen",
+          "revision": 1
+        }
+      ],
+      "hints": [],
+      "reveal_policy": "after_session",
+      "skills": [
+        "writing",
+        "reading"
+      ],
+      "task": {
+        "kind": "writing",
+        "language": "es",
+        "min_words": 130,
+        "max_words": 200,
+        "rubric": {
+          "id": "mission.latin-america.1.unseen.rubric",
+          "revision": 1
+        }
+      },
+      "evidence_scope": "source_language",
+      "usage": "assessment",
+      "lexical": [],
+      "preparation": false
+    }
+  ],
+  "materials": [
+    {
+      "content": {
+        "id": "mission.latin-america.1.reading",
+        "revision": 1
+      },
+      "searchable": true,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Chile: escuchar sin generalizar"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "de": "Originaler Lerntext · Sachlicher Einstieg mit Quellen; das anschließende Szenario ist erfunden. Synthetische Sprachausgabe.",
+              "en": "Original learning text · Sourced factual introduction; the following scenario is fictional. Synthetic speech."
+            }
+          ]
+        },
+        {
+          "kind": "audio",
+          "speech": {
+            "id": "mission.latin-america.1.audio",
+            "revision": 1
+          }
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "América Latina reúne países con historias diferentes; un caso no puede sustituirlos a todos. En Chile, el golpe de Estado del 11 de septiembre de 1973 derrocó al gobierno de Salvador Allende e inició una dictadura militar. La Biblioteca Nacional de Chile documenta ese proceso y la represión. Este contexto factual no convierte el diálogo ficticio que sigue en un testimonio auténtico.",
+              "annotations": []
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "En un intercambio escolar, Tomás presenta un proyecto sobre recuerdos familiares en Santiago. Una compañera europea le pregunta si todas las familias chilenas cuentan la misma historia. Tomás rechaza el estereotipo: conocer un testimonio no autoriza a afirmar qué piensa un país entero. Su abuela conserva cartas; otro vecino prefiere no hablar. Respetar ese silencio no significa negar que ocurrieron hechos documentados.",
+              "annotations": [
+                {
+                  "start": 200,
+                  "end": 214,
+                  "occurrence": {
+                    "id": "mission.latin-america.1.reading.p1.o0",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 224,
+                  "end": 237,
+                  "occurrence": {
+                    "id": "mission.latin-america.1.reading.p1.o1",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 252,
+                  "end": 259,
+                  "occurrence": {
+                    "id": "mission.latin-america.1.reading.p1.o2",
+                    "revision": 1
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "La clase decide contrastar las cartas con archivos, indicando fechas y límites. También quiere compartir preguntas sobre la vida actual, para no reducir Chile a una sola época. Estudiar el pasado ayuda a reconocer conflictos presentes, pero no los explica por sí solo. El grupo mantiene el vínculo con la escuela chilena y prepara una segunda entrevista centrada en cómo los jóvenes usan los espacios públicos. Tener en cuenta voces diferentes es un método de trabajo, no una garantía de que ya se ha escuchado a todo el mundo.",
+              "annotations": [
+                {
+                  "start": 16,
+                  "end": 26,
+                  "occurrence": {
+                    "id": "mission.latin-america.1.reading.p2.o0",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 95,
+                  "end": 104,
+                  "occurrence": {
+                    "id": "mission.latin-america.1.reading.p2.o1",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 204,
+                  "end": 213,
+                  "occurrence": {
+                    "id": "mission.latin-america.1.reading.p2.o2",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 287,
+                  "end": 297,
+                  "occurrence": {
+                    "id": "mission.latin-america.1.reading.p2.o3",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 411,
+                  "end": 426,
+                  "occurrence": {
+                    "id": "mission.latin-america.1.reading.p2.o4",
+                    "revision": 1
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.latin-america.1.comprehension.feedback",
+        "revision": 1
+      },
+      "searchable": false,
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "de": "Ein Land, ein Familienbericht und ein fiktiver Dialog haben unterschiedliche Reichweiten.",
+              "en": "A country, one family account and a fictional dialogue have different scopes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.latin-america.1.preparation",
+        "revision": 1
+      },
+      "searchable": false,
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "de": "Plane: Was ist die zentrale Aussage? Welche zwei Details helfen? Für wen formulierst du? Notiere Stichwörter, bevor du einen zusammenhängenden Text schreibst oder sprichst.",
+              "en": "Plan: What is the main point? Which two details help? Who is your audience? Note keywords before writing or speaking a connected response."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.latin-america.1.rubric.model",
+        "revision": 1
+      },
+      "searchable": false,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Una posible respuesta"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Nuestro proyecto estudia recuerdos familiares en Santiago y los relaciona con documentación histórica sobre 1973. No pretende representar a todas las familias chilenas ni a América Latina. Las cartas ofrecen perspectivas personales; los archivos deben leerse con atención a fecha y procedencia. Preguntaríamos qué desea compartir cada participante y cómo quiere que se presente. También incluiremos preguntas sobre la vida actual para evitar reducir el país a su dictadura. Antes de cada entrevista, explicaríamos el propósito del proyecto y ofreceríamos la posibilidad de no responder. Una pregunta abierta sería: «¿Qué cambios de la vida cotidiana te gustaría que una clase extranjera comprendiera mejor?». No presupondríamos que todas las personas quieren hablar del mismo periodo. Al presentar los resultados, distinguiríamos las palabras de cada participante de nuestras conclusiones y del diálogo ficticio utilizado para preparar la actividad.",
+              "annotations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.latin-america.1.unseen",
+        "revision": 1
+      },
+      "searchable": false,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Otra situación"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Una revista escolar recibe tres entrevistas sobre transporte en una ciudad latinoamericana. Una estudiante usa bicicleta, otra depende de dos autobuses y un tercero camina. El editor propone el título «Así se mueve toda América Latina».",
+              "annotations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.latin-america.1.unseen.rubric.model",
+        "revision": 1
+      },
+      "searchable": false,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Una posible respuesta"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "El título atribuye a toda una región lo que solo describen tres personas de una ciudad. Las entrevistas permiten comparar recorridos y dificultades, pero no medir su frecuencia. Propondría «Tres recorridos por una ciudad» e indicaría dónde y cuándo se hicieron. Para comparar ciudades o países harían falta datos con métodos y fechas comparables. Las tres voces pueden aportar detalles que una cifra no muestra: transbordos, tiempos de espera o razones para escoger un medio. Sin embargo, no sabemos cómo se seleccionaron las entrevistas ni si otros barrios ofrecen opciones distintas. La presentación debería aclarar esos límites y evitar que cada estudiante aparezca como representante de un país. Para afirmar que una forma de transporte predomina, buscaría estadísticas de movilidad de la ciudad. Si el objetivo fuera comparar países, explicaría sus diferencias y comprobaría que los datos se refieren a periodos y categorías compatibles.",
+              "annotations": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "speech": [
+    {
+      "content": {
+        "id": "mission.latin-america.1.reading.p1.o0.audio",
+        "revision": 1
+      },
+      "text": "Tomás rechaza el estereotipo: conocer un testimonio no autoriza a afirmar qué piensa un país entero.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.latin-america.1.reading.p1.o1.audio",
+        "revision": 1
+      },
+      "text": "Tomás rechaza el estereotipo: conocer un testimonio no autoriza a afirmar qué piensa un país entero.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.latin-america.1.reading.p1.o2.audio",
+        "revision": 1
+      },
+      "text": "Tomás rechaza el estereotipo: conocer un testimonio no autoriza a afirmar qué piensa un país entero.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.latin-america.1.reading.p2.o0.audio",
+        "revision": 1
+      },
+      "text": "La clase decide contrastar las cartas con archivos, indicando fechas y límites.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.latin-america.1.reading.p2.o1.audio",
+        "revision": 1
+      },
+      "text": "También quiere compartir preguntas sobre la vida actual, para no reducir Chile a una sola época.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.latin-america.1.reading.p2.o2.audio",
+        "revision": 1
+      },
+      "text": "Estudiar el pasado ayuda a reconocer conflictos presentes, pero no los explica por sí solo.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.latin-america.1.reading.p2.o3.audio",
+        "revision": 1
+      },
+      "text": "El grupo mantiene el vínculo con la escuela chilena y prepara una segunda entrevista centrada en cómo los jóvenes usan los espacios públicos.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.latin-america.1.reading.p2.o4.audio",
+        "revision": 1
+      },
+      "text": "Tener en cuenta voces diferentes es un método de trabajo, no una garantía de que ya se ha escuchado a todo el mundo.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.latin-america.1.audio",
+        "revision": 1
+      },
+      "text": "América Latina reúne países con historias diferentes; un caso no puede sustituirlos a todos. En Chile, el golpe de Estado del 11 de septiembre de 1973 derrocó al gobierno de Salvador Allende e inició una dictadura militar. La Biblioteca Nacional de Chile documenta ese proceso y la represión. Este contexto factual no convierte el diálogo ficticio que sigue en un testimonio auténtico. En un intercambio escolar, Tomás presenta un proyecto sobre recuerdos familiares en Santiago. Una compañera europea le pregunta si todas las familias chilenas cuentan la misma historia. Tomás rechaza el estereotipo: conocer un testimonio no autoriza a afirmar qué piensa un país entero. Su abuela conserva cartas; otro vecino prefiere no hablar. Respetar ese silencio no significa negar que ocurrieron hechos documentados. La clase decide contrastar las cartas con archivos, indicando fechas y límites. También quiere compartir preguntas sobre la vida actual, para no reducir Chile a una sola época. Estudiar el pasado ayuda a reconocer conflictos presentes, pero no los explica por sí solo. El grupo mantiene el vínculo con la escuela chilena y prepara una segunda entrevista centrada en cómo los jóvenes usan los espacios públicos. Tener en cuenta voces diferentes es un método de trabajo, no una garantía de que ya se ha escuchado a todo el mundo.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    }
+  ],
+  "rubrics": [
+    {
+      "content": {
+        "id": "mission.latin-america.1.rubric",
+        "revision": 1
+      },
+      "criteria": [
+        {
+          "id": "task",
+          "label": {
+            "de": "Aufgabe und Adressat",
+            "en": "Task and audience"
+          },
+          "guidance": {
+            "de": "Erfülle die konkrete Schreib- oder Sprechabsicht der Aufgabe. Gehe auf die verlangten Teilfragen ein.",
+            "en": "Fulfil the specific writing or speaking purpose and address the requested points."
+          }
+        },
+        {
+          "id": "source",
+          "label": {
+            "de": "Belege und Genauigkeit",
+            "en": "Evidence and accuracy"
+          },
+          "guidance": {
+            "de": "Stütze deine Aussagen auf konkrete Details der Quelle; trenne Beleg, Deutung und eigene Meinung.",
+            "en": "Support claims with specific source details; separate evidence, interpretation and your opinion."
+          }
+        },
+        {
+          "id": "structure",
+          "label": {
+            "de": "Aufbau und Gegenposition",
+            "en": "Structure and alternative view"
+          },
+          "guidance": {
+            "de": "Ordne deine Gedanken nachvollziehbar. Gehe bei einer Diskussion auf einen begründeten Einwand ein.",
+            "en": "Organise ideas clearly. In discussion, address a reasonable objection."
+          }
+        },
+        {
+          "id": "language",
+          "label": {
+            "de": "Sprache",
+            "en": "Language"
+          },
+          "guidance": {
+            "de": "Formuliere verständlich und adressatengerecht. Prüfe Verbformen, Bezüge und passende Verknüpfungen.",
+            "en": "Write or speak clearly for your audience. Check verb forms, reference and suitable connectors."
+          }
+        }
+      ],
+      "model_answers": [
+        {
+          "id": "mission.latin-america.1.rubric.model",
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.latin-america.1.unseen.rubric",
+        "revision": 1
+      },
+      "criteria": [
+        {
+          "id": "task",
+          "label": {
+            "de": "Aufgabe und Adressat",
+            "en": "Task and audience"
+          },
+          "guidance": {
+            "de": "Erfülle die neue Aufgabe unabhängig. Belege deine Überlegungen mit der neuen Quelle; bei Sprachmittlung zählen Auswahl und Adressatenbezug, nicht wörtliche Übersetzung.",
+            "en": "Complete the new task independently. Use the new source; mediation requires relevant selection and audience awareness, not literal translation."
+          }
+        },
+        {
+          "id": "source",
+          "label": {
+            "de": "Belege und Genauigkeit",
+            "en": "Evidence and accuracy"
+          },
+          "guidance": {
+            "de": "Stütze deine Aussagen auf konkrete Details der Quelle; trenne Beleg, Deutung und eigene Meinung.",
+            "en": "Support claims with specific source details; separate evidence, interpretation and your opinion."
+          }
+        },
+        {
+          "id": "structure",
+          "label": {
+            "de": "Aufbau und Gegenposition",
+            "en": "Structure and alternative view"
+          },
+          "guidance": {
+            "de": "Ordne deine Gedanken nachvollziehbar. Gehe bei einer Diskussion auf einen begründeten Einwand ein.",
+            "en": "Organise ideas clearly. In discussion, address a reasonable objection."
+          }
+        },
+        {
+          "id": "language",
+          "label": {
+            "de": "Sprache",
+            "en": "Language"
+          },
+          "guidance": {
+            "de": "Formuliere verständlich und adressatengerecht. Prüfe Verbformen, Bezüge und passende Verknüpfungen.",
+            "en": "Write or speak clearly for your audience. Check verb forms, reference and suitable connectors."
+          }
+        }
+      ],
+      "model_answers": [
+        {
+          "id": "mission.latin-america.1.unseen.rubric.model",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "assessments": [
+    {
+      "content": {
+        "id": "mission.latin-america.1.assessment",
+        "revision": 1
+      },
+      "title": {
+        "de": "Neue Quelle · unabhängige Aufgabe",
+        "en": "New source · independent challenge"
+      },
+      "activities": [
+        {
+          "id": "mission.latin-america.1.challenge",
+          "revision": 1
+        }
+      ],
+      "duration_seconds": 1800,
+      "audio_replays": 0
+    }
+  ]
+}

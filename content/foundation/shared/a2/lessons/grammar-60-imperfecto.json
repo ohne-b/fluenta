@@ -1,0 +1,2052 @@
+{
+  "lessons": [
+    {
+      "content": {
+        "id": "es.a2.imperfecto.recognise",
+        "revision": 1
+      },
+      "title": {
+        "slot": "es.a2.imperfecto.recognise.title"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.imperfecto.practice-objective",
+          "revision": 1
+        }
+      ],
+      "activities": [
+        {
+          "id": "es.a2.imperfecto.practice-01",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.imperfecto.practice-02",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.imperfecto.practice-03",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.imperfecto.practice-04",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.imperfecto.practice-05",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.imperfecto.practice-06",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.imperfecto.practice-07",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.imperfecto.practice-08",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.imperfecto.practice-09",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.imperfecto.practice-10",
+          "revision": 1
+        }
+      ],
+      "estimated_minutes": 12
+    },
+    {
+      "content": {
+        "id": "es.a2.imperfecto.context",
+        "revision": 1
+      },
+      "title": {
+        "slot": "es.a2.imperfecto.context.title"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.imperfecto.practice-objective",
+          "revision": 1
+        }
+      ],
+      "activities": [
+        {
+          "id": "es.a2.imperfecto.practice-11",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.imperfecto.practice-12",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.imperfecto.practice-13",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.imperfecto.practice-14",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.imperfecto.practice-15",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.imperfecto.practice-16",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.imperfecto.practice-17",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.imperfecto.practice-18",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.imperfecto.practice-19",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.imperfecto.practice-20",
+          "revision": 1
+        }
+      ],
+      "estimated_minutes": 18
+    }
+  ],
+  "objectives": [
+    {
+      "content": {
+        "id": "es.a2.imperfecto.practice-objective",
+        "revision": 1
+      },
+      "band": "A2",
+      "can_do": {
+        "slot": "es.a2.imperfecto.can-do"
+      },
+      "prerequisites": [],
+      "explanation_refs": [
+        {
+          "id": "es.a2.past-background.guide",
+          "revision": 3
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "content": {
+        "id": "es.a2.imperfecto.practice-01",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a2.imperfecto.question-01"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.imperfecto.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.past-background.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "Ayer fui al parque."
+            }
+          },
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "Ahora voy al parque."
+            }
+          },
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "De pequeña iba al parque todos los días."
+            }
+          }
+        ],
+        "correct_ids": [
+          "o0"
+        ],
+        "explanation": {
+          "id": "es.a2.imperfecto.feedback-01",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a2.imperfecto.practice-02",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a2.imperfecto.question-02"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.imperfecto.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.past-background.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "Después salimos del aula."
+            }
+          },
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "De repente llegó el profesor."
+            }
+          },
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "El aula era pequeña y hacía frío."
+            }
+          }
+        ],
+        "correct_ids": [
+          "o1"
+        ],
+        "explanation": {
+          "id": "es.a2.imperfecto.feedback-02",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a2.imperfecto.practice-03",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a2.imperfecto.question-03"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.imperfecto.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.past-background.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "Hablar."
+            }
+          },
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "Comer."
+            }
+          },
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "Ir."
+            }
+          }
+        ],
+        "correct_ids": [
+          "o2"
+        ],
+        "explanation": {
+          "id": "es.a2.imperfecto.feedback-03",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a2.imperfecto.practice-04",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a2.imperfecto.question-04"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.imperfecto.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.past-background.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "Estudio todos los días."
+            }
+          },
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "Mañana estudiaré."
+            }
+          },
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "Estudiaba cuando sonó el teléfono."
+            }
+          }
+        ],
+        "correct_ids": [
+          "o0"
+        ],
+        "explanation": {
+          "id": "es.a2.imperfecto.feedback-04",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a2.imperfecto.practice-05",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a2.imperfecto.question-05"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.imperfecto.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.past-background.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "vivo"
+            }
+          },
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "vivía"
+            }
+          },
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "viví"
+            }
+          }
+        ],
+        "correct_ids": [
+          "o0"
+        ],
+        "explanation": {
+          "id": "es.a2.imperfecto.feedback-05",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a2.imperfecto.practice-06",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a2.imperfecto.question-06"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.imperfecto.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.past-background.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "jugábamos"
+            }
+          },
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "jugamos"
+            }
+          },
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "juegábamos"
+            }
+          }
+        ],
+        "correct_ids": [
+          "o0"
+        ],
+        "explanation": {
+          "id": "es.a2.imperfecto.feedback-06",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a2.imperfecto.practice-07",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a2.imperfecto.question-07"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.imperfecto.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.past-background.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "tuvo"
+            }
+          },
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "tiene"
+            }
+          },
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "tenía"
+            }
+          }
+        ],
+        "correct_ids": [
+          "o0"
+        ],
+        "explanation": {
+          "id": "es.a2.imperfecto.feedback-07",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a2.imperfecto.practice-08",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a2.imperfecto.question-08"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.imperfecto.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.past-background.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "van"
+            }
+          },
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "iban"
+            }
+          },
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "fueron"
+            }
+          }
+        ],
+        "correct_ids": [
+          "o0"
+        ],
+        "explanation": {
+          "id": "es.a2.imperfecto.feedback-08",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a2.imperfecto.practice-09",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a2.imperfecto.question-09"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.imperfecto.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.past-background.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "orthography",
+        "inputs": [
+          "keyboard"
+        ],
+        "accepted": [
+          "éramos"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.a2.imperfecto.feedback-09",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a2.imperfecto.practice-10",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a2.imperfecto.question-10"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.imperfecto.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.past-background.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "orthography",
+        "inputs": [
+          "keyboard"
+        ],
+        "accepted": [
+          "veíais"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.a2.imperfecto.feedback-10",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a2.imperfecto.practice-11",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "¿Cómo era la escuela?"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.imperfecto.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "es.a2.imperfecto.reading",
+          "revision": 1
+        }
+      ],
+      "hints": [
+        {
+          "id": "es.a2.past-background.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "Oscura y muy lejos."
+            }
+          },
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "Pequeña y cerca de casa."
+            }
+          },
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "Grande y junto al mar."
+            }
+          }
+        ],
+        "correct_ids": [
+          "o0"
+        ],
+        "explanation": {
+          "id": "es.a2.imperfecto.feedback-11",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a2.imperfecto.practice-12",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "¿Qué hacían durante el recreo?"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.imperfecto.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "es.a2.imperfecto.reading",
+          "revision": 1
+        }
+      ],
+      "hints": [
+        {
+          "id": "es.a2.past-background.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "Estudiaban solos."
+            }
+          },
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "Jugaban juntos."
+            }
+          },
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "Iban al museo."
+            }
+          }
+        ],
+        "correct_ids": [
+          "o1"
+        ],
+        "explanation": {
+          "id": "es.a2.imperfecto.feedback-12",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a2.imperfecto.practice-13",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "¿Qué ocurrió mientras explicaba la profesora?"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.imperfecto.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "es.a2.imperfecto.reading",
+          "revision": 1
+        }
+      ],
+      "hints": [
+        {
+          "id": "es.a2.past-background.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "Empezó el recreo."
+            }
+          },
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "Sonó la alarma."
+            }
+          },
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "Llegó David."
+            }
+          }
+        ],
+        "correct_ids": [
+          "o2"
+        ],
+        "explanation": {
+          "id": "es.a2.imperfecto.feedback-13",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a2.imperfecto.practice-14",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a2.imperfecto.question-14"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.imperfecto.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.past-background.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "orthography",
+        "inputs": [
+          "keyboard"
+        ],
+        "accepted": [
+          "leía"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.a2.imperfecto.feedback-14",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a2.imperfecto.practice-15",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a2.imperfecto.question-15"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.imperfecto.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.past-background.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "orthography",
+        "inputs": [
+          "keyboard"
+        ],
+        "accepted": [
+          "hablabas"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.a2.imperfecto.feedback-15",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a2.imperfecto.practice-16",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a2.imperfecto.question-16"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.imperfecto.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.past-background.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "orthography",
+        "inputs": [
+          "keyboard"
+        ],
+        "accepted": [
+          "comían"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.a2.imperfecto.feedback-16",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a2.imperfecto.practice-17",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a2.imperfecto.question-17"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.imperfecto.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.past-background.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "orthography",
+        "inputs": [
+          "keyboard"
+        ],
+        "accepted": [
+          "era"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.a2.imperfecto.feedback-17",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a2.imperfecto.practice-18",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a2.imperfecto.question-18"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.imperfecto.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.past-background.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "order",
+        "items": [
+          {
+            "id": "w2",
+            "label": {
+              "language": "es",
+              "text": "profesora"
+            }
+          },
+          {
+            "id": "w3",
+            "label": {
+              "language": "es",
+              "text": "explicaba"
+            }
+          },
+          {
+            "id": "w4",
+            "label": {
+              "language": "es",
+              "text": "el"
+            }
+          },
+          {
+            "id": "w5",
+            "label": {
+              "language": "es",
+              "text": "ejercicio"
+            }
+          },
+          {
+            "id": "w6",
+            "label": {
+              "language": "es",
+              "text": "sonó"
+            }
+          },
+          {
+            "id": "w7",
+            "label": {
+              "language": "es",
+              "text": "la"
+            }
+          },
+          {
+            "id": "w8",
+            "label": {
+              "language": "es",
+              "text": "alarma."
+            }
+          },
+          {
+            "id": "w0",
+            "label": {
+              "language": "es",
+              "text": "Mientras"
+            }
+          },
+          {
+            "id": "w1",
+            "label": {
+              "language": "es",
+              "text": "la"
+            }
+          }
+        ],
+        "accepted_orders": [
+          [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ]
+        ],
+        "explanation": {
+          "id": "es.a2.imperfecto.feedback-18",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a2.imperfecto.practice-19",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "¿Quién iba en bicicleta?"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.imperfecto.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "es.a2.imperfecto.listening",
+          "revision": 1
+        }
+      ],
+      "hints": [
+        {
+          "id": "es.a2.past-background.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "listening",
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "El narrador."
+            }
+          },
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "Los dos."
+            }
+          },
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "El hermano."
+            }
+          }
+        ],
+        "correct_ids": [
+          "o0"
+        ],
+        "explanation": {
+          "id": "es.a2.imperfecto.feedback-19",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a2.imperfecto.practice-20",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a2.imperfecto.writing-task"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.imperfecto.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.past-background.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "task": {
+        "kind": "writing",
+        "language": "es",
+        "min_words": 40,
+        "max_words": 130,
+        "rubric": {
+          "id": "es.a2.imperfecto.writing-rubric",
+          "revision": 1
+        }
+      }
+    }
+  ],
+  "materials": [
+    {
+      "content": {
+        "id": "es.a2.imperfecto.feedback-01",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "De pequeña iba al parque todos los días."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a2.imperfecto.feedback-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.imperfecto.feedback-02",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "El aula era pequeña y hacía frío."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a2.imperfecto.feedback-02"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.imperfecto.feedback-03",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Ir."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a2.imperfecto.feedback-03"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.imperfecto.feedback-04",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Estudiaba cuando sonó el teléfono."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a2.imperfecto.feedback-04"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.imperfecto.feedback-05",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "vivía"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a2.past-background.guide",
+            "revision": 3
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.imperfecto.feedback-06",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "jugábamos"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a2.past-background.guide",
+            "revision": 3
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.imperfecto.feedback-07",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "tenía"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a2.past-background.guide",
+            "revision": 3
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.imperfecto.feedback-08",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "iban"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a2.past-background.guide",
+            "revision": 3
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.imperfecto.feedback-09",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Imperfecto: Nosotros éramos compañeros. (ser)"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a2.past-background.guide",
+            "revision": 3
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.imperfecto.feedback-10",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Imperfecto: Vosotros veíais dibujos animados. (ver)"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a2.past-background.guide",
+            "revision": 3
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.imperfecto.reading",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Cuando tenía ocho años, iba a una escuela pequeña cerca de mi casa. Las aulas eran luminosas y en el patio había tres árboles. Mi mejor amigo se llamaba David. Todos los días jugábamos juntos durante el recreo y compartíamos nuestros libros. Una mañana llovía mucho y estábamos en clase. Mientras la profesora explicaba un ejercicio, sonó la alarma. Salimos al patio con calma. Era un simulacro, pero al principio no lo sabíamos."
+            }
+          ]
+        },
+        {
+          "kind": "list",
+          "items": [
+            [
+              {
+                "language": "es",
+                "text": "el recreo —"
+              },
+              {
+                "slot": "es.a2.imperfecto.gloss-0"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "el simulacro —"
+              },
+              {
+                "slot": "es.a2.imperfecto.gloss-1"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "luminoso —"
+              },
+              {
+                "slot": "es.a2.imperfecto.gloss-2"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.imperfecto.feedback-11",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Pequeña y cerca de casa."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a2.past-background.guide",
+            "revision": 3
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.imperfecto.feedback-12",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Jugaban juntos."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a2.past-background.guide",
+            "revision": 3
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.imperfecto.feedback-13",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Sonó la alarma."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a2.past-background.guide",
+            "revision": 3
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.imperfecto.feedback-14",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Imperfecto: Yo leía mientras esperaba. (leer)"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a2.past-background.guide",
+            "revision": 3
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.imperfecto.feedback-15",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Imperfecto: Tú hablabas con todos. (hablar)"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a2.past-background.guide",
+            "revision": 3
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.imperfecto.feedback-16",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Imperfecto: Ellas comían en casa. (comer)"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a2.past-background.guide",
+            "revision": 3
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.imperfecto.feedback-17",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Imperfecto: La profesora era muy paciente. (ser)"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a2.past-background.guide",
+            "revision": 3
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.imperfecto.feedback-18",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Mientras la profesora explicaba el ejercicio sonó la alarma."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a2.past-background.guide",
+            "revision": 3
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.imperfecto.listening",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "audio",
+          "speech": {
+            "id": "es.a2.imperfecto.listening-audio",
+            "revision": 1
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.imperfecto.feedback-19",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "El hermano."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a2.past-background.guide",
+            "revision": 3
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Antes iba al colegio a pie y llevaba una mochila azul. Mi hermano iba en bicicleta porque su instituto estaba más lejos de casa."
+            }
+          ],
+          "speech": null
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.imperfecto.writing-model",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Mi escuela era pequeña y estaba cerca de casa. Todos los días iba a pie con mi hermano. Durante el recreo jugábamos en el patio. Nuestra profesora era paciente y explicaba todo con calma. Un día llegó una alumna nueva. Mientras hablaba con la profesora, nosotros preparábamos una silla para ella."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "speech": [
+    {
+      "content": {
+        "id": "es.a2.imperfecto.listening-audio",
+        "revision": 1
+      },
+      "text": "Antes iba al colegio a pie y llevaba una mochila azul. Mi hermano iba en bicicleta porque su instituto estaba más lejos de casa.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "content": {
+        "id": "es.a2.imperfecto.lexeme-0",
+        "revision": 1
+      },
+      "lemma": "el recreo",
+      "part_of_speech": "expression",
+      "gloss": {
+        "slot": "es.a2.imperfecto.gloss-0"
+      },
+      "accepted_forms": [
+        "el recreo"
+      ],
+      "examples": [
+        {
+          "id": "es.a2.imperfecto.reading",
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.imperfecto.lexeme-1",
+        "revision": 1
+      },
+      "lemma": "el simulacro",
+      "part_of_speech": "expression",
+      "gloss": {
+        "slot": "es.a2.imperfecto.gloss-1"
+      },
+      "accepted_forms": [
+        "el simulacro"
+      ],
+      "examples": [
+        {
+          "id": "es.a2.imperfecto.reading",
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.imperfecto.lexeme-2",
+        "revision": 1
+      },
+      "lemma": "luminoso",
+      "part_of_speech": "expression",
+      "gloss": {
+        "slot": "es.a2.imperfecto.gloss-2"
+      },
+      "accepted_forms": [
+        "luminoso"
+      ],
+      "examples": [
+        {
+          "id": "es.a2.imperfecto.reading",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "rubrics": [
+    {
+      "content": {
+        "id": "es.a2.imperfecto.writing-rubric",
+        "revision": 1
+      },
+      "criteria": [
+        {
+          "id": "task",
+          "label": {
+            "slot": "es.grammar.rubric.task"
+          },
+          "guidance": {
+            "slot": "es.a2.imperfecto.rubric-task"
+          }
+        },
+        {
+          "id": "forms",
+          "label": {
+            "slot": "es.grammar.rubric.forms"
+          },
+          "guidance": {
+            "slot": "es.a2.imperfecto.rubric-forms"
+          }
+        },
+        {
+          "id": "cohesion",
+          "label": {
+            "slot": "es.grammar.rubric.connections"
+          },
+          "guidance": {
+            "slot": "es.grammar.rubric.connections-help"
+          }
+        }
+      ],
+      "model_answers": [
+        {
+          "id": "es.a2.imperfecto.writing-model",
+          "revision": 1
+        }
+      ]
+    }
+  ]
+}

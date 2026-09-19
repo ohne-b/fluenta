@@ -1,0 +1,71 @@
+{
+  "grammar": [
+    {
+      "content": {
+        "id": "es.a2.opinions.grammar",
+        "revision": 2
+      },
+      "title": {
+        "slot": "es.a2.opinions.grammar.title"
+      },
+      "summary": {
+        "slot": "es.a2.opinions.grammar.summary"
+      },
+      "band": "A2",
+      "category": "sentences",
+      "explanations": [
+        {
+          "id": "es.a2.opinions.guide",
+          "revision": 1
+        }
+      ],
+      "lessons": [
+        {
+          "id": "es.a2.opinions.lesson",
+          "revision": 3
+        }
+      ],
+      "order": 120
+    }
+  ],
+  "materials": [
+    {
+      "content": {
+        "id": "es.a2.opinions.guide",
+        "revision": 1
+      },
+      "searchable": true,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "slot": "es.a2.opinions.title"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a2.opinions.guide"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Me gustan los idiomas porque me permiten conocer otras culturas. La lectura es tan importante como la gramática."
+            }
+          ],
+          "speech": {
+            "id": "es.a2.opinions.example-audio",
+            "revision": 1
+          }
+        }
+      ]
+    }
+  ]
+}

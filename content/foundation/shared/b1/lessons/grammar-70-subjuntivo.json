@@ -1,0 +1,2060 @@
+{
+  "lessons": [
+    {
+      "content": {
+        "id": "es.b1.subjuntivo.recognise",
+        "revision": 1
+      },
+      "title": {
+        "slot": "es.b1.subjuntivo.recognise.title"
+      },
+      "objectives": [
+        {
+          "id": "es.b1.subjuntivo.practice-objective",
+          "revision": 1
+        }
+      ],
+      "activities": [
+        {
+          "id": "es.b1.subjuntivo.practice-01",
+          "revision": 1
+        },
+        {
+          "id": "es.b1.subjuntivo.practice-02",
+          "revision": 1
+        },
+        {
+          "id": "es.b1.subjuntivo.practice-03",
+          "revision": 1
+        },
+        {
+          "id": "es.b1.subjuntivo.practice-04",
+          "revision": 1
+        },
+        {
+          "id": "es.b1.subjuntivo.practice-05",
+          "revision": 1
+        },
+        {
+          "id": "es.b1.subjuntivo.practice-06",
+          "revision": 1
+        },
+        {
+          "id": "es.b1.subjuntivo.practice-07",
+          "revision": 1
+        },
+        {
+          "id": "es.b1.subjuntivo.practice-08",
+          "revision": 1
+        },
+        {
+          "id": "es.b1.subjuntivo.practice-09",
+          "revision": 1
+        },
+        {
+          "id": "es.b1.subjuntivo.practice-10",
+          "revision": 1
+        }
+      ],
+      "estimated_minutes": 12
+    },
+    {
+      "content": {
+        "id": "es.b1.subjuntivo.context",
+        "revision": 1
+      },
+      "title": {
+        "slot": "es.b1.subjuntivo.context.title"
+      },
+      "objectives": [
+        {
+          "id": "es.b1.subjuntivo.practice-objective",
+          "revision": 1
+        }
+      ],
+      "activities": [
+        {
+          "id": "es.b1.subjuntivo.practice-11",
+          "revision": 1
+        },
+        {
+          "id": "es.b1.subjuntivo.practice-12",
+          "revision": 1
+        },
+        {
+          "id": "es.b1.subjuntivo.practice-13",
+          "revision": 1
+        },
+        {
+          "id": "es.b1.subjuntivo.practice-14",
+          "revision": 1
+        },
+        {
+          "id": "es.b1.subjuntivo.practice-15",
+          "revision": 1
+        },
+        {
+          "id": "es.b1.subjuntivo.practice-16",
+          "revision": 1
+        },
+        {
+          "id": "es.b1.subjuntivo.practice-17",
+          "revision": 1
+        },
+        {
+          "id": "es.b1.subjuntivo.practice-18",
+          "revision": 1
+        },
+        {
+          "id": "es.b1.subjuntivo.practice-19",
+          "revision": 1
+        },
+        {
+          "id": "es.b1.subjuntivo.practice-20",
+          "revision": 1
+        }
+      ],
+      "estimated_minutes": 18
+    }
+  ],
+  "objectives": [
+    {
+      "content": {
+        "id": "es.b1.subjuntivo.practice-objective",
+        "revision": 1
+      },
+      "band": "B1",
+      "can_do": {
+        "slot": "es.b1.subjuntivo.can-do"
+      },
+      "prerequisites": [],
+      "explanation_refs": [
+        {
+          "id": "es.b1.subjunctive.guide",
+          "revision": 3
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "content": {
+        "id": "es.b1.subjuntivo.practice-01",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.b1.subjuntivo.question-01"
+      },
+      "objectives": [
+        {
+          "id": "es.b1.subjuntivo.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.b1.subjunctive.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "Vienes a clase."
+            }
+          },
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "Ayer viniste."
+            }
+          },
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "Quiero que vengas."
+            }
+          }
+        ],
+        "correct_ids": [
+          "o0"
+        ],
+        "explanation": {
+          "id": "es.b1.subjuntivo.feedback-01",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.b1.subjuntivo.practice-02",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.b1.subjuntivo.question-02"
+      },
+      "objectives": [
+        {
+          "id": "es.b1.subjuntivo.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.b1.subjunctive.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "Creo que ser útil."
+            }
+          },
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "Creo que sea útil."
+            }
+          },
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "Creo que es útil."
+            }
+          }
+        ],
+        "correct_ids": [
+          "o1"
+        ],
+        "explanation": {
+          "id": "es.b1.subjuntivo.feedback-02",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.b1.subjuntivo.practice-03",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.b1.subjuntivo.question-03"
+      },
+      "objectives": [
+        {
+          "id": "es.b1.subjuntivo.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.b1.subjunctive.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "No creo que es fácil."
+            }
+          },
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "No creo que ser fácil."
+            }
+          },
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "No creo que sea fácil."
+            }
+          }
+        ],
+        "correct_ids": [
+          "o2"
+        ],
+        "explanation": {
+          "id": "es.b1.subjuntivo.feedback-03",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.b1.subjuntivo.practice-04",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.b1.subjuntivo.question-04"
+      },
+      "objectives": [
+        {
+          "id": "es.b1.subjuntivo.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.b1.subjunctive.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "Quiero que estudio."
+            }
+          },
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "Quiero que estudia."
+            }
+          },
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "Quiero estudiar."
+            }
+          }
+        ],
+        "correct_ids": [
+          "o0"
+        ],
+        "explanation": {
+          "id": "es.b1.subjuntivo.feedback-04",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.b1.subjuntivo.practice-05",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.b1.subjuntivo.question-05"
+      },
+      "objectives": [
+        {
+          "id": "es.b1.subjuntivo.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.b1.subjunctive.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "estudiar"
+            }
+          },
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "estudies"
+            }
+          },
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "estudias"
+            }
+          }
+        ],
+        "correct_ids": [
+          "o0"
+        ],
+        "explanation": {
+          "id": "es.b1.subjuntivo.feedback-05",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.b1.subjuntivo.practice-06",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.b1.subjuntivo.question-06"
+      },
+      "objectives": [
+        {
+          "id": "es.b1.subjuntivo.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.b1.subjunctive.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "lleguemos"
+            }
+          },
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "llegamos"
+            }
+          },
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "llegemos"
+            }
+          }
+        ],
+        "correct_ids": [
+          "o0"
+        ],
+        "explanation": {
+          "id": "es.b1.subjuntivo.feedback-06",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.b1.subjuntivo.practice-07",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.b1.subjuntivo.question-07"
+      },
+      "objectives": [
+        {
+          "id": "es.b1.subjuntivo.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.b1.subjunctive.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "tiene"
+            }
+          },
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "tener"
+            }
+          },
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "tenga"
+            }
+          }
+        ],
+        "correct_ids": [
+          "o0"
+        ],
+        "explanation": {
+          "id": "es.b1.subjuntivo.feedback-07",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.b1.subjuntivo.practice-08",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.b1.subjuntivo.question-08"
+      },
+      "objectives": [
+        {
+          "id": "es.b1.subjuntivo.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.b1.subjunctive.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "están"
+            }
+          },
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "estéis"
+            }
+          },
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "estáis"
+            }
+          }
+        ],
+        "correct_ids": [
+          "o0"
+        ],
+        "explanation": {
+          "id": "es.b1.subjuntivo.feedback-08",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.b1.subjuntivo.practice-09",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.b1.subjuntivo.question-09"
+      },
+      "objectives": [
+        {
+          "id": "es.b1.subjuntivo.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.b1.subjunctive.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "orthography",
+        "inputs": [
+          "keyboard"
+        ],
+        "accepted": [
+          "haga"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.b1.subjuntivo.feedback-09",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.b1.subjuntivo.practice-10",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.b1.subjuntivo.question-10"
+      },
+      "objectives": [
+        {
+          "id": "es.b1.subjuntivo.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.b1.subjunctive.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "orthography",
+        "inputs": [
+          "keyboard"
+        ],
+        "accepted": [
+          "vengan"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.b1.subjuntivo.feedback-10",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.b1.subjuntivo.practice-11",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "¿Qué propone la profesora?"
+      },
+      "objectives": [
+        {
+          "id": "es.b1.subjuntivo.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "es.b1.subjuntivo.reading",
+          "revision": 1
+        }
+      ],
+      "hints": [
+        {
+          "id": "es.b1.subjunctive.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "Que todos compren un móvil."
+            }
+          },
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "Que todos escriban sus argumentos."
+            }
+          },
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "Que nadie vote."
+            }
+          }
+        ],
+        "correct_ids": [
+          "o0"
+        ],
+        "explanation": {
+          "id": "es.b1.subjuntivo.feedback-11",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.b1.subjuntivo.practice-12",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "¿Qué piensa el narrador de una prohibición total?"
+      },
+      "objectives": [
+        {
+          "id": "es.b1.subjuntivo.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "es.b1.subjuntivo.reading",
+          "revision": 1
+        }
+      ],
+      "hints": [
+        {
+          "id": "es.b1.subjunctive.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "Cree que es necesaria."
+            }
+          },
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "No cree que sea necesaria."
+            }
+          },
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "No expresa ninguna opinión."
+            }
+          }
+        ],
+        "correct_ids": [
+          "o1"
+        ],
+        "explanation": {
+          "id": "es.b1.subjuntivo.feedback-12",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.b1.subjuntivo.practice-13",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "¿Para qué propone limitar el uso?"
+      },
+      "objectives": [
+        {
+          "id": "es.b1.subjuntivo.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "es.b1.subjuntivo.reading",
+          "revision": 1
+        }
+      ],
+      "hints": [
+        {
+          "id": "es.b1.subjunctive.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "Para cancelar la clase."
+            }
+          },
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "Para trabajar sin interrupciones."
+            }
+          },
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "Para no escuchar a nadie."
+            }
+          }
+        ],
+        "correct_ids": [
+          "o2"
+        ],
+        "explanation": {
+          "id": "es.b1.subjuntivo.feedback-13",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.b1.subjuntivo.practice-14",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.b1.subjuntivo.question-14"
+      },
+      "objectives": [
+        {
+          "id": "es.b1.subjuntivo.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.b1.subjunctive.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "orthography",
+        "inputs": [
+          "keyboard"
+        ],
+        "accepted": [
+          "digas"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.b1.subjuntivo.feedback-14",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.b1.subjuntivo.practice-15",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.b1.subjuntivo.question-15"
+      },
+      "objectives": [
+        {
+          "id": "es.b1.subjuntivo.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.b1.subjunctive.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "orthography",
+        "inputs": [
+          "keyboard"
+        ],
+        "accepted": [
+          "puedan"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.b1.subjuntivo.feedback-15",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.b1.subjuntivo.practice-16",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.b1.subjuntivo.question-16"
+      },
+      "objectives": [
+        {
+          "id": "es.b1.subjuntivo.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.b1.subjunctive.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "orthography",
+        "inputs": [
+          "keyboard"
+        ],
+        "accepted": [
+          "tenga"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.b1.subjuntivo.feedback-16",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.b1.subjuntivo.practice-17",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.b1.subjuntivo.question-17"
+      },
+      "objectives": [
+        {
+          "id": "es.b1.subjuntivo.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.b1.subjunctive.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "orthography",
+        "inputs": [
+          "keyboard"
+        ],
+        "accepted": [
+          "seamos"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.b1.subjuntivo.feedback-17",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.b1.subjuntivo.practice-18",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.b1.subjuntivo.question-18"
+      },
+      "objectives": [
+        {
+          "id": "es.b1.subjuntivo.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.b1.subjunctive.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "order",
+        "items": [
+          {
+            "id": "w2",
+            "label": {
+              "language": "es",
+              "text": "que"
+            }
+          },
+          {
+            "id": "w3",
+            "label": {
+              "language": "es",
+              "text": "todos"
+            }
+          },
+          {
+            "id": "w4",
+            "label": {
+              "language": "es",
+              "text": "escuchen"
+            }
+          },
+          {
+            "id": "w5",
+            "label": {
+              "language": "es",
+              "text": "antes"
+            }
+          },
+          {
+            "id": "w6",
+            "label": {
+              "language": "es",
+              "text": "de"
+            }
+          },
+          {
+            "id": "w7",
+            "label": {
+              "language": "es",
+              "text": "tomar"
+            }
+          },
+          {
+            "id": "w8",
+            "label": {
+              "language": "es",
+              "text": "una"
+            }
+          },
+          {
+            "id": "w9",
+            "label": {
+              "language": "es",
+              "text": "decisión."
+            }
+          },
+          {
+            "id": "w0",
+            "label": {
+              "language": "es",
+              "text": "Es"
+            }
+          },
+          {
+            "id": "w1",
+            "label": {
+              "language": "es",
+              "text": "importante"
+            }
+          }
+        ],
+        "accepted_orders": [
+          [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ]
+        ],
+        "explanation": {
+          "id": "es.b1.subjuntivo.feedback-18",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.b1.subjuntivo.practice-19",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "¿Qué no considera necesario la persona?"
+      },
+      "objectives": [
+        {
+          "id": "es.b1.subjuntivo.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "es.b1.subjuntivo.listening",
+          "revision": 1
+        }
+      ],
+      "hints": [
+        {
+          "id": "es.b1.subjunctive.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "listening",
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "Escuchar a los demás."
+            }
+          },
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "Participar."
+            }
+          },
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "Estar de acuerdo en todo."
+            }
+          }
+        ],
+        "correct_ids": [
+          "o0"
+        ],
+        "explanation": {
+          "id": "es.b1.subjuntivo.feedback-19",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.b1.subjuntivo.practice-20",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.b1.subjuntivo.writing-task"
+      },
+      "objectives": [
+        {
+          "id": "es.b1.subjuntivo.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.b1.subjunctive.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "task": {
+        "kind": "writing",
+        "language": "es",
+        "min_words": 40,
+        "max_words": 130,
+        "rubric": {
+          "id": "es.b1.subjuntivo.writing-rubric",
+          "revision": 1
+        }
+      }
+    }
+  ],
+  "materials": [
+    {
+      "content": {
+        "id": "es.b1.subjuntivo.feedback-01",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Quiero que vengas."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.b1.subjuntivo.feedback-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.subjuntivo.feedback-02",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Creo que es útil."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.b1.subjuntivo.feedback-02"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.subjuntivo.feedback-03",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "No creo que sea fácil."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.b1.subjuntivo.feedback-03"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.subjuntivo.feedback-04",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Quiero estudiar."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.b1.subjuntivo.feedback-04"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.subjuntivo.feedback-05",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "estudies"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.b1.subjunctive.guide",
+            "revision": 3
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.subjuntivo.feedback-06",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "lleguemos"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.b1.subjunctive.guide",
+            "revision": 3
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.subjuntivo.feedback-07",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "tenga"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.b1.subjunctive.guide",
+            "revision": 3
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.subjuntivo.feedback-08",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "estéis"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.b1.subjunctive.guide",
+            "revision": 3
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.subjuntivo.feedback-09",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Es posible que mañana haga frío. (hacer)"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.b1.subjunctive.guide",
+            "revision": 3
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.subjuntivo.feedback-10",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Quiero que mis amigos vengan a la reunión. (venir)"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.b1.subjunctive.guide",
+            "revision": 3
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.subjuntivo.reading",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Nuestra clase quiere organizar una semana sin móviles. La representante cree que es una buena idea, pero algunos alumnos no están de acuerdo. La profesora propone que todos escriban sus argumentos antes de votar. Es importante que cada persona escuche a los demás. Yo espero que encontremos una solución equilibrada. No creo que una prohibición total sea necesaria. Prefiero que usemos los móviles solo cuando la actividad lo requiera, para que podamos trabajar sin interrupciones."
+            }
+          ]
+        },
+        {
+          "kind": "list",
+          "items": [
+            [
+              {
+                "language": "es",
+                "text": "el acuerdo —"
+              },
+              {
+                "slot": "es.b1.subjuntivo.gloss-0"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "la prohibición —"
+              },
+              {
+                "slot": "es.b1.subjuntivo.gloss-1"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "equilibrado —"
+              },
+              {
+                "slot": "es.b1.subjuntivo.gloss-2"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.subjuntivo.feedback-11",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Que todos escriban sus argumentos."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.b1.subjunctive.guide",
+            "revision": 3
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.subjuntivo.feedback-12",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "No cree que sea necesaria."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.b1.subjunctive.guide",
+            "revision": 3
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.subjuntivo.feedback-13",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Para trabajar sin interrupciones."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.b1.subjunctive.guide",
+            "revision": 3
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.subjuntivo.feedback-14",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Es importante que tú digas la verdad. (decir)"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.b1.subjunctive.guide",
+            "revision": 3
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.subjuntivo.feedback-15",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Trabajo para que todos puedan participar. (poder)"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.b1.subjunctive.guide",
+            "revision": 3
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.subjuntivo.feedback-16",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Espero que la profesora tenga tiempo. (tener)"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.b1.subjunctive.guide",
+            "revision": 3
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.subjuntivo.feedback-17",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Es necesario que nosotros seamos responsables. (ser)"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.b1.subjunctive.guide",
+            "revision": 3
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.subjuntivo.feedback-18",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Es importante que todos escuchen antes de tomar una decisión."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.b1.subjunctive.guide",
+            "revision": 3
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.subjuntivo.listening",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "audio",
+          "speech": {
+            "id": "es.b1.subjuntivo.listening-audio",
+            "revision": 1
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.subjuntivo.feedback-19",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Estar de acuerdo en todo."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.b1.subjunctive.guide",
+            "revision": 3
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Quiero que mis compañeros participen en el debate. Espero que escuchen las opiniones de los demás. No creo que sea necesario estar de acuerdo en todo."
+            }
+          ],
+          "speech": null
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.subjuntivo.writing-model",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Quiero que nuestra biblioteca abra durante el recreo. Creo que es un lugar útil para estudiar. Es importante que los alumnos tengan un espacio tranquilo. No creo que sea necesario abrir todas las aulas. Espero que la dirección escuche nuestra propuesta. Podemos organizar un grupo para ayudar."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "speech": [
+    {
+      "content": {
+        "id": "es.b1.subjuntivo.listening-audio",
+        "revision": 1
+      },
+      "text": "Quiero que mis compañeros participen en el debate. Espero que escuchen las opiniones de los demás. No creo que sea necesario estar de acuerdo en todo.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "content": {
+        "id": "es.b1.subjuntivo.lexeme-0",
+        "revision": 1
+      },
+      "lemma": "el acuerdo",
+      "part_of_speech": "expression",
+      "gloss": {
+        "slot": "es.b1.subjuntivo.gloss-0"
+      },
+      "accepted_forms": [
+        "el acuerdo"
+      ],
+      "examples": [
+        {
+          "id": "es.b1.subjuntivo.reading",
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.subjuntivo.lexeme-1",
+        "revision": 1
+      },
+      "lemma": "la prohibición",
+      "part_of_speech": "expression",
+      "gloss": {
+        "slot": "es.b1.subjuntivo.gloss-1"
+      },
+      "accepted_forms": [
+        "la prohibición"
+      ],
+      "examples": [
+        {
+          "id": "es.b1.subjuntivo.reading",
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.subjuntivo.lexeme-2",
+        "revision": 1
+      },
+      "lemma": "equilibrado",
+      "part_of_speech": "expression",
+      "gloss": {
+        "slot": "es.b1.subjuntivo.gloss-2"
+      },
+      "accepted_forms": [
+        "equilibrado"
+      ],
+      "examples": [
+        {
+          "id": "es.b1.subjuntivo.reading",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "rubrics": [
+    {
+      "content": {
+        "id": "es.b1.subjuntivo.writing-rubric",
+        "revision": 1
+      },
+      "criteria": [
+        {
+          "id": "task",
+          "label": {
+            "slot": "es.grammar.rubric.task"
+          },
+          "guidance": {
+            "slot": "es.b1.subjuntivo.rubric-task"
+          }
+        },
+        {
+          "id": "forms",
+          "label": {
+            "slot": "es.grammar.rubric.forms"
+          },
+          "guidance": {
+            "slot": "es.b1.subjuntivo.rubric-forms"
+          }
+        },
+        {
+          "id": "cohesion",
+          "label": {
+            "slot": "es.grammar.rubric.connections"
+          },
+          "guidance": {
+            "slot": "es.grammar.rubric.connections-help"
+          }
+        }
+      ],
+      "model_answers": [
+        {
+          "id": "es.b1.subjuntivo.writing-model",
+          "revision": 1
+        }
+      ]
+    }
+  ]
+}

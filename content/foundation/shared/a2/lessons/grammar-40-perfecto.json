@@ -1,0 +1,2060 @@
+{
+  "lessons": [
+    {
+      "content": {
+        "id": "es.a2.perfecto.recognise",
+        "revision": 1
+      },
+      "title": {
+        "slot": "es.a2.perfecto.recognise.title"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.perfecto.practice-objective",
+          "revision": 1
+        }
+      ],
+      "activities": [
+        {
+          "id": "es.a2.perfecto.practice-01",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.perfecto.practice-02",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.perfecto.practice-03",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.perfecto.practice-04",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.perfecto.practice-05",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.perfecto.practice-06",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.perfecto.practice-07",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.perfecto.practice-08",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.perfecto.practice-09",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.perfecto.practice-10",
+          "revision": 1
+        }
+      ],
+      "estimated_minutes": 12
+    },
+    {
+      "content": {
+        "id": "es.a2.perfecto.context",
+        "revision": 1
+      },
+      "title": {
+        "slot": "es.a2.perfecto.context.title"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.perfecto.practice-objective",
+          "revision": 1
+        }
+      ],
+      "activities": [
+        {
+          "id": "es.a2.perfecto.practice-11",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.perfecto.practice-12",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.perfecto.practice-13",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.perfecto.practice-14",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.perfecto.practice-15",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.perfecto.practice-16",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.perfecto.practice-17",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.perfecto.practice-18",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.perfecto.practice-19",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.perfecto.practice-20",
+          "revision": 1
+        }
+      ],
+      "estimated_minutes": 18
+    }
+  ],
+  "objectives": [
+    {
+      "content": {
+        "id": "es.a2.perfecto.practice-objective",
+        "revision": 1
+      },
+      "band": "A2",
+      "can_do": {
+        "slot": "es.a2.perfecto.can-do"
+      },
+      "prerequisites": [],
+      "explanation_refs": [
+        {
+          "id": "es.a2.perfecto.guide",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "content": {
+        "id": "es.a2.perfecto.practice-01",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a2.perfecto.question-01"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.perfecto.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.perfecto.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "Termino el trabajo."
+            }
+          },
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "Terminé el trabajo."
+            }
+          },
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "He terminado el trabajo."
+            }
+          }
+        ],
+        "correct_ids": [
+          "o0"
+        ],
+        "explanation": {
+          "id": "es.a2.perfecto.feedback-01",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a2.perfecto.practice-02",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a2.perfecto.question-02"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.perfecto.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.perfecto.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "Hago."
+            }
+          },
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "Hacido."
+            }
+          },
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "Hecho."
+            }
+          }
+        ],
+        "correct_ids": [
+          "o1"
+        ],
+        "explanation": {
+          "id": "es.a2.perfecto.feedback-02",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a2.perfecto.practice-03",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a2.perfecto.question-03"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.perfecto.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.perfecto.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "Ellas han estudiadas."
+            }
+          },
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "Ellas ha estudiado."
+            }
+          },
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "Ellas han estudiado."
+            }
+          }
+        ],
+        "correct_ids": [
+          "o2"
+        ],
+        "explanation": {
+          "id": "es.a2.perfecto.feedback-03",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a2.perfecto.practice-04",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a2.perfecto.question-04"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.perfecto.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.perfecto.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "Ya he terminado."
+            }
+          },
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "Siempre termino temprano."
+            }
+          },
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "Todavía no he terminado."
+            }
+          }
+        ],
+        "correct_ids": [
+          "o0"
+        ],
+        "explanation": {
+          "id": "es.a2.perfecto.feedback-04",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a2.perfecto.practice-05",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a2.perfecto.question-05"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.perfecto.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.perfecto.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "he terminada"
+            }
+          },
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "he terminado"
+            }
+          },
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "ha terminado"
+            }
+          }
+        ],
+        "correct_ids": [
+          "o0"
+        ],
+        "explanation": {
+          "id": "es.a2.perfecto.feedback-05",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a2.perfecto.practice-06",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a2.perfecto.question-06"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.perfecto.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.perfecto.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "has hecho"
+            }
+          },
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "has hacido"
+            }
+          },
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "ha hecho"
+            }
+          }
+        ],
+        "correct_ids": [
+          "o0"
+        ],
+        "explanation": {
+          "id": "es.a2.perfecto.feedback-06",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a2.perfecto.practice-07",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a2.perfecto.question-07"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.perfecto.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.perfecto.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "han leído"
+            }
+          },
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "hemos leídos"
+            }
+          },
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "hemos leído"
+            }
+          }
+        ],
+        "correct_ids": [
+          "o0"
+        ],
+        "explanation": {
+          "id": "es.a2.perfecto.feedback-07",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a2.perfecto.practice-08",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a2.perfecto.question-08"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.perfecto.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.perfecto.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "ha escrito"
+            }
+          },
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "han escrito"
+            }
+          },
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "han escribido"
+            }
+          }
+        ],
+        "correct_ids": [
+          "o0"
+        ],
+        "explanation": {
+          "id": "es.a2.perfecto.feedback-08",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a2.perfecto.practice-09",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a2.perfecto.question-09"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.perfecto.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.perfecto.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "orthography",
+        "inputs": [
+          "keyboard"
+        ],
+        "accepted": [
+          "he visto"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.a2.perfecto.feedback-09",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a2.perfecto.practice-10",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a2.perfecto.question-10"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.perfecto.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.perfecto.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "orthography",
+        "inputs": [
+          "keyboard"
+        ],
+        "accepted": [
+          "habéis llegado"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.a2.perfecto.feedback-10",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a2.perfecto.practice-11",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "¿Quién ha escrito la introducción?"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.perfecto.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "es.a2.perfecto.reading",
+          "revision": 1
+        }
+      ],
+      "hints": [
+        {
+          "id": "es.a2.perfecto.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "El narrador."
+            }
+          },
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "Marta."
+            }
+          },
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "La profesora."
+            }
+          }
+        ],
+        "correct_ids": [
+          "o0"
+        ],
+        "explanation": {
+          "id": "es.a2.perfecto.feedback-11",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a2.perfecto.practice-12",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "¿Qué no han terminado todavía?"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.perfecto.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "es.a2.perfecto.reading",
+          "revision": 1
+        }
+      ],
+      "hints": [
+        {
+          "id": "es.a2.perfecto.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "Las entrevistas."
+            }
+          },
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "Los gráficos."
+            }
+          },
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "La introducción."
+            }
+          }
+        ],
+        "correct_ids": [
+          "o1"
+        ],
+        "explanation": {
+          "id": "es.a2.perfecto.feedback-12",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a2.perfecto.practice-13",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "¿Qué ha hecho la profesora?"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.perfecto.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "es.a2.perfecto.reading",
+          "revision": 1
+        }
+      ],
+      "hints": [
+        {
+          "id": "es.a2.perfecto.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "Ha hecho las entrevistas."
+            }
+          },
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "Ha leído el borrador y ha dado consejos."
+            }
+          },
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "Ha escrito todo el proyecto."
+            }
+          }
+        ],
+        "correct_ids": [
+          "o2"
+        ],
+        "explanation": {
+          "id": "es.a2.perfecto.feedback-13",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a2.perfecto.practice-14",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a2.perfecto.question-14"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.perfecto.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.perfecto.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "orthography",
+        "inputs": [
+          "keyboard"
+        ],
+        "accepted": [
+          "ha abierto"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.a2.perfecto.feedback-14",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a2.perfecto.practice-15",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a2.perfecto.question-15"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.perfecto.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.perfecto.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "orthography",
+        "inputs": [
+          "keyboard"
+        ],
+        "accepted": [
+          "hemos vuelto"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.a2.perfecto.feedback-15",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a2.perfecto.practice-16",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a2.perfecto.question-16"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.perfecto.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.perfecto.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "orthography",
+        "inputs": [
+          "keyboard"
+        ],
+        "accepted": [
+          "has puesto"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.a2.perfecto.feedback-16",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a2.perfecto.practice-17",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a2.perfecto.question-17"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.perfecto.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.perfecto.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "orthography",
+        "inputs": [
+          "keyboard"
+        ],
+        "accepted": [
+          "han vivido"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.a2.perfecto.feedback-17",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a2.perfecto.practice-18",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a2.perfecto.question-18"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.perfecto.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.perfecto.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "order",
+        "items": [
+          {
+            "id": "w2",
+            "label": {
+              "language": "es",
+              "text": "hemos"
+            }
+          },
+          {
+            "id": "w3",
+            "label": {
+              "language": "es",
+              "text": "hecho"
+            }
+          },
+          {
+            "id": "w4",
+            "label": {
+              "language": "es",
+              "text": "entrevistas"
+            }
+          },
+          {
+            "id": "w5",
+            "label": {
+              "language": "es",
+              "text": "y"
+            }
+          },
+          {
+            "id": "w6",
+            "label": {
+              "language": "es",
+              "text": "hemos"
+            }
+          },
+          {
+            "id": "w7",
+            "label": {
+              "language": "es",
+              "text": "escrito"
+            }
+          },
+          {
+            "id": "w8",
+            "label": {
+              "language": "es",
+              "text": "un"
+            }
+          },
+          {
+            "id": "w9",
+            "label": {
+              "language": "es",
+              "text": "informe."
+            }
+          },
+          {
+            "id": "w0",
+            "label": {
+              "language": "es",
+              "text": "Esta"
+            }
+          },
+          {
+            "id": "w1",
+            "label": {
+              "language": "es",
+              "text": "semana"
+            }
+          }
+        ],
+        "accepted_orders": [
+          [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ]
+        ],
+        "explanation": {
+          "id": "es.a2.perfecto.feedback-18",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a2.perfecto.practice-19",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "¿Qué no ha hecho todavía?"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.perfecto.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "es.a2.perfecto.listening",
+          "revision": 1
+        }
+      ],
+      "hints": [
+        {
+          "id": "es.a2.perfecto.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "listening",
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "Leer el texto."
+            }
+          },
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "Contestar las preguntas."
+            }
+          },
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "El resumen."
+            }
+          }
+        ],
+        "correct_ids": [
+          "o0"
+        ],
+        "explanation": {
+          "id": "es.a2.perfecto.feedback-19",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a2.perfecto.practice-20",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a2.perfecto.writing-task"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.perfecto.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.perfecto.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "task": {
+        "kind": "writing",
+        "language": "es",
+        "min_words": 40,
+        "max_words": 130,
+        "rubric": {
+          "id": "es.a2.perfecto.writing-rubric",
+          "revision": 1
+        }
+      }
+    }
+  ],
+  "materials": [
+    {
+      "content": {
+        "id": "es.a2.perfecto.feedback-01",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "He terminado el trabajo."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a2.perfecto.feedback-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.perfecto.feedback-02",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Hecho."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a2.perfecto.feedback-02"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.perfecto.feedback-03",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Ellas han estudiado."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a2.perfecto.feedback-03"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.perfecto.feedback-04",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Todavía no he terminado."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a2.perfecto.feedback-04"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.perfecto.feedback-05",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "he terminado"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a2.perfecto.guide",
+            "revision": 1
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.perfecto.feedback-06",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "has hecho"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a2.perfecto.guide",
+            "revision": 1
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.perfecto.feedback-07",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "hemos leído"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a2.perfecto.guide",
+            "revision": 1
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.perfecto.feedback-08",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "han escrito"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a2.perfecto.guide",
+            "revision": 1
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.perfecto.feedback-09",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Perfecto: Yo he visto el vídeo. (ver)"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a2.perfecto.guide",
+            "revision": 1
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.perfecto.feedback-10",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Perfecto: Vosotros habéis llegado tarde. (llegar)"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a2.perfecto.guide",
+            "revision": 1
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.perfecto.reading",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Esta semana hemos preparado un proyecto sobre el medio ambiente. Yo he buscado información y Marta ha escrito la introducción. Dos compañeros han hecho entrevistas a otros alumnos. Ya hemos visto los resultados, pero todavía no hemos terminado los gráficos. Nuestra profesora ha leído el primer borrador y nos ha dado algunos consejos. También hemos aprendido palabras nuevas. Es la primera vez que trabajamos con entrevistas. Esta experiencia nos ha ayudado a organizar mejor la información."
+            }
+          ]
+        },
+        {
+          "kind": "list",
+          "items": [
+            [
+              {
+                "language": "es",
+                "text": "el borrador —"
+              },
+              {
+                "slot": "es.a2.perfecto.gloss-0"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "la entrevista —"
+              },
+              {
+                "slot": "es.a2.perfecto.gloss-1"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "el consejo —"
+              },
+              {
+                "slot": "es.a2.perfecto.gloss-2"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.perfecto.feedback-11",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Marta."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a2.perfecto.guide",
+            "revision": 1
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.perfecto.feedback-12",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Los gráficos."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a2.perfecto.guide",
+            "revision": 1
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.perfecto.feedback-13",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Ha leído el borrador y ha dado consejos."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a2.perfecto.guide",
+            "revision": 1
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.perfecto.feedback-14",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Perfecto: Ana ha abierto la ventana. (abrir)"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a2.perfecto.guide",
+            "revision": 1
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.perfecto.feedback-15",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Perfecto: Nosotros hemos vuelto del museo. (volver)"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a2.perfecto.guide",
+            "revision": 1
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.perfecto.feedback-16",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Perfecto: Tú has puesto la mesa. (poner)"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a2.perfecto.guide",
+            "revision": 1
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.perfecto.feedback-17",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Perfecto: Mis amigos han vivido en Madrid. (vivir)"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a2.perfecto.guide",
+            "revision": 1
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.perfecto.feedback-18",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Esta semana hemos hecho entrevistas y hemos escrito un informe."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a2.perfecto.guide",
+            "revision": 1
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.perfecto.listening",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "audio",
+          "speech": {
+            "id": "es.a2.perfecto.listening-audio",
+            "revision": 1
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.perfecto.feedback-19",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "El resumen."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a2.perfecto.guide",
+            "revision": 1
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Ya he leído el texto y he contestado las preguntas. Todavía no he escrito el resumen porque necesito revisar dos palabras."
+            }
+          ],
+          "speech": null
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.perfecto.writing-model",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Esta semana hemos preparado un proyecto sobre el deporte. Yo he escrito la introducción y mi amiga ha hecho dos entrevistas. Ya hemos leído las respuestas. Todavía no hemos terminado el cartel. La profesora ha visto nuestro trabajo y nos ha ayudado."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "speech": [
+    {
+      "content": {
+        "id": "es.a2.perfecto.listening-audio",
+        "revision": 1
+      },
+      "text": "Ya he leído el texto y he contestado las preguntas. Todavía no he escrito el resumen porque necesito revisar dos palabras.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "content": {
+        "id": "es.a2.perfecto.lexeme-0",
+        "revision": 1
+      },
+      "lemma": "el borrador",
+      "part_of_speech": "expression",
+      "gloss": {
+        "slot": "es.a2.perfecto.gloss-0"
+      },
+      "accepted_forms": [
+        "el borrador"
+      ],
+      "examples": [
+        {
+          "id": "es.a2.perfecto.reading",
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.perfecto.lexeme-1",
+        "revision": 1
+      },
+      "lemma": "la entrevista",
+      "part_of_speech": "expression",
+      "gloss": {
+        "slot": "es.a2.perfecto.gloss-1"
+      },
+      "accepted_forms": [
+        "la entrevista"
+      ],
+      "examples": [
+        {
+          "id": "es.a2.perfecto.reading",
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.perfecto.lexeme-2",
+        "revision": 1
+      },
+      "lemma": "el consejo",
+      "part_of_speech": "expression",
+      "gloss": {
+        "slot": "es.a2.perfecto.gloss-2"
+      },
+      "accepted_forms": [
+        "el consejo"
+      ],
+      "examples": [
+        {
+          "id": "es.a2.perfecto.reading",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "rubrics": [
+    {
+      "content": {
+        "id": "es.a2.perfecto.writing-rubric",
+        "revision": 1
+      },
+      "criteria": [
+        {
+          "id": "task",
+          "label": {
+            "slot": "es.grammar.rubric.task"
+          },
+          "guidance": {
+            "slot": "es.a2.perfecto.rubric-task"
+          }
+        },
+        {
+          "id": "forms",
+          "label": {
+            "slot": "es.grammar.rubric.forms"
+          },
+          "guidance": {
+            "slot": "es.a2.perfecto.rubric-forms"
+          }
+        },
+        {
+          "id": "cohesion",
+          "label": {
+            "slot": "es.grammar.rubric.connections"
+          },
+          "guidance": {
+            "slot": "es.grammar.rubric.connections-help"
+          }
+        }
+      ],
+      "model_answers": [
+        {
+          "id": "es.a2.perfecto.writing-model",
+          "revision": 1
+        }
+      ]
+    }
+  ]
+}

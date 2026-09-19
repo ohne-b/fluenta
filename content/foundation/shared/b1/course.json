@@ -1,0 +1,110 @@
+{
+  "schema_version": 3,
+  "release_id": "foundation.b1.source",
+  "course": {
+    "content": {
+      "id": "es.b1.course",
+      "revision": 3
+    },
+    "source_language": "en",
+    "band": "B1",
+    "title": {
+      "slot": "es.b1.title"
+    },
+    "units": [
+      {
+        "id": "es.b1.unit",
+        "revision": 3
+      },
+      {
+        "id": "es.b1.unit.grammar-70",
+        "revision": 1
+      }
+    ]
+  },
+  "units": [
+    {
+      "content": {
+        "id": "es.b1.unit",
+        "revision": 3
+      },
+      "title": {
+        "slot": "es.b1.title"
+      },
+      "objectives": [
+        {
+          "id": "es.b1.summarising.objective",
+          "revision": 1
+        },
+        {
+          "id": "es.b1.subjunctive.objective",
+          "revision": 3
+        },
+        {
+          "id": "es.b1.mediation.objective",
+          "revision": 3
+        },
+        {
+          "id": "es.b1.digital-life.objective",
+          "revision": 3
+        }
+      ],
+      "lessons": [
+        {
+          "id": "es.b1.summarising.lesson",
+          "revision": 2
+        },
+        {
+          "id": "es.b1.subjunctive.lesson",
+          "revision": 3
+        },
+        {
+          "id": "es.b1.mediation.lesson",
+          "revision": 3
+        },
+        {
+          "id": "es.b1.digital-life.lesson",
+          "revision": 3
+        }
+      ],
+      "assessment": {
+        "id": "es.b1.checkpoint",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "es.b1.unit.grammar-70",
+        "revision": 1
+      },
+      "title": {
+        "slot": "es.b1.subjuntivo.topic-title"
+      },
+      "objectives": [
+        {
+          "id": "es.b1.subjuntivo.practice-objective",
+          "revision": 1
+        }
+      ],
+      "lessons": [
+        {
+          "id": "es.b1.subjuntivo.recognise",
+          "revision": 1
+        },
+        {
+          "id": "es.b1.subjuntivo.context",
+          "revision": 1
+        }
+      ],
+      "assessment": null
+    }
+  ],
+  "lessons": [],
+  "objectives": [],
+  "activities": [],
+  "materials": [],
+  "speech": [],
+  "vocabulary": [],
+  "rubrics": [],
+  "assessments": []
+}

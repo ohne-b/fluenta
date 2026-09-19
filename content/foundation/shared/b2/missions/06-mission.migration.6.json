@@ -1,0 +1,898 @@
+{
+  "missions": [
+    {
+      "content": {
+        "id": "mission.migration.6",
+        "revision": 1
+      },
+      "title": {
+        "language": "es",
+        "text": "Tu perspectiva"
+      },
+      "question": {
+        "language": "es",
+        "text": "¿Cómo defendemos una postura sin borrar las experiencias ajenas?"
+      },
+      "outcome": {
+        "de": "Entwickle eine begründete Position und überarbeite sie nach Selbstprüfung.",
+        "en": "Develop a supported position and revise it after self-review."
+      },
+      "description": {
+        "de": "Verbinde Textverständnis, nützliche Wendungen und eine eigene Antwort.",
+        "en": "Connect understanding, useful expressions and your own response."
+      },
+      "band": "B2",
+      "lesson": {
+        "id": "mission.migration.6.lesson",
+        "revision": 1
+      },
+      "challenge": {
+        "id": "mission.migration.6.assessment",
+        "revision": 1
+      },
+      "vocabulary": [
+        {
+          "id": "lex.perspectiva",
+          "revision": 1
+        },
+        {
+          "id": "lex.argumento",
+          "revision": 1
+        },
+        {
+          "id": "lex.matizar",
+          "revision": 1
+        },
+        {
+          "id": "lex.aunque",
+          "revision": 1
+        },
+        {
+          "id": "lex.embargo",
+          "revision": 1
+        },
+        {
+          "id": "lex.por_tanto",
+          "revision": 1
+        },
+        {
+          "id": "lex.derecho",
+          "revision": 1
+        },
+        {
+          "id": "lex.convivencia",
+          "revision": 1
+        },
+        {
+          "id": "lex.participar",
+          "revision": 1
+        },
+        {
+          "id": "lex.responsabilidad",
+          "revision": 1
+        }
+      ],
+      "sources": [
+        {
+          "title": "LehrplanPLUS · Spanisch 12/13, erhöhtes Anforderungsniveau",
+          "url": "https://www.lehrplanplus.bayern.de/fachlehrplan/gymnasium/12/spanisch/erhoeht",
+          "accessed": "2026-09-19",
+          "note": {
+            "de": "Zuordnung zu Themen und Kompetenzen; die Sammlungen sind redaktionell gegliedert.",
+            "en": "Mapping to themes and skills; collection titles are editorial groupings."
+          }
+        },
+        {
+          "title": "IOM · Glossary on Migration",
+          "url": "https://publications.iom.int/books/international-migration-law-ndeg34-glossary-migration",
+          "accessed": "2026-09-19",
+          "note": {
+            "de": "Begrifflicher Hintergrund. Die Personen und Ereignisse in den Lesetexten sind erfunden.",
+            "en": "Terminological background. People and events in the readings are fictional."
+          }
+        }
+      ],
+      "attribution": {
+        "de": "Originaler Lerntext · Personen, Gespräche und lokale Projekte sind erfunden. Synthetische Sprachausgabe.",
+        "en": "Original learning text · People, conversations and local projects are fictional. Synthetic speech."
+      },
+      "order": 6
+    }
+  ],
+  "lessons": [
+    {
+      "content": {
+        "id": "mission.migration.6.lesson",
+        "revision": 1
+      },
+      "title": {
+        "language": "es",
+        "text": "Tu perspectiva"
+      },
+      "objectives": [
+        {
+          "id": "mission.migration.6.objective",
+          "revision": 1
+        }
+      ],
+      "activities": [
+        {
+          "id": "mission.migration.6.input",
+          "revision": 1
+        },
+        {
+          "id": "mission.migration.6.comprehension",
+          "revision": 1
+        },
+        {
+          "id": "lex.perspectiva.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.argumento.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.matizar.listening",
+          "revision": 1
+        },
+        {
+          "id": "mission.migration.6.prepare",
+          "revision": 1
+        },
+        {
+          "id": "mission.migration.6.write",
+          "revision": 1
+        }
+      ],
+      "estimated_minutes": 22
+    }
+  ],
+  "objectives": [
+    {
+      "content": {
+        "id": "mission.migration.6.objective",
+        "revision": 1
+      },
+      "band": "B2",
+      "can_do": {
+        "de": "Entwickle eine begründete Position und überarbeite sie nach Selbstprüfung.",
+        "en": "Develop a supported position and revise it after self-review."
+      },
+      "prerequisites": [],
+      "explanation_refs": [],
+      "grammar_topics": [
+        "es.b1.subjunctive.grammar",
+        "es.b2.argumentation.grammar"
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "content": {
+        "id": "mission.migration.6.input",
+        "revision": 1
+      },
+      "instruction": {
+        "de": "Lies oder höre den Text. Öffne nützliche Wendungen bei Bedarf.",
+        "en": "Read or listen. Open useful expressions when you need them."
+      },
+      "objectives": [
+        {
+          "id": "mission.migration.6.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "reading"
+      ],
+      "task": {
+        "kind": "explanation",
+        "material": {
+          "id": "mission.migration.6.reading",
+          "revision": 1
+        }
+      },
+      "evidence_scope": "source_language",
+      "usage": "practice",
+      "lexical": [],
+      "preparation": false
+    },
+    {
+      "content": {
+        "id": "mission.migration.6.comprehension",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "¿Por qué preparan un contraargumento?"
+      },
+      "objectives": [
+        {
+          "id": "mission.migration.6.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "mission.migration.6.reading",
+          "revision": 1
+        }
+      ],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "reading"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "option.0",
+            "label": {
+              "language": "es",
+              "text": "Para comprobar los límites de su propuesta y mejorarla."
+            }
+          },
+          {
+            "id": "option.1",
+            "label": {
+              "language": "es",
+              "text": "Para demostrar que cualquier opinión carece de valor."
+            }
+          },
+          {
+            "id": "option.2",
+            "label": {
+              "language": "es",
+              "text": "Para evitar justificar su posición inicial."
+            }
+          }
+        ],
+        "correct_ids": [
+          "option.0"
+        ],
+        "explanation": {
+          "id": "mission.migration.6.comprehension.feedback",
+          "revision": 1
+        }
+      },
+      "evidence_scope": "source_language",
+      "usage": "practice",
+      "lexical": [],
+      "preparation": false
+    },
+    {
+      "content": {
+        "id": "mission.migration.6.prepare",
+        "revision": 1
+      },
+      "instruction": {
+        "de": "Bereite deine Antwort vor",
+        "en": "Prepare your response"
+      },
+      "objectives": [
+        {
+          "id": "mission.migration.6.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "reading"
+      ],
+      "task": {
+        "kind": "explanation",
+        "material": {
+          "id": "mission.migration.6.preparation",
+          "revision": 1
+        }
+      },
+      "evidence_scope": "source_language",
+      "usage": "practice",
+      "lexical": [],
+      "preparation": true
+    },
+    {
+      "content": {
+        "id": "mission.migration.6.write",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "Escribe una propuesta de participación para la comisión (150–220 palabras). Justifica dos decisiones con el texto y presenta el mejor contraargumento a tu opción. Después revisa un punto que podrías expresar con más precisión."
+      },
+      "objectives": [
+        {
+          "id": "mission.migration.6.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "mission.migration.6.reading",
+          "revision": 1
+        }
+      ],
+      "hints": [
+        {
+          "id": "mission.migration.6.preparation",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "writing"
+      ],
+      "task": {
+        "kind": "writing",
+        "language": "es",
+        "min_words": 150,
+        "max_words": 220,
+        "rubric": {
+          "id": "mission.migration.6.rubric",
+          "revision": 1
+        }
+      },
+      "evidence_scope": "source_language",
+      "usage": "practice",
+      "lexical": [],
+      "preparation": false
+    },
+    {
+      "content": {
+        "id": "mission.migration.6.challenge",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "Reto independiente: escribe al museo (180–260 palabras). Resume el conflicto, analiza qué efecto tendría seleccionar solo relatos positivos y recomienda criterios que respeten a los participantes. Incluye una objeción razonable y respóndela con detalles del caso."
+      },
+      "objectives": [
+        {
+          "id": "mission.migration.6.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "mission.migration.6.unseen",
+          "revision": 1
+        }
+      ],
+      "hints": [],
+      "reveal_policy": "after_session",
+      "skills": [
+        "writing",
+        "reading"
+      ],
+      "task": {
+        "kind": "writing",
+        "language": "es",
+        "min_words": 180,
+        "max_words": 260,
+        "rubric": {
+          "id": "mission.migration.6.unseen.rubric",
+          "revision": 1
+        }
+      },
+      "evidence_scope": "source_language",
+      "usage": "assessment",
+      "lexical": [],
+      "preparation": false
+    }
+  ],
+  "materials": [
+    {
+      "content": {
+        "id": "mission.migration.6.reading",
+        "revision": 1
+      },
+      "searchable": true,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Tu perspectiva"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "de": "Originaler Lerntext · Personen, Gespräche und lokale Projekte sind erfunden. Synthetische Sprachausgabe.",
+              "en": "Original learning text · People, conversations and local projects are fictional. Synthetic speech."
+            }
+          ]
+        },
+        {
+          "kind": "audio",
+          "speech": {
+            "id": "mission.migration.6.audio",
+            "revision": 1
+          }
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Una nueva comisión juvenil quiere mejorar la convivencia del barrio. En su primera sesión, cada participante explica la perspectiva desde la que habla. Inés conoce el instituto; Omar trabaja por las tardes; Sara cuida a su hermano algunos días. Ninguno puede hablar en nombre de todos los jóvenes. La comisión intenta matizar sus primeras conclusiones antes de publicar un texto.",
+              "annotations": [
+                {
+                  "start": 42,
+                  "end": 56,
+                  "occurrence": {
+                    "id": "mission.migration.6.reading.p0.o0",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 117,
+                  "end": 131,
+                  "occurrence": {
+                    "id": "mission.migration.6.reading.p0.o1",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 318,
+                  "end": 325,
+                  "occurrence": {
+                    "id": "mission.migration.6.reading.p0.o2",
+                    "revision": 1
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Un argumento frecuente es que basta con invitar a todo el mundo. Sara responde que una invitación formal no siempre permite participar en la práctica: el horario y el cuidado familiar importan. Inés reconoce el problema, aunque recuerda que cambiar la hora tampoco convendrá a todos. Omar propone alternar reuniones presenciales y aportaciones escritas. Sin embargo, eso exige que alguien lea y responda a los mensajes.",
+              "annotations": [
+                {
+                  "start": 3,
+                  "end": 12,
+                  "occurrence": {
+                    "id": "mission.migration.6.reading.p1.o0",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 124,
+                  "end": 137,
+                  "occurrence": {
+                    "id": "mission.migration.6.reading.p1.o1",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 221,
+                  "end": 227,
+                  "occurrence": {
+                    "id": "mission.migration.6.reading.p1.o2",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 354,
+                  "end": 365,
+                  "occurrence": {
+                    "id": "mission.migration.6.reading.p1.o3",
+                    "revision": 1
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "El grupo afirma el derecho a expresar desacuerdo y asume la responsabilidad de explicar sus decisiones. Faltan datos sobre quién queda fuera; por tanto, acuerdan preguntar antes de fijar un sistema definitivo. La conclusión no es que todas las opiniones sean igualmente sólidas. Las propuestas deben justificarse y contrastarse con sus efectos. Para la próxima reunión, cada persona preparará también el mejor contraargumento a su propia opción: comprenderlo puede mejorar la propuesta sin abandonar sus principios.",
+              "annotations": [
+                {
+                  "start": 16,
+                  "end": 28,
+                  "occurrence": {
+                    "id": "mission.migration.6.reading.p2.o0",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 57,
+                  "end": 75,
+                  "occurrence": {
+                    "id": "mission.migration.6.reading.p2.o1",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 142,
+                  "end": 151,
+                  "occurrence": {
+                    "id": "mission.migration.6.reading.p2.o2",
+                    "revision": 1
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.migration.6.comprehension.feedback",
+        "revision": 1
+      },
+      "searchable": false,
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "de": "Eine faire Gegenposition prüft Grenzen; sie ersetzt weder Belege noch die eigene Position.",
+              "en": "A fair alternative view tests limits; it replaces neither evidence nor your own position."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.migration.6.preparation",
+        "revision": 1
+      },
+      "searchable": false,
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "de": "Plane: Was ist die zentrale Aussage? Welche zwei Details helfen? Für wen formulierst du? Notiere Stichwörter, bevor du einen zusammenhängenden Text schreibst oder sprichst.",
+              "en": "Plan: What is the main point? Which two details help? Who is your audience? Note keywords before writing or speaking a connected response."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.migration.6.rubric.model",
+        "revision": 1
+      },
+      "searchable": false,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Una posible respuesta"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Propongo alternar reuniones con aportaciones escritas, porque Omar trabaja por las tardes y Sara tiene responsabilidades familiares. Publicaría las preguntas con antelación para que no solo influyan quienes pueden asistir. El principal contraargumento es la carga de leer y responder mensajes: si nadie los atiende, la participación sería simbólica. Por eso asignaría turnos de moderación y publicaría qué propuestas se han considerado. También revisaría quién sigue quedando fuera. La medida no elimina todas las desigualdades, pero permite identificar obstáculos concretos y corregirlos. Un primer calendario podría incluir una reunión mensual y un plazo posterior para enviar observaciones. Las respuestas se recogerían en un documento breve con los motivos de cada decisión. Al principio había pensado que esta combinación garantizaría la participación de todos. Esa formulación sería demasiado fuerte: algunas personas pueden carecer de tiempo, conexión o confianza para escribir. La sustituiría por un objetivo comprobable: ampliar las vías de participación y preguntar periódicamente qué barreras siguen existiendo.",
+              "annotations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.migration.6.unseen",
+        "revision": 1
+      },
+      "searchable": false,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Otra situación"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "En una localidad ficticia, un museo prepara una exposición sobre llegadas y despedidas. Invita a vecinos a prestar objetos y grabar recuerdos. Julia ofrece una maleta, pero no quiere que aparezca su nombre. Mateo pide que se incluyan también experiencias difíciles. La directora teme que la exposición resulte demasiado larga y propone escoger solo relatos breves y positivos. Un grupo escolar debe recomendar criterios de selección.",
+              "annotations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.migration.6.unseen.rubric.model",
+        "revision": 1
+      },
+      "searchable": false,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Una posible respuesta"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "La exposición busca mostrar experiencias de llegada y despedida, pero debe conciliar espacio limitado, diversidad y privacidad. Seleccionar solo relatos positivos produciría una imagen tranquilizadora a costa de ocultar dificultades como las que Mateo quiere incluir. Recomiendo pedir consentimiento específico, aceptar testimonios anónimos como el de Julia y seleccionar experiencias distintas mediante criterios públicos. Es razonable limitar la duración para que la exposición sea accesible. Sin embargo, esa limitación no exige excluir todas las experiencias dolorosas: se podrían combinar fragmentos breves con materiales opcionales. El museo debería permitir retirar un objeto o corregir un testimonio antes de abrir la muestra. Al equipo del museo le propondría además separar dos decisiones: qué experiencias deben estar representadas y cuánto espacio recibe cada una. Mateo no exige necesariamente una exposición interminable; pide que las dificultades no desaparezcan del relato. Julia aporta un objeto, pero no autoriza que se publique su identidad. Ambas condiciones pueden incorporarse a una selección equilibrada. Antes de inaugurar, compartiría con los participantes el texto que acompañará sus aportaciones. Una objeción sería el trabajo adicional de consultar a tantas personas. Para hacerlo viable, fijaría plazos claros y un contacto responsable, manteniendo siempre la posibilidad de no participar.",
+              "annotations": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "speech": [
+    {
+      "content": {
+        "id": "mission.migration.6.reading.p0.o0.audio",
+        "revision": 1
+      },
+      "text": "Una nueva comisión juvenil quiere mejorar la convivencia del barrio.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.6.reading.p0.o1.audio",
+        "revision": 1
+      },
+      "text": "En su primera sesión, cada participante explica la perspectiva desde la que habla.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.6.reading.p0.o2.audio",
+        "revision": 1
+      },
+      "text": "La comisión intenta matizar sus primeras conclusiones antes de publicar un texto.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.6.reading.p1.o0.audio",
+        "revision": 1
+      },
+      "text": "Un argumento frecuente es que basta con invitar a todo el mundo.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.6.reading.p1.o1.audio",
+        "revision": 1
+      },
+      "text": "Sara responde que una invitación formal no siempre permite participar en la práctica: el horario y el cuidado familiar importan.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.6.reading.p1.o2.audio",
+        "revision": 1
+      },
+      "text": "Inés reconoce el problema, aunque recuerda que cambiar la hora tampoco convendrá a todos.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.6.reading.p1.o3.audio",
+        "revision": 1
+      },
+      "text": "Sin embargo, eso exige que alguien lea y responda a los mensajes.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.6.reading.p2.o0.audio",
+        "revision": 1
+      },
+      "text": "El grupo afirma el derecho a expresar desacuerdo y asume la responsabilidad de explicar sus decisiones.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.6.reading.p2.o1.audio",
+        "revision": 1
+      },
+      "text": "El grupo afirma el derecho a expresar desacuerdo y asume la responsabilidad de explicar sus decisiones.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.6.reading.p2.o2.audio",
+        "revision": 1
+      },
+      "text": "Faltan datos sobre quién queda fuera; por tanto, acuerdan preguntar antes de fijar un sistema definitivo.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.6.audio",
+        "revision": 1
+      },
+      "text": "Una nueva comisión juvenil quiere mejorar la convivencia del barrio. En su primera sesión, cada participante explica la perspectiva desde la que habla. Inés conoce el instituto; Omar trabaja por las tardes; Sara cuida a su hermano algunos días. Ninguno puede hablar en nombre de todos los jóvenes. La comisión intenta matizar sus primeras conclusiones antes de publicar un texto. Un argumento frecuente es que basta con invitar a todo el mundo. Sara responde que una invitación formal no siempre permite participar en la práctica: el horario y el cuidado familiar importan. Inés reconoce el problema, aunque recuerda que cambiar la hora tampoco convendrá a todos. Omar propone alternar reuniones presenciales y aportaciones escritas. Sin embargo, eso exige que alguien lea y responda a los mensajes. El grupo afirma el derecho a expresar desacuerdo y asume la responsabilidad de explicar sus decisiones. Faltan datos sobre quién queda fuera; por tanto, acuerdan preguntar antes de fijar un sistema definitivo. La conclusión no es que todas las opiniones sean igualmente sólidas. Las propuestas deben justificarse y contrastarse con sus efectos. Para la próxima reunión, cada persona preparará también el mejor contraargumento a su propia opción: comprenderlo puede mejorar la propuesta sin abandonar sus principios.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    }
+  ],
+  "rubrics": [
+    {
+      "content": {
+        "id": "mission.migration.6.rubric",
+        "revision": 1
+      },
+      "criteria": [
+        {
+          "id": "task",
+          "label": {
+            "de": "Aufgabe und Adressat",
+            "en": "Task and audience"
+          },
+          "guidance": {
+            "de": "Erfülle die konkrete Schreib- oder Sprechabsicht der Aufgabe. Gehe auf die verlangten Teilfragen ein.",
+            "en": "Fulfil the specific writing or speaking purpose and address the requested points."
+          }
+        },
+        {
+          "id": "source",
+          "label": {
+            "de": "Belege und Genauigkeit",
+            "en": "Evidence and accuracy"
+          },
+          "guidance": {
+            "de": "Stütze deine Aussagen auf konkrete Details der Quelle; trenne Beleg, Deutung und eigene Meinung.",
+            "en": "Support claims with specific source details; separate evidence, interpretation and your opinion."
+          }
+        },
+        {
+          "id": "structure",
+          "label": {
+            "de": "Aufbau und Gegenposition",
+            "en": "Structure and alternative view"
+          },
+          "guidance": {
+            "de": "Ordne deine Gedanken nachvollziehbar. Gehe bei einer Diskussion auf einen begründeten Einwand ein.",
+            "en": "Organise ideas clearly. In discussion, address a reasonable objection."
+          }
+        },
+        {
+          "id": "language",
+          "label": {
+            "de": "Sprache",
+            "en": "Language"
+          },
+          "guidance": {
+            "de": "Formuliere verständlich und adressatengerecht. Prüfe Verbformen, Bezüge und passende Verknüpfungen.",
+            "en": "Write or speak clearly for your audience. Check verb forms, reference and suitable connectors."
+          }
+        }
+      ],
+      "model_answers": [
+        {
+          "id": "mission.migration.6.rubric.model",
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.migration.6.unseen.rubric",
+        "revision": 1
+      },
+      "criteria": [
+        {
+          "id": "task",
+          "label": {
+            "de": "Aufgabe und Adressat",
+            "en": "Task and audience"
+          },
+          "guidance": {
+            "de": "Erfülle die neue Aufgabe unabhängig. Belege deine Überlegungen mit der neuen Quelle; bei Sprachmittlung zählen Auswahl und Adressatenbezug, nicht wörtliche Übersetzung.",
+            "en": "Complete the new task independently. Use the new source; mediation requires relevant selection and audience awareness, not literal translation."
+          }
+        },
+        {
+          "id": "source",
+          "label": {
+            "de": "Belege und Genauigkeit",
+            "en": "Evidence and accuracy"
+          },
+          "guidance": {
+            "de": "Stütze deine Aussagen auf konkrete Details der Quelle; trenne Beleg, Deutung und eigene Meinung.",
+            "en": "Support claims with specific source details; separate evidence, interpretation and your opinion."
+          }
+        },
+        {
+          "id": "structure",
+          "label": {
+            "de": "Aufbau und Gegenposition",
+            "en": "Structure and alternative view"
+          },
+          "guidance": {
+            "de": "Ordne deine Gedanken nachvollziehbar. Gehe bei einer Diskussion auf einen begründeten Einwand ein.",
+            "en": "Organise ideas clearly. In discussion, address a reasonable objection."
+          }
+        },
+        {
+          "id": "language",
+          "label": {
+            "de": "Sprache",
+            "en": "Language"
+          },
+          "guidance": {
+            "de": "Formuliere verständlich und adressatengerecht. Prüfe Verbformen, Bezüge und passende Verknüpfungen.",
+            "en": "Write or speak clearly for your audience. Check verb forms, reference and suitable connectors."
+          }
+        }
+      ],
+      "model_answers": [
+        {
+          "id": "mission.migration.6.unseen.rubric.model",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "assessments": [
+    {
+      "content": {
+        "id": "mission.migration.6.assessment",
+        "revision": 1
+      },
+      "title": {
+        "de": "Neue Quelle · unabhängige Aufgabe",
+        "en": "New source · independent challenge"
+      },
+      "activities": [
+        {
+          "id": "mission.migration.6.challenge",
+          "revision": 1
+        }
+      ],
+      "duration_seconds": 1800,
+      "audio_replays": 0
+    }
+  ]
+}

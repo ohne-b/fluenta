@@ -1,0 +1,347 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Event",
+  "type": "object",
+  "properties": {
+    "event": {
+      "$ref": "#/$defs/OperationEvent"
+    },
+    "operation_id": {
+      "$ref": "#/$defs/Id"
+    },
+    "sequence": {
+      "type": "integer",
+      "format": "uint32",
+      "minimum": 0
+    },
+    "session_id": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/Id"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "operation_id",
+    "sequence",
+    "event"
+  ],
+  "$defs": {
+    "ErrorCode": {
+      "type": "string",
+      "enum": [
+        "invalid_request",
+        "not_found",
+        "conflict",
+        "unsupported_version",
+        "policy_denied",
+        "permission_denied",
+        "device_unavailable",
+        "no_speech",
+        "worker_unavailable",
+        "insufficient_space",
+        "storage_failure",
+        "download_failure",
+        "integrity_failure",
+        "cancelled"
+      ]
+    },
+    "Failure": {
+      "type": "object",
+      "properties": {
+        "code": {
+          "$ref": "#/$defs/ErrorCode"
+        },
+        "message_key": {
+          "type": "string"
+        },
+        "retryable": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "code",
+        "message_key",
+        "retryable"
+      ]
+    },
+    "Id": {
+      "type": "string",
+      "maxLength": 160,
+      "minLength": 1,
+      "not": {
+        "pattern": "[^A-Za-z0-9._:-]"
+      }
+    },
+    "Language": {
+      "type": "string",
+      "enum": [
+        "de",
+        "en",
+        "es"
+      ]
+    },
+    "OperationEvent": {
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "event": {
+              "type": "string",
+              "const": "transcript_ready"
+            },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "transcript": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "transcript"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "event",
+            "payload"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "event": {
+              "type": "string",
+              "const": "recording_started"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "event"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "event": {
+              "type": "string",
+              "const": "recording_ready"
+            },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "duration_milliseconds": {
+                  "type": "integer",
+                  "format": "uint32",
+                  "minimum": 0
+                },
+                "recording_id": {
+                  "$ref": "#/$defs/Id"
+                },
+                "session_id": {
+                  "$ref": "#/$defs/Id"
+                },
+                "step_id": {
+                  "$ref": "#/$defs/Id"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "recording_id",
+                "session_id",
+                "step_id",
+                "duration_milliseconds"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "event",
+            "payload"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "event": {
+              "type": "string",
+              "const": "recognition_ready"
+            },
+            "payload": {
+              "$ref": "#/$defs/Recognition"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "event",
+            "payload"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "event": {
+              "type": "string",
+              "const": "progress"
+            },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "completed_bytes": {
+                  "type": "string"
+                },
+                "total_bytes": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "completed_bytes"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "event",
+            "payload"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "event": {
+              "type": "string",
+              "const": "tutor_ready"
+            },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "reply": {
+                  "$ref": "#/$defs/TutorReply"
+                },
+                "thread_id": {
+                  "$ref": "#/$defs/Id"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "thread_id",
+                "reply"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "event",
+            "payload"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "event": {
+              "type": "string",
+              "const": "finished"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "event"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "event": {
+              "type": "string",
+              "const": "failed"
+            },
+            "payload": {
+              "$ref": "#/$defs/Failure"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "event",
+            "payload"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "event": {
+              "type": "string",
+              "const": "cancelled"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "event"
+          ]
+        }
+      ]
+    },
+    "Recognition": {
+      "type": "object",
+      "properties": {
+        "language": {
+          "$ref": "#/$defs/Language"
+        },
+        "recognition_id": {
+          "$ref": "#/$defs/Id"
+        },
+        "session_id": {
+          "$ref": "#/$defs/Id"
+        },
+        "step_id": {
+          "$ref": "#/$defs/Id"
+        },
+        "transcript": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "recognition_id",
+        "session_id",
+        "step_id",
+        "language",
+        "transcript"
+      ]
+    },
+    "TutorReply": {
+      "type": "object",
+      "properties": {
+        "explanation_native": {
+          "type": "string"
+        },
+        "reference_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Id"
+          }
+        },
+        "reply_es": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "reply_es",
+        "explanation_native",
+        "reference_ids"
+      ]
+    }
+  }
+}

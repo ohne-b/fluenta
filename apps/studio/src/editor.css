@@ -1,0 +1,214 @@
+.studio-page {
+  max-width: 1440px;
+  padding: 40px;
+  margin: auto;
+}
+.studio-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 18px 0;
+  border-bottom: 1px solid var(--border);
+  margin-top: 24px;
+}
+.studio-toolbar > span {
+  font-size: 13px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 55%;
+}
+.studio-workspace {
+  display: grid;
+  grid-template-columns: 250px minmax(0, 1fr);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--surface);
+}
+.studio-files {
+  padding: 18px 10px;
+  border-right: 1px solid var(--border);
+  max-height: 720px;
+  overflow: auto;
+}
+.studio-files h2 {
+  font-size: 15px;
+  padding: 0 8px 12px;
+}
+.studio-files button {
+  width: 100%;
+  text-align: left;
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 12px;
+  padding: 10px 8px;
+  border-radius: var(--radius);
+  overflow-wrap: anywhere;
+  color: var(--muted);
+}
+.studio-files button svg {
+  flex: none;
+  margin-top: 2px;
+}
+.studio-files button[aria-current] {
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+.studio-document {
+  padding: 22px;
+  min-width: 0;
+  max-height: 720px;
+  overflow: auto;
+}
+.studio-document-heading {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+.studio-document-heading h2 {
+  font-size: 16px;
+  overflow-wrap: anywhere;
+}
+.source-editor {
+  width: 100%;
+  min-height: 490px;
+  font-family: Consolas, monospace;
+  font-size: 13px;
+  line-height: 1.6;
+  resize: vertical;
+  tab-size: 2;
+  white-space: pre;
+  padding: 16px;
+  color: var(--ink);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--field-radius);
+}
+.translation-fields {
+  display: grid;
+  gap: 22px;
+  margin-top: 20px;
+}
+.translation-fields label {
+  display: grid;
+  gap: 8px;
+}
+.translation-fields code {
+  font-size: 12px;
+  overflow-wrap: anywhere;
+  color: var(--muted);
+}
+.translation-fields textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid var(--border);
+  border-radius: var(--field-radius);
+  color: var(--ink);
+  background: var(--bg);
+  resize: vertical;
+  line-height: 1.6;
+}
+.studio-filter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid var(--border);
+  padding: 10px 12px;
+  border-radius: var(--field-radius);
+  transition: border-color 0.15s;
+}
+.studio-filter:focus-within {
+  border-color: var(--field-focus);
+}
+.studio-filter input {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: var(--ink);
+}
+.studio-status {
+  min-height: 24px;
+  font-size: 14px;
+  color: var(--muted);
+  margin: 12px 0;
+}
+.studio-error {
+  padding: 16px;
+  border-radius: var(--radius);
+  background: var(--peach);
+  color: var(--danger);
+  overflow-wrap: anywhere;
+}
+.studio-previews {
+  margin-top: 36px;
+}
+.studio-preview-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 22px;
+}
+.studio-preview-grid > button {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  padding: 18px;
+  text-align: left;
+}
+.studio-preview-grid strong,
+.studio-preview-grid small {
+  display: block;
+}
+.studio-preview-grid small {
+  margin-top: 5px;
+  color: var(--muted);
+}
+.studio-preview-grid > button > svg {
+  margin-left: auto;
+  flex: none;
+}
+.studio-welcome {
+  margin: 72px auto;
+  max-width: 600px;
+  text-align: center;
+}
+.studio-welcome > svg {
+  color: var(--accent);
+}
+.studio-welcome h2 {
+  margin: 20px 0;
+}
+.studio-welcome p {
+  color: var(--muted);
+  line-height: 1.8;
+  margin-bottom: 24px;
+}
+.course-import {
+  margin-top: 28px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
+}
+@media (max-width: 1100px) {
+  .studio-page {
+    padding: 24px;
+  }
+  .studio-workspace {
+    grid-template-columns: 210px minmax(0, 1fr);
+  }
+  .studio-preview-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.studio-return {
+  margin: 18px 40px 0;
+}

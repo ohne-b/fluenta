@@ -1,0 +1,148 @@
+{
+  "grammar": [
+    {
+      "content": {
+        "id": "es.a1.routines.grammar",
+        "revision": 3
+      },
+      "title": {
+        "slot": "es.a1.routines.grammar.title"
+      },
+      "summary": {
+        "slot": "es.a1.routines.grammar.summary"
+      },
+      "band": "A1",
+      "category": "verbs",
+      "explanations": [
+        {
+          "id": "es.a1.routines.guide",
+          "revision": 3
+        }
+      ],
+      "lessons": [
+        {
+          "id": "es.a1.routines.lesson",
+          "revision": 5
+        }
+      ],
+      "order": 100
+    }
+  ],
+  "materials": [
+    {
+      "content": {
+        "id": "es.a1.routines.guide",
+        "revision": 3
+      },
+      "searchable": true,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "slot": "es.a1.routines.title"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a1.routines.guide"
+            }
+          ]
+        },
+        {
+          "kind": "table",
+          "caption": {
+            "slot": "es.tables.reflexive.caption"
+          },
+          "columns": [
+            {
+              "slot": "es.tables.person"
+            },
+            {
+              "language": "es",
+              "text": "levantarse"
+            }
+          ],
+          "rows": [
+            [
+              {
+                "language": "es",
+                "text": "yo"
+              },
+              {
+                "language": "es",
+                "text": "me levanto"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "tú"
+              },
+              {
+                "language": "es",
+                "text": "te levantas"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "él / ella / usted"
+              },
+              {
+                "language": "es",
+                "text": "se levanta"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "nosotros / nosotras"
+              },
+              {
+                "language": "es",
+                "text": "nos levantamos"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "vosotros / vosotras"
+              },
+              {
+                "language": "es",
+                "text": "os levantáis"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "ellos / ellas / ustedes"
+              },
+              {
+                "language": "es",
+                "text": "se levantan"
+              }
+            ]
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Primero me levanto. Después desayuno y voy al instituto."
+            }
+          ],
+          "speech": {
+            "id": "es.a1.routines.example-audio",
+            "revision": 1
+          }
+        }
+      ]
+    }
+  ]
+}

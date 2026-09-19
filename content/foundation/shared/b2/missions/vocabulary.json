@@ -1,0 +1,3524 @@
+{
+  "vocabulary": [
+    {
+      "content": {
+        "id": "lex.llegar",
+        "revision": 1
+      },
+      "lemma": "llegar a",
+      "part_of_speech": "expression",
+      "gloss": {
+        "de": "in … ankommen",
+        "en": "to arrive in/at"
+      },
+      "grammar": {
+        "de": "Verb + a",
+        "en": "Verb + a (destination)"
+      },
+      "accepted_forms": [
+        "llegar a"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.llegar.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.llegar.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.llegar.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.llegar.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.llegar.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.llegar.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.barrio",
+        "revision": 1
+      },
+      "lemma": "el barrio",
+      "part_of_speech": "noun",
+      "gloss": {
+        "de": "das Stadtviertel",
+        "en": "neighbourhood"
+      },
+      "grammar": {
+        "de": "Nomen: el barrio, los barrios",
+        "en": "Masculine noun: el barrio, los barrios"
+      },
+      "accepted_forms": [
+        "el barrio"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.barrio.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.barrio.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.barrio.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.barrio.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.barrio.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.barrio.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.acogida",
+        "revision": 1
+      },
+      "lemma": "la acogida",
+      "part_of_speech": "noun",
+      "gloss": {
+        "de": "die Aufnahme, das Willkommen",
+        "en": "welcome, reception"
+      },
+      "grammar": {
+        "de": "Nomen: la acogida",
+        "en": "Feminine noun: la acogida"
+      },
+      "accepted_forms": [
+        "la acogida"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.acogida.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.acogida.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.acogida.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.acogida.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.acogida.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.acogida.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.mudarse",
+        "revision": 1
+      },
+      "lemma": "mudarse a",
+      "part_of_speech": "expression",
+      "gloss": {
+        "de": "nach … umziehen",
+        "en": "to move to"
+      },
+      "grammar": {
+        "de": "Reflexives Verb + a",
+        "en": "Reflexive verb + a (destination)"
+      },
+      "accepted_forms": [
+        "mudarse a"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.mudarse.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.mudarse.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.mudarse.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.mudarse.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.mudarse.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.mudarse.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.echar",
+        "revision": 1
+      },
+      "lemma": "echar de menos",
+      "part_of_speech": "expression",
+      "gloss": {
+        "de": "vermissen",
+        "en": "to miss someone/something"
+      },
+      "grammar": {
+        "de": "Feste Wendung: echar de menos a alguien",
+        "en": "Fixed expression: echar de menos a alguien"
+      },
+      "accepted_forms": [
+        "echar de menos"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "mission.arts.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.echar.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.echar.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.echar.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.echar.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.echar.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.echar.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration",
+        "topic.arts"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.tramite",
+        "revision": 1
+      },
+      "lemma": "el trámite",
+      "part_of_speech": "noun",
+      "gloss": {
+        "de": "der Verwaltungsschritt",
+        "en": "administrative procedure"
+      },
+      "grammar": {
+        "de": "Nomen: el trámite, los trámites",
+        "en": "Masculine noun: el trámite, los trámites"
+      },
+      "accepted_forms": [
+        "el trámite"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.tramite.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.tramite.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.tramite.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.tramite.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.tramite.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.tramite.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.apoyo",
+        "revision": 1
+      },
+      "lemma": "el apoyo",
+      "part_of_speech": "noun",
+      "gloss": {
+        "de": "die Unterstützung",
+        "en": "support"
+      },
+      "grammar": {
+        "de": "Nomen: el apoyo; apoyo de alguien",
+        "en": "Masculine noun: el apoyo; support from someone: apoyo de alguien"
+      },
+      "accepted_forms": [
+        "el apoyo"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "mission.language.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "mission.world.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.apoyo.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.apoyo.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.apoyo.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.apoyo.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.apoyo.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.apoyo.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration",
+        "topic.language",
+        "topic.world"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.quedarse",
+        "revision": 1
+      },
+      "lemma": "quedarse",
+      "part_of_speech": "expression",
+      "gloss": {
+        "de": "bleiben",
+        "en": "to stay"
+      },
+      "grammar": {
+        "de": "Reflexives Verb; me quedo, se quedó",
+        "en": "Reflexive verb: me quedo, se quedó"
+      },
+      "accepted_forms": [
+        "quedarse"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "mission.arts.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.quedarse.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.quedarse.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.quedarse.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.quedarse.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.quedarse.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.quedarse.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration",
+        "topic.arts"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.confianza",
+        "revision": 1
+      },
+      "lemma": "la confianza",
+      "part_of_speech": "noun",
+      "gloss": {
+        "de": "das Vertrauen",
+        "en": "trust, confidence"
+      },
+      "grammar": {
+        "de": "Nomen: la confianza; confianza en alguien",
+        "en": "Feminine noun; confianza en alguien"
+      },
+      "accepted_forms": [
+        "la confianza"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "mission.language.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.confianza.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.confianza.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.confianza.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.confianza.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.confianza.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.confianza.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration",
+        "topic.language"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.acostumbrarse",
+        "revision": 1
+      },
+      "lemma": "acostumbrarse a",
+      "part_of_speech": "expression",
+      "gloss": {
+        "de": "sich an … gewöhnen",
+        "en": "to get used to"
+      },
+      "grammar": {
+        "de": "Reflexives Verb + a + Nomen/Infinitiv",
+        "en": "Reflexive verb + a + noun/infinitive"
+      },
+      "accepted_forms": [
+        "acostumbrarse a"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.acostumbrarse.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.acostumbrarse.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.acostumbrarse.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.acostumbrarse.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.acostumbrarse.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.acostumbrarse.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.motivo",
+        "revision": 1
+      },
+      "lemma": "el motivo",
+      "part_of_speech": "noun",
+      "gloss": {
+        "de": "der Beweggrund",
+        "en": "reason, motive"
+      },
+      "grammar": {
+        "de": "Nomen: el motivo, los motivos",
+        "en": "Masculine noun: el motivo, los motivos"
+      },
+      "accepted_forms": [
+        "el motivo"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.2.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.motivo.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.motivo.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.motivo.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.motivo.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.motivo.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.motivo.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.oportunidad",
+        "revision": 1
+      },
+      "lemma": "la oportunidad",
+      "part_of_speech": "noun",
+      "gloss": {
+        "de": "die Möglichkeit, Chance",
+        "en": "opportunity"
+      },
+      "grammar": {
+        "de": "Nomen: la oportunidad, las oportunidades",
+        "en": "Feminine noun: la oportunidad, las oportunidades"
+      },
+      "accepted_forms": [
+        "la oportunidad"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.2.reading",
+          "revision": 1
+        },
+        {
+          "id": "mission.world.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.oportunidad.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.oportunidad.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.oportunidad.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.oportunidad.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.oportunidad.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.oportunidad.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration",
+        "topic.world"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.empleo",
+        "revision": 1
+      },
+      "lemma": "el empleo",
+      "part_of_speech": "noun",
+      "gloss": {
+        "de": "die Beschäftigung, Arbeitsstelle",
+        "en": "employment, job"
+      },
+      "grammar": {
+        "de": "Nomen: el empleo; buscar empleo",
+        "en": "Masculine noun; buscar empleo"
+      },
+      "accepted_forms": [
+        "el empleo"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.2.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.empleo.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.empleo.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.empleo.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.empleo.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.empleo.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.empleo.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.huir",
+        "revision": 1
+      },
+      "lemma": "huir de",
+      "part_of_speech": "expression",
+      "gloss": {
+        "de": "vor … fliehen",
+        "en": "to flee from"
+      },
+      "grammar": {
+        "de": "Verb + de; huyo, huyó",
+        "en": "Verb + de: huyo, huyó"
+      },
+      "accepted_forms": [
+        "huir de"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.2.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.huir.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.huir.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.huir.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.huir.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.huir.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.huir.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.reunirse",
+        "revision": 1
+      },
+      "lemma": "reunirse con",
+      "part_of_speech": "expression",
+      "gloss": {
+        "de": "sich mit … wiedervereinigen",
+        "en": "to reunite with"
+      },
+      "grammar": {
+        "de": "Reflexives Verb + con",
+        "en": "Reflexive verb + con"
+      },
+      "accepted_forms": [
+        "reunirse con"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.2.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.reunirse.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.reunirse.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.reunirse.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.reunirse.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.reunirse.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.reunirse.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.decidir",
+        "revision": 1
+      },
+      "lemma": "tomar una decisión",
+      "part_of_speech": "expression",
+      "gloss": {
+        "de": "eine Entscheidung treffen",
+        "en": "to make a decision"
+      },
+      "grammar": {
+        "de": "Feste Wendung: tomar una decisión",
+        "en": "Fixed expression: tomar una decisión"
+      },
+      "accepted_forms": [
+        "tomar una decisión"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.2.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.decidir.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.decidir.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.decidir.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.decidir.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.decidir.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.decidir.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.frontera",
+        "revision": 1
+      },
+      "lemma": "la frontera",
+      "part_of_speech": "noun",
+      "gloss": {
+        "de": "die Staatsgrenze",
+        "en": "border"
+      },
+      "grammar": {
+        "de": "Nomen: la frontera, las fronteras",
+        "en": "Feminine noun: la frontera, las fronteras"
+      },
+      "accepted_forms": [
+        "la frontera"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.2.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.frontera.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.frontera.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.frontera.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.frontera.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.frontera.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.frontera.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.obligado",
+        "revision": 1
+      },
+      "lemma": "verse obligado a",
+      "part_of_speech": "expression",
+      "gloss": {
+        "de": "sich gezwungen sehen zu",
+        "en": "to be forced to"
+      },
+      "grammar": {
+        "de": "Wendung + Infinitiv; se ve obligado/a a",
+        "en": "Expression + infinitive: se ve obligado/a a"
+      },
+      "accepted_forms": [
+        "verse obligado a"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.2.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.obligado.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.obligado.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.obligado.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.obligado.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.obligado.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.obligado.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.arraigo",
+        "revision": 1
+      },
+      "lemma": "el arraigo",
+      "part_of_speech": "noun",
+      "gloss": {
+        "de": "die Verwurzelung",
+        "en": "rootedness, attachment"
+      },
+      "grammar": {
+        "de": "Nomen: el arraigo",
+        "en": "Masculine noun: el arraigo"
+      },
+      "accepted_forms": [
+        "el arraigo"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.2.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.arraigo.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.arraigo.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.arraigo.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.arraigo.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.arraigo.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.arraigo.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.regresar",
+        "revision": 1
+      },
+      "lemma": "regresar a",
+      "part_of_speech": "expression",
+      "gloss": {
+        "de": "nach … zurückkehren",
+        "en": "to return to"
+      },
+      "grammar": {
+        "de": "Verb + a",
+        "en": "Verb + a (destination)"
+      },
+      "accepted_forms": [
+        "regresar a"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.2.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.regresar.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.regresar.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.regresar.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.regresar.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.regresar.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.regresar.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.pertenecer",
+        "revision": 1
+      },
+      "lemma": "pertenecer a",
+      "part_of_speech": "expression",
+      "gloss": {
+        "de": "zu … gehören",
+        "en": "to belong to"
+      },
+      "grammar": {
+        "de": "Verb + a; pertenezco",
+        "en": "Verb + a: pertenezco"
+      },
+      "accepted_forms": [
+        "pertenecer a"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.3.reading",
+          "revision": 1
+        },
+        {
+          "id": "mission.language.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.pertenecer.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.pertenecer.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.pertenecer.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.pertenecer.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.pertenecer.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.pertenecer.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration",
+        "topic.language"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.identidad",
+        "revision": 1
+      },
+      "lemma": "la identidad",
+      "part_of_speech": "noun",
+      "gloss": {
+        "de": "die Identität",
+        "en": "identity"
+      },
+      "grammar": {
+        "de": "Nomen: la identidad, las identidades",
+        "en": "Feminine noun: la identidad, las identidades"
+      },
+      "accepted_forms": [
+        "la identidad"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.3.reading",
+          "revision": 1
+        },
+        {
+          "id": "mission.language.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.identidad.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.identidad.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.identidad.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.identidad.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.identidad.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.identidad.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration",
+        "topic.language"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.lengua",
+        "revision": 1
+      },
+      "lemma": "la lengua materna",
+      "part_of_speech": "noun",
+      "gloss": {
+        "de": "die Erstsprache, Muttersprache",
+        "en": "first language, mother tongue"
+      },
+      "grammar": {
+        "de": "Nomen: la lengua materna",
+        "en": "Feminine noun phrase: la lengua materna"
+      },
+      "accepted_forms": [
+        "la lengua materna"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.3.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.lengua.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.lengua.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.lengua.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.lengua.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.lengua.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.lengua.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.acento",
+        "revision": 1
+      },
+      "lemma": "el acento",
+      "part_of_speech": "noun",
+      "gloss": {
+        "de": "der Akzent beim Sprechen",
+        "en": "spoken accent"
+      },
+      "grammar": {
+        "de": "Nomen: el acento; aquí: pronunciación",
+        "en": "Masculine noun; this meaning concerns speech, not a written accent mark"
+      },
+      "accepted_forms": [
+        "el acento"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.3.reading",
+          "revision": 1
+        },
+        {
+          "id": "mission.language.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.acento.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.acento.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.acento.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.acento.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.acento.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.acento.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration",
+        "topic.language"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.vinculo",
+        "revision": 1
+      },
+      "lemma": "el vínculo",
+      "part_of_speech": "noun",
+      "gloss": {
+        "de": "die Verbindung, Bindung",
+        "en": "bond, connection"
+      },
+      "grammar": {
+        "de": "Nomen: el vínculo, los vínculos",
+        "en": "Masculine noun: el vínculo, los vínculos"
+      },
+      "accepted_forms": [
+        "el vínculo"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.3.reading",
+          "revision": 1
+        },
+        {
+          "id": "mission.latin-america.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "mission.world.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.vinculo.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.vinculo.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.vinculo.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.vinculo.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.vinculo.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.vinculo.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration",
+        "topic.latin-america",
+        "topic.world"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.encajar",
+        "revision": 1
+      },
+      "lemma": "encajar en",
+      "part_of_speech": "expression",
+      "gloss": {
+        "de": "sich in … einfügen",
+        "en": "to fit into"
+      },
+      "grammar": {
+        "de": "Verb + en",
+        "en": "Verb + en"
+      },
+      "accepted_forms": [
+        "encajar en"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.3.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.encajar.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.encajar.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.encajar.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.encajar.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.encajar.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.encajar.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.compartir",
+        "revision": 1
+      },
+      "lemma": "compartir",
+      "part_of_speech": "expression",
+      "gloss": {
+        "de": "teilen, gemeinsam haben",
+        "en": "to share"
+      },
+      "grammar": {
+        "de": "Verb: compartir algo con alguien",
+        "en": "Verb: compartir algo con alguien"
+      },
+      "accepted_forms": [
+        "compartir"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.3.reading",
+          "revision": 1
+        },
+        {
+          "id": "mission.latin-america.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "mission.language.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "mission.world.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "mission.arts.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.compartir.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.compartir.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.compartir.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.compartir.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.compartir.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.compartir.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration",
+        "topic.latin-america",
+        "topic.language",
+        "topic.world",
+        "topic.arts"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.rechazo",
+        "revision": 1
+      },
+      "lemma": "el rechazo",
+      "part_of_speech": "noun",
+      "gloss": {
+        "de": "die Ablehnung",
+        "en": "rejection"
+      },
+      "grammar": {
+        "de": "Nomen: el rechazo; rechazo de/a",
+        "en": "Masculine noun: el rechazo; rechazo de/a"
+      },
+      "accepted_forms": [
+        "el rechazo"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.3.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.rechazo.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.rechazo.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.rechazo.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.rechazo.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.rechazo.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.rechazo.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.reconocer",
+        "revision": 1
+      },
+      "lemma": "reconocer",
+      "part_of_speech": "expression",
+      "gloss": {
+        "de": "anerkennen",
+        "en": "to acknowledge"
+      },
+      "grammar": {
+        "de": "Verb: aquí reconocer una experiencia",
+        "en": "Verb; this meaning is acknowledging an experience"
+      },
+      "accepted_forms": [
+        "reconocer"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.3.reading",
+          "revision": 1
+        },
+        {
+          "id": "mission.spain-memory.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "mission.latin-america.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "mission.arts.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.reconocer.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.reconocer.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.reconocer.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.reconocer.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.reconocer.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.reconocer.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration",
+        "topic.spain-memory",
+        "topic.latin-america",
+        "topic.arts"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.cuenta",
+        "revision": 1
+      },
+      "lemma": "tener en cuenta",
+      "part_of_speech": "expression",
+      "gloss": {
+        "de": "berücksichtigen",
+        "en": "to take into account"
+      },
+      "grammar": {
+        "de": "Feste Wendung: tener en cuenta algo",
+        "en": "Fixed expression: tener en cuenta algo"
+      },
+      "accepted_forms": [
+        "tener en cuenta"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.3.reading",
+          "revision": 1
+        },
+        {
+          "id": "mission.spain-memory.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "mission.latin-america.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "mission.language.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "mission.media.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "mission.world.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.cuenta.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.cuenta.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.cuenta.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.cuenta.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.cuenta.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.cuenta.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration",
+        "topic.spain-memory",
+        "topic.latin-america",
+        "topic.language",
+        "topic.media",
+        "topic.world"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.titular",
+        "revision": 1
+      },
+      "lemma": "el titular",
+      "part_of_speech": "noun",
+      "gloss": {
+        "de": "die Schlagzeile",
+        "en": "headline"
+      },
+      "grammar": {
+        "de": "Nomen: el titular, los titulares",
+        "en": "Masculine noun: el titular, los titulares"
+      },
+      "accepted_forms": [
+        "el titular"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.4.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.titular.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.titular.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.titular.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.titular.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.titular.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.titular.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.fuente",
+        "revision": 1
+      },
+      "lemma": "la fuente",
+      "part_of_speech": "noun",
+      "gloss": {
+        "de": "die Informationsquelle",
+        "en": "information source"
+      },
+      "grammar": {
+        "de": "Nomen: la fuente; aquí: información",
+        "en": "Feminine noun; here an information source, not a fountain"
+      },
+      "accepted_forms": [
+        "la fuente"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.4.reading",
+          "revision": 1
+        },
+        {
+          "id": "mission.spain-memory.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.fuente.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.fuente.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.fuente.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.fuente.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.fuente.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.fuente.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration",
+        "topic.spain-memory"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.sesgo",
+        "revision": 1
+      },
+      "lemma": "el sesgo",
+      "part_of_speech": "noun",
+      "gloss": {
+        "de": "die einseitige Perspektive, Verzerrung",
+        "en": "bias"
+      },
+      "grammar": {
+        "de": "Nomen: el sesgo",
+        "en": "Masculine noun: el sesgo"
+      },
+      "accepted_forms": [
+        "el sesgo"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.4.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.sesgo.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.sesgo.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.sesgo.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.sesgo.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.sesgo.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.sesgo.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.testimonio",
+        "revision": 1
+      },
+      "lemma": "el testimonio",
+      "part_of_speech": "noun",
+      "gloss": {
+        "de": "der persönliche Bericht",
+        "en": "testimony, personal account"
+      },
+      "grammar": {
+        "de": "Nomen: el testimonio, los testimonios",
+        "en": "Masculine noun: el testimonio, los testimonios"
+      },
+      "accepted_forms": [
+        "el testimonio"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.4.reading",
+          "revision": 1
+        },
+        {
+          "id": "mission.spain-memory.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "mission.latin-america.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.testimonio.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.testimonio.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.testimonio.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.testimonio.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.testimonio.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.testimonio.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration",
+        "topic.spain-memory",
+        "topic.latin-america"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.contrastar",
+        "revision": 1
+      },
+      "lemma": "contrastar",
+      "part_of_speech": "expression",
+      "gloss": {
+        "de": "abgleichen, gegenüberstellen",
+        "en": "to cross-check, contrast"
+      },
+      "grammar": {
+        "de": "Verb: contrastar fuentes/datos",
+        "en": "Verb: contrastar fuentes/datos"
+      },
+      "accepted_forms": [
+        "contrastar"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.4.reading",
+          "revision": 1
+        },
+        {
+          "id": "mission.spain-memory.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "mission.latin-america.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.contrastar.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.contrastar.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.contrastar.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.contrastar.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.contrastar.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.contrastar.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration",
+        "topic.spain-memory",
+        "topic.latin-america"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.destacar",
+        "revision": 1
+      },
+      "lemma": "destacar",
+      "part_of_speech": "expression",
+      "gloss": {
+        "de": "hervorheben",
+        "en": "to highlight"
+      },
+      "grammar": {
+        "de": "Verb: destacar un aspecto",
+        "en": "Verb: destacar un aspecto"
+      },
+      "accepted_forms": [
+        "destacar"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.4.reading",
+          "revision": 1
+        },
+        {
+          "id": "mission.spain-memory.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "mission.media.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.destacar.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.destacar.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.destacar.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.destacar.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.destacar.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.destacar.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration",
+        "topic.spain-memory",
+        "topic.media"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.estereotipo",
+        "revision": 1
+      },
+      "lemma": "el estereotipo",
+      "part_of_speech": "noun",
+      "gloss": {
+        "de": "das Klischee, Stereotyp",
+        "en": "stereotype"
+      },
+      "grammar": {
+        "de": "Nomen: el estereotipo, los estereotipos",
+        "en": "Masculine noun: el estereotipo, los estereotipos"
+      },
+      "accepted_forms": [
+        "el estereotipo"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.4.reading",
+          "revision": 1
+        },
+        {
+          "id": "mission.latin-america.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.estereotipo.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.estereotipo.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.estereotipo.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.estereotipo.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.estereotipo.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.estereotipo.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration",
+        "topic.latin-america"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.difundir",
+        "revision": 1
+      },
+      "lemma": "difundir",
+      "part_of_speech": "expression",
+      "gloss": {
+        "de": "verbreiten",
+        "en": "to spread, disseminate"
+      },
+      "grammar": {
+        "de": "Verb: difundir información",
+        "en": "Verb: difundir información"
+      },
+      "accepted_forms": [
+        "difundir"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.4.reading",
+          "revision": 1
+        },
+        {
+          "id": "mission.media.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.difundir.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.difundir.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.difundir.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.difundir.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.difundir.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.difundir.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration",
+        "topic.media"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.cuestionar",
+        "revision": 1
+      },
+      "lemma": "cuestionar",
+      "part_of_speech": "expression",
+      "gloss": {
+        "de": "kritisch hinterfragen",
+        "en": "to question, challenge"
+      },
+      "grammar": {
+        "de": "Verb: cuestionar una afirmación",
+        "en": "Verb: cuestionar una afirmación"
+      },
+      "accepted_forms": [
+        "cuestionar"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.4.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.cuestionar.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.cuestionar.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.cuestionar.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.cuestionar.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.cuestionar.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.cuestionar.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.afirmar",
+        "revision": 1
+      },
+      "lemma": "afirmar",
+      "part_of_speech": "expression",
+      "gloss": {
+        "de": "behaupten, feststellen",
+        "en": "to state, claim"
+      },
+      "grammar": {
+        "de": "Verb + que; aquí: formular una afirmación",
+        "en": "Verb + que; here making a claim"
+      },
+      "accepted_forms": [
+        "afirmar"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.4.reading",
+          "revision": 1
+        },
+        {
+          "id": "mission.latin-america.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "mission.media.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "mission.arts.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.afirmar.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.afirmar.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.afirmar.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.afirmar.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.afirmar.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.afirmar.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration",
+        "topic.latin-america",
+        "topic.media",
+        "topic.arts"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.propuesta",
+        "revision": 1
+      },
+      "lemma": "la propuesta",
+      "part_of_speech": "noun",
+      "gloss": {
+        "de": "der Vorschlag",
+        "en": "proposal"
+      },
+      "grammar": {
+        "de": "Nomen: la propuesta, las propuestas",
+        "en": "Feminine noun: la propuesta, las propuestas"
+      },
+      "accepted_forms": [
+        "la propuesta"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.5.reading",
+          "revision": 1
+        },
+        {
+          "id": "mission.media.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "mission.sustainability.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.propuesta.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.propuesta.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.propuesta.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.propuesta.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.propuesta.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.propuesta.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration",
+        "topic.media",
+        "topic.sustainability"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.medida",
+        "revision": 1
+      },
+      "lemma": "la medida",
+      "part_of_speech": "noun",
+      "gloss": {
+        "de": "die Maßnahme",
+        "en": "measure, action"
+      },
+      "grammar": {
+        "de": "Nomen: la medida; aquí: intervención",
+        "en": "Feminine noun; here an action, not a measurement"
+      },
+      "accepted_forms": [
+        "la medida"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.5.reading",
+          "revision": 1
+        },
+        {
+          "id": "mission.sustainability.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.medida.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.medida.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.medida.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.medida.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.medida.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.medida.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration",
+        "topic.sustainability"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.acceso",
+        "revision": 1
+      },
+      "lemma": "el acceso a",
+      "part_of_speech": "noun",
+      "gloss": {
+        "de": "der Zugang zu",
+        "en": "access to"
+      },
+      "grammar": {
+        "de": "Nomen + a: el acceso a",
+        "en": "Masculine noun + a: el acceso a"
+      },
+      "accepted_forms": [
+        "el acceso a"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.5.reading",
+          "revision": 1
+        },
+        {
+          "id": "mission.sustainability.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.acceso.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.acceso.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.acceso.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.acceso.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.acceso.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.acceso.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration",
+        "topic.sustainability"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.vivienda",
+        "revision": 1
+      },
+      "lemma": "la vivienda",
+      "part_of_speech": "noun",
+      "gloss": {
+        "de": "der Wohnraum, die Wohnung",
+        "en": "housing, dwelling"
+      },
+      "grammar": {
+        "de": "Nomen: la vivienda",
+        "en": "Feminine noun: la vivienda"
+      },
+      "accepted_forms": [
+        "la vivienda"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.5.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.vivienda.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.vivienda.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.vivienda.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.vivienda.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.vivienda.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.vivienda.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.coste",
+        "revision": 1
+      },
+      "lemma": "el coste",
+      "part_of_speech": "noun",
+      "gloss": {
+        "de": "die Kosten",
+        "en": "cost"
+      },
+      "grammar": {
+        "de": "Nomen: el coste, los costes",
+        "en": "Masculine noun: el coste, los costes"
+      },
+      "accepted_forms": [
+        "el coste"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.5.reading",
+          "revision": 1
+        },
+        {
+          "id": "mission.sustainability.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.coste.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.coste.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.coste.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.coste.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.coste.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.coste.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration",
+        "topic.sustainability"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.beneficio",
+        "revision": 1
+      },
+      "lemma": "el beneficio",
+      "part_of_speech": "noun",
+      "gloss": {
+        "de": "der Nutzen, Vorteil",
+        "en": "benefit"
+      },
+      "grammar": {
+        "de": "Nomen: el beneficio; aquí: ventaja",
+        "en": "Masculine noun; here an advantage, not business profit"
+      },
+      "accepted_forms": [
+        "el beneficio"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.5.reading",
+          "revision": 1
+        },
+        {
+          "id": "mission.media.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "mission.sustainability.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "mission.world.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.beneficio.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.beneficio.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.beneficio.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.beneficio.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.beneficio.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.beneficio.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration",
+        "topic.media",
+        "topic.sustainability",
+        "topic.world"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.plazo",
+        "revision": 1
+      },
+      "lemma": "a largo plazo",
+      "part_of_speech": "expression",
+      "gloss": {
+        "de": "langfristig",
+        "en": "in the long term"
+      },
+      "grammar": {
+        "de": "Adverbiale Wendung",
+        "en": "Adverbial expression: a largo plazo"
+      },
+      "accepted_forms": [
+        "a largo plazo"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.5.reading",
+          "revision": 1
+        },
+        {
+          "id": "mission.sustainability.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.plazo.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.plazo.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.plazo.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.plazo.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.plazo.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.plazo.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration",
+        "topic.sustainability"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.frente",
+        "revision": 1
+      },
+      "lemma": "hacer frente a",
+      "part_of_speech": "expression",
+      "gloss": {
+        "de": "… bewältigen, entgegentreten",
+        "en": "to deal with, face"
+      },
+      "grammar": {
+        "de": "Feste Wendung + a",
+        "en": "Fixed expression + a: hacer frente a"
+      },
+      "accepted_forms": [
+        "hacer frente a"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.5.reading",
+          "revision": 1
+        },
+        {
+          "id": "mission.sustainability.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.frente.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.frente.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.frente.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.frente.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.frente.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.frente.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration",
+        "topic.sustainability"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.acuerdo",
+        "revision": 1
+      },
+      "lemma": "llegar a un acuerdo",
+      "part_of_speech": "expression",
+      "gloss": {
+        "de": "eine Einigung erzielen",
+        "en": "to reach an agreement"
+      },
+      "grammar": {
+        "de": "Feste Wendung: llegar a un acuerdo",
+        "en": "Fixed expression: llegar a un acuerdo"
+      },
+      "accepted_forms": [
+        "llegar a un acuerdo"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.5.reading",
+          "revision": 1
+        },
+        {
+          "id": "mission.media.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "mission.world.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.acuerdo.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.acuerdo.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.acuerdo.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.acuerdo.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.acuerdo.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.acuerdo.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration",
+        "topic.media",
+        "topic.world"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.evaluar",
+        "revision": 1
+      },
+      "lemma": "evaluar",
+      "part_of_speech": "expression",
+      "gloss": {
+        "de": "bewerten, überprüfen",
+        "en": "to evaluate"
+      },
+      "grammar": {
+        "de": "Verb: evaluar resultados",
+        "en": "Verb: evaluar resultados"
+      },
+      "accepted_forms": [
+        "evaluar"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.5.reading",
+          "revision": 1
+        },
+        {
+          "id": "mission.sustainability.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.evaluar.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.evaluar.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.evaluar.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.evaluar.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.evaluar.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.evaluar.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration",
+        "topic.sustainability"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.perspectiva",
+        "revision": 1
+      },
+      "lemma": "la perspectiva",
+      "part_of_speech": "noun",
+      "gloss": {
+        "de": "die Sichtweise",
+        "en": "perspective, viewpoint"
+      },
+      "grammar": {
+        "de": "Nomen: la perspectiva, las perspectivas",
+        "en": "Feminine noun: la perspectiva, las perspectivas"
+      },
+      "accepted_forms": [
+        "la perspectiva"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.6.reading",
+          "revision": 1
+        },
+        {
+          "id": "mission.spain-memory.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "mission.arts.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.perspectiva.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.perspectiva.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.perspectiva.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.perspectiva.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.perspectiva.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.perspectiva.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration",
+        "topic.spain-memory",
+        "topic.arts"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.argumento",
+        "revision": 1
+      },
+      "lemma": "el argumento",
+      "part_of_speech": "noun",
+      "gloss": {
+        "de": "das Argument",
+        "en": "argument, reason"
+      },
+      "grammar": {
+        "de": "Nomen: el argumento; aquí: razonamiento",
+        "en": "Masculine noun; here reasoning, not a story plot"
+      },
+      "accepted_forms": [
+        "el argumento"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.6.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.argumento.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.argumento.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.argumento.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.argumento.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.argumento.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.argumento.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.matizar",
+        "revision": 1
+      },
+      "lemma": "matizar",
+      "part_of_speech": "expression",
+      "gloss": {
+        "de": "differenzieren, einschränken",
+        "en": "to qualify, add nuance"
+      },
+      "grammar": {
+        "de": "Verb: matizar una afirmación",
+        "en": "Verb: matizar una afirmación"
+      },
+      "accepted_forms": [
+        "matizar"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.6.reading",
+          "revision": 1
+        },
+        {
+          "id": "mission.arts.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.matizar.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.matizar.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.matizar.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.matizar.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.matizar.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.matizar.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration",
+        "topic.arts"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.aunque",
+        "revision": 1
+      },
+      "lemma": "aunque",
+      "part_of_speech": "expression",
+      "gloss": {
+        "de": "obwohl; auch wenn",
+        "en": "although; even if"
+      },
+      "grammar": {
+        "de": "Konjunktion; Aussage vs. Möglichkeit beeinflusst den Modus",
+        "en": "Conjunction; a factual statement and a hypothetical possibility can take different moods"
+      },
+      "accepted_forms": [
+        "aunque"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.6.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.aunque.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.aunque.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.aunque.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.aunque.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.aunque.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.aunque.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.embargo",
+        "revision": 1
+      },
+      "lemma": "sin embargo",
+      "part_of_speech": "expression",
+      "gloss": {
+        "de": "jedoch",
+        "en": "however"
+      },
+      "grammar": {
+        "de": "Konnektor; Gegenüberstellung",
+        "en": "Connector expressing contrast"
+      },
+      "accepted_forms": [
+        "sin embargo"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.6.reading",
+          "revision": 1
+        },
+        {
+          "id": "mission.spain-memory.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "mission.arts.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.embargo.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.embargo.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.embargo.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.embargo.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.embargo.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.embargo.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration",
+        "topic.spain-memory",
+        "topic.arts"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.por_tanto",
+        "revision": 1
+      },
+      "lemma": "por tanto",
+      "part_of_speech": "expression",
+      "gloss": {
+        "de": "daher, folglich",
+        "en": "therefore"
+      },
+      "grammar": {
+        "de": "Konnektor; begründete Folge",
+        "en": "Connector expressing a reasoned consequence"
+      },
+      "accepted_forms": [
+        "por tanto"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.6.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.por_tanto.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.por_tanto.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.por_tanto.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.por_tanto.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.por_tanto.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.por_tanto.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.derecho",
+        "revision": 1
+      },
+      "lemma": "el derecho a",
+      "part_of_speech": "noun",
+      "gloss": {
+        "de": "das Recht auf",
+        "en": "the right to"
+      },
+      "grammar": {
+        "de": "Nomen + a: el derecho a",
+        "en": "Masculine noun + a: el derecho a"
+      },
+      "accepted_forms": [
+        "el derecho a"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.6.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.derecho.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.derecho.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.derecho.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.derecho.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.derecho.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.derecho.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.convivencia",
+        "revision": 1
+      },
+      "lemma": "la convivencia",
+      "part_of_speech": "noun",
+      "gloss": {
+        "de": "das Zusammenleben",
+        "en": "living together, coexistence"
+      },
+      "grammar": {
+        "de": "Nomen: la convivencia",
+        "en": "Feminine noun: la convivencia"
+      },
+      "accepted_forms": [
+        "la convivencia"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.6.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.convivencia.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.convivencia.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.convivencia.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.convivencia.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.convivencia.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.convivencia.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.participar",
+        "revision": 1
+      },
+      "lemma": "participar en",
+      "part_of_speech": "expression",
+      "gloss": {
+        "de": "an … teilnehmen",
+        "en": "to participate in"
+      },
+      "grammar": {
+        "de": "Verb + en",
+        "en": "Verb + en"
+      },
+      "accepted_forms": [
+        "participar en"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.6.reading",
+          "revision": 1
+        },
+        {
+          "id": "mission.language.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "mission.world.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.participar.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.participar.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.participar.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.participar.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.participar.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.participar.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration",
+        "topic.language",
+        "topic.world"
+      ]
+    },
+    {
+      "content": {
+        "id": "lex.responsabilidad",
+        "revision": 1
+      },
+      "lemma": "la responsabilidad",
+      "part_of_speech": "noun",
+      "gloss": {
+        "de": "die Verantwortung",
+        "en": "responsibility"
+      },
+      "grammar": {
+        "de": "Nomen: la responsabilidad; asumir responsabilidad",
+        "en": "Feminine noun; asumir responsabilidad"
+      },
+      "accepted_forms": [
+        "la responsabilidad"
+      ],
+      "examples": [
+        {
+          "id": "mission.migration.6.reading",
+          "revision": 1
+        },
+        {
+          "id": "mission.media.1.reading",
+          "revision": 1
+        },
+        {
+          "id": "lex.responsabilidad.example",
+          "revision": 1
+        }
+      ],
+      "practice": [
+        {
+          "id": "lex.responsabilidad.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.responsabilidad.transfer.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.responsabilidad.recall",
+          "revision": 1
+        },
+        {
+          "id": "lex.responsabilidad.listening",
+          "revision": 1
+        },
+        {
+          "id": "lex.responsabilidad.production",
+          "revision": 1
+        }
+      ],
+      "topics": [
+        "topic.migration",
+        "topic.media"
+      ]
+    }
+  ]
+}

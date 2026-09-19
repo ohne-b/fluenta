@@ -1,0 +1,208 @@
+{
+  "grammar": [
+    {
+      "content": {
+        "id": "es.a1.present-stem.grammar",
+        "revision": 1
+      },
+      "title": {
+        "slot": "es.a1.present-stem.topic-title"
+      },
+      "summary": {
+        "slot": "es.a1.present-stem.summary"
+      },
+      "band": "A1",
+      "category": "verbs",
+      "order": 31,
+      "group": {
+        "slot": "es.grammar.present"
+      },
+      "explanations": [
+        {
+          "id": "es.a1.present-stem.guide",
+          "revision": 1
+        }
+      ],
+      "lessons": [
+        {
+          "id": "es.a1.present-stem.recognise",
+          "revision": 1
+        },
+        {
+          "id": "es.a1.present-stem.context",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "content": {
+        "id": "es.a1.present-stem.guide",
+        "revision": 1
+      },
+      "searchable": true,
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a1.present-stem.rule.p1"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a1.present-stem.rule.p2"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Pienso en el examen. Podemos trabajar juntos. Ella pide ayuda. Los viernes jugamos al baloncesto."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "table",
+          "caption": {
+            "slot": "es.a1.present-stem.table-title"
+          },
+          "columns": [
+            {
+              "slot": "es.grammar.person"
+            },
+            {
+              "language": "es",
+              "text": "pensar"
+            },
+            {
+              "language": "es",
+              "text": "poder"
+            },
+            {
+              "language": "es",
+              "text": "pedir"
+            }
+          ],
+          "rows": [
+            [
+              {
+                "language": "es",
+                "text": "yo"
+              },
+              {
+                "language": "es",
+                "text": "pienso"
+              },
+              {
+                "language": "es",
+                "text": "puedo"
+              },
+              {
+                "language": "es",
+                "text": "pido"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "tú"
+              },
+              {
+                "language": "es",
+                "text": "piensas"
+              },
+              {
+                "language": "es",
+                "text": "puedes"
+              },
+              {
+                "language": "es",
+                "text": "pides"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "él / ella / usted"
+              },
+              {
+                "language": "es",
+                "text": "piensa"
+              },
+              {
+                "language": "es",
+                "text": "puede"
+              },
+              {
+                "language": "es",
+                "text": "pide"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "nosotros / nosotras"
+              },
+              {
+                "language": "es",
+                "text": "pensamos"
+              },
+              {
+                "language": "es",
+                "text": "podemos"
+              },
+              {
+                "language": "es",
+                "text": "pedimos"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "vosotros / vosotras"
+              },
+              {
+                "language": "es",
+                "text": "pensáis"
+              },
+              {
+                "language": "es",
+                "text": "podéis"
+              },
+              {
+                "language": "es",
+                "text": "pedís"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "ellos / ellas / ustedes"
+              },
+              {
+                "language": "es",
+                "text": "piensan"
+              },
+              {
+                "language": "es",
+                "text": "pueden"
+              },
+              {
+                "language": "es",
+                "text": "piden"
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

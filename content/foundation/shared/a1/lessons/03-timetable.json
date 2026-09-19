@@ -1,0 +1,628 @@
+{
+  "lessons": [
+    {
+      "content": {
+        "id": "es.a1.timetable.lesson",
+        "revision": 4
+      },
+      "title": {
+        "slot": "es.a1.timetable.title"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.timetable.objective",
+          "revision": 3
+        }
+      ],
+      "activities": [
+        {
+          "id": "es.a1.timetable.intro",
+          "revision": 3
+        },
+        {
+          "id": "es.a1.timetable.choice",
+          "revision": 3
+        },
+        {
+          "id": "es.a1.timetable.order",
+          "revision": 3
+        },
+        {
+          "id": "es.a1.timetable.recall",
+          "revision": 4
+        },
+        {
+          "id": "es.a1.timetable.listen",
+          "revision": 3
+        },
+        {
+          "id": "es.a1.timetable.produce",
+          "revision": 3
+        }
+      ],
+      "estimated_minutes": 8
+    }
+  ],
+  "objectives": [
+    {
+      "content": {
+        "id": "es.a1.timetable.objective",
+        "revision": 3
+      },
+      "band": "A1",
+      "can_do": {
+        "slot": "es.a1.timetable.can_do"
+      },
+      "prerequisites": [
+        {
+          "id": "es.a1.classroom.objective",
+          "revision": 2
+        }
+      ],
+      "explanation_refs": [
+        {
+          "id": "es.a1.timetable.guide",
+          "revision": 3
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "content": {
+        "id": "es.a1.timetable.intro",
+        "revision": 3
+      },
+      "instruction": {
+        "slot": "es.a1.timetable.title"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.timetable.objective",
+          "revision": 3
+        }
+      ],
+      "materials": [],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "explanation",
+        "material": {
+          "id": "es.a1.timetable.guide",
+          "revision": 3
+        }
+      },
+      "skills": [
+        "grammar"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.timetable.choice",
+        "revision": 3
+      },
+      "instruction": {
+        "slot": "es.a1.timetable.choice"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.timetable.objective",
+          "revision": 3
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a1.timetable.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "c1",
+            "label": {
+              "language": "es",
+              "text": "estudiamos"
+            }
+          },
+          {
+            "id": "c2",
+            "label": {
+              "language": "es",
+              "text": "estudian"
+            }
+          },
+          {
+            "id": "c3",
+            "label": {
+              "language": "es",
+              "text": "estudias"
+            }
+          }
+        ],
+        "correct_ids": [
+          "c1"
+        ],
+        "explanation": {
+          "id": "es.a1.timetable.guide",
+          "revision": 3
+        }
+      },
+      "skills": [
+        "reading"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.timetable.order",
+        "revision": 3
+      },
+      "instruction": {
+        "slot": "es.a1.timetable.order"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.timetable.objective",
+          "revision": 3
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a1.timetable.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "order",
+        "items": [
+          {
+            "id": "w1",
+            "label": {
+              "language": "es",
+              "text": "Los"
+            }
+          },
+          {
+            "id": "w2",
+            "label": {
+              "language": "es",
+              "text": "lunes"
+            }
+          },
+          {
+            "id": "w3",
+            "label": {
+              "language": "es",
+              "text": "tengo"
+            }
+          },
+          {
+            "id": "w4",
+            "label": {
+              "language": "es",
+              "text": "clase"
+            }
+          },
+          {
+            "id": "w5",
+            "label": {
+              "language": "es",
+              "text": "de"
+            }
+          },
+          {
+            "id": "w6",
+            "label": {
+              "language": "es",
+              "text": "español."
+            }
+          }
+        ],
+        "accepted_orders": [
+          [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ]
+        ],
+        "explanation": {
+          "id": "es.a1.timetable.guide",
+          "revision": 3
+        }
+      },
+      "skills": [
+        "grammar"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.timetable.recall",
+        "revision": 4
+      },
+      "instruction": {
+        "slot": "es.a1.timetable.recall"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.timetable.objective",
+          "revision": 3
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a1.timetable.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "sentence_content",
+        "inputs": [
+          "keyboard",
+          "microphone"
+        ],
+        "accepted": [
+          "Aprendemos español",
+          "Nosotros aprendemos español",
+          "Nosotras aprendemos español"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.a1.timetable.recall-answer",
+          "revision": 2
+        }
+      },
+      "skills": [
+        "grammar",
+        "vocabulary"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.timetable.listen",
+        "revision": 3
+      },
+      "instruction": {
+        "slot": "es.a1.timetable.listen"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.timetable.objective",
+          "revision": 3
+        }
+      ],
+      "materials": [
+        {
+          "id": "es.a1.timetable.listening",
+          "revision": 1
+        }
+      ],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "l1",
+            "label": {
+              "language": "es",
+              "text": "A las nueve."
+            }
+          },
+          {
+            "id": "l2",
+            "label": {
+              "language": "es",
+              "text": "A las ocho."
+            }
+          },
+          {
+            "id": "l3",
+            "label": {
+              "language": "es",
+              "text": "A las diez."
+            }
+          }
+        ],
+        "correct_ids": [
+          "l1"
+        ],
+        "explanation": {
+          "id": "es.a1.timetable.listen-answer",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "listening"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.timetable.produce",
+        "revision": 3
+      },
+      "instruction": {
+        "language": "es",
+        "text": "Escribe un mensaje a un estudiante de intercambio. Explica tu horario de un día y tu asignatura favorita."
+      },
+      "objectives": [
+        {
+          "id": "es.a1.timetable.objective",
+          "revision": 3
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a1.timetable.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "writing",
+        "language": "es",
+        "min_words": 15,
+        "max_words": 75,
+        "rubric": {
+          "id": "es.a1.timetable.rubric",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "writing"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "content": {
+        "id": "es.a1.timetable.listening",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "audio",
+          "speech": {
+            "id": "es.a1.timetable.listening-audio",
+            "revision": 1
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.timetable.listen-answer",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a1.timetable.listen-feedback"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "El martes tengo matemáticas a las ocho. Después, a las nueve, tengo español. El recreo empieza a las diez."
+            }
+          ],
+          "speech": null
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.timetable.recall-answer",
+        "revision": 2
+      },
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "slot": "es.a1.timetable.answer-title"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Aprendemos español"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a1.timetable.guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.timetable.model",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "slot": "es.a1.timetable.model-title"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "El lunes tengo matemáticas a las ocho y español a las nueve. Después tengo historia. Mi asignatura favorita es español porque me gustan los idiomas. El recreo empieza a las diez."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.timetable.vocab",
+        "revision": 1
+      },
+      "searchable": true,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "language": "es",
+              "text": "el recreo"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a1.timetable.gloss"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Los lunes estudiamos español a las nueve. Después escribimos un texto."
+            }
+          ],
+          "speech": {
+            "id": "es.a1.timetable.example-audio",
+            "revision": 1
+          }
+        }
+      ]
+    }
+  ],
+  "speech": [
+    {
+      "content": {
+        "id": "es.a1.timetable.example-audio",
+        "revision": 1
+      },
+      "text": "Los lunes estudiamos español a las nueve. Después escribimos un texto.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "es.a1.timetable.listening-audio",
+        "revision": 1
+      },
+      "text": "El martes tengo matemáticas a las ocho. Después, a las nueve, tengo español. El recreo empieza a las diez.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "content": {
+        "id": "es.a1.timetable.lexeme",
+        "revision": 1
+      },
+      "lemma": "el recreo",
+      "part_of_speech": "noun",
+      "gloss": {
+        "slot": "es.a1.timetable.gloss"
+      },
+      "accepted_forms": [
+        "el recreo"
+      ],
+      "examples": [
+        {
+          "id": "es.a1.timetable.vocab",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "rubrics": [
+    {
+      "content": {
+        "id": "es.a1.timetable.rubric",
+        "revision": 1
+      },
+      "criteria": [
+        {
+          "id": "task",
+          "label": {
+            "slot": "es.a1.timetable.rubric.task.label"
+          },
+          "guidance": {
+            "slot": "es.a1.timetable.rubric.task.guidance"
+          }
+        },
+        {
+          "id": "structure",
+          "label": {
+            "slot": "es.a1.timetable.rubric.structure.label"
+          },
+          "guidance": {
+            "slot": "es.a1.timetable.rubric.structure.guidance"
+          }
+        },
+        {
+          "id": "language",
+          "label": {
+            "slot": "es.a1.timetable.rubric.language.label"
+          },
+          "guidance": {
+            "slot": "es.a1.timetable.rubric.language.guidance"
+          }
+        }
+      ],
+      "model_answers": [
+        {
+          "id": "es.a1.timetable.model",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "assessments": []
+}

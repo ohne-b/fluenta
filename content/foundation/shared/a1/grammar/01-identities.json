@@ -1,0 +1,181 @@
+{
+  "grammar": [
+    {
+      "content": {
+        "id": "es.a1.identities.grammar",
+        "revision": 2
+      },
+      "title": {
+        "slot": "es.a1.ser-estar.topic-title"
+      },
+      "summary": {
+        "slot": "es.a1.ser-estar.summary"
+      },
+      "band": "A1",
+      "category": "verbs",
+      "order": 10,
+      "explanations": [
+        {
+          "id": "es.a1.identities.guide",
+          "revision": 2
+        }
+      ],
+      "lessons": [
+        {
+          "id": "es.a1.ser-estar.recognise",
+          "revision": 1
+        },
+        {
+          "id": "es.a1.ser-estar.context",
+          "revision": 1
+        },
+        {
+          "id": "es.a1.identities.lesson",
+          "revision": 2
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "content": {
+        "id": "es.a1.identities.guide",
+        "revision": 2
+      },
+      "searchable": true,
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a1.ser-estar.rule.p1"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a1.ser-estar.rule.p2"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Lucía es estudiante. Hoy está cansada. Su instituto está en Madrid. La reunión es en el aula 4."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "table",
+          "caption": {
+            "slot": "es.a1.ser-estar.table-title"
+          },
+          "columns": [
+            {
+              "slot": "es.grammar.person"
+            },
+            {
+              "language": "es",
+              "text": "ser"
+            },
+            {
+              "language": "es",
+              "text": "estar"
+            }
+          ],
+          "rows": [
+            [
+              {
+                "language": "es",
+                "text": "yo"
+              },
+              {
+                "language": "es",
+                "text": "soy"
+              },
+              {
+                "language": "es",
+                "text": "estoy"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "tú"
+              },
+              {
+                "language": "es",
+                "text": "eres"
+              },
+              {
+                "language": "es",
+                "text": "estás"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "él / ella / usted"
+              },
+              {
+                "language": "es",
+                "text": "es"
+              },
+              {
+                "language": "es",
+                "text": "está"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "nosotros / nosotras"
+              },
+              {
+                "language": "es",
+                "text": "somos"
+              },
+              {
+                "language": "es",
+                "text": "estamos"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "vosotros / vosotras"
+              },
+              {
+                "language": "es",
+                "text": "sois"
+              },
+              {
+                "language": "es",
+                "text": "estáis"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "ellos / ellas / ustedes"
+              },
+              {
+                "language": "es",
+                "text": "son"
+              },
+              {
+                "language": "es",
+                "text": "están"
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,691 @@
+{
+  "lessons": [
+    {
+      "content": {
+        "id": "es.b2.text-analysis.lesson",
+        "revision": 2
+      },
+      "title": {
+        "slot": "es.b2.text-analysis.title"
+      },
+      "objectives": [
+        {
+          "id": "es.b2.text-analysis.objective",
+          "revision": 1
+        }
+      ],
+      "activities": [
+        {
+          "id": "es.b2.text-analysis.intro",
+          "revision": 2
+        },
+        {
+          "id": "es.b2.text-analysis.choice",
+          "revision": 1
+        },
+        {
+          "id": "es.b2.text-analysis.order",
+          "revision": 1
+        },
+        {
+          "id": "es.b2.text-analysis.recall",
+          "revision": 1
+        },
+        {
+          "id": "es.b2.text-analysis.listen",
+          "revision": 1
+        },
+        {
+          "id": "es.b2.text-analysis.produce",
+          "revision": 1
+        }
+      ],
+      "estimated_minutes": 12
+    }
+  ],
+  "objectives": [
+    {
+      "content": {
+        "id": "es.b2.text-analysis.objective",
+        "revision": 1
+      },
+      "band": "B2",
+      "can_do": {
+        "slot": "es.b2.text-analysis.can_do"
+      },
+      "prerequisites": [],
+      "explanation_refs": [
+        {
+          "id": "es.b2.text-analysis.guide",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "content": {
+        "id": "es.b2.text-analysis.intro",
+        "revision": 2
+      },
+      "instruction": {
+        "slot": "es.b2.text-analysis.title"
+      },
+      "objectives": [
+        {
+          "id": "es.b2.text-analysis.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "explanation",
+        "material": {
+          "id": "es.b2.text-analysis.guide",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "grammar"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b2.text-analysis.choice",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.b2.text-analysis.choice"
+      },
+      "objectives": [
+        {
+          "id": "es.b2.text-analysis.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.b2.text-analysis.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "c1",
+            "label": {
+              "language": "es",
+              "text": "La repetición refuerza la urgencia de la petición."
+            }
+          },
+          {
+            "id": "c2",
+            "label": {
+              "language": "es",
+              "text": "El texto contiene una repetición."
+            }
+          },
+          {
+            "id": "c3",
+            "label": {
+              "language": "es",
+              "text": "Hay palabras y signos de puntuación."
+            }
+          }
+        ],
+        "correct_ids": [
+          "c1"
+        ],
+        "explanation": {
+          "id": "es.b2.text-analysis.guide",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "reading"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b2.text-analysis.order",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.b2.text-analysis.order"
+      },
+      "objectives": [
+        {
+          "id": "es.b2.text-analysis.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.b2.text-analysis.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "order",
+        "items": [
+          {
+            "id": "w1",
+            "label": {
+              "language": "es",
+              "text": "El"
+            }
+          },
+          {
+            "id": "w2",
+            "label": {
+              "language": "es",
+              "text": "contraste"
+            }
+          },
+          {
+            "id": "w3",
+            "label": {
+              "language": "es",
+              "text": "entre"
+            }
+          },
+          {
+            "id": "w4",
+            "label": {
+              "language": "es",
+              "text": "ambas"
+            }
+          },
+          {
+            "id": "w5",
+            "label": {
+              "language": "es",
+              "text": "imágenes"
+            }
+          },
+          {
+            "id": "w6",
+            "label": {
+              "language": "es",
+              "text": "pone"
+            }
+          },
+          {
+            "id": "w7",
+            "label": {
+              "language": "es",
+              "text": "de"
+            }
+          },
+          {
+            "id": "w8",
+            "label": {
+              "language": "es",
+              "text": "relieve"
+            }
+          },
+          {
+            "id": "w9",
+            "label": {
+              "language": "es",
+              "text": "la"
+            }
+          },
+          {
+            "id": "w10",
+            "label": {
+              "language": "es",
+              "text": "desigualdad."
+            }
+          }
+        ],
+        "accepted_orders": [
+          [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ]
+        ],
+        "explanation": {
+          "id": "es.b2.text-analysis.guide",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "grammar"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b2.text-analysis.recall",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.b2.text-analysis.recall"
+      },
+      "objectives": [
+        {
+          "id": "es.b2.text-analysis.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.b2.text-analysis.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "sentence_content",
+        "inputs": [
+          "keyboard",
+          "microphone"
+        ],
+        "accepted": [
+          "relieve"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.b2.text-analysis.recall-answer",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "grammar",
+        "vocabulary"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b2.text-analysis.listen",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.b2.text-analysis.listen"
+      },
+      "objectives": [
+        {
+          "id": "es.b2.text-analysis.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "es.b2.text-analysis.listening",
+          "revision": 1
+        }
+      ],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "l1",
+            "label": {
+              "language": "es",
+              "text": "Que el aire limpio debe estar al alcance de todos."
+            }
+          },
+          {
+            "id": "l2",
+            "label": {
+              "language": "es",
+              "text": "Que el aire limpio es innecesario."
+            }
+          },
+          {
+            "id": "l3",
+            "label": {
+              "language": "es",
+              "text": "Que solo algunas personas deben beneficiarse."
+            }
+          }
+        ],
+        "correct_ids": [
+          "l1"
+        ],
+        "explanation": {
+          "id": "es.b2.text-analysis.listen-answer",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "listening"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b2.text-analysis.produce",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "Analiza cómo este fragmento intenta convencer al lector: «No necesitamos más promesas. Necesitamos decisiones. Necesitamos actuar hoy.» Relaciona al menos dos observaciones con sus posibles efectos."
+      },
+      "objectives": [
+        {
+          "id": "es.b2.text-analysis.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.b2.text-analysis.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "writing",
+        "language": "es",
+        "min_words": 70,
+        "max_words": 240,
+        "rubric": {
+          "id": "es.b2.text-analysis.rubric",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "writing"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "content": {
+        "id": "es.b2.text-analysis.guide",
+        "revision": 1
+      },
+      "searchable": true,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "slot": "es.b2.text-analysis.title"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.b2.text-analysis.guide"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "La repetición de «ahora» subraya la urgencia y puede impulsar al lector a actuar."
+            }
+          ],
+          "speech": {
+            "id": "es.b2.text-analysis.example-audio",
+            "revision": 1
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b2.text-analysis.listening",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "audio",
+          "speech": {
+            "id": "es.b2.text-analysis.listening-audio",
+            "revision": 1
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b2.text-analysis.listen-answer",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.b2.text-analysis.listen-feedback"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "No pedimos un futuro perfecto. Pedimos un futuro posible. Un futuro en el que respirar aire limpio no sea un privilegio, sino un derecho."
+            }
+          ],
+          "speech": null
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b2.text-analysis.recall-answer",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "slot": "es.b2.text-analysis.answer-title"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "relieve"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.b2.text-analysis.guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b2.text-analysis.model",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "slot": "es.b2.text-analysis.model-title"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "El fragmento contrapone las promesas y las decisiones para presentar las primeras como insuficientes. Con ello, invita al lector a valorar los hechos por encima de las palabras. Además, la repetición de «Necesitamos» al principio de dos frases refuerza la petición y crea un ritmo insistente. El uso de la primera persona del plural incluye al lector en un objetivo común. Por último, «hoy» introduce una referencia temporal concreta que subraya la urgencia de actuar."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b2.text-analysis.vocab",
+        "revision": 1
+      },
+      "searchable": true,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "language": "es",
+              "text": "poner de relieve"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.b2.text-analysis.gloss"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "La repetición de «ahora» subraya la urgencia y puede impulsar al lector a actuar."
+            }
+          ],
+          "speech": {
+            "id": "es.b2.text-analysis.example-audio",
+            "revision": 1
+          }
+        }
+      ]
+    }
+  ],
+  "speech": [
+    {
+      "content": {
+        "id": "es.b2.text-analysis.example-audio",
+        "revision": 1
+      },
+      "text": "La repetición de «ahora» subraya la urgencia y puede impulsar al lector a actuar.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "es.b2.text-analysis.listening-audio",
+        "revision": 1
+      },
+      "text": "No pedimos un futuro perfecto. Pedimos un futuro posible. Un futuro en el que respirar aire limpio no sea un privilegio, sino un derecho.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "content": {
+        "id": "es.b2.text-analysis.lexeme",
+        "revision": 1
+      },
+      "lemma": "poner de relieve",
+      "part_of_speech": "expression",
+      "gloss": {
+        "slot": "es.b2.text-analysis.gloss"
+      },
+      "accepted_forms": [
+        "poner de relieve"
+      ],
+      "examples": [
+        {
+          "id": "es.b2.text-analysis.vocab",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "rubrics": [
+    {
+      "content": {
+        "id": "es.b2.text-analysis.rubric",
+        "revision": 1
+      },
+      "criteria": [
+        {
+          "id": "task",
+          "label": {
+            "slot": "es.b2.text-analysis.rubric.task.label"
+          },
+          "guidance": {
+            "slot": "es.b2.text-analysis.rubric.task.guidance"
+          }
+        },
+        {
+          "id": "structure",
+          "label": {
+            "slot": "es.b2.text-analysis.rubric.structure.label"
+          },
+          "guidance": {
+            "slot": "es.b2.text-analysis.rubric.structure.guidance"
+          }
+        },
+        {
+          "id": "language",
+          "label": {
+            "slot": "es.b2.text-analysis.rubric.language.label"
+          },
+          "guidance": {
+            "slot": "es.b2.text-analysis.rubric.language.guidance"
+          }
+        }
+      ],
+      "model_answers": [
+        {
+          "id": "es.b2.text-analysis.model",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "assessments": []
+}

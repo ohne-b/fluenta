@@ -1,0 +1,80 @@
+{
+  "schema_version": 3,
+  "release_id": "foundation.b2.source",
+  "course": {
+    "content": {
+      "id": "es.b2.course",
+      "revision": 3
+    },
+    "source_language": "en",
+    "band": "B2",
+    "title": {
+      "slot": "es.b2.title"
+    },
+    "units": [
+      {
+        "id": "es.b2.unit",
+        "revision": 3
+      }
+    ]
+  },
+  "units": [
+    {
+      "content": {
+        "id": "es.b2.unit",
+        "revision": 3
+      },
+      "title": {
+        "slot": "es.b2.title"
+      },
+      "objectives": [
+        {
+          "id": "es.b2.text-analysis.objective",
+          "revision": 1
+        },
+        {
+          "id": "es.b2.argumentation.objective",
+          "revision": 1
+        },
+        {
+          "id": "es.b2.perspectives.objective",
+          "revision": 2
+        },
+        {
+          "id": "es.b2.exam-writing.objective",
+          "revision": 2
+        }
+      ],
+      "lessons": [
+        {
+          "id": "es.b2.text-analysis.lesson",
+          "revision": 2
+        },
+        {
+          "id": "es.b2.argumentation.lesson",
+          "revision": 2
+        },
+        {
+          "id": "es.b2.perspectives.lesson",
+          "revision": 3
+        },
+        {
+          "id": "es.b2.exam-writing.lesson",
+          "revision": 3
+        }
+      ],
+      "assessment": {
+        "id": "es.b2.checkpoint",
+        "revision": 1
+      }
+    }
+  ],
+  "lessons": [],
+  "objectives": [],
+  "activities": [],
+  "materials": [],
+  "speech": [],
+  "vocabulary": [],
+  "rubrics": [],
+  "assessments": []
+}

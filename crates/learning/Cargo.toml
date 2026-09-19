@@ -1,0 +1,12 @@
+[package]
+name = "fluenta-learning"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+fluenta-contracts.workspace = true
+serde.workspace = true
+unicode-normalization.workspace = true
+thiserror.workspace = true
+fsrs = { version = "6.6", default-features = false }

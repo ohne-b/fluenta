@@ -1,0 +1,71 @@
+{
+  "grammar": [
+    {
+      "content": {
+        "id": "es.a1.classroom.grammar",
+        "revision": 2
+      },
+      "title": {
+        "slot": "es.a1.classroom.grammar.title"
+      },
+      "summary": {
+        "slot": "es.a1.classroom.grammar.summary"
+      },
+      "band": "A1",
+      "category": "nouns",
+      "explanations": [
+        {
+          "id": "es.a1.classroom.guide",
+          "revision": 1
+        }
+      ],
+      "lessons": [
+        {
+          "id": "es.a1.classroom.lesson",
+          "revision": 2
+        }
+      ],
+      "order": 90
+    }
+  ],
+  "materials": [
+    {
+      "content": {
+        "id": "es.a1.classroom.guide",
+        "revision": 1
+      },
+      "searchable": true,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "slot": "es.a1.classroom.title"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a1.classroom.guide"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "En el aula hay dos ventanas grandes y una pizarra blanca."
+            }
+          ],
+          "speech": {
+            "id": "es.a1.classroom.example-audio",
+            "revision": 1
+          }
+        }
+      ]
+    }
+  ]
+}

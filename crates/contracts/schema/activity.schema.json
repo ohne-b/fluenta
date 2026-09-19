@@ -1,0 +1,464 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Activity",
+  "type": "object",
+  "properties": {
+    "content": {
+      "$ref": "#/$defs/ContentRef"
+    },
+    "evidence_scope": {
+      "$ref": "#/$defs/EvidenceScope"
+    },
+    "hints": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/ContentRef"
+      }
+    },
+    "instruction": {
+      "$ref": "#/$defs/Text"
+    },
+    "lexical": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/LexicalPractice"
+      }
+    },
+    "materials": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/ContentRef"
+      }
+    },
+    "objectives": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/ContentRef"
+      }
+    },
+    "preparation": {
+      "type": "boolean"
+    },
+    "reveal_policy": {
+      "$ref": "#/$defs/RevealPolicy"
+    },
+    "skills": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/Skill"
+      }
+    },
+    "task": {
+      "$ref": "#/$defs/Task"
+    },
+    "usage": {
+      "$ref": "#/$defs/ActivityUse"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "content",
+    "instruction",
+    "objectives",
+    "materials",
+    "hints",
+    "reveal_policy",
+    "task"
+  ],
+  "$defs": {
+    "ActivityUse": {
+      "type": "string",
+      "enum": [
+        "practice",
+        "assessment"
+      ]
+    },
+    "Annotation": {
+      "type": "object",
+      "properties": {
+        "end": {
+          "type": "integer",
+          "format": "uint32",
+          "minimum": 0
+        },
+        "occurrence": {
+          "$ref": "#/$defs/ContentRef"
+        },
+        "start": {
+          "description": "Unicode scalar offsets, not bytes or UTF-16 code units.",
+          "type": "integer",
+          "format": "uint32",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "start",
+        "end",
+        "occurrence"
+      ]
+    },
+    "ContentRef": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/Id"
+        },
+        "revision": {
+          "type": "integer",
+          "format": "uint32",
+          "minimum": 1
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "revision"
+      ]
+    },
+    "EvidenceScope": {
+      "type": "string",
+      "enum": [
+        "spanish",
+        "source_language"
+      ]
+    },
+    "Id": {
+      "type": "string",
+      "maxLength": 160,
+      "minLength": 1,
+      "not": {
+        "pattern": "[^A-Za-z0-9._:-]"
+      }
+    },
+    "InputMode": {
+      "type": "string",
+      "enum": [
+        "keyboard",
+        "microphone"
+      ]
+    },
+    "KnownMistake": {
+      "type": "object",
+      "properties": {
+        "answers": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "feedback": {
+          "$ref": "#/$defs/ContentRef"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "answers",
+        "feedback"
+      ]
+    },
+    "Language": {
+      "type": "string",
+      "enum": [
+        "de",
+        "en",
+        "es"
+      ]
+    },
+    "LexicalPractice": {
+      "type": "object",
+      "properties": {
+        "occurrence": {
+          "$ref": "#/$defs/ContentRef"
+        },
+        "sense": {
+          "$ref": "#/$defs/ContentRef"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "sense",
+        "occurrence"
+      ]
+    },
+    "Normalization": {
+      "type": "string",
+      "enum": [
+        "unicode_nfc",
+        "trim",
+        "collapse_whitespace",
+        "ignore_case",
+        "ignore_terminal_punctuation"
+      ]
+    },
+    "OptionItem": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/Id"
+        },
+        "label": {
+          "$ref": "#/$defs/Text"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "label"
+      ]
+    },
+    "RevealPolicy": {
+      "type": "string",
+      "enum": [
+        "after_submission",
+        "on_request",
+        "after_session"
+      ]
+    },
+    "Skill": {
+      "type": "string",
+      "enum": [
+        "grammar",
+        "vocabulary",
+        "reading",
+        "listening",
+        "writing",
+        "speaking"
+      ]
+    },
+    "Task": {
+      "description": "Data for the evaluator/compiler. Never pass this answer-bearing enum to the UI.",
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "type": "string",
+              "const": "explanation"
+            },
+            "material": {
+              "$ref": "#/$defs/ContentRef"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "material"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "correct_ids": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/Id"
+              }
+            },
+            "explanation": {
+              "$ref": "#/$defs/ContentRef"
+            },
+            "kind": {
+              "type": "string",
+              "const": "choice"
+            },
+            "options": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/OptionItem"
+              }
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "options",
+            "correct_ids",
+            "explanation"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "accepted_orders": {
+              "type": "array",
+              "items": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/$defs/Id"
+                }
+              }
+            },
+            "explanation": {
+              "$ref": "#/$defs/ContentRef"
+            },
+            "items": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/OptionItem"
+              }
+            },
+            "kind": {
+              "type": "string",
+              "const": "order"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "items",
+            "accepted_orders",
+            "explanation"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "accepted": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "explanation": {
+              "$ref": "#/$defs/ContentRef"
+            },
+            "inputs": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/InputMode"
+              }
+            },
+            "kind": {
+              "type": "string",
+              "const": "short_answer"
+            },
+            "language": {
+              "$ref": "#/$defs/Language"
+            },
+            "mistakes": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/KnownMistake"
+              }
+            },
+            "normalization": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/Normalization"
+              }
+            },
+            "target": {
+              "$ref": "#/$defs/TextTarget"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "language",
+            "target",
+            "inputs",
+            "accepted",
+            "normalization",
+            "mistakes",
+            "explanation"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "type": "string",
+              "const": "writing"
+            },
+            "language": {
+              "$ref": "#/$defs/Language"
+            },
+            "max_words": {
+              "type": "integer",
+              "format": "uint32",
+              "minimum": 1
+            },
+            "min_words": {
+              "type": "integer",
+              "format": "uint32",
+              "minimum": 0
+            },
+            "rubric": {
+              "$ref": "#/$defs/ContentRef"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "language",
+            "min_words",
+            "max_words",
+            "rubric"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "keyboard_alternative": {
+              "$ref": "#/$defs/ContentRef"
+            },
+            "kind": {
+              "type": "string",
+              "const": "speaking"
+            },
+            "language": {
+              "$ref": "#/$defs/Language"
+            },
+            "max_seconds": {
+              "type": "integer",
+              "format": "uint32",
+              "minimum": 1
+            },
+            "rubric": {
+              "$ref": "#/$defs/ContentRef"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "language",
+            "max_seconds",
+            "rubric",
+            "keyboard_alternative"
+          ]
+        }
+      ]
+    },
+    "Text": {
+      "description": "Fully resolved source-language teaching material, never executable markup.",
+      "type": "object",
+      "properties": {
+        "annotations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Annotation"
+          }
+        },
+        "language": {
+          "$ref": "#/$defs/Language"
+        },
+        "text": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "language",
+        "text"
+      ]
+    },
+    "TextTarget": {
+      "type": "string",
+      "enum": [
+        "orthography",
+        "sentence_content"
+      ]
+    }
+  }
+}

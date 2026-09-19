@@ -1,0 +1,71 @@
+{
+  "grammar": [
+    {
+      "content": {
+        "id": "es.b2.argumentation.grammar",
+        "revision": 2
+      },
+      "title": {
+        "slot": "es.b2.argumentation.grammar.title"
+      },
+      "summary": {
+        "slot": "es.b2.argumentation.grammar.summary"
+      },
+      "band": "B2",
+      "category": "sentences",
+      "explanations": [
+        {
+          "id": "es.b2.argumentation.guide",
+          "revision": 1
+        }
+      ],
+      "lessons": [
+        {
+          "id": "es.b2.argumentation.lesson",
+          "revision": 2
+        }
+      ],
+      "order": 150
+    }
+  ],
+  "materials": [
+    {
+      "content": {
+        "id": "es.b2.argumentation.guide",
+        "revision": 1
+      },
+      "searchable": true,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "slot": "es.b2.argumentation.title"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.b2.argumentation.guide"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Aunque la medida cuesta dinero, puede mejorar el acceso a la educación. Conviene, por tanto, evaluar sus beneficios."
+            }
+          ],
+          "speech": {
+            "id": "es.b2.argumentation.example-audio",
+            "revision": 1
+          }
+        }
+      ]
+    }
+  ]
+}

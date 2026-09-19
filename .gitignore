@@ -1,0 +1,51 @@
+# Dependencies and compiled output (keep both lockfiles)
+node_modules/
+target/
+dist/
+dist-studio/
+*.tsbuildinfo
+__pycache__/
+*.py[cod]
+
+# Generated resources; pinned sources are in scripts/config
+/apps/desktop/src-tauri/gen/
+/apps/desktop/src-tauri/resources/courses/
+/apps/desktop/src-tauri/resources/models/
+/apps/desktop/src-tauri/resources/runtimes/
+/apps/desktop/src-tauri/resources/notices/
+/apps/desktop/src-tauri/resources/resource-manifest.json
+/apps/desktop/src-tauri/icons/android/
+/apps/desktop/src-tauri/icons/ios/
+
+# Local builds, downloads, profiles and test reports
+/.cache/
+/artifacts/
+/release/
+/download/
+/test-results/
+/playwright-report/
+*.log
+*.fluentacourse
+*.fluenta
+*.gguf
+*.sqlite-wal
+*.sqlite-shm
+*.partial
+
+# Secrets; public verification keys under config/ stay in Git
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+*.p8
+
+# OS/editor leftovers
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~

@@ -1,0 +1,615 @@
+{
+  "lessons": [
+    {
+      "content": {
+        "id": "es.a1.identities.lesson",
+        "revision": 2
+      },
+      "title": {
+        "slot": "es.a1.identities.title"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.identities.objective",
+          "revision": 2
+        }
+      ],
+      "activities": [
+        {
+          "id": "es.a1.identities.intro",
+          "revision": 2
+        },
+        {
+          "id": "es.a1.identities.choice",
+          "revision": 2
+        },
+        {
+          "id": "es.a1.identities.order",
+          "revision": 2
+        },
+        {
+          "id": "es.a1.identities.recall",
+          "revision": 2
+        },
+        {
+          "id": "es.a1.identities.listen",
+          "revision": 2
+        },
+        {
+          "id": "es.a1.identities.produce",
+          "revision": 2
+        }
+      ],
+      "estimated_minutes": 8
+    }
+  ],
+  "objectives": [
+    {
+      "content": {
+        "id": "es.a1.identities.objective",
+        "revision": 2
+      },
+      "band": "A1",
+      "can_do": {
+        "slot": "es.a1.identities.can_do"
+      },
+      "prerequisites": [],
+      "explanation_refs": [
+        {
+          "id": "es.a1.identities.guide",
+          "revision": 2
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "content": {
+        "id": "es.a1.identities.intro",
+        "revision": 2
+      },
+      "instruction": {
+        "slot": "es.a1.identities.title"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.identities.objective",
+          "revision": 2
+        }
+      ],
+      "materials": [],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "explanation",
+        "material": {
+          "id": "es.a1.identities.guide",
+          "revision": 2
+        }
+      },
+      "skills": [
+        "grammar"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.identities.choice",
+        "revision": 2
+      },
+      "instruction": {
+        "slot": "es.a1.identities.choice"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.identities.objective",
+          "revision": 2
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a1.identities.guide",
+          "revision": 2
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "c1",
+            "label": {
+              "language": "es",
+              "text": "Somos estudiantes."
+            }
+          },
+          {
+            "id": "c2",
+            "label": {
+              "language": "es",
+              "text": "Estamos estudiantes."
+            }
+          },
+          {
+            "id": "c3",
+            "label": {
+              "language": "es",
+              "text": "Son estudiante."
+            }
+          }
+        ],
+        "correct_ids": [
+          "c1"
+        ],
+        "explanation": {
+          "id": "es.a1.identities.guide",
+          "revision": 2
+        }
+      },
+      "skills": [
+        "reading"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.identities.order",
+        "revision": 2
+      },
+      "instruction": {
+        "slot": "es.a1.identities.order"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.identities.objective",
+          "revision": 2
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a1.identities.guide",
+          "revision": 2
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "order",
+        "items": [
+          {
+            "id": "w1",
+            "label": {
+              "language": "es",
+              "text": "Mi"
+            }
+          },
+          {
+            "id": "w2",
+            "label": {
+              "language": "es",
+              "text": "amiga"
+            }
+          },
+          {
+            "id": "w3",
+            "label": {
+              "language": "es",
+              "text": "es"
+            }
+          },
+          {
+            "id": "w4",
+            "label": {
+              "language": "es",
+              "text": "de"
+            }
+          },
+          {
+            "id": "w5",
+            "label": {
+              "language": "es",
+              "text": "Madrid."
+            }
+          }
+        ],
+        "accepted_orders": [
+          [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ]
+        ],
+        "explanation": {
+          "id": "es.a1.identities.guide",
+          "revision": 2
+        }
+      },
+      "skills": [
+        "grammar"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.identities.recall",
+        "revision": 2
+      },
+      "instruction": {
+        "slot": "es.a1.identities.recall"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.identities.objective",
+          "revision": 2
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a1.identities.guide",
+          "revision": 2
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "sentence_content",
+        "inputs": [
+          "keyboard",
+          "microphone"
+        ],
+        "accepted": [
+          "Somos estudiantes",
+          "Nosotros somos estudiantes",
+          "Nosotras somos estudiantes"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.a1.identities.recall-answer",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "grammar",
+        "vocabulary"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.identities.listen",
+        "revision": 2
+      },
+      "instruction": {
+        "slot": "es.a1.identities.listen"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.identities.objective",
+          "revision": 2
+        }
+      ],
+      "materials": [
+        {
+          "id": "es.a1.identities.listening",
+          "revision": 1
+        }
+      ],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "l1",
+            "label": {
+              "language": "es",
+              "text": "De Sevilla."
+            }
+          },
+          {
+            "id": "l2",
+            "label": {
+              "language": "es",
+              "text": "De Berlín."
+            }
+          },
+          {
+            "id": "l3",
+            "label": {
+              "language": "es",
+              "text": "De Madrid."
+            }
+          }
+        ],
+        "correct_ids": [
+          "l1"
+        ],
+        "explanation": {
+          "id": "es.a1.identities.listen-answer",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "listening"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.identities.produce",
+        "revision": 2
+      },
+      "instruction": {
+        "language": "es",
+        "text": "Preséntate a una clase española. Incluye tu nombre, tu edad, tu ciudad y dos asignaturas."
+      },
+      "objectives": [
+        {
+          "id": "es.a1.identities.objective",
+          "revision": 2
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a1.identities.guide",
+          "revision": 2
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "writing",
+        "language": "es",
+        "min_words": 15,
+        "max_words": 75,
+        "rubric": {
+          "id": "es.a1.identities.rubric",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "writing"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "content": {
+        "id": "es.a1.identities.listening",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "audio",
+          "speech": {
+            "id": "es.a1.identities.listening-audio",
+            "revision": 1
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.identities.listen-answer",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a1.identities.listen-feedback"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Me llamo Lucía. Soy de Sevilla, pero ahora vivo en Berlín. Tengo quince años y estudio español e inglés."
+            }
+          ],
+          "speech": null
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.identities.recall-answer",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "slot": "es.a1.identities.answer-title"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Somos estudiantes"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a1.identities.guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.identities.model",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "slot": "es.a1.identities.model-title"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Me llamo Elena y tengo quince años. Soy de Hamburgo y soy estudiante. En mi instituto estudio español e historia. Me gustan los idiomas porque quiero conocer a personas de otros países."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.identities.vocab",
+        "revision": 1
+      },
+      "searchable": true,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "language": "es",
+              "text": "la asignatura"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a1.identities.gloss"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Soy estudiante. Mi amiga es española. Somos compañeros de clase."
+            }
+          ],
+          "speech": {
+            "id": "es.a1.identities.example-audio",
+            "revision": 1
+          }
+        }
+      ]
+    }
+  ],
+  "speech": [
+    {
+      "content": {
+        "id": "es.a1.identities.example-audio",
+        "revision": 1
+      },
+      "text": "Soy estudiante. Mi amiga es española. Somos compañeros de clase.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "es.a1.identities.listening-audio",
+        "revision": 1
+      },
+      "text": "Me llamo Lucía. Soy de Sevilla, pero ahora vivo en Berlín. Tengo quince años y estudio español e inglés.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "content": {
+        "id": "es.a1.identities.lexeme",
+        "revision": 1
+      },
+      "lemma": "la asignatura",
+      "part_of_speech": "noun",
+      "gloss": {
+        "slot": "es.a1.identities.gloss"
+      },
+      "accepted_forms": [
+        "la asignatura"
+      ],
+      "examples": [
+        {
+          "id": "es.a1.identities.vocab",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "rubrics": [
+    {
+      "content": {
+        "id": "es.a1.identities.rubric",
+        "revision": 1
+      },
+      "criteria": [
+        {
+          "id": "task",
+          "label": {
+            "slot": "es.a1.identities.rubric.task.label"
+          },
+          "guidance": {
+            "slot": "es.a1.identities.rubric.task.guidance"
+          }
+        },
+        {
+          "id": "structure",
+          "label": {
+            "slot": "es.a1.identities.rubric.structure.label"
+          },
+          "guidance": {
+            "slot": "es.a1.identities.rubric.structure.guidance"
+          }
+        },
+        {
+          "id": "language",
+          "label": {
+            "slot": "es.a1.identities.rubric.language.label"
+          },
+          "guidance": {
+            "slot": "es.a1.identities.rubric.language.guidance"
+          }
+        }
+      ],
+      "model_answers": [
+        {
+          "id": "es.a1.identities.model",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "assessments": []
+}

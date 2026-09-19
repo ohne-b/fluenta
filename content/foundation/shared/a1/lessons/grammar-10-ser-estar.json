@@ -1,0 +1,2044 @@
+{
+  "lessons": [
+    {
+      "content": {
+        "id": "es.a1.ser-estar.recognise",
+        "revision": 1
+      },
+      "title": {
+        "slot": "es.a1.ser-estar.recognise.title"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.ser-estar.practice-objective",
+          "revision": 1
+        }
+      ],
+      "activities": [
+        {
+          "id": "es.a1.ser-estar.practice-01",
+          "revision": 1
+        },
+        {
+          "id": "es.a1.ser-estar.practice-02",
+          "revision": 1
+        },
+        {
+          "id": "es.a1.ser-estar.practice-03",
+          "revision": 1
+        },
+        {
+          "id": "es.a1.ser-estar.practice-04",
+          "revision": 1
+        },
+        {
+          "id": "es.a1.ser-estar.practice-05",
+          "revision": 1
+        },
+        {
+          "id": "es.a1.ser-estar.practice-06",
+          "revision": 1
+        },
+        {
+          "id": "es.a1.ser-estar.practice-07",
+          "revision": 1
+        },
+        {
+          "id": "es.a1.ser-estar.practice-08",
+          "revision": 1
+        },
+        {
+          "id": "es.a1.ser-estar.practice-09",
+          "revision": 1
+        },
+        {
+          "id": "es.a1.ser-estar.practice-10",
+          "revision": 1
+        }
+      ],
+      "estimated_minutes": 12
+    },
+    {
+      "content": {
+        "id": "es.a1.ser-estar.context",
+        "revision": 1
+      },
+      "title": {
+        "slot": "es.a1.ser-estar.context.title"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.ser-estar.practice-objective",
+          "revision": 1
+        }
+      ],
+      "activities": [
+        {
+          "id": "es.a1.ser-estar.practice-11",
+          "revision": 1
+        },
+        {
+          "id": "es.a1.ser-estar.practice-12",
+          "revision": 1
+        },
+        {
+          "id": "es.a1.ser-estar.practice-13",
+          "revision": 1
+        },
+        {
+          "id": "es.a1.ser-estar.practice-14",
+          "revision": 1
+        },
+        {
+          "id": "es.a1.ser-estar.practice-15",
+          "revision": 1
+        },
+        {
+          "id": "es.a1.ser-estar.practice-16",
+          "revision": 1
+        },
+        {
+          "id": "es.a1.ser-estar.practice-17",
+          "revision": 1
+        },
+        {
+          "id": "es.a1.ser-estar.practice-18",
+          "revision": 1
+        },
+        {
+          "id": "es.a1.ser-estar.practice-19",
+          "revision": 1
+        },
+        {
+          "id": "es.a1.ser-estar.practice-20",
+          "revision": 1
+        }
+      ],
+      "estimated_minutes": 18
+    }
+  ],
+  "objectives": [
+    {
+      "content": {
+        "id": "es.a1.ser-estar.practice-objective",
+        "revision": 1
+      },
+      "band": "A1",
+      "can_do": {
+        "slot": "es.a1.ser-estar.can-do"
+      },
+      "prerequisites": [],
+      "explanation_refs": [
+        {
+          "id": "es.a1.identities.guide",
+          "revision": 2
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "content": {
+        "id": "es.a1.ser-estar.practice-01",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a1.ser-estar.question-01"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.ser-estar.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a1.identities.guide",
+          "revision": 2
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "Ana está cansada."
+            }
+          },
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "Ana está en clase."
+            }
+          },
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "Ana es estudiante."
+            }
+          }
+        ],
+        "correct_ids": [
+          "o0"
+        ],
+        "explanation": {
+          "id": "es.a1.ser-estar.feedback-01",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a1.ser-estar.practice-02",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a1.ser-estar.question-02"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.ser-estar.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a1.identities.guide",
+          "revision": 2
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "El profesor es de Perú."
+            }
+          },
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "El profesor es simpático."
+            }
+          },
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "El profesor está en la biblioteca."
+            }
+          }
+        ],
+        "correct_ids": [
+          "o1"
+        ],
+        "explanation": {
+          "id": "es.a1.ser-estar.feedback-02",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a1.ser-estar.practice-03",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a1.ser-estar.question-03"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.ser-estar.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a1.identities.guide",
+          "revision": 2
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "La clase está en el aula."
+            }
+          },
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "La alumna está aburrida."
+            }
+          },
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "La clase es aburrida."
+            }
+          }
+        ],
+        "correct_ids": [
+          "o2"
+        ],
+        "explanation": {
+          "id": "es.a1.ser-estar.feedback-03",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a1.ser-estar.practice-04",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a1.ser-estar.question-04"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.ser-estar.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a1.identities.guide",
+          "revision": 2
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "Los músicos son en el patio."
+            }
+          },
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "El patio es cansado."
+            }
+          },
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "El concierto es en el patio."
+            }
+          }
+        ],
+        "correct_ids": [
+          "o0"
+        ],
+        "explanation": {
+          "id": "es.a1.ser-estar.feedback-04",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a1.ser-estar.practice-05",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a1.ser-estar.question-05"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.ser-estar.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a1.identities.guide",
+          "revision": 2
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "es"
+            }
+          },
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "soy"
+            }
+          },
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "estoy"
+            }
+          }
+        ],
+        "correct_ids": [
+          "o0"
+        ],
+        "explanation": {
+          "id": "es.a1.ser-estar.feedback-05",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a1.ser-estar.practice-06",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a1.ser-estar.question-06"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.ser-estar.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a1.identities.guide",
+          "revision": 2
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "estás"
+            }
+          },
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "eres"
+            }
+          },
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "estoy"
+            }
+          }
+        ],
+        "correct_ids": [
+          "o0"
+        ],
+        "explanation": {
+          "id": "es.a1.ser-estar.feedback-06",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a1.ser-estar.practice-07",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a1.ser-estar.question-07"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.ser-estar.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a1.identities.guide",
+          "revision": 2
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "estamos"
+            }
+          },
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "son"
+            }
+          },
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "somos"
+            }
+          }
+        ],
+        "correct_ids": [
+          "o0"
+        ],
+        "explanation": {
+          "id": "es.a1.ser-estar.feedback-07",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a1.ser-estar.practice-08",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a1.ser-estar.question-08"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.ser-estar.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a1.identities.guide",
+          "revision": 2
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "está"
+            }
+          },
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "están"
+            }
+          },
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "son"
+            }
+          }
+        ],
+        "correct_ids": [
+          "o0"
+        ],
+        "explanation": {
+          "id": "es.a1.ser-estar.feedback-08",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a1.ser-estar.practice-09",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a1.ser-estar.question-09"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.ser-estar.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a1.identities.guide",
+          "revision": 2
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "orthography",
+        "inputs": [
+          "keyboard"
+        ],
+        "accepted": [
+          "está"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.a1.ser-estar.feedback-09",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a1.ser-estar.practice-10",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a1.ser-estar.question-10"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.ser-estar.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a1.identities.guide",
+          "revision": 2
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "orthography",
+        "inputs": [
+          "keyboard"
+        ],
+        "accepted": [
+          "sois"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.a1.ser-estar.feedback-10",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a1.ser-estar.practice-11",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "¿De dónde es Emma?"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.ser-estar.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "es.a1.ser-estar.reading",
+          "revision": 1
+        }
+      ],
+      "hints": [
+        {
+          "id": "es.a1.identities.guide",
+          "revision": 2
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "De Perú."
+            }
+          },
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "De Alemania."
+            }
+          },
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "De Madrid."
+            }
+          }
+        ],
+        "correct_ids": [
+          "o0"
+        ],
+        "explanation": {
+          "id": "es.a1.ser-estar.feedback-11",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a1.ser-estar.practice-12",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "¿Dónde es el examen?"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.ser-estar.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "es.a1.ser-estar.reading",
+          "revision": 1
+        }
+      ],
+      "hints": [
+        {
+          "id": "es.a1.identities.guide",
+          "revision": 2
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "En la biblioteca."
+            }
+          },
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "En el aula 4."
+            }
+          },
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "En el patio."
+            }
+          }
+        ],
+        "correct_ids": [
+          "o1"
+        ],
+        "explanation": {
+          "id": "es.a1.ser-estar.feedback-12",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a1.ser-estar.practice-13",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "¿Cómo están las alumnas antes del examen?"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.ser-estar.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "es.a1.ser-estar.reading",
+          "revision": 1
+        }
+      ],
+      "hints": [
+        {
+          "id": "es.a1.identities.guide",
+          "revision": 2
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "reading",
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "Enfadadas."
+            }
+          },
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "Nerviosas."
+            }
+          },
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "Aburridas."
+            }
+          }
+        ],
+        "correct_ids": [
+          "o2"
+        ],
+        "explanation": {
+          "id": "es.a1.ser-estar.feedback-13",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a1.ser-estar.practice-14",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a1.ser-estar.question-14"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.ser-estar.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a1.identities.guide",
+          "revision": 2
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "orthography",
+        "inputs": [
+          "keyboard"
+        ],
+        "accepted": [
+          "es"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.a1.ser-estar.feedback-14",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a1.ser-estar.practice-15",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a1.ser-estar.question-15"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.ser-estar.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a1.identities.guide",
+          "revision": 2
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "orthography",
+        "inputs": [
+          "keyboard"
+        ],
+        "accepted": [
+          "estoy"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.a1.ser-estar.feedback-15",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a1.ser-estar.practice-16",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a1.ser-estar.question-16"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.ser-estar.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a1.identities.guide",
+          "revision": 2
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "orthography",
+        "inputs": [
+          "keyboard"
+        ],
+        "accepted": [
+          "son"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.a1.ser-estar.feedback-16",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a1.ser-estar.practice-17",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a1.ser-estar.question-17"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.ser-estar.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a1.identities.guide",
+          "revision": 2
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "orthography",
+        "inputs": [
+          "keyboard"
+        ],
+        "accepted": [
+          "estamos"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.a1.ser-estar.feedback-17",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a1.ser-estar.practice-18",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a1.ser-estar.question-18"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.ser-estar.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a1.identities.guide",
+          "revision": 2
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "grammar"
+      ],
+      "task": {
+        "kind": "order",
+        "items": [
+          {
+            "id": "w2",
+            "label": {
+              "language": "es",
+              "text": "es"
+            }
+          },
+          {
+            "id": "w3",
+            "label": {
+              "language": "es",
+              "text": "simpática"
+            }
+          },
+          {
+            "id": "w4",
+            "label": {
+              "language": "es",
+              "text": "y"
+            }
+          },
+          {
+            "id": "w5",
+            "label": {
+              "language": "es",
+              "text": "hoy"
+            }
+          },
+          {
+            "id": "w6",
+            "label": {
+              "language": "es",
+              "text": "está"
+            }
+          },
+          {
+            "id": "w7",
+            "label": {
+              "language": "es",
+              "text": "contenta."
+            }
+          },
+          {
+            "id": "w0",
+            "label": {
+              "language": "es",
+              "text": "Mi"
+            }
+          },
+          {
+            "id": "w1",
+            "label": {
+              "language": "es",
+              "text": "profesora"
+            }
+          }
+        ],
+        "accepted_orders": [
+          [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ]
+        ],
+        "explanation": {
+          "id": "es.a1.ser-estar.feedback-18",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a1.ser-estar.practice-19",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "¿Dónde están los alumnos hoy?"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.ser-estar.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "es.a1.ser-estar.listening",
+          "revision": 1
+        }
+      ],
+      "hints": [
+        {
+          "id": "es.a1.identities.guide",
+          "revision": 2
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "listening",
+        "grammar"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "o1",
+            "label": {
+              "language": "es",
+              "text": "En Sevilla, en clase."
+            }
+          },
+          {
+            "id": "o2",
+            "label": {
+              "language": "es",
+              "text": "En la biblioteca."
+            }
+          },
+          {
+            "id": "o0",
+            "label": {
+              "language": "es",
+              "text": "En el museo."
+            }
+          }
+        ],
+        "correct_ids": [
+          "o0"
+        ],
+        "explanation": {
+          "id": "es.a1.ser-estar.feedback-19",
+          "revision": 1
+        }
+      }
+    },
+    {
+      "content": {
+        "id": "es.a1.ser-estar.practice-20",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.a1.ser-estar.writing-task"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.ser-estar.practice-objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a1.identities.guide",
+          "revision": 2
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "writing",
+        "grammar"
+      ],
+      "task": {
+        "kind": "writing",
+        "language": "es",
+        "min_words": 25,
+        "max_words": 130,
+        "rubric": {
+          "id": "es.a1.ser-estar.writing-rubric",
+          "revision": 1
+        }
+      }
+    }
+  ],
+  "materials": [
+    {
+      "content": {
+        "id": "es.a1.ser-estar.feedback-01",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Ana es estudiante."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a1.ser-estar.feedback-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.ser-estar.feedback-02",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "El profesor está en la biblioteca."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a1.ser-estar.feedback-02"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.ser-estar.feedback-03",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "La clase es aburrida."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a1.ser-estar.feedback-03"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.ser-estar.feedback-04",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "El concierto es en el patio."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a1.ser-estar.feedback-04"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.ser-estar.feedback-05",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "soy"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a1.identities.guide",
+            "revision": 2
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.ser-estar.feedback-06",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "estás"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a1.identities.guide",
+            "revision": 2
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.ser-estar.feedback-07",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "somos"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a1.identities.guide",
+            "revision": 2
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.ser-estar.feedback-08",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "están"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a1.identities.guide",
+            "revision": 2
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.ser-estar.feedback-09",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Marta está cansada hoy."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a1.identities.guide",
+            "revision": 2
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.ser-estar.feedback-10",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Vosotros sois alumnos de esta clase."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a1.identities.guide",
+            "revision": 2
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.ser-estar.reading",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Me llamo Lucía y soy estudiante de un instituto de Madrid. Mi mejor amiga es de Alemania y se llama Emma. Hoy estamos nerviosas porque tenemos un examen de historia. El examen es en el aula 4, pero ahora estamos en la biblioteca. Nuestra profesora es muy paciente. Los libros están sobre la mesa y las ventanas están abiertas. Después del examen estamos más tranquilas y vamos al patio."
+            }
+          ]
+        },
+        {
+          "kind": "list",
+          "items": [
+            [
+              {
+                "language": "es",
+                "text": "el alumno —"
+              },
+              {
+                "slot": "es.a1.ser-estar.gloss-0"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "cansado —"
+              },
+              {
+                "slot": "es.a1.ser-estar.gloss-1"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "el resultado —"
+              },
+              {
+                "slot": "es.a1.ser-estar.gloss-2"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.ser-estar.feedback-11",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "De Alemania."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a1.identities.guide",
+            "revision": 2
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.ser-estar.feedback-12",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "En el aula 4."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a1.identities.guide",
+            "revision": 2
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.ser-estar.feedback-13",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Nerviosas."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a1.identities.guide",
+            "revision": 2
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.ser-estar.feedback-14",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "El examen es en el aula 2."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a1.identities.guide",
+            "revision": 2
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.ser-estar.feedback-15",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Yo estoy en la biblioteca ahora."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a1.identities.guide",
+            "revision": 2
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.ser-estar.feedback-16",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Mis amigas son españolas."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a1.identities.guide",
+            "revision": 2
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.ser-estar.feedback-17",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Nosotras estamos contentas con el resultado."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a1.identities.guide",
+            "revision": 2
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.ser-estar.feedback-18",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Mi profesora es simpática y hoy está contenta."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a1.identities.guide",
+            "revision": 2
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.ser-estar.listening",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "audio",
+          "speech": {
+            "id": "es.a1.ser-estar.listening-audio",
+            "revision": 1
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.ser-estar.feedback-19",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "En el museo."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "reference",
+          "target": {
+            "id": "es.a1.identities.guide",
+            "revision": 2
+          },
+          "label": {
+            "slot": "es.grammar.rule-link"
+          }
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Somos alumnos de un instituto de Sevilla. Hoy estamos en el museo. Nuestra profesora está contenta porque la visita es interesante."
+            }
+          ],
+          "speech": null
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.ser-estar.writing-model",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Mi amiga es estudiante y es de Berlín. Hoy está en la biblioteca. Está un poco cansada. Nuestro profesor es español y es muy paciente. Ahora está en el aula y está contento con nuestro trabajo."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "speech": [
+    {
+      "content": {
+        "id": "es.a1.ser-estar.listening-audio",
+        "revision": 1
+      },
+      "text": "Somos alumnos de un instituto de Sevilla. Hoy estamos en el museo. Nuestra profesora está contenta porque la visita es interesante.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "content": {
+        "id": "es.a1.ser-estar.lexeme-0",
+        "revision": 1
+      },
+      "lemma": "el alumno",
+      "part_of_speech": "expression",
+      "gloss": {
+        "slot": "es.a1.ser-estar.gloss-0"
+      },
+      "accepted_forms": [
+        "el alumno"
+      ],
+      "examples": [
+        {
+          "id": "es.a1.ser-estar.reading",
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.ser-estar.lexeme-1",
+        "revision": 1
+      },
+      "lemma": "cansado",
+      "part_of_speech": "expression",
+      "gloss": {
+        "slot": "es.a1.ser-estar.gloss-1"
+      },
+      "accepted_forms": [
+        "cansado"
+      ],
+      "examples": [
+        {
+          "id": "es.a1.ser-estar.reading",
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.ser-estar.lexeme-2",
+        "revision": 1
+      },
+      "lemma": "el resultado",
+      "part_of_speech": "expression",
+      "gloss": {
+        "slot": "es.a1.ser-estar.gloss-2"
+      },
+      "accepted_forms": [
+        "el resultado"
+      ],
+      "examples": [
+        {
+          "id": "es.a1.ser-estar.reading",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "rubrics": [
+    {
+      "content": {
+        "id": "es.a1.ser-estar.writing-rubric",
+        "revision": 1
+      },
+      "criteria": [
+        {
+          "id": "task",
+          "label": {
+            "slot": "es.grammar.rubric.task"
+          },
+          "guidance": {
+            "slot": "es.a1.ser-estar.rubric-task"
+          }
+        },
+        {
+          "id": "forms",
+          "label": {
+            "slot": "es.grammar.rubric.forms"
+          },
+          "guidance": {
+            "slot": "es.a1.ser-estar.rubric-forms"
+          }
+        },
+        {
+          "id": "cohesion",
+          "label": {
+            "slot": "es.grammar.rubric.connections"
+          },
+          "guidance": {
+            "slot": "es.grammar.rubric.connections-help"
+          }
+        }
+      ],
+      "model_answers": [
+        {
+          "id": "es.a1.ser-estar.writing-model",
+          "revision": 1
+        }
+      ]
+    }
+  ]
+}

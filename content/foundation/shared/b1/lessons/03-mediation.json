@@ -1,0 +1,717 @@
+{
+  "lessons": [
+    {
+      "content": {
+        "id": "es.b1.mediation.lesson",
+        "revision": 3
+      },
+      "title": {
+        "slot": "es.b1.mediation.title"
+      },
+      "objectives": [
+        {
+          "id": "es.b1.mediation.objective",
+          "revision": 3
+        }
+      ],
+      "activities": [
+        {
+          "id": "es.b1.mediation.intro",
+          "revision": 3
+        },
+        {
+          "id": "es.b1.mediation.choice",
+          "revision": 3
+        },
+        {
+          "id": "es.b1.mediation.order",
+          "revision": 3
+        },
+        {
+          "id": "es.b1.mediation.recall",
+          "revision": 3
+        },
+        {
+          "id": "es.b1.mediation.listen",
+          "revision": 3
+        },
+        {
+          "id": "es.b1.mediation.produce",
+          "revision": 3
+        }
+      ],
+      "estimated_minutes": 12
+    }
+  ],
+  "objectives": [
+    {
+      "content": {
+        "id": "es.b1.mediation.objective",
+        "revision": 3
+      },
+      "band": "B1",
+      "can_do": {
+        "slot": "es.b1.mediation.can_do"
+      },
+      "prerequisites": [
+        {
+          "id": "es.b1.subjunctive.objective",
+          "revision": 3
+        }
+      ],
+      "explanation_refs": [
+        {
+          "id": "es.b1.mediation.guide",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "content": {
+        "id": "es.b1.mediation.intro",
+        "revision": 3
+      },
+      "instruction": {
+        "slot": "es.b1.mediation.title"
+      },
+      "objectives": [
+        {
+          "id": "es.b1.mediation.objective",
+          "revision": 3
+        }
+      ],
+      "materials": [],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "explanation",
+        "material": {
+          "id": "es.b1.mediation.guide",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "grammar"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.mediation.choice",
+        "revision": 3
+      },
+      "instruction": {
+        "slot": "es.b1.mediation.choice"
+      },
+      "objectives": [
+        {
+          "id": "es.b1.mediation.objective",
+          "revision": 3
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.b1.mediation.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "c1",
+            "label": {
+              "language": "es",
+              "text": "El plazo y los requisitos de inscripción."
+            }
+          },
+          {
+            "id": "c2",
+            "label": {
+              "language": "es",
+              "text": "El color de la oficina."
+            }
+          },
+          {
+            "id": "c3",
+            "label": {
+              "language": "es",
+              "text": "Una opinión personal sobre el cartel."
+            }
+          }
+        ],
+        "correct_ids": [
+          "c1"
+        ],
+        "explanation": {
+          "id": "es.b1.mediation.guide",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "reading"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.mediation.order",
+        "revision": 3
+      },
+      "instruction": {
+        "slot": "es.b1.mediation.order"
+      },
+      "objectives": [
+        {
+          "id": "es.b1.mediation.objective",
+          "revision": 3
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.b1.mediation.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "order",
+        "items": [
+          {
+            "id": "w1",
+            "label": {
+              "language": "es",
+              "text": "Para"
+            }
+          },
+          {
+            "id": "w2",
+            "label": {
+              "language": "es",
+              "text": "participar"
+            }
+          },
+          {
+            "id": "w3",
+            "label": {
+              "language": "es",
+              "text": "tienes"
+            }
+          },
+          {
+            "id": "w4",
+            "label": {
+              "language": "es",
+              "text": "que"
+            }
+          },
+          {
+            "id": "w5",
+            "label": {
+              "language": "es",
+              "text": "entregar"
+            }
+          },
+          {
+            "id": "w6",
+            "label": {
+              "language": "es",
+              "text": "el"
+            }
+          },
+          {
+            "id": "w7",
+            "label": {
+              "language": "es",
+              "text": "formulario"
+            }
+          },
+          {
+            "id": "w8",
+            "label": {
+              "language": "es",
+              "text": "antes"
+            }
+          },
+          {
+            "id": "w9",
+            "label": {
+              "language": "es",
+              "text": "del"
+            }
+          },
+          {
+            "id": "w10",
+            "label": {
+              "language": "es",
+              "text": "viernes."
+            }
+          }
+        ],
+        "accepted_orders": [
+          [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ]
+        ],
+        "explanation": {
+          "id": "es.b1.mediation.guide",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "grammar"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.mediation.recall",
+        "revision": 3
+      },
+      "instruction": {
+        "slot": "es.b1.mediation.recall"
+      },
+      "objectives": [
+        {
+          "id": "es.b1.mediation.objective",
+          "revision": 3
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.b1.mediation.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "sentence_content",
+        "inputs": [
+          "keyboard",
+          "microphone"
+        ],
+        "accepted": [
+          "falta"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.b1.mediation.recall-answer",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "grammar",
+        "vocabulary"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.mediation.listen",
+        "revision": 3
+      },
+      "instruction": {
+        "slot": "es.b1.mediation.listen"
+      },
+      "objectives": [
+        {
+          "id": "es.b1.mediation.objective",
+          "revision": 3
+        }
+      ],
+      "materials": [
+        {
+          "id": "es.b1.mediation.listening",
+          "revision": 1
+        }
+      ],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "l1",
+            "label": {
+              "language": "es",
+              "text": "El viaje."
+            }
+          },
+          {
+            "id": "l2",
+            "label": {
+              "language": "es",
+              "text": "El alojamiento."
+            }
+          },
+          {
+            "id": "l3",
+            "label": {
+              "language": "es",
+              "text": "La solicitud."
+            }
+          }
+        ],
+        "correct_ids": [
+          "l1"
+        ],
+        "explanation": {
+          "id": "es.b1.mediation.listen-answer",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "listening"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.mediation.produce",
+        "revision": 3
+      },
+      "instruction": {
+        "language": "es",
+        "text": "Tu compañero español pregunta cómo participar en un club escolar. Explícale lo esencial a partir del aviso."
+      },
+      "objectives": [
+        {
+          "id": "es.b1.mediation.objective",
+          "revision": 3
+        }
+      ],
+      "materials": [
+        {
+          "id": "es.b1.mediation.source",
+          "revision": 1
+        }
+      ],
+      "hints": [
+        {
+          "id": "es.b1.mediation.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "writing",
+        "language": "es",
+        "min_words": 45,
+        "max_words": 160,
+        "rubric": {
+          "id": "es.b1.mediation.rubric",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "writing"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "content": {
+        "id": "es.b1.mediation.guide",
+        "revision": 1
+      },
+      "searchable": true,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "slot": "es.b1.mediation.title"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.b1.mediation.guide"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Para participar, tienes que entregar el formulario antes del viernes. No hace falta pagar una cuota."
+            }
+          ],
+          "speech": {
+            "id": "es.b1.mediation.example-audio",
+            "revision": 1
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.mediation.listening",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "audio",
+          "speech": {
+            "id": "es.b1.mediation.listening-audio",
+            "revision": 1
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.mediation.listen-answer",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.b1.mediation.listen-feedback"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "El intercambio dura una semana. El alojamiento con las familias es gratuito, pero cada participante paga el viaje. La solicitud debe entregarse antes del quince de noviembre."
+            }
+          ],
+          "speech": null
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.mediation.recall-answer",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "slot": "es.b1.mediation.answer-title"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "falta"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.b1.mediation.guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.mediation.model",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "slot": "es.b1.mediation.model-title"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "El club de cine se reúne todos los miércoles a las tres de la tarde en el aula doce. La participación es gratuita y no necesitas llevar tu propia cámara. Si quieres apuntarte, tienes que enviar un correo electrónico a la profesora o al profesor antes del martes, es decir, como muy tarde el lunes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.mediation.vocab",
+        "revision": 1
+      },
+      "searchable": true,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "language": "es",
+              "text": "el plazo"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.b1.mediation.gloss"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Para participar, tienes que entregar el formulario antes del viernes. No hace falta pagar una cuota."
+            }
+          ],
+          "speech": {
+            "id": "es.b1.mediation.example-audio",
+            "revision": 1
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.mediation.source",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.b1.mediation.source"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "speech": [
+    {
+      "content": {
+        "id": "es.b1.mediation.example-audio",
+        "revision": 1
+      },
+      "text": "Para participar, tienes que entregar el formulario antes del viernes. No hace falta pagar una cuota.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "es.b1.mediation.listening-audio",
+        "revision": 1
+      },
+      "text": "El intercambio dura una semana. El alojamiento con las familias es gratuito, pero cada participante paga el viaje. La solicitud debe entregarse antes del quince de noviembre.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "content": {
+        "id": "es.b1.mediation.lexeme",
+        "revision": 1
+      },
+      "lemma": "el plazo",
+      "part_of_speech": "noun",
+      "gloss": {
+        "slot": "es.b1.mediation.gloss"
+      },
+      "accepted_forms": [
+        "el plazo"
+      ],
+      "examples": [
+        {
+          "id": "es.b1.mediation.vocab",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "rubrics": [
+    {
+      "content": {
+        "id": "es.b1.mediation.rubric",
+        "revision": 1
+      },
+      "criteria": [
+        {
+          "id": "task",
+          "label": {
+            "slot": "es.b1.mediation.rubric.task.label"
+          },
+          "guidance": {
+            "slot": "es.b1.mediation.rubric.task.guidance"
+          }
+        },
+        {
+          "id": "structure",
+          "label": {
+            "slot": "es.b1.mediation.rubric.structure.label"
+          },
+          "guidance": {
+            "slot": "es.b1.mediation.rubric.structure.guidance"
+          }
+        },
+        {
+          "id": "language",
+          "label": {
+            "slot": "es.b1.mediation.rubric.language.label"
+          },
+          "guidance": {
+            "slot": "es.b1.mediation.rubric.language.guidance"
+          }
+        }
+      ],
+      "model_answers": [
+        {
+          "id": "es.b1.mediation.model",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "assessments": []
+}

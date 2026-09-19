@@ -1,0 +1,4756 @@
+{
+  "occurrences": [
+    {
+      "content": {
+        "id": "mission.migration.1.reading.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.llegar",
+        "revision": 1
+      },
+      "surface": "llegar a",
+      "context": {
+        "language": "es",
+        "text": "Lucía tiene dieciséis años y acaba de llegar a Zaragoza con su madre."
+      },
+      "meaning": {
+        "de": "in … ankommen",
+        "en": "to arrive in/at"
+      },
+      "owner": {
+        "id": "mission.migration.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.1.reading.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.1.reading.p1.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.barrio",
+        "revision": 1
+      },
+      "surface": "el barrio",
+      "context": {
+        "language": "es",
+        "text": "Por la tarde recorre el barrio."
+      },
+      "meaning": {
+        "de": "das Stadtviertel",
+        "en": "neighbourhood"
+      },
+      "owner": {
+        "id": "mission.migration.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.1.reading.p1.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.1.reading.p1.o1",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.echar",
+        "revision": 1
+      },
+      "surface": "echar de menos",
+      "context": {
+        "language": "es",
+        "text": "Piensa en sus amigas y empieza a echar de menos las conversaciones de siempre."
+      },
+      "meaning": {
+        "de": "vermissen",
+        "en": "to miss someone/something"
+      },
+      "owner": {
+        "id": "mission.migration.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.1.reading.p1.o1.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.1.reading.p1.o2",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.acogida",
+        "revision": 1
+      },
+      "surface": "acogida",
+      "context": {
+        "language": "es",
+        "text": "La acogida en clase ha sido amable, aunque a veces nadie explica las reglas que todos parecen conocer."
+      },
+      "meaning": {
+        "de": "die Aufnahme, das Willkommen",
+        "en": "welcome, reception"
+      },
+      "owner": {
+        "id": "mission.migration.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.1.reading.p1.o2.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.1.reading.p1.o3",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.tramite",
+        "revision": 1
+      },
+      "surface": "el trámite",
+      "context": {
+        "language": "es",
+        "text": "Para terminar el trámite de la matrícula, su madre necesita un documento que aún no tiene."
+      },
+      "meaning": {
+        "de": "der Verwaltungsschritt",
+        "en": "administrative procedure"
+      },
+      "owner": {
+        "id": "mission.migration.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.1.reading.p1.o3.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.1.reading.p2.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.apoyo",
+        "revision": 1
+      },
+      "surface": "apoyo",
+      "context": {
+        "language": "es",
+        "text": "Lucía recibe apoyo de Inés, que le enseña dónde se consultan los horarios."
+      },
+      "meaning": {
+        "de": "die Unterstützung",
+        "en": "support"
+      },
+      "owner": {
+        "id": "mission.migration.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.1.reading.p2.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.1.reading.p2.o1",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.quedarse",
+        "revision": 1
+      },
+      "surface": "quedarse",
+      "context": {
+        "language": "es",
+        "text": "Decide quedarse en la biblioteca después de clase."
+      },
+      "meaning": {
+        "de": "bleiben",
+        "en": "to stay"
+      },
+      "owner": {
+        "id": "mission.migration.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.1.reading.p2.o1.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.1.reading.p2.o2",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.confianza",
+        "revision": 1
+      },
+      "surface": "confianza",
+      "context": {
+        "language": "es",
+        "text": "Allí gana confianza para pedir ayuda."
+      },
+      "meaning": {
+        "de": "das Vertrauen",
+        "en": "trust, confidence"
+      },
+      "owner": {
+        "id": "mission.migration.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.1.reading.p2.o2.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.1.reading.p2.o3",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.mudarse",
+        "revision": 1
+      },
+      "surface": "mudarse a",
+      "context": {
+        "language": "es",
+        "text": "Su familia no piensa mudarse a otro piso de inmediato: primero quiere conocer la ciudad."
+      },
+      "meaning": {
+        "de": "nach … umziehen",
+        "en": "to move to"
+      },
+      "owner": {
+        "id": "mission.migration.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.1.reading.p2.o3.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.1.reading.p2.o4",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.acostumbrarse",
+        "revision": 1
+      },
+      "surface": "acostumbrarse a",
+      "context": {
+        "language": "es",
+        "text": "Lucía sabe que va a necesitar tiempo para acostumbrarse a esta vida."
+      },
+      "meaning": {
+        "de": "sich an … gewöhnen",
+        "en": "to get used to"
+      },
+      "owner": {
+        "id": "mission.migration.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.1.reading.p2.o4.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.2.reading.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.motivo",
+        "revision": 1
+      },
+      "surface": "el motivo",
+      "context": {
+        "language": "es",
+        "text": "Para ella, el motivo principal era estudiar una especialidad que no existía en su localidad."
+      },
+      "meaning": {
+        "de": "der Beweggrund",
+        "en": "reason, motive"
+      },
+      "owner": {
+        "id": "mission.migration.2.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.2.reading.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.2.reading.p0.o1",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.oportunidad",
+        "revision": 1
+      },
+      "surface": "una oportunidad",
+      "context": {
+        "language": "es",
+        "text": "La beca creó una oportunidad, pero no pagaba todos los gastos."
+      },
+      "meaning": {
+        "de": "die Möglichkeit, Chance",
+        "en": "opportunity"
+      },
+      "owner": {
+        "id": "mission.migration.2.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.2.reading.p0.o1.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.2.reading.p0.o2",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.empleo",
+        "revision": 1
+      },
+      "surface": "empleo",
+      "context": {
+        "language": "es",
+        "text": "Su padre buscó empleo adicional para ayudarla."
+      },
+      "meaning": {
+        "de": "die Beschäftigung, Arbeitsstelle",
+        "en": "employment, job"
+      },
+      "owner": {
+        "id": "mission.migration.2.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.2.reading.p0.o2.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.2.reading.p1.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.huir",
+        "revision": 1
+      },
+      "surface": "huir de",
+      "context": {
+        "language": "es",
+        "text": "Su familia tuvo que huir de una zona donde había violencia."
+      },
+      "meaning": {
+        "de": "vor … fliehen",
+        "en": "to flee from"
+      },
+      "owner": {
+        "id": "mission.migration.2.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.2.reading.p1.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.2.reading.p1.o1",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.reunirse",
+        "revision": 1
+      },
+      "surface": "reunirse con",
+      "context": {
+        "language": "es",
+        "text": "Su prioridad era encontrar seguridad y, más tarde, reunirse con su hermana."
+      },
+      "meaning": {
+        "de": "sich mit … wiedervereinigen",
+        "en": "to reunite with"
+      },
+      "owner": {
+        "id": "mission.migration.2.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.2.reading.p1.o1.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.2.reading.p2.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.decidir",
+        "revision": 1
+      },
+      "surface": "tomar una decisión",
+      "context": {
+        "language": "es",
+        "text": "Antes de tomar una decisión, habló con sus hermanos."
+      },
+      "meaning": {
+        "de": "eine Entscheidung treffen",
+        "en": "to make a decision"
+      },
+      "owner": {
+        "id": "mission.migration.2.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.2.reading.p2.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.2.reading.p2.o1",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.frontera",
+        "revision": 1
+      },
+      "surface": "la frontera",
+      "context": {
+        "language": "es",
+        "text": "No cruzó la frontera internacional."
+      },
+      "meaning": {
+        "de": "die Staatsgrenze",
+        "en": "border"
+      },
+      "owner": {
+        "id": "mission.migration.2.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.2.reading.p2.o1.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.2.reading.p2.o2",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.obligado",
+        "revision": 1
+      },
+      "surface": "verse obligado a",
+      "context": {
+        "language": "es",
+        "text": "Explica que verse obligado a escoger entre el trabajo y el cuidado familiar limita la libertad, aunque su situación no sea igual a la de Nabil."
+      },
+      "meaning": {
+        "de": "sich gezwungen sehen zu",
+        "en": "to be forced to"
+      },
+      "owner": {
+        "id": "mission.migration.2.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.2.reading.p2.o2.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.2.reading.p2.o3",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.arraigo",
+        "revision": 1
+      },
+      "surface": "arraigo",
+      "context": {
+        "language": "es",
+        "text": "Ahora construye arraigo en la nueva ciudad, pero quiere regresar a su pueblo cuando pueda."
+      },
+      "meaning": {
+        "de": "die Verwurzelung",
+        "en": "rootedness, attachment"
+      },
+      "owner": {
+        "id": "mission.migration.2.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.2.reading.p2.o3.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.2.reading.p2.o4",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.regresar",
+        "revision": 1
+      },
+      "surface": "regresar a",
+      "context": {
+        "language": "es",
+        "text": "Ahora construye arraigo en la nueva ciudad, pero quiere regresar a su pueblo cuando pueda."
+      },
+      "meaning": {
+        "de": "nach … zurückkehren",
+        "en": "to return to"
+      },
+      "owner": {
+        "id": "mission.migration.2.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.2.reading.p2.o4.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.3.reading.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.pertenecer",
+        "revision": 1
+      },
+      "surface": "pertenecer a",
+      "context": {
+        "language": "es",
+        "text": "Sara dice que puede pertenecer a varios lugares sin dividirse en partes."
+      },
+      "meaning": {
+        "de": "zu … gehören",
+        "en": "to belong to"
+      },
+      "owner": {
+        "id": "mission.migration.3.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.3.reading.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.3.reading.p0.o1",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.identidad",
+        "revision": 1
+      },
+      "surface": "la identidad",
+      "context": {
+        "language": "es",
+        "text": "Para ella, la identidad cambia con las personas y las situaciones."
+      },
+      "meaning": {
+        "de": "die Identität",
+        "en": "identity"
+      },
+      "owner": {
+        "id": "mission.migration.3.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.3.reading.p0.o1.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.3.reading.p1.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.lengua",
+        "revision": 1
+      },
+      "surface": "la lengua materna",
+      "context": {
+        "language": "es",
+        "text": "Sara considera importante conservar la lengua materna de la familia; Dani teme equivocarse cuando habla."
+      },
+      "meaning": {
+        "de": "die Erstsprache, Muttersprache",
+        "en": "first language, mother tongue"
+      },
+      "owner": {
+        "id": "mission.migration.3.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.3.reading.p1.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.3.reading.p1.o1",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.acento",
+        "revision": 1
+      },
+      "surface": "su acento",
+      "context": {
+        "language": "es",
+        "text": "Una vez se rieron de su acento y desde entonces participa menos."
+      },
+      "meaning": {
+        "de": "der Akzent beim Sprechen",
+        "en": "spoken accent"
+      },
+      "owner": {
+        "id": "mission.migration.3.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.3.reading.p1.o1.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.3.reading.p1.o2",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.vinculo",
+        "revision": 1
+      },
+      "surface": "el vínculo",
+      "context": {
+        "language": "es",
+        "text": "Sin embargo, mantiene el vínculo con sus primos mediante vídeos y juegos."
+      },
+      "meaning": {
+        "de": "die Verbindung, Bindung",
+        "en": "bond, connection"
+      },
+      "owner": {
+        "id": "mission.migration.3.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.3.reading.p1.o2.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.3.reading.p2.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.encajar",
+        "revision": 1
+      },
+      "surface": "encajar en",
+      "context": {
+        "language": "es",
+        "text": "En el instituto, ambos intentan encajar en un grupo."
+      },
+      "meaning": {
+        "de": "sich in … einfügen",
+        "en": "to fit into"
+      },
+      "owner": {
+        "id": "mission.migration.3.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.3.reading.p2.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.3.reading.p2.o1",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.compartir",
+        "revision": 1
+      },
+      "surface": "compartir",
+      "context": {
+        "language": "es",
+        "text": "Sara propone compartir canciones en distintas lenguas."
+      },
+      "meaning": {
+        "de": "teilen, gemeinsam haben",
+        "en": "to share"
+      },
+      "owner": {
+        "id": "mission.migration.3.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.3.reading.p2.o1.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.3.reading.p2.o2",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.rechazo",
+        "revision": 1
+      },
+      "surface": "rechazo",
+      "context": {
+        "language": "es",
+        "text": "Dani teme sentir rechazo si todos esperan una actuación perfecta."
+      },
+      "meaning": {
+        "de": "die Ablehnung",
+        "en": "rejection"
+      },
+      "owner": {
+        "id": "mission.migration.3.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.3.reading.p2.o2.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.3.reading.p2.o3",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.reconocer",
+        "revision": 1
+      },
+      "surface": "reconocer",
+      "context": {
+        "language": "es",
+        "text": "La profesora decide reconocer esa preocupación y tener en cuenta distintas formas de participar: presentar una canción, explicar por qué importa o simplemente escuchar."
+      },
+      "meaning": {
+        "de": "anerkennen",
+        "en": "to acknowledge"
+      },
+      "owner": {
+        "id": "mission.migration.3.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.3.reading.p2.o3.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.3.reading.p2.o4",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.cuenta",
+        "revision": 1
+      },
+      "surface": "tener en cuenta",
+      "context": {
+        "language": "es",
+        "text": "La profesora decide reconocer esa preocupación y tener en cuenta distintas formas de participar: presentar una canción, explicar por qué importa o simplemente escuchar."
+      },
+      "meaning": {
+        "de": "berücksichtigen",
+        "en": "to take into account"
+      },
+      "owner": {
+        "id": "mission.migration.3.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.3.reading.p2.o4.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.4.reading.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.titular",
+        "revision": 1
+      },
+      "surface": "el titular",
+      "context": {
+        "language": "es",
+        "text": "El primero lleva el titular «El barrio, al límite»."
+      },
+      "meaning": {
+        "de": "die Schlagzeile",
+        "en": "headline"
+      },
+      "owner": {
+        "id": "mission.migration.4.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.4.reading.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.4.reading.p0.o1",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.fuente",
+        "revision": 1
+      },
+      "surface": "la fuente",
+      "context": {
+        "language": "es",
+        "text": "Afirma que hubo protestas, pero no identifica la fuente de la cifra que utiliza."
+      },
+      "meaning": {
+        "de": "die Informationsquelle",
+        "en": "information source"
+      },
+      "owner": {
+        "id": "mission.migration.4.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.4.reading.p0.o1.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.4.reading.p0.o2",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.sesgo",
+        "revision": 1
+      },
+      "surface": "un sesgo",
+      "context": {
+        "language": "es",
+        "text": "Puede haber un sesgo incluso cuando algún dato es correcto: seleccionar una imagen también orienta la interpretación."
+      },
+      "meaning": {
+        "de": "die einseitige Perspektive, Verzerrung",
+        "en": "bias"
+      },
+      "owner": {
+        "id": "mission.migration.4.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.4.reading.p0.o2.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.4.reading.p1.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.testimonio",
+        "revision": 1
+      },
+      "surface": "el testimonio",
+      "context": {
+        "language": "es",
+        "text": "Recoge el testimonio de una vecina recién llegada y el de un trabajador del centro."
+      },
+      "meaning": {
+        "de": "der persönliche Bericht",
+        "en": "testimony, personal account"
+      },
+      "owner": {
+        "id": "mission.migration.4.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.4.reading.p1.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.4.reading.p1.o1",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.contrastar",
+        "revision": 1
+      },
+      "surface": "contrastar",
+      "context": {
+        "language": "es",
+        "text": "El texto permite contrastar sus explicaciones y prefiere destacar el problema del horario."
+      },
+      "meaning": {
+        "de": "abgleichen, gegenüberstellen",
+        "en": "to cross-check, contrast"
+      },
+      "owner": {
+        "id": "mission.migration.4.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.4.reading.p1.o1.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.4.reading.p1.o2",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.destacar",
+        "revision": 1
+      },
+      "surface": "destacar",
+      "context": {
+        "language": "es",
+        "text": "El texto permite contrastar sus explicaciones y prefiere destacar el problema del horario."
+      },
+      "meaning": {
+        "de": "hervorheben",
+        "en": "to highlight"
+      },
+      "owner": {
+        "id": "mission.migration.4.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.4.reading.p1.o2.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.4.reading.p2.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.estereotipo",
+        "revision": 1
+      },
+      "surface": "un estereotipo",
+      "context": {
+        "language": "es",
+        "text": "Lucía detecta un estereotipo en un comentario que atribuye la misma conducta a todos los recién llegados."
+      },
+      "meaning": {
+        "de": "das Klischee, Stereotyp",
+        "en": "stereotype"
+      },
+      "owner": {
+        "id": "mission.migration.4.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.4.reading.p2.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.4.reading.p2.o1",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.difundir",
+        "revision": 1
+      },
+      "surface": "difundir",
+      "context": {
+        "language": "es",
+        "text": "Antes de difundir la noticia, propone cuestionar qué pruebas ofrece cada texto."
+      },
+      "meaning": {
+        "de": "verbreiten",
+        "en": "to spread, disseminate"
+      },
+      "owner": {
+        "id": "mission.migration.4.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.4.reading.p2.o1.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.4.reading.p2.o2",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.cuestionar",
+        "revision": 1
+      },
+      "surface": "cuestionar",
+      "context": {
+        "language": "es",
+        "text": "Antes de difundir la noticia, propone cuestionar qué pruebas ofrece cada texto."
+      },
+      "meaning": {
+        "de": "kritisch hinterfragen",
+        "en": "to question, challenge"
+      },
+      "owner": {
+        "id": "mission.migration.4.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.4.reading.p2.o2.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.4.reading.p2.o3",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.afirmar",
+        "revision": 1
+      },
+      "surface": "afirmar",
+      "context": {
+        "language": "es",
+        "text": "No basta con afirmar que un medio es fiable o que otro «miente»."
+      },
+      "meaning": {
+        "de": "behaupten, feststellen",
+        "en": "to state, claim"
+      },
+      "owner": {
+        "id": "mission.migration.4.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.4.reading.p2.o3.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.5.reading.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.propuesta",
+        "revision": 1
+      },
+      "surface": "una propuesta",
+      "context": {
+        "language": "es",
+        "text": "La asociación del barrio presenta una propuesta ficticia: abrir dos tardes por semana un punto de orientación."
+      },
+      "meaning": {
+        "de": "der Vorschlag",
+        "en": "proposal"
+      },
+      "owner": {
+        "id": "mission.migration.5.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.5.reading.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.5.reading.p0.o1",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.medida",
+        "revision": 1
+      },
+      "surface": "medida",
+      "context": {
+        "language": "es",
+        "text": "La medida busca mejorar el acceso a información sobre estudios, salud y trámites."
+      },
+      "meaning": {
+        "de": "die Maßnahme",
+        "en": "measure, action"
+      },
+      "owner": {
+        "id": "mission.migration.5.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.5.reading.p0.o1.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.5.reading.p0.o2",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.acceso",
+        "revision": 1
+      },
+      "surface": "el acceso a",
+      "context": {
+        "language": "es",
+        "text": "La medida busca mejorar el acceso a información sobre estudios, salud y trámites."
+      },
+      "meaning": {
+        "de": "der Zugang zu",
+        "en": "access to"
+      },
+      "owner": {
+        "id": "mission.migration.5.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.5.reading.p0.o2.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.5.reading.p0.o3",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.vivienda",
+        "revision": 1
+      },
+      "surface": "vivienda",
+      "context": {
+        "language": "es",
+        "text": "No promete resolver la falta de vivienda ni sustituir a los servicios profesionales."
+      },
+      "meaning": {
+        "de": "der Wohnraum, die Wohnung",
+        "en": "housing, dwelling"
+      },
+      "owner": {
+        "id": "mission.migration.5.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.5.reading.p0.o3.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.5.reading.p1.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.coste",
+        "revision": 1
+      },
+      "surface": "el coste",
+      "context": {
+        "language": "es",
+        "text": "El ayuntamiento pregunta por el coste."
+      },
+      "meaning": {
+        "de": "die Kosten",
+        "en": "cost"
+      },
+      "owner": {
+        "id": "mission.migration.5.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.5.reading.p1.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.5.reading.p1.o1",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.beneficio",
+        "revision": 1
+      },
+      "surface": "beneficio",
+      "context": {
+        "language": "es",
+        "text": "El principal beneficio sería reducir viajes y consultas fallidas."
+      },
+      "meaning": {
+        "de": "der Nutzen, Vorteil",
+        "en": "benefit"
+      },
+      "owner": {
+        "id": "mission.migration.5.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.5.reading.p1.o1.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.5.reading.p1.o2",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.plazo",
+        "revision": 1
+      },
+      "surface": "a largo plazo",
+      "context": {
+        "language": "es",
+        "text": "Elena, vecina jubilada, apoya la idea, pero advierte que el voluntariado no garantiza continuidad a largo plazo."
+      },
+      "meaning": {
+        "de": "langfristig",
+        "en": "in the long term"
+      },
+      "owner": {
+        "id": "mission.migration.5.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.5.reading.p1.o2.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.5.reading.p2.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.frente",
+        "revision": 1
+      },
+      "surface": "hacer frente a",
+      "context": {
+        "language": "es",
+        "text": "Para hacer frente a la falta de recursos, la asociación plantea una prueba de tres meses en un local existente."
+      },
+      "meaning": {
+        "de": "… bewältigen, entgegentreten",
+        "en": "to deal with, face"
+      },
+      "owner": {
+        "id": "mission.migration.5.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.5.reading.p2.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.5.reading.p2.o1",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.acuerdo",
+        "revision": 1
+      },
+      "surface": "llegar a un acuerdo",
+      "context": {
+        "language": "es",
+        "text": "Quiere llegar a un acuerdo con los servicios municipales sobre qué puede hacer cada parte."
+      },
+      "meaning": {
+        "de": "eine Einigung erzielen",
+        "en": "to reach an agreement"
+      },
+      "owner": {
+        "id": "mission.migration.5.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.5.reading.p2.o1.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.5.reading.p2.o2",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.evaluar",
+        "revision": 1
+      },
+      "surface": "evaluar",
+      "context": {
+        "language": "es",
+        "text": "Después habrá que evaluar si las personas encuentran realmente el servicio adecuado."
+      },
+      "meaning": {
+        "de": "bewerten, überprüfen",
+        "en": "to evaluate"
+      },
+      "owner": {
+        "id": "mission.migration.5.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.5.reading.p2.o2.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.6.reading.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.convivencia",
+        "revision": 1
+      },
+      "surface": "la convivencia",
+      "context": {
+        "language": "es",
+        "text": "Una nueva comisión juvenil quiere mejorar la convivencia del barrio."
+      },
+      "meaning": {
+        "de": "das Zusammenleben",
+        "en": "living together, coexistence"
+      },
+      "owner": {
+        "id": "mission.migration.6.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.6.reading.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.6.reading.p0.o1",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.perspectiva",
+        "revision": 1
+      },
+      "surface": "la perspectiva",
+      "context": {
+        "language": "es",
+        "text": "En su primera sesión, cada participante explica la perspectiva desde la que habla."
+      },
+      "meaning": {
+        "de": "die Sichtweise",
+        "en": "perspective, viewpoint"
+      },
+      "owner": {
+        "id": "mission.migration.6.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.6.reading.p0.o1.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.6.reading.p0.o2",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.matizar",
+        "revision": 1
+      },
+      "surface": "matizar",
+      "context": {
+        "language": "es",
+        "text": "La comisión intenta matizar sus primeras conclusiones antes de publicar un texto."
+      },
+      "meaning": {
+        "de": "differenzieren, einschränken",
+        "en": "to qualify, add nuance"
+      },
+      "owner": {
+        "id": "mission.migration.6.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.6.reading.p0.o2.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.6.reading.p1.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.argumento",
+        "revision": 1
+      },
+      "surface": "argumento",
+      "context": {
+        "language": "es",
+        "text": "Un argumento frecuente es que basta con invitar a todo el mundo."
+      },
+      "meaning": {
+        "de": "das Argument",
+        "en": "argument, reason"
+      },
+      "owner": {
+        "id": "mission.migration.6.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.6.reading.p1.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.6.reading.p1.o1",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.participar",
+        "revision": 1
+      },
+      "surface": "participar en",
+      "context": {
+        "language": "es",
+        "text": "Sara responde que una invitación formal no siempre permite participar en la práctica: el horario y el cuidado familiar importan."
+      },
+      "meaning": {
+        "de": "an … teilnehmen",
+        "en": "to participate in"
+      },
+      "owner": {
+        "id": "mission.migration.6.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.6.reading.p1.o1.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.6.reading.p1.o2",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.aunque",
+        "revision": 1
+      },
+      "surface": "aunque",
+      "context": {
+        "language": "es",
+        "text": "Inés reconoce el problema, aunque recuerda que cambiar la hora tampoco convendrá a todos."
+      },
+      "meaning": {
+        "de": "obwohl; auch wenn",
+        "en": "although; even if"
+      },
+      "owner": {
+        "id": "mission.migration.6.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.6.reading.p1.o2.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.6.reading.p1.o3",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.embargo",
+        "revision": 1
+      },
+      "surface": "Sin embargo",
+      "context": {
+        "language": "es",
+        "text": "Sin embargo, eso exige que alguien lea y responda a los mensajes."
+      },
+      "meaning": {
+        "de": "jedoch",
+        "en": "however"
+      },
+      "owner": {
+        "id": "mission.migration.6.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.6.reading.p1.o3.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.6.reading.p2.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.derecho",
+        "revision": 1
+      },
+      "surface": "el derecho a",
+      "context": {
+        "language": "es",
+        "text": "El grupo afirma el derecho a expresar desacuerdo y asume la responsabilidad de explicar sus decisiones."
+      },
+      "meaning": {
+        "de": "das Recht auf",
+        "en": "the right to"
+      },
+      "owner": {
+        "id": "mission.migration.6.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.6.reading.p2.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.6.reading.p2.o1",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.responsabilidad",
+        "revision": 1
+      },
+      "surface": "la responsabilidad",
+      "context": {
+        "language": "es",
+        "text": "El grupo afirma el derecho a expresar desacuerdo y asume la responsabilidad de explicar sus decisiones."
+      },
+      "meaning": {
+        "de": "die Verantwortung",
+        "en": "responsibility"
+      },
+      "owner": {
+        "id": "mission.migration.6.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.6.reading.p2.o1.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.migration.6.reading.p2.o2",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.por_tanto",
+        "revision": 1
+      },
+      "surface": "por tanto",
+      "context": {
+        "language": "es",
+        "text": "Faltan datos sobre quién queda fuera; por tanto, acuerdan preguntar antes de fijar un sistema definitivo."
+      },
+      "meaning": {
+        "de": "daher, folglich",
+        "en": "therefore"
+      },
+      "owner": {
+        "id": "mission.migration.6.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.migration.6.reading.p2.o2.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.spain-memory.1.reading.p1.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.testimonio",
+        "revision": 1
+      },
+      "surface": "un testimonio",
+      "context": {
+        "language": "es",
+        "text": "Ana encuentra un testimonio familiar que no coincide en todos los detalles con una noticia antigua."
+      },
+      "meaning": {
+        "de": "der persönliche Bericht",
+        "en": "testimony, personal account"
+      },
+      "owner": {
+        "id": "mission.spain-memory.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.spain-memory.1.reading.p1.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.spain-memory.1.reading.p1.o1",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.fuente",
+        "revision": 1
+      },
+      "surface": "la fuente",
+      "context": {
+        "language": "es",
+        "text": "El profesor pide identificar la fuente y su fecha antes de decidir qué puede demostrarse."
+      },
+      "meaning": {
+        "de": "die Informationsquelle",
+        "en": "information source"
+      },
+      "owner": {
+        "id": "mission.spain-memory.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.spain-memory.1.reading.p1.o1.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.spain-memory.1.reading.p1.o2",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.reconocer",
+        "revision": 1
+      },
+      "surface": "Reconocer",
+      "context": {
+        "language": "es",
+        "text": "Reconocer una experiencia no obliga a tratar cada recuerdo como un registro completo de los hechos."
+      },
+      "meaning": {
+        "de": "anerkennen",
+        "en": "to acknowledge"
+      },
+      "owner": {
+        "id": "mission.spain-memory.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.spain-memory.1.reading.p1.o2.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.spain-memory.1.reading.p2.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.contrastar",
+        "revision": 1
+      },
+      "surface": "contrastar",
+      "context": {
+        "language": "es",
+        "text": "El grupo quiere contrastar documentos sin convertir la exposición en una lista de fechas."
+      },
+      "meaning": {
+        "de": "abgleichen, gegenüberstellen",
+        "en": "to cross-check, contrast"
+      },
+      "owner": {
+        "id": "mission.spain-memory.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.spain-memory.1.reading.p2.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.spain-memory.1.reading.p2.o1",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.destacar",
+        "revision": 1
+      },
+      "surface": "destacar",
+      "context": {
+        "language": "es",
+        "text": "Una alumna propone destacar la vida cotidiana bajo la dictadura; otro pide explicar también la construcción de instituciones democráticas."
+      },
+      "meaning": {
+        "de": "hervorheben",
+        "en": "to highlight"
+      },
+      "owner": {
+        "id": "mission.spain-memory.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.spain-memory.1.reading.p2.o1.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.spain-memory.1.reading.p2.o2",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.cuenta",
+        "revision": 1
+      },
+      "surface": "tener en cuenta",
+      "context": {
+        "language": "es",
+        "text": "Hay que tener en cuenta ambas preguntas y distinguir descripción de valoración."
+      },
+      "meaning": {
+        "de": "berücksichtigen",
+        "en": "to take into account"
+      },
+      "owner": {
+        "id": "mission.spain-memory.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.spain-memory.1.reading.p2.o2.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.spain-memory.1.reading.p2.o3",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.perspectiva",
+        "revision": 1
+      },
+      "surface": "perspectiva",
+      "context": {
+        "language": "es",
+        "text": "Elegir solo imágenes de celebraciones produciría una perspectiva parcial."
+      },
+      "meaning": {
+        "de": "die Sichtweise",
+        "en": "perspective, viewpoint"
+      },
+      "owner": {
+        "id": "mission.spain-memory.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.spain-memory.1.reading.p2.o3.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.spain-memory.1.reading.p2.o4",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.embargo",
+        "revision": 1
+      },
+      "surface": "Sin embargo",
+      "context": {
+        "language": "es",
+        "text": "Sin embargo, incluir sufrimiento tampoco basta para explicar sus causas."
+      },
+      "meaning": {
+        "de": "jedoch",
+        "en": "however"
+      },
+      "owner": {
+        "id": "mission.spain-memory.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.spain-memory.1.reading.p2.o4.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.latin-america.1.reading.p1.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.estereotipo",
+        "revision": 1
+      },
+      "surface": "el estereotipo",
+      "context": {
+        "language": "es",
+        "text": "Tomás rechaza el estereotipo: conocer un testimonio no autoriza a afirmar qué piensa un país entero."
+      },
+      "meaning": {
+        "de": "das Klischee, Stereotyp",
+        "en": "stereotype"
+      },
+      "owner": {
+        "id": "mission.latin-america.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.latin-america.1.reading.p1.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.latin-america.1.reading.p1.o1",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.testimonio",
+        "revision": 1
+      },
+      "surface": "un testimonio",
+      "context": {
+        "language": "es",
+        "text": "Tomás rechaza el estereotipo: conocer un testimonio no autoriza a afirmar qué piensa un país entero."
+      },
+      "meaning": {
+        "de": "der persönliche Bericht",
+        "en": "testimony, personal account"
+      },
+      "owner": {
+        "id": "mission.latin-america.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.latin-america.1.reading.p1.o1.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.latin-america.1.reading.p1.o2",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.afirmar",
+        "revision": 1
+      },
+      "surface": "afirmar",
+      "context": {
+        "language": "es",
+        "text": "Tomás rechaza el estereotipo: conocer un testimonio no autoriza a afirmar qué piensa un país entero."
+      },
+      "meaning": {
+        "de": "behaupten, feststellen",
+        "en": "to state, claim"
+      },
+      "owner": {
+        "id": "mission.latin-america.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.latin-america.1.reading.p1.o2.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.latin-america.1.reading.p2.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.contrastar",
+        "revision": 1
+      },
+      "surface": "contrastar",
+      "context": {
+        "language": "es",
+        "text": "La clase decide contrastar las cartas con archivos, indicando fechas y límites."
+      },
+      "meaning": {
+        "de": "abgleichen, gegenüberstellen",
+        "en": "to cross-check, contrast"
+      },
+      "owner": {
+        "id": "mission.latin-america.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.latin-america.1.reading.p2.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.latin-america.1.reading.p2.o1",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.compartir",
+        "revision": 1
+      },
+      "surface": "compartir",
+      "context": {
+        "language": "es",
+        "text": "También quiere compartir preguntas sobre la vida actual, para no reducir Chile a una sola época."
+      },
+      "meaning": {
+        "de": "teilen, gemeinsam haben",
+        "en": "to share"
+      },
+      "owner": {
+        "id": "mission.latin-america.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.latin-america.1.reading.p2.o1.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.latin-america.1.reading.p2.o2",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.reconocer",
+        "revision": 1
+      },
+      "surface": "reconocer",
+      "context": {
+        "language": "es",
+        "text": "Estudiar el pasado ayuda a reconocer conflictos presentes, pero no los explica por sí solo."
+      },
+      "meaning": {
+        "de": "anerkennen",
+        "en": "to acknowledge"
+      },
+      "owner": {
+        "id": "mission.latin-america.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.latin-america.1.reading.p2.o2.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.latin-america.1.reading.p2.o3",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.vinculo",
+        "revision": 1
+      },
+      "surface": "el vínculo",
+      "context": {
+        "language": "es",
+        "text": "El grupo mantiene el vínculo con la escuela chilena y prepara una segunda entrevista centrada en cómo los jóvenes usan los espacios públicos."
+      },
+      "meaning": {
+        "de": "die Verbindung, Bindung",
+        "en": "bond, connection"
+      },
+      "owner": {
+        "id": "mission.latin-america.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.latin-america.1.reading.p2.o3.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.latin-america.1.reading.p2.o4",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.cuenta",
+        "revision": 1
+      },
+      "surface": "Tener en cuenta",
+      "context": {
+        "language": "es",
+        "text": "Tener en cuenta voces diferentes es un método de trabajo, no una garantía de que ya se ha escuchado a todo el mundo."
+      },
+      "meaning": {
+        "de": "berücksichtigen",
+        "en": "to take into account"
+      },
+      "owner": {
+        "id": "mission.latin-america.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.latin-america.1.reading.p2.o4.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.language.1.reading.p1.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.identidad",
+        "revision": 1
+      },
+      "surface": "identidad",
+      "context": {
+        "language": "es",
+        "text": "Para ella, cambiar de lengua no significa cambiar de identidad."
+      },
+      "meaning": {
+        "de": "die Identität",
+        "en": "identity"
+      },
+      "owner": {
+        "id": "mission.language.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.language.1.reading.p1.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.language.1.reading.p1.o1",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.compartir",
+        "revision": 1
+      },
+      "surface": "compartir",
+      "context": {
+        "language": "es",
+        "text": "Le gustaría compartir canciones en ambas lenguas."
+      },
+      "meaning": {
+        "de": "teilen, gemeinsam haben",
+        "en": "to share"
+      },
+      "owner": {
+        "id": "mission.language.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.language.1.reading.p1.o1.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.language.1.reading.p1.o2",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.apoyo",
+        "revision": 1
+      },
+      "surface": "apoyo",
+      "context": {
+        "language": "es",
+        "text": "Leo llegó hace poco y todavía necesita apoyo para seguir conversaciones rápidas en catalán."
+      },
+      "meaning": {
+        "de": "die Unterstützung",
+        "en": "support"
+      },
+      "owner": {
+        "id": "mission.language.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.language.1.reading.p1.o2.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.language.1.reading.p2.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.acento",
+        "revision": 1
+      },
+      "surface": "acento",
+      "context": {
+        "language": "es",
+        "text": "Leo teme que su acento provoque bromas y pierda confianza."
+      },
+      "meaning": {
+        "de": "der Akzent beim Sprechen",
+        "en": "spoken accent"
+      },
+      "owner": {
+        "id": "mission.language.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.language.1.reading.p2.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.language.1.reading.p2.o1",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.confianza",
+        "revision": 1
+      },
+      "surface": "confianza",
+      "context": {
+        "language": "es",
+        "text": "Leo teme que su acento provoque bromas y pierda confianza."
+      },
+      "meaning": {
+        "de": "das Vertrauen",
+        "en": "trust, confidence"
+      },
+      "owner": {
+        "id": "mission.language.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.language.1.reading.p2.o1.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.language.1.reading.p2.o2",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.pertenecer",
+        "revision": 1
+      },
+      "surface": "pertenecer a",
+      "context": {
+        "language": "es",
+        "text": "Ninguno pide que el otro renuncie a pertenecer a su comunidad."
+      },
+      "meaning": {
+        "de": "zu … gehören",
+        "en": "to belong to"
+      },
+      "owner": {
+        "id": "mission.language.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.language.1.reading.p2.o2.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.language.1.reading.p2.o3",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.participar",
+        "revision": 1
+      },
+      "surface": "participar en",
+      "context": {
+        "language": "es",
+        "text": "Quieren participar en el pódcast sin fingir que ya tienen la misma facilidad."
+      },
+      "meaning": {
+        "de": "an … teilnehmen",
+        "en": "to participate in"
+      },
+      "owner": {
+        "id": "mission.language.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.language.1.reading.p2.o3.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.language.1.reading.p2.o4",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.cuenta",
+        "revision": 1
+      },
+      "surface": "tener en cuenta",
+      "context": {
+        "language": "es",
+        "text": "El equipo debe tener en cuenta el acceso y el valor de distintas lenguas a la vez."
+      },
+      "meaning": {
+        "de": "berücksichtigen",
+        "en": "to take into account"
+      },
+      "owner": {
+        "id": "mission.language.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.language.1.reading.p2.o4.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.media.1.reading.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.difundir",
+        "revision": 1
+      },
+      "surface": "difundir",
+      "context": {
+        "language": "es",
+        "text": "El consejo de estudiantes quiere difundir un vídeo sobre una jornada solidaria ficticia."
+      },
+      "meaning": {
+        "de": "verbreiten",
+        "en": "to spread, disseminate"
+      },
+      "owner": {
+        "id": "mission.media.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.media.1.reading.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.media.1.reading.p0.o1",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.propuesta",
+        "revision": 1
+      },
+      "surface": "propuesta",
+      "context": {
+        "language": "es",
+        "text": "La propuesta de publicar parece útil para dar visibilidad al proyecto; también plantea una pregunta sobre quién decide qué historia se cuenta."
+      },
+      "meaning": {
+        "de": "der Vorschlag",
+        "en": "proposal"
+      },
+      "owner": {
+        "id": "mission.media.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.media.1.reading.p0.o1.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.media.1.reading.p1.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.destacar",
+        "revision": 1
+      },
+      "surface": "destacar",
+      "context": {
+        "language": "es",
+        "text": "Nora quiere destacar el trabajo del grupo."
+      },
+      "meaning": {
+        "de": "hervorheben",
+        "en": "to highlight"
+      },
+      "owner": {
+        "id": "mission.media.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.media.1.reading.p1.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.media.1.reading.p1.o1",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.cuenta",
+        "revision": 1
+      },
+      "surface": "tener en cuenta",
+      "context": {
+        "language": "es",
+        "text": "Amir pide tener en cuenta el nuevo público: algo visto por una clase puede circular mucho más lejos en internet."
+      },
+      "meaning": {
+        "de": "berücksichtigen",
+        "en": "to take into account"
+      },
+      "owner": {
+        "id": "mission.media.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.media.1.reading.p1.o1.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.media.1.reading.p1.o2",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.afirmar",
+        "revision": 1
+      },
+      "surface": "afirmar",
+      "context": {
+        "language": "es",
+        "text": "No hace falta afirmar que alguien actuó con mala intención para reconocer el problema."
+      },
+      "meaning": {
+        "de": "behaupten, feststellen",
+        "en": "to state, claim"
+      },
+      "owner": {
+        "id": "mission.media.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.media.1.reading.p1.o2.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.media.1.reading.p1.o3",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.responsabilidad",
+        "revision": 1
+      },
+      "surface": "responsabilidad",
+      "context": {
+        "language": "es",
+        "text": "El grupo tiene responsabilidad sobre su propia publicación y debe consultar a la compañera antes de ampliar el uso de su imagen."
+      },
+      "meaning": {
+        "de": "die Verantwortung",
+        "en": "responsibility"
+      },
+      "owner": {
+        "id": "mission.media.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.media.1.reading.p1.o3.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.media.1.reading.p2.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.acuerdo",
+        "revision": 1
+      },
+      "surface": "llegar a un acuerdo",
+      "context": {
+        "language": "es",
+        "text": "La clase intenta llegar a un acuerdo: editar el vídeo, pedir un permiso claro para ese uso o contar el proyecto sin identificar a quien recibió ayuda."
+      },
+      "meaning": {
+        "de": "eine Einigung erzielen",
+        "en": "to reach an agreement"
+      },
+      "owner": {
+        "id": "mission.media.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.media.1.reading.p2.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.media.1.reading.p2.o1",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.beneficio",
+        "revision": 1
+      },
+      "surface": "beneficio",
+      "context": {
+        "language": "es",
+        "text": "Amir responde que el beneficio para el proyecto no convierte a una persona en material disponible."
+      },
+      "meaning": {
+        "de": "der Nutzen, Vorteil",
+        "en": "benefit"
+      },
+      "owner": {
+        "id": "mission.media.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.media.1.reading.p2.o1.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.sustainability.1.reading.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.medida",
+        "revision": 1
+      },
+      "surface": "una medida",
+      "context": {
+        "language": "es",
+        "text": "Un ayuntamiento ficticio estudia una medida para reducir el tráfico frente a un instituto: ampliar la acera y reservar parte de la calle para bicicletas."
+      },
+      "meaning": {
+        "de": "die Maßnahme",
+        "en": "measure, action"
+      },
+      "owner": {
+        "id": "mission.sustainability.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.sustainability.1.reading.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.sustainability.1.reading.p0.o1",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.propuesta",
+        "revision": 1
+      },
+      "surface": "propuesta",
+      "context": {
+        "language": "es",
+        "text": "La propuesta incluye mantener el paso de vehículos de emergencia y organizar las entregas a comercios en horarios concretos."
+      },
+      "meaning": {
+        "de": "der Vorschlag",
+        "en": "proposal"
+      },
+      "owner": {
+        "id": "mission.sustainability.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.sustainability.1.reading.p0.o1.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.sustainability.1.reading.p1.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.coste",
+        "revision": 1
+      },
+      "surface": "el coste",
+      "context": {
+        "language": "es",
+        "text": "La asociación de comerciantes pregunta por el coste de las obras y por el acceso de clientes con movilidad reducida."
+      },
+      "meaning": {
+        "de": "die Kosten",
+        "en": "cost"
+      },
+      "owner": {
+        "id": "mission.sustainability.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.sustainability.1.reading.p1.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.sustainability.1.reading.p1.o1",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.beneficio",
+        "revision": 1
+      },
+      "surface": "el beneficio",
+      "context": {
+        "language": "es",
+        "text": "El alumnado destaca el beneficio de un entorno con menos coches."
+      },
+      "meaning": {
+        "de": "der Nutzen, Vorteil",
+        "en": "benefit"
+      },
+      "owner": {
+        "id": "mission.sustainability.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.sustainability.1.reading.p1.o1.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.sustainability.1.reading.p1.o2",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.acceso",
+        "revision": 1
+      },
+      "surface": "el acceso a",
+      "context": {
+        "language": "es",
+        "text": "Ambos grupos piden mejorar el acceso a la calle, pero no definen el problema del mismo modo."
+      },
+      "meaning": {
+        "de": "der Zugang zu",
+        "en": "access to"
+      },
+      "owner": {
+        "id": "mission.sustainability.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.sustainability.1.reading.p1.o2.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.sustainability.1.reading.p1.o3",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.frente",
+        "revision": 1
+      },
+      "surface": "hacer frente a",
+      "context": {
+        "language": "es",
+        "text": "Para hacer frente a las dificultades, se plantea una prueba temporal antes de la obra definitiva."
+      },
+      "meaning": {
+        "de": "… bewältigen, entgegentreten",
+        "en": "to deal with, face"
+      },
+      "owner": {
+        "id": "mission.sustainability.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.sustainability.1.reading.p1.o3.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.sustainability.1.reading.p2.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.evaluar",
+        "revision": 1
+      },
+      "surface": "evaluar",
+      "context": {
+        "language": "es",
+        "text": "Antes de evaluar resultados a largo plazo, habría que conocer cómo se hicieron los recuentos y escuchar a quienes no pudieron usar la nueva organización."
+      },
+      "meaning": {
+        "de": "bewerten, überprüfen",
+        "en": "to evaluate"
+      },
+      "owner": {
+        "id": "mission.sustainability.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.sustainability.1.reading.p2.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.sustainability.1.reading.p2.o1",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.plazo",
+        "revision": 1
+      },
+      "surface": "a largo plazo",
+      "context": {
+        "language": "es",
+        "text": "Antes de evaluar resultados a largo plazo, habría que conocer cómo se hicieron los recuentos y escuchar a quienes no pudieron usar la nueva organización."
+      },
+      "meaning": {
+        "de": "langfristig",
+        "en": "in the long term"
+      },
+      "owner": {
+        "id": "mission.sustainability.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.sustainability.1.reading.p2.o1.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.world.1.reading.p1.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.compartir",
+        "revision": 1
+      },
+      "surface": "compartir",
+      "context": {
+        "language": "es",
+        "text": "Quieren compartir experiencias y participar en una investigación pequeña."
+      },
+      "meaning": {
+        "de": "teilen, gemeinsam haben",
+        "en": "to share"
+      },
+      "owner": {
+        "id": "mission.world.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.world.1.reading.p1.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.world.1.reading.p1.o1",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.participar",
+        "revision": 1
+      },
+      "surface": "participar en",
+      "context": {
+        "language": "es",
+        "text": "Quieren compartir experiencias y participar en una investigación pequeña."
+      },
+      "meaning": {
+        "de": "an … teilnehmen",
+        "en": "to participate in"
+      },
+      "owner": {
+        "id": "mission.world.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.world.1.reading.p1.o1.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.world.1.reading.p1.o2",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.oportunidad",
+        "revision": 1
+      },
+      "surface": "una oportunidad",
+      "context": {
+        "language": "es",
+        "text": "Visitar otra ciudad puede ser una oportunidad, pero viajar no garantiza entenderla."
+      },
+      "meaning": {
+        "de": "die Möglichkeit, Chance",
+        "en": "opportunity"
+      },
+      "owner": {
+        "id": "mission.world.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.world.1.reading.p1.o2.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.world.1.reading.p2.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.cuenta",
+        "revision": 1
+      },
+      "surface": "tener en cuenta",
+      "context": {
+        "language": "es",
+        "text": "El alumnado debe tener en cuenta que no todas las familias pueden pagar gastos adicionales."
+      },
+      "meaning": {
+        "de": "berücksichtigen",
+        "en": "to take into account"
+      },
+      "owner": {
+        "id": "mission.world.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.world.1.reading.p2.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.world.1.reading.p2.o1",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.apoyo",
+        "revision": 1
+      },
+      "surface": "apoyo",
+      "context": {
+        "language": "es",
+        "text": "Un fondo de apoyo facilitaría el viaje, pero también se ofrecerán tareas a distancia con una función real."
+      },
+      "meaning": {
+        "de": "die Unterstützung",
+        "en": "support"
+      },
+      "owner": {
+        "id": "mission.world.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.world.1.reading.p2.o1.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.world.1.reading.p2.o2",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.acuerdo",
+        "revision": 1
+      },
+      "surface": "llegar a un acuerdo",
+      "context": {
+        "language": "es",
+        "text": "La clase quiere llegar a un acuerdo sobre cómo repartir el trabajo y mantener el vínculo al terminar la visita."
+      },
+      "meaning": {
+        "de": "eine Einigung erzielen",
+        "en": "to reach an agreement"
+      },
+      "owner": {
+        "id": "mission.world.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.world.1.reading.p2.o2.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.world.1.reading.p2.o3",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.vinculo",
+        "revision": 1
+      },
+      "surface": "el vínculo",
+      "context": {
+        "language": "es",
+        "text": "La clase quiere llegar a un acuerdo sobre cómo repartir el trabajo y mantener el vínculo al terminar la visita."
+      },
+      "meaning": {
+        "de": "die Verbindung, Bindung",
+        "en": "bond, connection"
+      },
+      "owner": {
+        "id": "mission.world.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.world.1.reading.p2.o3.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.world.1.reading.p2.o4",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.beneficio",
+        "revision": 1
+      },
+      "surface": "beneficio",
+      "context": {
+        "language": "es",
+        "text": "El beneficio del intercambio estará en contrastar preguntas y escuchar diferencias concretas, no en confirmar que «los españoles» o «los alemanes» son de una sola manera."
+      },
+      "meaning": {
+        "de": "der Nutzen, Vorteil",
+        "en": "benefit"
+      },
+      "owner": {
+        "id": "mission.world.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.world.1.reading.p2.o4.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.arts.1.reading.p1.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.compartir",
+        "revision": 1
+      },
+      "surface": "compartir",
+      "context": {
+        "language": "es",
+        "text": "La niña empezó a compartir una historia del colegio."
+      },
+      "meaning": {
+        "de": "teilen, gemeinsam haben",
+        "en": "to share"
+      },
+      "owner": {
+        "id": "mission.arts.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.arts.1.reading.p1.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.arts.1.reading.p2.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.echar",
+        "revision": 1
+      },
+      "surface": "echar de menos",
+      "context": {
+        "language": "es",
+        "text": "Lectura crítica: el relato no dice a quién podría echar de menos Inés ni permite afirmar que espera a una persona concreta."
+      },
+      "meaning": {
+        "de": "vermissen",
+        "en": "to miss someone/something"
+      },
+      "owner": {
+        "id": "mission.arts.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.arts.1.reading.p2.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.arts.1.reading.p2.o1",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.afirmar",
+        "revision": 1
+      },
+      "surface": "afirmar",
+      "context": {
+        "language": "es",
+        "text": "Lectura crítica: el relato no dice a quién podría echar de menos Inés ni permite afirmar que espera a una persona concreta."
+      },
+      "meaning": {
+        "de": "behaupten, feststellen",
+        "en": "to state, claim"
+      },
+      "owner": {
+        "id": "mission.arts.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.arts.1.reading.p2.o1.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.arts.1.reading.p2.o2",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.reconocer",
+        "revision": 1
+      },
+      "surface": "reconocer",
+      "context": {
+        "language": "es",
+        "text": "La repetición de gestos invita a reconocer una espera posible."
+      },
+      "meaning": {
+        "de": "anerkennen",
+        "en": "to acknowledge"
+      },
+      "owner": {
+        "id": "mission.arts.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.arts.1.reading.p2.o2.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.arts.1.reading.p2.o3",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.perspectiva",
+        "revision": 1
+      },
+      "surface": "perspectiva",
+      "context": {
+        "language": "es",
+        "text": "Desde otra perspectiva, la silla también puede representar una costumbre que cambia al quedarse la sobrina."
+      },
+      "meaning": {
+        "de": "die Sichtweise",
+        "en": "perspective, viewpoint"
+      },
+      "owner": {
+        "id": "mission.arts.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.arts.1.reading.p2.o3.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.arts.1.reading.p2.o4",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.quedarse",
+        "revision": 1
+      },
+      "surface": "quedarse",
+      "context": {
+        "language": "es",
+        "text": "Desde otra perspectiva, la silla también puede representar una costumbre que cambia al quedarse la sobrina."
+      },
+      "meaning": {
+        "de": "bleiben",
+        "en": "to stay"
+      },
+      "owner": {
+        "id": "mission.arts.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.arts.1.reading.p2.o4.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.arts.1.reading.p2.o5",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.matizar",
+        "revision": 1
+      },
+      "surface": "matizar",
+      "context": {
+        "language": "es",
+        "text": "Conviene matizar cualquier interpretación con detalles y distinguir lo que el narrador muestra de lo que el lector infiere."
+      },
+      "meaning": {
+        "de": "differenzieren, einschränken",
+        "en": "to qualify, add nuance"
+      },
+      "owner": {
+        "id": "mission.arts.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.arts.1.reading.p2.o5.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "mission.arts.1.reading.p2.o6",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.embargo",
+        "revision": 1
+      },
+      "surface": "Sin embargo",
+      "context": {
+        "language": "es",
+        "text": "Sin embargo, reconocer una ambigüedad no significa que cualquier lectura tenga el mismo apoyo en el texto."
+      },
+      "meaning": {
+        "de": "jedoch",
+        "en": "however"
+      },
+      "owner": {
+        "id": "mission.arts.1.reading",
+        "revision": 1
+      },
+      "speech": {
+        "id": "mission.arts.1.reading.p2.o6.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.llegar.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.llegar",
+        "revision": 1
+      },
+      "surface": "llegar a",
+      "context": {
+        "language": "es",
+        "text": "Lucía acaba de llegar a Zaragoza con su madre."
+      },
+      "meaning": {
+        "de": "in … ankommen",
+        "en": "to arrive in/at"
+      },
+      "owner": {
+        "id": "lex.llegar.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.llegar.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.barrio.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.barrio",
+        "revision": 1
+      },
+      "surface": "el barrio",
+      "context": {
+        "language": "es",
+        "text": "Lucía recorre el barrio para encontrar la biblioteca."
+      },
+      "meaning": {
+        "de": "das Stadtviertel",
+        "en": "neighbourhood"
+      },
+      "owner": {
+        "id": "lex.barrio.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.barrio.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.acogida.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.acogida",
+        "revision": 1
+      },
+      "surface": "acogida",
+      "context": {
+        "language": "es",
+        "text": "Una acogida amable no elimina todas las dificultades."
+      },
+      "meaning": {
+        "de": "die Aufnahme, das Willkommen",
+        "en": "welcome, reception"
+      },
+      "owner": {
+        "id": "lex.acogida.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.acogida.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.mudarse.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.mudarse",
+        "revision": 1
+      },
+      "surface": "mudarse a",
+      "context": {
+        "language": "es",
+        "text": "Su familia quiere mudarse a un piso cerca del instituto."
+      },
+      "meaning": {
+        "de": "nach … umziehen",
+        "en": "to move to"
+      },
+      "owner": {
+        "id": "lex.mudarse.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.mudarse.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.echar.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.echar",
+        "revision": 1
+      },
+      "surface": "echar de menos",
+      "context": {
+        "language": "es",
+        "text": "Es normal echar de menos a los amigos después de un cambio."
+      },
+      "meaning": {
+        "de": "vermissen",
+        "en": "to miss someone/something"
+      },
+      "owner": {
+        "id": "lex.echar.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.echar.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.tramite.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.tramite",
+        "revision": 1
+      },
+      "surface": "el trámite",
+      "context": {
+        "language": "es",
+        "text": "Para la matrícula falta completar el trámite en secretaría."
+      },
+      "meaning": {
+        "de": "der Verwaltungsschritt",
+        "en": "administrative procedure"
+      },
+      "owner": {
+        "id": "lex.tramite.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.tramite.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.apoyo.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.apoyo",
+        "revision": 1
+      },
+      "surface": "el apoyo",
+      "context": {
+        "language": "es",
+        "text": "Con el apoyo de una compañera, la primera semana resulta más fácil."
+      },
+      "meaning": {
+        "de": "die Unterstützung",
+        "en": "support"
+      },
+      "owner": {
+        "id": "lex.apoyo.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.apoyo.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.quedarse.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.quedarse",
+        "revision": 1
+      },
+      "surface": "quedarse",
+      "context": {
+        "language": "es",
+        "text": "Después de clase decide quedarse en la biblioteca."
+      },
+      "meaning": {
+        "de": "bleiben",
+        "en": "to stay"
+      },
+      "owner": {
+        "id": "lex.quedarse.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.quedarse.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.confianza.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.confianza",
+        "revision": 1
+      },
+      "surface": "confianza",
+      "context": {
+        "language": "es",
+        "text": "Poco a poco gana confianza para preguntar."
+      },
+      "meaning": {
+        "de": "das Vertrauen",
+        "en": "trust, confidence"
+      },
+      "owner": {
+        "id": "lex.confianza.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.confianza.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.acostumbrarse.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.acostumbrarse",
+        "revision": 1
+      },
+      "surface": "acostumbrarse a",
+      "context": {
+        "language": "es",
+        "text": "Necesita tiempo para acostumbrarse a los nuevos horarios."
+      },
+      "meaning": {
+        "de": "sich an … gewöhnen",
+        "en": "to get used to"
+      },
+      "owner": {
+        "id": "lex.acostumbrarse.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.acostumbrarse.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.motivo.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.motivo",
+        "revision": 1
+      },
+      "surface": "el motivo",
+      "context": {
+        "language": "es",
+        "text": "Buscar seguridad fue el motivo principal del viaje."
+      },
+      "meaning": {
+        "de": "der Beweggrund",
+        "en": "reason, motive"
+      },
+      "owner": {
+        "id": "lex.motivo.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.motivo.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.oportunidad.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.oportunidad",
+        "revision": 1
+      },
+      "surface": "la oportunidad",
+      "context": {
+        "language": "es",
+        "text": "Una beca le ofrece la oportunidad de estudiar fuera."
+      },
+      "meaning": {
+        "de": "die Möglichkeit, Chance",
+        "en": "opportunity"
+      },
+      "owner": {
+        "id": "lex.oportunidad.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.oportunidad.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.empleo.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.empleo",
+        "revision": 1
+      },
+      "surface": "empleo",
+      "context": {
+        "language": "es",
+        "text": "Su padre busca empleo en otra ciudad."
+      },
+      "meaning": {
+        "de": "die Beschäftigung, Arbeitsstelle",
+        "en": "employment, job"
+      },
+      "owner": {
+        "id": "lex.empleo.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.empleo.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.huir.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.huir",
+        "revision": 1
+      },
+      "surface": "huir de",
+      "context": {
+        "language": "es",
+        "text": "Algunas personas tienen que huir de la violencia."
+      },
+      "meaning": {
+        "de": "vor … fliehen",
+        "en": "to flee from"
+      },
+      "owner": {
+        "id": "lex.huir.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.huir.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.reunirse.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.reunirse",
+        "revision": 1
+      },
+      "surface": "reunirse con",
+      "context": {
+        "language": "es",
+        "text": "Tras dos años puede reunirse con su hermana."
+      },
+      "meaning": {
+        "de": "sich mit … wiedervereinigen",
+        "en": "to reunite with"
+      },
+      "owner": {
+        "id": "lex.reunirse.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.reunirse.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.decidir.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.decidir",
+        "revision": 1
+      },
+      "surface": "tomar una decisión",
+      "context": {
+        "language": "es",
+        "text": "Antes de tomar una decisión, la familia compara varias opciones."
+      },
+      "meaning": {
+        "de": "eine Entscheidung treffen",
+        "en": "to make a decision"
+      },
+      "owner": {
+        "id": "lex.decidir.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.decidir.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.frontera.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.frontera",
+        "revision": 1
+      },
+      "surface": "la frontera",
+      "context": {
+        "language": "es",
+        "text": "Un desplazamiento dentro del país no cruza la frontera internacional."
+      },
+      "meaning": {
+        "de": "die Staatsgrenze",
+        "en": "border"
+      },
+      "owner": {
+        "id": "lex.frontera.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.frontera.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.obligado.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.obligado",
+        "revision": 1
+      },
+      "surface": "verse obligado a",
+      "context": {
+        "language": "es",
+        "text": "Nadie debería verse obligado a abandonar su casa por miedo."
+      },
+      "meaning": {
+        "de": "sich gezwungen sehen zu",
+        "en": "to be forced to"
+      },
+      "owner": {
+        "id": "lex.obligado.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.obligado.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.arraigo.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.arraigo",
+        "revision": 1
+      },
+      "surface": "el arraigo",
+      "context": {
+        "language": "es",
+        "text": "El trabajo y las amistades pueden favorecer el arraigo en una ciudad."
+      },
+      "meaning": {
+        "de": "die Verwurzelung",
+        "en": "rootedness, attachment"
+      },
+      "owner": {
+        "id": "lex.arraigo.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.arraigo.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.regresar.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.regresar",
+        "revision": 1
+      },
+      "surface": "regresar a",
+      "context": {
+        "language": "es",
+        "text": "No sabe cuándo podrá regresar a su pueblo."
+      },
+      "meaning": {
+        "de": "nach … zurückkehren",
+        "en": "to return to"
+      },
+      "owner": {
+        "id": "lex.regresar.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.regresar.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.pertenecer.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.pertenecer",
+        "revision": 1
+      },
+      "surface": "pertenecer a",
+      "context": {
+        "language": "es",
+        "text": "Se puede pertenecer a más de una comunidad."
+      },
+      "meaning": {
+        "de": "zu … gehören",
+        "en": "to belong to"
+      },
+      "owner": {
+        "id": "lex.pertenecer.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.pertenecer.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.identidad.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.identidad",
+        "revision": 1
+      },
+      "surface": "la identidad",
+      "context": {
+        "language": "es",
+        "text": "La lengua forma parte de la identidad, pero no la define por completo."
+      },
+      "meaning": {
+        "de": "die Identität",
+        "en": "identity"
+      },
+      "owner": {
+        "id": "lex.identidad.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.identidad.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.lengua.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.lengua",
+        "revision": 1
+      },
+      "surface": "la lengua materna",
+      "context": {
+        "language": "es",
+        "text": "En casa habla la lengua materna de su abuela."
+      },
+      "meaning": {
+        "de": "die Erstsprache, Muttersprache",
+        "en": "first language, mother tongue"
+      },
+      "owner": {
+        "id": "lex.lengua.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.lengua.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.acento.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.acento",
+        "revision": 1
+      },
+      "surface": "el acento",
+      "context": {
+        "language": "es",
+        "text": "Le molesta que juzguen sus ideas por el acento."
+      },
+      "meaning": {
+        "de": "der Akzent beim Sprechen",
+        "en": "spoken accent"
+      },
+      "owner": {
+        "id": "lex.acento.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.acento.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.vinculo.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.vinculo",
+        "revision": 1
+      },
+      "surface": "el vínculo",
+      "context": {
+        "language": "es",
+        "text": "Las llamadas mantienen el vínculo con sus primos."
+      },
+      "meaning": {
+        "de": "die Verbindung, Bindung",
+        "en": "bond, connection"
+      },
+      "owner": {
+        "id": "lex.vinculo.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.vinculo.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.encajar.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.encajar",
+        "revision": 1
+      },
+      "surface": "encajar en",
+      "context": {
+        "language": "es",
+        "text": "No quiere cambiar su nombre para encajar en el grupo."
+      },
+      "meaning": {
+        "de": "sich in … einfügen",
+        "en": "to fit into"
+      },
+      "owner": {
+        "id": "lex.encajar.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.encajar.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.compartir.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.compartir",
+        "revision": 1
+      },
+      "surface": "compartir",
+      "context": {
+        "language": "es",
+        "text": "Hablar permite compartir experiencias distintas."
+      },
+      "meaning": {
+        "de": "teilen, gemeinsam haben",
+        "en": "to share"
+      },
+      "owner": {
+        "id": "lex.compartir.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.compartir.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.rechazo.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.rechazo",
+        "revision": 1
+      },
+      "surface": "rechazo",
+      "context": {
+        "language": "es",
+        "text": "El silencio del grupo le parece una señal de rechazo."
+      },
+      "meaning": {
+        "de": "die Ablehnung",
+        "en": "rejection"
+      },
+      "owner": {
+        "id": "lex.rechazo.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.rechazo.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.reconocer.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.reconocer",
+        "revision": 1
+      },
+      "surface": "reconocer",
+      "context": {
+        "language": "es",
+        "text": "Escuchar implica reconocer que no todos viven lo mismo."
+      },
+      "meaning": {
+        "de": "anerkennen",
+        "en": "to acknowledge"
+      },
+      "owner": {
+        "id": "lex.reconocer.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.reconocer.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.cuenta.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.cuenta",
+        "revision": 1
+      },
+      "surface": "tener en cuenta",
+      "context": {
+        "language": "es",
+        "text": "El centro debe tener en cuenta las necesidades de cada alumno."
+      },
+      "meaning": {
+        "de": "berücksichtigen",
+        "en": "to take into account"
+      },
+      "owner": {
+        "id": "lex.cuenta.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.cuenta.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.titular.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.titular",
+        "revision": 1
+      },
+      "surface": "el titular",
+      "context": {
+        "language": "es",
+        "text": "Lee el titular y después comprueba el texto completo."
+      },
+      "meaning": {
+        "de": "die Schlagzeile",
+        "en": "headline"
+      },
+      "owner": {
+        "id": "lex.titular.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.titular.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.fuente.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.fuente",
+        "revision": 1
+      },
+      "surface": "la fuente",
+      "context": {
+        "language": "es",
+        "text": "El artículo no identifica la fuente de sus cifras."
+      },
+      "meaning": {
+        "de": "die Informationsquelle",
+        "en": "information source"
+      },
+      "owner": {
+        "id": "lex.fuente.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.fuente.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.sesgo.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.sesgo",
+        "revision": 1
+      },
+      "surface": "un sesgo",
+      "context": {
+        "language": "es",
+        "text": "Elegir solo testimonios negativos introduce un sesgo en la noticia."
+      },
+      "meaning": {
+        "de": "die einseitige Perspektive, Verzerrung",
+        "en": "bias"
+      },
+      "owner": {
+        "id": "lex.sesgo.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.sesgo.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.testimonio.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.testimonio",
+        "revision": 1
+      },
+      "surface": "el testimonio",
+      "context": {
+        "language": "es",
+        "text": "Un dato estadístico no sustituye el testimonio de una persona."
+      },
+      "meaning": {
+        "de": "der persönliche Bericht",
+        "en": "testimony, personal account"
+      },
+      "owner": {
+        "id": "lex.testimonio.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.testimonio.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.contrastar.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.contrastar",
+        "revision": 1
+      },
+      "surface": "contrastar",
+      "context": {
+        "language": "es",
+        "text": "Antes de compartir la noticia conviene contrastar sus datos."
+      },
+      "meaning": {
+        "de": "abgleichen, gegenüberstellen",
+        "en": "to cross-check, contrast"
+      },
+      "owner": {
+        "id": "lex.contrastar.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.contrastar.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.destacar.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.destacar",
+        "revision": 1
+      },
+      "surface": "destacar",
+      "context": {
+        "language": "es",
+        "text": "El segundo artículo prefiere destacar las soluciones del barrio."
+      },
+      "meaning": {
+        "de": "hervorheben",
+        "en": "to highlight"
+      },
+      "owner": {
+        "id": "lex.destacar.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.destacar.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.estereotipo.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.estereotipo",
+        "revision": 1
+      },
+      "surface": "un estereotipo",
+      "context": {
+        "language": "es",
+        "text": "Presentar a todo un grupo como idéntico refuerza un estereotipo."
+      },
+      "meaning": {
+        "de": "das Klischee, Stereotyp",
+        "en": "stereotype"
+      },
+      "owner": {
+        "id": "lex.estereotipo.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.estereotipo.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.difundir.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.difundir",
+        "revision": 1
+      },
+      "surface": "difundir",
+      "context": {
+        "language": "es",
+        "text": "Una foto sin contexto puede difundir una idea equivocada."
+      },
+      "meaning": {
+        "de": "verbreiten",
+        "en": "to spread, disseminate"
+      },
+      "owner": {
+        "id": "lex.difundir.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.difundir.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.cuestionar.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.cuestionar",
+        "revision": 1
+      },
+      "surface": "cuestionar",
+      "context": {
+        "language": "es",
+        "text": "La clase aprende a cuestionar afirmaciones sin pruebas."
+      },
+      "meaning": {
+        "de": "kritisch hinterfragen",
+        "en": "to question, challenge"
+      },
+      "owner": {
+        "id": "lex.cuestionar.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.cuestionar.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.afirmar.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.afirmar",
+        "revision": 1
+      },
+      "surface": "afirmar",
+      "context": {
+        "language": "es",
+        "text": "No basta con afirmar que una medida funciona: hacen falta pruebas."
+      },
+      "meaning": {
+        "de": "behaupten, feststellen",
+        "en": "to state, claim"
+      },
+      "owner": {
+        "id": "lex.afirmar.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.afirmar.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.propuesta.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.propuesta",
+        "revision": 1
+      },
+      "surface": "una propuesta",
+      "context": {
+        "language": "es",
+        "text": "La asociación presenta una propuesta al ayuntamiento."
+      },
+      "meaning": {
+        "de": "der Vorschlag",
+        "en": "proposal"
+      },
+      "owner": {
+        "id": "lex.propuesta.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.propuesta.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.medida.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.medida",
+        "revision": 1
+      },
+      "surface": "la medida",
+      "context": {
+        "language": "es",
+        "text": "Antes de ampliar la medida, el centro evaluará sus resultados."
+      },
+      "meaning": {
+        "de": "die Maßnahme",
+        "en": "measure, action"
+      },
+      "owner": {
+        "id": "lex.medida.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.medida.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.acceso.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.acceso",
+        "revision": 1
+      },
+      "surface": "el acceso a",
+      "context": {
+        "language": "es",
+        "text": "El proyecto pretende mejorar el acceso a la información."
+      },
+      "meaning": {
+        "de": "der Zugang zu",
+        "en": "access to"
+      },
+      "owner": {
+        "id": "lex.acceso.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.acceso.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.vivienda.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.vivienda",
+        "revision": 1
+      },
+      "surface": "vivienda",
+      "context": {
+        "language": "es",
+        "text": "Encontrar vivienda asequible sigue siendo difícil."
+      },
+      "meaning": {
+        "de": "der Wohnraum, die Wohnung",
+        "en": "housing, dwelling"
+      },
+      "owner": {
+        "id": "lex.vivienda.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.vivienda.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.coste.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.coste",
+        "revision": 1
+      },
+      "surface": "el coste",
+      "context": {
+        "language": "es",
+        "text": "El presupuesto debe indicar el coste del proyecto."
+      },
+      "meaning": {
+        "de": "die Kosten",
+        "en": "cost"
+      },
+      "owner": {
+        "id": "lex.coste.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.coste.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.beneficio.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.beneficio",
+        "revision": 1
+      },
+      "surface": "el beneficio",
+      "context": {
+        "language": "es",
+        "text": "El informe explica el beneficio para todo el barrio."
+      },
+      "meaning": {
+        "de": "der Nutzen, Vorteil",
+        "en": "benefit"
+      },
+      "owner": {
+        "id": "lex.beneficio.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.beneficio.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.plazo.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.plazo",
+        "revision": 1
+      },
+      "surface": "a largo plazo",
+      "context": {
+        "language": "es",
+        "text": "La comisión quiere saber si la solución funcionará a largo plazo."
+      },
+      "meaning": {
+        "de": "langfristig",
+        "en": "in the long term"
+      },
+      "owner": {
+        "id": "lex.plazo.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.plazo.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.frente.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.frente",
+        "revision": 1
+      },
+      "surface": "hacer frente a",
+      "context": {
+        "language": "es",
+        "text": "El grupo busca recursos para hacer frente a la falta de personal."
+      },
+      "meaning": {
+        "de": "… bewältigen, entgegentreten",
+        "en": "to deal with, face"
+      },
+      "owner": {
+        "id": "lex.frente.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.frente.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.acuerdo.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.acuerdo",
+        "revision": 1
+      },
+      "surface": "llegar a un acuerdo",
+      "context": {
+        "language": "es",
+        "text": "Las dos asociaciones intentan llegar a un acuerdo."
+      },
+      "meaning": {
+        "de": "eine Einigung erzielen",
+        "en": "to reach an agreement"
+      },
+      "owner": {
+        "id": "lex.acuerdo.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.acuerdo.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.evaluar.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.evaluar",
+        "revision": 1
+      },
+      "surface": "evaluar",
+      "context": {
+        "language": "es",
+        "text": "Después de tres meses será necesario evaluar los resultados."
+      },
+      "meaning": {
+        "de": "bewerten, überprüfen",
+        "en": "to evaluate"
+      },
+      "owner": {
+        "id": "lex.evaluar.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.evaluar.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.perspectiva.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.perspectiva",
+        "revision": 1
+      },
+      "surface": "la perspectiva",
+      "context": {
+        "language": "es",
+        "text": "Escuchar a los vecinos cambia la perspectiva de la comisión."
+      },
+      "meaning": {
+        "de": "die Sichtweise",
+        "en": "perspective, viewpoint"
+      },
+      "owner": {
+        "id": "lex.perspectiva.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.perspectiva.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.argumento.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.argumento",
+        "revision": 1
+      },
+      "surface": "el argumento",
+      "context": {
+        "language": "es",
+        "text": "Apoya el argumento con un ejemplo del texto."
+      },
+      "meaning": {
+        "de": "das Argument",
+        "en": "argument, reason"
+      },
+      "owner": {
+        "id": "lex.argumento.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.argumento.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.matizar.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.matizar",
+        "revision": 1
+      },
+      "surface": "matizar",
+      "context": {
+        "language": "es",
+        "text": "La autora quiere matizar su primera afirmación."
+      },
+      "meaning": {
+        "de": "differenzieren, einschränken",
+        "en": "to qualify, add nuance"
+      },
+      "owner": {
+        "id": "lex.matizar.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.matizar.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.aunque.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.aunque",
+        "revision": 1
+      },
+      "surface": "aunque",
+      "context": {
+        "language": "es",
+        "text": "El proyecto sigue adelante, aunque tiene un presupuesto limitado."
+      },
+      "meaning": {
+        "de": "obwohl; auch wenn",
+        "en": "although; even if"
+      },
+      "owner": {
+        "id": "lex.aunque.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.aunque.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.embargo.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.embargo",
+        "revision": 1
+      },
+      "surface": "sin embargo",
+      "context": {
+        "language": "es",
+        "text": "La idea parece útil; sin embargo, no resuelve todos los problemas."
+      },
+      "meaning": {
+        "de": "jedoch",
+        "en": "however"
+      },
+      "owner": {
+        "id": "lex.embargo.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.embargo.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.por_tanto.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.por_tanto",
+        "revision": 1
+      },
+      "surface": "por tanto",
+      "context": {
+        "language": "es",
+        "text": "Faltan datos fiables; por tanto, la conclusión debe ser provisional."
+      },
+      "meaning": {
+        "de": "daher, folglich",
+        "en": "therefore"
+      },
+      "owner": {
+        "id": "lex.por_tanto.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.por_tanto.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.derecho.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.derecho",
+        "revision": 1
+      },
+      "surface": "el derecho a",
+      "context": {
+        "language": "es",
+        "text": "La escuela debe respetar el derecho a expresar opiniones diferentes."
+      },
+      "meaning": {
+        "de": "das Recht auf",
+        "en": "the right to"
+      },
+      "owner": {
+        "id": "lex.derecho.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.derecho.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.convivencia.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.convivencia",
+        "revision": 1
+      },
+      "surface": "la convivencia",
+      "context": {
+        "language": "es",
+        "text": "Resolver los conflictos con respeto mejora la convivencia."
+      },
+      "meaning": {
+        "de": "das Zusammenleben",
+        "en": "living together, coexistence"
+      },
+      "owner": {
+        "id": "lex.convivencia.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.convivencia.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.participar.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.participar",
+        "revision": 1
+      },
+      "surface": "participar en",
+      "context": {
+        "language": "es",
+        "text": "Los jóvenes quieren participar en las decisiones del barrio."
+      },
+      "meaning": {
+        "de": "an … teilnehmen",
+        "en": "to participate in"
+      },
+      "owner": {
+        "id": "lex.participar.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.participar.example.p0.o0.audio",
+        "revision": 1
+      }
+    },
+    {
+      "content": {
+        "id": "lex.responsabilidad.example.p0.o0",
+        "revision": 1
+      },
+      "sense": {
+        "id": "lex.responsabilidad",
+        "revision": 1
+      },
+      "surface": "la responsabilidad",
+      "context": {
+        "language": "es",
+        "text": "Cada equipo asume la responsabilidad de una tarea."
+      },
+      "meaning": {
+        "de": "die Verantwortung",
+        "en": "responsibility"
+      },
+      "owner": {
+        "id": "lex.responsabilidad.example",
+        "revision": 1
+      },
+      "speech": {
+        "id": "lex.responsabilidad.example.p0.o0.audio",
+        "revision": 1
+      }
+    }
+  ]
+}

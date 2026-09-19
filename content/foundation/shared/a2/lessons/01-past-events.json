@@ -1,0 +1,628 @@
+{
+  "lessons": [
+    {
+      "content": {
+        "id": "es.a2.past-events.lesson",
+        "revision": 3
+      },
+      "title": {
+        "slot": "es.a2.past-events.title"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.past-events.objective",
+          "revision": 3
+        }
+      ],
+      "activities": [
+        {
+          "id": "es.a2.past-events.intro",
+          "revision": 3
+        },
+        {
+          "id": "es.a2.past-events.choice",
+          "revision": 3
+        },
+        {
+          "id": "es.a2.past-events.order",
+          "revision": 3
+        },
+        {
+          "id": "es.a2.past-events.recall",
+          "revision": 3
+        },
+        {
+          "id": "es.a2.past-events.listen",
+          "revision": 3
+        },
+        {
+          "id": "es.a2.past-events.produce",
+          "revision": 3
+        }
+      ],
+      "estimated_minutes": 10
+    }
+  ],
+  "objectives": [
+    {
+      "content": {
+        "id": "es.a2.past-events.objective",
+        "revision": 3
+      },
+      "band": "A2",
+      "can_do": {
+        "slot": "es.a2.past-events.can_do"
+      },
+      "prerequisites": [],
+      "explanation_refs": [
+        {
+          "id": "es.a2.past-events.guide",
+          "revision": 3
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "content": {
+        "id": "es.a2.past-events.intro",
+        "revision": 3
+      },
+      "instruction": {
+        "slot": "es.a2.past-events.title"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.past-events.objective",
+          "revision": 3
+        }
+      ],
+      "materials": [],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "explanation",
+        "material": {
+          "id": "es.a2.past-events.guide",
+          "revision": 3
+        }
+      },
+      "skills": [
+        "grammar"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.past-events.choice",
+        "revision": 3
+      },
+      "instruction": {
+        "slot": "es.a2.past-events.choice"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.past-events.objective",
+          "revision": 3
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.past-events.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "c1",
+            "label": {
+              "language": "es",
+              "text": "Ayer visité el museo."
+            }
+          },
+          {
+            "id": "c2",
+            "label": {
+              "language": "es",
+              "text": "Ayer visitar el museo."
+            }
+          },
+          {
+            "id": "c3",
+            "label": {
+              "language": "es",
+              "text": "Ayer visito el museo."
+            }
+          }
+        ],
+        "correct_ids": [
+          "c1"
+        ],
+        "explanation": {
+          "id": "es.a2.past-events.guide",
+          "revision": 3
+        }
+      },
+      "skills": [
+        "reading"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.past-events.order",
+        "revision": 3
+      },
+      "instruction": {
+        "slot": "es.a2.past-events.order"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.past-events.objective",
+          "revision": 3
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.past-events.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "order",
+        "items": [
+          {
+            "id": "w1",
+            "label": {
+              "language": "es",
+              "text": "Ayer"
+            }
+          },
+          {
+            "id": "w2",
+            "label": {
+              "language": "es",
+              "text": "visitamos"
+            }
+          },
+          {
+            "id": "w3",
+            "label": {
+              "language": "es",
+              "text": "el"
+            }
+          },
+          {
+            "id": "w4",
+            "label": {
+              "language": "es",
+              "text": "museo"
+            }
+          },
+          {
+            "id": "w5",
+            "label": {
+              "language": "es",
+              "text": "con"
+            }
+          },
+          {
+            "id": "w6",
+            "label": {
+              "language": "es",
+              "text": "nuestra"
+            }
+          },
+          {
+            "id": "w7",
+            "label": {
+              "language": "es",
+              "text": "clase."
+            }
+          }
+        ],
+        "accepted_orders": [
+          [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ]
+        ],
+        "explanation": {
+          "id": "es.a2.past-events.guide",
+          "revision": 3
+        }
+      },
+      "skills": [
+        "grammar"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.past-events.recall",
+        "revision": 3
+      },
+      "instruction": {
+        "slot": "es.a2.past-events.recall"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.past-events.objective",
+          "revision": 3
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.past-events.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "orthography",
+        "inputs": [
+          "keyboard"
+        ],
+        "accepted": [
+          "visité"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.a2.past-events.recall-answer",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "grammar",
+        "vocabulary"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.past-events.listen",
+        "revision": 3
+      },
+      "instruction": {
+        "slot": "es.a2.past-events.listen"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.past-events.objective",
+          "revision": 3
+        }
+      ],
+      "materials": [
+        {
+          "id": "es.a2.past-events.listening",
+          "revision": 1
+        }
+      ],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "l1",
+            "label": {
+              "language": "es",
+              "text": "A las cinco."
+            }
+          },
+          {
+            "id": "l2",
+            "label": {
+              "language": "es",
+              "text": "Por la mañana."
+            }
+          },
+          {
+            "id": "l3",
+            "label": {
+              "language": "es",
+              "text": "El día siguiente."
+            }
+          }
+        ],
+        "correct_ids": [
+          "l1"
+        ],
+        "explanation": {
+          "id": "es.a2.past-events.listen-answer",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "listening"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.past-events.produce",
+        "revision": 3
+      },
+      "instruction": {
+        "language": "es",
+        "text": "Cuenta una excursión escolar real o inventada. Explica adónde fuiste, qué hiciste y qué te gustó."
+      },
+      "objectives": [
+        {
+          "id": "es.a2.past-events.objective",
+          "revision": 3
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.past-events.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "writing",
+        "language": "es",
+        "min_words": 25,
+        "max_words": 110,
+        "rubric": {
+          "id": "es.a2.past-events.rubric",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "writing"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "content": {
+        "id": "es.a2.past-events.listening",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "audio",
+          "speech": {
+            "id": "es.a2.past-events.listening-audio",
+            "revision": 1
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.past-events.listen-answer",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a2.past-events.listen-feedback"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "La semana pasada nuestra clase fue a Toledo. Visitamos una exposición por la mañana y volvimos al instituto a las cinco."
+            }
+          ],
+          "speech": null
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.past-events.recall-answer",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "slot": "es.a2.past-events.answer-title"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "visité"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a2.past-events.guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.past-events.model",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "slot": "es.a2.past-events.model-title"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "La semana pasada fui a un museo con mi clase. Viajamos en autobús y llegamos a las diez. Primero visitamos una exposición y después hicimos un taller. Me gustó el taller porque pudimos trabajar juntos."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.past-events.vocab",
+        "revision": 1
+      },
+      "searchable": true,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "language": "es",
+              "text": "la excursión"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a2.past-events.gloss"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Ayer visité el museo con mi clase. Después escribimos un informe."
+            }
+          ],
+          "speech": {
+            "id": "es.a2.past-events.example-audio",
+            "revision": 1
+          }
+        }
+      ]
+    }
+  ],
+  "speech": [
+    {
+      "content": {
+        "id": "es.a2.past-events.example-audio",
+        "revision": 1
+      },
+      "text": "Ayer visité el museo con mi clase. Después escribimos un informe.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "es.a2.past-events.listening-audio",
+        "revision": 1
+      },
+      "text": "La semana pasada nuestra clase fue a Toledo. Visitamos una exposición por la mañana y volvimos al instituto a las cinco.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "content": {
+        "id": "es.a2.past-events.lexeme",
+        "revision": 1
+      },
+      "lemma": "la excursión",
+      "part_of_speech": "noun",
+      "gloss": {
+        "slot": "es.a2.past-events.gloss"
+      },
+      "accepted_forms": [
+        "la excursión"
+      ],
+      "examples": [
+        {
+          "id": "es.a2.past-events.vocab",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "rubrics": [
+    {
+      "content": {
+        "id": "es.a2.past-events.rubric",
+        "revision": 1
+      },
+      "criteria": [
+        {
+          "id": "task",
+          "label": {
+            "slot": "es.a2.past-events.rubric.task.label"
+          },
+          "guidance": {
+            "slot": "es.a2.past-events.rubric.task.guidance"
+          }
+        },
+        {
+          "id": "structure",
+          "label": {
+            "slot": "es.a2.past-events.rubric.structure.label"
+          },
+          "guidance": {
+            "slot": "es.a2.past-events.rubric.structure.guidance"
+          }
+        },
+        {
+          "id": "language",
+          "label": {
+            "slot": "es.a2.past-events.rubric.language.label"
+          },
+          "guidance": {
+            "slot": "es.a2.past-events.rubric.language.guidance"
+          }
+        }
+      ],
+      "model_answers": [
+        {
+          "id": "es.a2.past-events.model",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "assessments": []
+}

@@ -1,0 +1,36 @@
+[workspace]
+resolver = "3"
+members = ["crates/*", "apps/desktop/src-tauri"]
+default-members = ["crates/contracts", "crates/content", "crates/learning", "crates/storage"]
+
+[workspace.package]
+version = "0.0.1"
+edition = "2024"
+license = "GPL-3.0-or-later"
+publish = false
+
+[workspace.dependencies]
+fluenta-contracts = { path = "crates/contracts" }
+fluenta-content = { path = "crates/content" }
+fluenta-learning = { path = "crates/learning" }
+fluenta-storage = { path = "crates/storage" }
+fluenta-speech = { path = "crates/speech" }
+fluenta-tutor = { path = "crates/tutor" }
+fluenta-runtime = { path = "crates/runtime" }
+serde = { version = "1", features = ["derive"] }
+# Search cursors compare SQLite ranks exactly after JSON round trips.
+serde_json = { version = "1", features = ["float_roundtrip"] }
+schemars = "1.2"
+rusqlite = { version = "0.40", features = ["bundled", "backup"] }
+thiserror = "2"
+uuid = { version = "1", features = ["v4"] }
+sha2 = "0.10"
+unicode-normalization = "0.1"
+rand = "0.9"
+tempfile = "3"
+tokio = { version = "1", features = ["rt-multi-thread", "macros", "sync", "process", "io-util", "time", "fs"] }
+
+[profile.release]
+lto = "thin"
+codegen-units = 1
+strip = "debuginfo"

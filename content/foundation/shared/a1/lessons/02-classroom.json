@@ -1,0 +1,667 @@
+{
+  "lessons": [
+    {
+      "content": {
+        "id": "es.a1.classroom.lesson",
+        "revision": 2
+      },
+      "title": {
+        "slot": "es.a1.classroom.title"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.classroom.objective",
+          "revision": 2
+        }
+      ],
+      "activities": [
+        {
+          "id": "es.a1.classroom.intro",
+          "revision": 2
+        },
+        {
+          "id": "es.a1.classroom.choice",
+          "revision": 2
+        },
+        {
+          "id": "es.a1.classroom.order",
+          "revision": 2
+        },
+        {
+          "id": "es.a1.classroom.recall",
+          "revision": 2
+        },
+        {
+          "id": "es.a1.classroom.listen",
+          "revision": 2
+        },
+        {
+          "id": "es.a1.classroom.produce",
+          "revision": 2
+        }
+      ],
+      "estimated_minutes": 8
+    }
+  ],
+  "objectives": [
+    {
+      "content": {
+        "id": "es.a1.classroom.objective",
+        "revision": 2
+      },
+      "band": "A1",
+      "can_do": {
+        "slot": "es.a1.classroom.can_do"
+      },
+      "prerequisites": [
+        {
+          "id": "es.a1.identities.objective",
+          "revision": 2
+        }
+      ],
+      "explanation_refs": [
+        {
+          "id": "es.a1.classroom.guide",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "content": {
+        "id": "es.a1.classroom.intro",
+        "revision": 2
+      },
+      "instruction": {
+        "slot": "es.a1.classroom.title"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.classroom.objective",
+          "revision": 2
+        }
+      ],
+      "materials": [],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "explanation",
+        "material": {
+          "id": "es.a1.classroom.guide",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "grammar"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.classroom.choice",
+        "revision": 2
+      },
+      "instruction": {
+        "slot": "es.a1.classroom.choice"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.classroom.objective",
+          "revision": 2
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a1.classroom.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "c1",
+            "label": {
+              "language": "es",
+              "text": "Las mesas pequeñas."
+            }
+          },
+          {
+            "id": "c2",
+            "label": {
+              "language": "es",
+              "text": "Las mesa pequeña."
+            }
+          },
+          {
+            "id": "c3",
+            "label": {
+              "language": "es",
+              "text": "Los mesas pequeños."
+            }
+          }
+        ],
+        "correct_ids": [
+          "c1"
+        ],
+        "explanation": {
+          "id": "es.a1.classroom.guide",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "reading"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.classroom.order",
+        "revision": 2
+      },
+      "instruction": {
+        "slot": "es.a1.classroom.order"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.classroom.objective",
+          "revision": 2
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a1.classroom.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "order",
+        "items": [
+          {
+            "id": "w1",
+            "label": {
+              "language": "es",
+              "text": "En"
+            }
+          },
+          {
+            "id": "w2",
+            "label": {
+              "language": "es",
+              "text": "el"
+            }
+          },
+          {
+            "id": "w3",
+            "label": {
+              "language": "es",
+              "text": "aula"
+            }
+          },
+          {
+            "id": "w4",
+            "label": {
+              "language": "es",
+              "text": "hay"
+            }
+          },
+          {
+            "id": "w5",
+            "label": {
+              "language": "es",
+              "text": "una"
+            }
+          },
+          {
+            "id": "w6",
+            "label": {
+              "language": "es",
+              "text": "pizarra."
+            }
+          }
+        ],
+        "accepted_orders": [
+          [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ]
+        ],
+        "explanation": {
+          "id": "es.a1.classroom.guide",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "grammar"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.classroom.recall",
+        "revision": 2
+      },
+      "instruction": {
+        "slot": "es.a1.classroom.recall"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.classroom.objective",
+          "revision": 2
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a1.classroom.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "sentence_content",
+        "inputs": [
+          "keyboard",
+          "microphone"
+        ],
+        "accepted": [
+          "Los libros rojos"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.a1.classroom.recall-answer",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "grammar",
+        "vocabulary"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.classroom.listen",
+        "revision": 2
+      },
+      "instruction": {
+        "slot": "es.a1.classroom.listen"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.classroom.objective",
+          "revision": 2
+        }
+      ],
+      "materials": [
+        {
+          "id": "es.a1.classroom.listening",
+          "revision": 1
+        }
+      ],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "l1",
+            "label": {
+              "language": "es",
+              "text": "El libro de la profesora."
+            }
+          },
+          {
+            "id": "l2",
+            "label": {
+              "language": "es",
+              "text": "La pizarra."
+            }
+          },
+          {
+            "id": "l3",
+            "label": {
+              "language": "es",
+              "text": "Las sillas."
+            }
+          }
+        ],
+        "correct_ids": [
+          "l1"
+        ],
+        "explanation": {
+          "id": "es.a1.classroom.listen-answer",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "listening"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.classroom.produce",
+        "revision": 2
+      },
+      "instruction": {
+        "language": "es",
+        "text": "Describe tu aula. Di qué hay y usa al menos dos adjetivos."
+      },
+      "objectives": [
+        {
+          "id": "es.a1.classroom.objective",
+          "revision": 2
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a1.classroom.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "speaking",
+        "language": "es",
+        "max_seconds": 60,
+        "rubric": {
+          "id": "es.a1.classroom.rubric",
+          "revision": 1
+        },
+        "keyboard_alternative": {
+          "id": "es.a1.classroom.keyboard",
+          "revision": 2
+        }
+      },
+      "skills": [
+        "speaking"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.classroom.keyboard",
+        "revision": 2
+      },
+      "instruction": {
+        "language": "es",
+        "text": "Describe tu aula. Di qué hay y usa al menos dos adjetivos."
+      },
+      "objectives": [
+        {
+          "id": "es.a1.classroom.objective",
+          "revision": 2
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a1.classroom.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "writing",
+        "language": "es",
+        "min_words": 15,
+        "max_words": 75,
+        "rubric": {
+          "id": "es.a1.classroom.rubric",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "writing"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "content": {
+        "id": "es.a1.classroom.listening",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "audio",
+          "speech": {
+            "id": "es.a1.classroom.listening-audio",
+            "revision": 1
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.classroom.listen-answer",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a1.classroom.listen-feedback"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "En nuestra clase hay veinte sillas, diez mesas y una pizarra. La profesora tiene un libro azul."
+            }
+          ],
+          "speech": null
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.classroom.recall-answer",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "slot": "es.a1.classroom.answer-title"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Los libros rojos"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a1.classroom.guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.classroom.model",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "slot": "es.a1.classroom.model-title"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "En mi aula hay veinte mesas y una pizarra blanca. Las ventanas son grandes. Hay libros interesantes y un reloj pequeño. Mi mesa está cerca de la puerta."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.classroom.vocab",
+        "revision": 1
+      },
+      "searchable": true,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "language": "es",
+              "text": "la pizarra"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a1.classroom.gloss"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "En el aula hay dos ventanas grandes y una pizarra blanca."
+            }
+          ],
+          "speech": {
+            "id": "es.a1.classroom.example-audio",
+            "revision": 1
+          }
+        }
+      ]
+    }
+  ],
+  "speech": [
+    {
+      "content": {
+        "id": "es.a1.classroom.example-audio",
+        "revision": 1
+      },
+      "text": "En el aula hay dos ventanas grandes y una pizarra blanca.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "es.a1.classroom.listening-audio",
+        "revision": 1
+      },
+      "text": "En nuestra clase hay veinte sillas, diez mesas y una pizarra. La profesora tiene un libro azul.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "content": {
+        "id": "es.a1.classroom.lexeme",
+        "revision": 1
+      },
+      "lemma": "la pizarra",
+      "part_of_speech": "noun",
+      "gloss": {
+        "slot": "es.a1.classroom.gloss"
+      },
+      "accepted_forms": [
+        "la pizarra"
+      ],
+      "examples": [
+        {
+          "id": "es.a1.classroom.vocab",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "rubrics": [
+    {
+      "content": {
+        "id": "es.a1.classroom.rubric",
+        "revision": 1
+      },
+      "criteria": [
+        {
+          "id": "task",
+          "label": {
+            "slot": "es.a1.classroom.rubric.task.label"
+          },
+          "guidance": {
+            "slot": "es.a1.classroom.rubric.task.guidance"
+          }
+        },
+        {
+          "id": "structure",
+          "label": {
+            "slot": "es.a1.classroom.rubric.structure.label"
+          },
+          "guidance": {
+            "slot": "es.a1.classroom.rubric.structure.guidance"
+          }
+        },
+        {
+          "id": "language",
+          "label": {
+            "slot": "es.a1.classroom.rubric.language.label"
+          },
+          "guidance": {
+            "slot": "es.a1.classroom.rubric.language.guidance"
+          }
+        }
+      ],
+      "model_answers": [
+        {
+          "id": "es.a1.classroom.model",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "assessments": []
+}

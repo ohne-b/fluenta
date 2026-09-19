@@ -1,0 +1,898 @@
+{
+  "missions": [
+    {
+      "content": {
+        "id": "mission.migration.4",
+        "revision": 1
+      },
+      "title": {
+        "language": "es",
+        "text": "Lo que cuentan los medios"
+      },
+      "question": {
+        "language": "es",
+        "text": "¿Cómo cambia una historia según quién la cuenta?"
+      },
+      "outcome": {
+        "de": "Analysiere Auswahl und Wirkung zweier Darstellungen.",
+        "en": "Analyse selection and effect in two representations."
+      },
+      "description": {
+        "de": "Verbinde Textverständnis, nützliche Wendungen und eine eigene Antwort.",
+        "en": "Connect understanding, useful expressions and your own response."
+      },
+      "band": "B2",
+      "lesson": {
+        "id": "mission.migration.4.lesson",
+        "revision": 1
+      },
+      "challenge": {
+        "id": "mission.migration.4.assessment",
+        "revision": 1
+      },
+      "vocabulary": [
+        {
+          "id": "lex.titular",
+          "revision": 1
+        },
+        {
+          "id": "lex.fuente",
+          "revision": 1
+        },
+        {
+          "id": "lex.sesgo",
+          "revision": 1
+        },
+        {
+          "id": "lex.testimonio",
+          "revision": 1
+        },
+        {
+          "id": "lex.contrastar",
+          "revision": 1
+        },
+        {
+          "id": "lex.destacar",
+          "revision": 1
+        },
+        {
+          "id": "lex.estereotipo",
+          "revision": 1
+        },
+        {
+          "id": "lex.difundir",
+          "revision": 1
+        },
+        {
+          "id": "lex.cuestionar",
+          "revision": 1
+        },
+        {
+          "id": "lex.afirmar",
+          "revision": 1
+        }
+      ],
+      "sources": [
+        {
+          "title": "LehrplanPLUS · Spanisch 12/13, erhöhtes Anforderungsniveau",
+          "url": "https://www.lehrplanplus.bayern.de/fachlehrplan/gymnasium/12/spanisch/erhoeht",
+          "accessed": "2026-09-19",
+          "note": {
+            "de": "Zuordnung zu Themen und Kompetenzen; die Sammlungen sind redaktionell gegliedert.",
+            "en": "Mapping to themes and skills; collection titles are editorial groupings."
+          }
+        },
+        {
+          "title": "IOM · Glossary on Migration",
+          "url": "https://publications.iom.int/books/international-migration-law-ndeg34-glossary-migration",
+          "accessed": "2026-09-19",
+          "note": {
+            "de": "Begrifflicher Hintergrund. Die Personen und Ereignisse in den Lesetexten sind erfunden.",
+            "en": "Terminological background. People and events in the readings are fictional."
+          }
+        }
+      ],
+      "attribution": {
+        "de": "Originaler Lerntext · Personen, Gespräche und lokale Projekte sind erfunden. Synthetische Sprachausgabe.",
+        "en": "Original learning text · People, conversations and local projects are fictional. Synthetic speech."
+      },
+      "order": 4
+    }
+  ],
+  "lessons": [
+    {
+      "content": {
+        "id": "mission.migration.4.lesson",
+        "revision": 1
+      },
+      "title": {
+        "language": "es",
+        "text": "Lo que cuentan los medios"
+      },
+      "objectives": [
+        {
+          "id": "mission.migration.4.objective",
+          "revision": 1
+        }
+      ],
+      "activities": [
+        {
+          "id": "mission.migration.4.input",
+          "revision": 1
+        },
+        {
+          "id": "mission.migration.4.comprehension",
+          "revision": 1
+        },
+        {
+          "id": "lex.titular.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.fuente.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.sesgo.listening",
+          "revision": 1
+        },
+        {
+          "id": "mission.migration.4.prepare",
+          "revision": 1
+        },
+        {
+          "id": "mission.migration.4.write",
+          "revision": 1
+        }
+      ],
+      "estimated_minutes": 22
+    }
+  ],
+  "objectives": [
+    {
+      "content": {
+        "id": "mission.migration.4.objective",
+        "revision": 1
+      },
+      "band": "B2",
+      "can_do": {
+        "de": "Analysiere Auswahl und Wirkung zweier Darstellungen.",
+        "en": "Analyse selection and effect in two representations."
+      },
+      "prerequisites": [],
+      "explanation_refs": [],
+      "grammar_topics": [
+        "es.b1.subjunctive.grammar",
+        "es.b2.argumentation.grammar"
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "content": {
+        "id": "mission.migration.4.input",
+        "revision": 1
+      },
+      "instruction": {
+        "de": "Lies oder höre den Text. Öffne nützliche Wendungen bei Bedarf.",
+        "en": "Read or listen. Open useful expressions when you need them."
+      },
+      "objectives": [
+        {
+          "id": "mission.migration.4.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "reading"
+      ],
+      "task": {
+        "kind": "explanation",
+        "material": {
+          "id": "mission.migration.4.reading",
+          "revision": 1
+        }
+      },
+      "evidence_scope": "source_language",
+      "usage": "practice",
+      "lexical": [],
+      "preparation": false
+    },
+    {
+      "content": {
+        "id": "mission.migration.4.comprehension",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "¿Qué crítica se aplica también al segundo texto?"
+      },
+      "objectives": [
+        {
+          "id": "mission.migration.4.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "mission.migration.4.reading",
+          "revision": 1
+        }
+      ],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "reading"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "option.0",
+            "label": {
+              "language": "es",
+              "text": "Faltan las voces de quienes no pudieron asistir."
+            }
+          },
+          {
+            "id": "option.1",
+            "label": {
+              "language": "es",
+              "text": "No menciona ninguna opinión vecinal."
+            }
+          },
+          {
+            "id": "option.2",
+            "label": {
+              "language": "es",
+              "text": "La misma cifra sin fuente aparece en ambos."
+            }
+          }
+        ],
+        "correct_ids": [
+          "option.0"
+        ],
+        "explanation": {
+          "id": "mission.migration.4.comprehension.feedback",
+          "revision": 1
+        }
+      },
+      "evidence_scope": "source_language",
+      "usage": "practice",
+      "lexical": [],
+      "preparation": false
+    },
+    {
+      "content": {
+        "id": "mission.migration.4.prepare",
+        "revision": 1
+      },
+      "instruction": {
+        "de": "Bereite deine Antwort vor",
+        "en": "Prepare your response"
+      },
+      "objectives": [
+        {
+          "id": "mission.migration.4.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "reading"
+      ],
+      "task": {
+        "kind": "explanation",
+        "material": {
+          "id": "mission.migration.4.preparation",
+          "revision": 1
+        }
+      },
+      "evidence_scope": "source_language",
+      "usage": "practice",
+      "lexical": [],
+      "preparation": true
+    },
+    {
+      "content": {
+        "id": "mission.migration.4.write",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "Escribe para el periódico escolar un análisis de 120–190 palabras. Compara los titulares, el uso de fuentes y una ausencia relevante. Explica un posible efecto sobre el lector sin afirmar que todos reaccionarán igual."
+      },
+      "objectives": [
+        {
+          "id": "mission.migration.4.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "mission.migration.4.reading",
+          "revision": 1
+        }
+      ],
+      "hints": [
+        {
+          "id": "mission.migration.4.preparation",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "writing"
+      ],
+      "task": {
+        "kind": "writing",
+        "language": "es",
+        "min_words": 120,
+        "max_words": 190,
+        "rubric": {
+          "id": "mission.migration.4.rubric",
+          "revision": 1
+        }
+      },
+      "evidence_scope": "source_language",
+      "usage": "practice",
+      "lexical": [],
+      "preparation": false
+    },
+    {
+      "content": {
+        "id": "mission.migration.4.challenge",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "Compara los enfoques de A y B. Explica qué información adicional necesitarías antes de recomendar una medida y por qué. 120–180 palabras."
+      },
+      "objectives": [
+        {
+          "id": "mission.migration.4.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "mission.migration.4.unseen",
+          "revision": 1
+        }
+      ],
+      "hints": [],
+      "reveal_policy": "after_session",
+      "skills": [
+        "writing",
+        "reading"
+      ],
+      "task": {
+        "kind": "writing",
+        "language": "es",
+        "min_words": 120,
+        "max_words": 180,
+        "rubric": {
+          "id": "mission.migration.4.unseen.rubric",
+          "revision": 1
+        }
+      },
+      "evidence_scope": "source_language",
+      "usage": "assessment",
+      "lexical": [],
+      "preparation": false
+    }
+  ],
+  "materials": [
+    {
+      "content": {
+        "id": "mission.migration.4.reading",
+        "revision": 1
+      },
+      "searchable": true,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Lo que cuentan los medios"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "de": "Originaler Lerntext · Personen, Gespräche und lokale Projekte sind erfunden. Synthetische Sprachausgabe.",
+              "en": "Original learning text · People, conversations and local projects are fictional. Synthetic speech."
+            }
+          ]
+        },
+        {
+          "kind": "audio",
+          "speech": {
+            "id": "mission.migration.4.audio",
+            "revision": 1
+          }
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Dos textos ficticios informan sobre la misma reunión vecinal. El primero lleva el titular «El barrio, al límite». Afirma que hubo protestas, pero no identifica la fuente de la cifra que utiliza. Incluye una foto de una cola tomada meses antes. Puede haber un sesgo incluso cuando algún dato es correcto: seleccionar una imagen también orienta la interpretación.",
+              "annotations": [
+                {
+                  "start": 79,
+                  "end": 89,
+                  "occurrence": {
+                    "id": "mission.migration.4.reading.p0.o0",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 160,
+                  "end": 169,
+                  "occurrence": {
+                    "id": "mission.migration.4.reading.p0.o1",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 256,
+                  "end": 264,
+                  "occurrence": {
+                    "id": "mission.migration.4.reading.p0.o2",
+                    "revision": 1
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "El segundo se titula «Vecinos piden horarios más amplios». Recoge el testimonio de una vecina recién llegada y el de un trabajador del centro. Ambos describen esperas largas; discrepan sobre la solución. El texto permite contrastar sus explicaciones y prefiere destacar el problema del horario. Sin embargo, tampoco es una visión completa: no entrevista a las personas que no pudieron asistir.",
+              "annotations": [
+                {
+                  "start": 66,
+                  "end": 79,
+                  "occurrence": {
+                    "id": "mission.migration.4.reading.p1.o0",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 221,
+                  "end": 231,
+                  "occurrence": {
+                    "id": "mission.migration.4.reading.p1.o1",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 261,
+                  "end": 269,
+                  "occurrence": {
+                    "id": "mission.migration.4.reading.p1.o2",
+                    "revision": 1
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Lucía detecta un estereotipo en un comentario que atribuye la misma conducta a todos los recién llegados. Antes de difundir la noticia, propone cuestionar qué pruebas ofrece cada texto. No basta con afirmar que un medio es fiable o que otro «miente». La clase distingue tres preguntas: qué ocurrió, cómo se presenta y qué falta por saber. Añadir una voz no convierte automáticamente una noticia en neutral, pero puede permitir al lector entender mejor el conflicto.",
+              "annotations": [
+                {
+                  "start": 14,
+                  "end": 28,
+                  "occurrence": {
+                    "id": "mission.migration.4.reading.p2.o0",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 115,
+                  "end": 123,
+                  "occurrence": {
+                    "id": "mission.migration.4.reading.p2.o1",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 144,
+                  "end": 154,
+                  "occurrence": {
+                    "id": "mission.migration.4.reading.p2.o2",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 199,
+                  "end": 206,
+                  "occurrence": {
+                    "id": "mission.migration.4.reading.p2.o3",
+                    "revision": 1
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.migration.4.comprehension.feedback",
+        "revision": 1
+      },
+      "searchable": false,
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "de": "Auch der zweite Text hat eine Auswahlgrenze: Er interviewt keine Abwesenden.",
+              "en": "The second text also has a selection limit: it does not interview absent people."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.migration.4.preparation",
+        "revision": 1
+      },
+      "searchable": false,
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "de": "Plane: Was ist die zentrale Aussage? Welche zwei Details helfen? Für wen formulierst du? Notiere Stichwörter, bevor du einen zusammenhängenden Text schreibst oder sprichst.",
+              "en": "Plan: What is the main point? Which two details help? Who is your audience? Note keywords before writing or speaking a connected response."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.migration.4.rubric.model",
+        "revision": 1
+      },
+      "searchable": false,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Una posible respuesta"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "«El barrio, al límite» presenta una situación extrema antes de explicar los hechos. La cifra sin fuente y la foto antigua dificultan comprobar esa impresión. «Vecinos piden horarios más amplios» delimita el problema y ofrece dos voces, lo que permite contrastar necesidades y recursos. Sin embargo, excluye a quienes no asistieron. El primer enfoque puede favorecer una lectura alarmista; el segundo puede centrar la atención en soluciones. Ninguno permite conocer por sí solo toda la situación. Para el periódico escolar, propondría mantener un titular concreto y explicar de dónde procede cada dato. Antes de compartir la primera noticia, habría que verificar la cifra y fechar la imagen. En el segundo caso buscaría las razones de las ausencias. Estas comprobaciones mejorarían la información disponible, aunque no permitirían atribuir una misma reacción a todos los lectores.",
+              "annotations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.migration.4.unseen",
+        "revision": 1
+      },
+      "searchable": false,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Otra situación"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Texto A: «Una biblioteca sin sitio». La noticia abre con la queja de un usuario que no encontró mesa el sábado. Texto B: «La biblioteca amplía su horario». Incluye el plan municipal, pero no pregunta si hay personal suficiente. Ambos se refieren a la misma biblioteca; no ofrecen cifras de ocupación durante la semana.",
+              "annotations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.migration.4.unseen.rubric.model",
+        "revision": 1
+      },
+      "searchable": false,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Una posible respuesta"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "A destaca una experiencia de saturación y B anuncia una respuesta institucional. Un caso de un sábado no demuestra que falten mesas siempre; un horario ampliado tampoco garantiza más servicio si falta personal. Pediría datos de ocupación por días y la dotación de trabajadores. Con esa información se podría valorar si conviene ampliar horarios, redistribuir espacios o combinar medidas. El título de A puede hacer pensar en una falta general de espacio, aunque la fuente solo menciona una experiencia puntual. El de B presenta una actuación como noticia positiva sin comprobar todavía sus condiciones. Antes de recomendar una medida, contrastaría testimonios de distintos horarios y preguntaría al personal qué tareas puede asumir. También averiguaría si quienes no encuentran mesa necesitan estudiar en silencio, consultar libros o usar ordenadores: esas necesidades podrían exigir soluciones diferentes.",
+              "annotations": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "speech": [
+    {
+      "content": {
+        "id": "mission.migration.4.reading.p0.o0.audio",
+        "revision": 1
+      },
+      "text": "El primero lleva el titular «El barrio, al límite».",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.4.reading.p0.o1.audio",
+        "revision": 1
+      },
+      "text": "Afirma que hubo protestas, pero no identifica la fuente de la cifra que utiliza.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.4.reading.p0.o2.audio",
+        "revision": 1
+      },
+      "text": "Puede haber un sesgo incluso cuando algún dato es correcto: seleccionar una imagen también orienta la interpretación.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.4.reading.p1.o0.audio",
+        "revision": 1
+      },
+      "text": "Recoge el testimonio de una vecina recién llegada y el de un trabajador del centro.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.4.reading.p1.o1.audio",
+        "revision": 1
+      },
+      "text": "El texto permite contrastar sus explicaciones y prefiere destacar el problema del horario.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.4.reading.p1.o2.audio",
+        "revision": 1
+      },
+      "text": "El texto permite contrastar sus explicaciones y prefiere destacar el problema del horario.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.4.reading.p2.o0.audio",
+        "revision": 1
+      },
+      "text": "Lucía detecta un estereotipo en un comentario que atribuye la misma conducta a todos los recién llegados.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.4.reading.p2.o1.audio",
+        "revision": 1
+      },
+      "text": "Antes de difundir la noticia, propone cuestionar qué pruebas ofrece cada texto.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.4.reading.p2.o2.audio",
+        "revision": 1
+      },
+      "text": "Antes de difundir la noticia, propone cuestionar qué pruebas ofrece cada texto.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.4.reading.p2.o3.audio",
+        "revision": 1
+      },
+      "text": "No basta con afirmar que un medio es fiable o que otro «miente».",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.4.audio",
+        "revision": 1
+      },
+      "text": "Dos textos ficticios informan sobre la misma reunión vecinal. El primero lleva el titular «El barrio, al límite». Afirma que hubo protestas, pero no identifica la fuente de la cifra que utiliza. Incluye una foto de una cola tomada meses antes. Puede haber un sesgo incluso cuando algún dato es correcto: seleccionar una imagen también orienta la interpretación. El segundo se titula «Vecinos piden horarios más amplios». Recoge el testimonio de una vecina recién llegada y el de un trabajador del centro. Ambos describen esperas largas; discrepan sobre la solución. El texto permite contrastar sus explicaciones y prefiere destacar el problema del horario. Sin embargo, tampoco es una visión completa: no entrevista a las personas que no pudieron asistir. Lucía detecta un estereotipo en un comentario que atribuye la misma conducta a todos los recién llegados. Antes de difundir la noticia, propone cuestionar qué pruebas ofrece cada texto. No basta con afirmar que un medio es fiable o que otro «miente». La clase distingue tres preguntas: qué ocurrió, cómo se presenta y qué falta por saber. Añadir una voz no convierte automáticamente una noticia en neutral, pero puede permitir al lector entender mejor el conflicto.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    }
+  ],
+  "rubrics": [
+    {
+      "content": {
+        "id": "mission.migration.4.rubric",
+        "revision": 1
+      },
+      "criteria": [
+        {
+          "id": "task",
+          "label": {
+            "de": "Aufgabe und Adressat",
+            "en": "Task and audience"
+          },
+          "guidance": {
+            "de": "Erfülle die konkrete Schreib- oder Sprechabsicht der Aufgabe. Gehe auf die verlangten Teilfragen ein.",
+            "en": "Fulfil the specific writing or speaking purpose and address the requested points."
+          }
+        },
+        {
+          "id": "source",
+          "label": {
+            "de": "Belege und Genauigkeit",
+            "en": "Evidence and accuracy"
+          },
+          "guidance": {
+            "de": "Stütze deine Aussagen auf konkrete Details der Quelle; trenne Beleg, Deutung und eigene Meinung.",
+            "en": "Support claims with specific source details; separate evidence, interpretation and your opinion."
+          }
+        },
+        {
+          "id": "structure",
+          "label": {
+            "de": "Aufbau und Gegenposition",
+            "en": "Structure and alternative view"
+          },
+          "guidance": {
+            "de": "Ordne deine Gedanken nachvollziehbar. Gehe bei einer Diskussion auf einen begründeten Einwand ein.",
+            "en": "Organise ideas clearly. In discussion, address a reasonable objection."
+          }
+        },
+        {
+          "id": "language",
+          "label": {
+            "de": "Sprache",
+            "en": "Language"
+          },
+          "guidance": {
+            "de": "Formuliere verständlich und adressatengerecht. Prüfe Verbformen, Bezüge und passende Verknüpfungen.",
+            "en": "Write or speak clearly for your audience. Check verb forms, reference and suitable connectors."
+          }
+        }
+      ],
+      "model_answers": [
+        {
+          "id": "mission.migration.4.rubric.model",
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.migration.4.unseen.rubric",
+        "revision": 1
+      },
+      "criteria": [
+        {
+          "id": "task",
+          "label": {
+            "de": "Aufgabe und Adressat",
+            "en": "Task and audience"
+          },
+          "guidance": {
+            "de": "Erfülle die neue Aufgabe unabhängig. Belege deine Überlegungen mit der neuen Quelle; bei Sprachmittlung zählen Auswahl und Adressatenbezug, nicht wörtliche Übersetzung.",
+            "en": "Complete the new task independently. Use the new source; mediation requires relevant selection and audience awareness, not literal translation."
+          }
+        },
+        {
+          "id": "source",
+          "label": {
+            "de": "Belege und Genauigkeit",
+            "en": "Evidence and accuracy"
+          },
+          "guidance": {
+            "de": "Stütze deine Aussagen auf konkrete Details der Quelle; trenne Beleg, Deutung und eigene Meinung.",
+            "en": "Support claims with specific source details; separate evidence, interpretation and your opinion."
+          }
+        },
+        {
+          "id": "structure",
+          "label": {
+            "de": "Aufbau und Gegenposition",
+            "en": "Structure and alternative view"
+          },
+          "guidance": {
+            "de": "Ordne deine Gedanken nachvollziehbar. Gehe bei einer Diskussion auf einen begründeten Einwand ein.",
+            "en": "Organise ideas clearly. In discussion, address a reasonable objection."
+          }
+        },
+        {
+          "id": "language",
+          "label": {
+            "de": "Sprache",
+            "en": "Language"
+          },
+          "guidance": {
+            "de": "Formuliere verständlich und adressatengerecht. Prüfe Verbformen, Bezüge und passende Verknüpfungen.",
+            "en": "Write or speak clearly for your audience. Check verb forms, reference and suitable connectors."
+          }
+        }
+      ],
+      "model_answers": [
+        {
+          "id": "mission.migration.4.unseen.rubric.model",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "assessments": [
+    {
+      "content": {
+        "id": "mission.migration.4.assessment",
+        "revision": 1
+      },
+      "title": {
+        "de": "Neue Quelle · unabhängige Aufgabe",
+        "en": "New source · independent challenge"
+      },
+      "activities": [
+        {
+          "id": "mission.migration.4.challenge",
+          "revision": 1
+        }
+      ],
+      "duration_seconds": 1800,
+      "audio_replays": 0
+    }
+  ]
+}

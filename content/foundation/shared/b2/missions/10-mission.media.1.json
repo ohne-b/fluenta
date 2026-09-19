@@ -1,0 +1,896 @@
+{
+  "missions": [
+    {
+      "content": {
+        "id": "mission.media.1",
+        "revision": 1
+      },
+      "title": {
+        "language": "es",
+        "text": "Antes de publicar"
+      },
+      "question": {
+        "language": "es",
+        "text": "¿Una buena intención basta para compartir una imagen?"
+      },
+      "outcome": {
+        "de": "Begründe eine Medienentscheidung mit Blick auf Publikum und Einwilligung.",
+        "en": "Justify a media decision with audience and consent in mind."
+      },
+      "description": {
+        "de": "Verbinde Textverständnis, nützliche Wendungen und eine eigene Antwort.",
+        "en": "Connect understanding, useful expressions and your own response."
+      },
+      "band": "B1",
+      "lesson": {
+        "id": "mission.media.1.lesson",
+        "revision": 1
+      },
+      "challenge": {
+        "id": "mission.media.1.assessment",
+        "revision": 1
+      },
+      "vocabulary": [
+        {
+          "id": "lex.difundir",
+          "revision": 1
+        },
+        {
+          "id": "lex.propuesta",
+          "revision": 1
+        },
+        {
+          "id": "lex.destacar",
+          "revision": 1
+        },
+        {
+          "id": "lex.cuenta",
+          "revision": 1
+        },
+        {
+          "id": "lex.afirmar",
+          "revision": 1
+        },
+        {
+          "id": "lex.responsabilidad",
+          "revision": 1
+        },
+        {
+          "id": "lex.acuerdo",
+          "revision": 1
+        },
+        {
+          "id": "lex.beneficio",
+          "revision": 1
+        }
+      ],
+      "sources": [
+        {
+          "title": "LehrplanPLUS · Spanisch 12/13, erhöhtes Anforderungsniveau",
+          "url": "https://www.lehrplanplus.bayern.de/fachlehrplan/gymnasium/12/spanisch/erhoeht",
+          "accessed": "2026-09-19",
+          "note": {
+            "de": "Zuordnung zu Themen und Kompetenzen; die Sammlungen sind redaktionell gegliedert.",
+            "en": "Mapping to themes and skills; collection titles are editorial groupings."
+          }
+        }
+      ],
+      "attribution": {
+        "de": "Originaler Lerntext · Personen, Gespräche und lokale Projekte sind erfunden. Synthetische Sprachausgabe.",
+        "en": "Original learning text · People, conversations and local projects are fictional. Synthetic speech."
+      },
+      "order": 10
+    }
+  ],
+  "lessons": [
+    {
+      "content": {
+        "id": "mission.media.1.lesson",
+        "revision": 1
+      },
+      "title": {
+        "language": "es",
+        "text": "Antes de publicar"
+      },
+      "objectives": [
+        {
+          "id": "mission.media.1.objective",
+          "revision": 1
+        }
+      ],
+      "activities": [
+        {
+          "id": "mission.media.1.input",
+          "revision": 1
+        },
+        {
+          "id": "mission.media.1.comprehension",
+          "revision": 1
+        },
+        {
+          "id": "lex.difundir.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.propuesta.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.destacar.listening",
+          "revision": 1
+        },
+        {
+          "id": "mission.media.1.prepare",
+          "revision": 1
+        },
+        {
+          "id": "mission.media.1.speak",
+          "revision": 1
+        }
+      ],
+      "estimated_minutes": 22
+    }
+  ],
+  "objectives": [
+    {
+      "content": {
+        "id": "mission.media.1.objective",
+        "revision": 1
+      },
+      "band": "B1",
+      "can_do": {
+        "de": "Begründe eine Medienentscheidung mit Blick auf Publikum und Einwilligung.",
+        "en": "Justify a media decision with audience and consent in mind."
+      },
+      "prerequisites": [],
+      "explanation_refs": [],
+      "grammar_topics": [
+        "es.b1.subjunctive.grammar",
+        "es.b2.argumentation.grammar"
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "content": {
+        "id": "mission.media.1.input",
+        "revision": 1
+      },
+      "instruction": {
+        "de": "Lies oder höre den Text. Öffne nützliche Wendungen bei Bedarf.",
+        "en": "Read or listen. Open useful expressions when you need them."
+      },
+      "objectives": [
+        {
+          "id": "mission.media.1.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "reading"
+      ],
+      "task": {
+        "kind": "explanation",
+        "material": {
+          "id": "mission.media.1.reading",
+          "revision": 1
+        }
+      },
+      "evidence_scope": "source_language",
+      "usage": "practice",
+      "lexical": [],
+      "preparation": false
+    },
+    {
+      "content": {
+        "id": "mission.media.1.comprehension",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "¿Qué cambió respecto al permiso inicial?"
+      },
+      "objectives": [
+        {
+          "id": "mission.media.1.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "mission.media.1.reading",
+          "revision": 1
+        }
+      ],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "reading"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "option.0",
+            "label": {
+              "language": "es",
+              "text": "El vídeo pasaría de la clase a una cuenta abierta."
+            }
+          },
+          {
+            "id": "option.1",
+            "label": {
+              "language": "es",
+              "text": "La compañera había autorizado cualquier uso futuro."
+            }
+          },
+          {
+            "id": "option.2",
+            "label": {
+              "language": "es",
+              "text": "El proyecto dejó de tener participantes."
+            }
+          }
+        ],
+        "correct_ids": [
+          "option.0"
+        ],
+        "explanation": {
+          "id": "mission.media.1.comprehension.feedback",
+          "revision": 1
+        }
+      },
+      "evidence_scope": "source_language",
+      "usage": "practice",
+      "lexical": [],
+      "preparation": false
+    },
+    {
+      "content": {
+        "id": "mission.media.1.prepare",
+        "revision": 1
+      },
+      "instruction": {
+        "de": "Bereite deine Antwort vor",
+        "en": "Prepare your response"
+      },
+      "objectives": [
+        {
+          "id": "mission.media.1.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "reading"
+      ],
+      "task": {
+        "kind": "explanation",
+        "material": {
+          "id": "mission.media.1.preparation",
+          "revision": 1
+        }
+      },
+      "evidence_scope": "source_language",
+      "usage": "practice",
+      "lexical": [],
+      "preparation": true
+    },
+    {
+      "content": {
+        "id": "mission.media.1.write",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "Graba una intervención de 60–90 segundos o escribe 100–170 palabras para el consejo. Propón qué hacer antes de publicar y responde a la objeción de Nora sin acusarla de mala intención."
+      },
+      "objectives": [
+        {
+          "id": "mission.media.1.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "mission.media.1.reading",
+          "revision": 1
+        }
+      ],
+      "hints": [
+        {
+          "id": "mission.media.1.preparation",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "writing"
+      ],
+      "task": {
+        "kind": "writing",
+        "language": "es",
+        "min_words": 100,
+        "max_words": 170,
+        "rubric": {
+          "id": "mission.media.1.rubric",
+          "revision": 1
+        }
+      },
+      "evidence_scope": "source_language",
+      "usage": "practice",
+      "lexical": [],
+      "preparation": false
+    },
+    {
+      "content": {
+        "id": "mission.media.1.speak",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "Graba una intervención de 60–90 segundos o escribe 100–170 palabras para el consejo. Propón qué hacer antes de publicar y responde a la objeción de Nora sin acusarla de mala intención."
+      },
+      "objectives": [
+        {
+          "id": "mission.media.1.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "mission.media.1.reading",
+          "revision": 1
+        }
+      ],
+      "hints": [
+        {
+          "id": "mission.media.1.preparation",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "speaking"
+      ],
+      "task": {
+        "kind": "speaking",
+        "language": "es",
+        "max_seconds": 150,
+        "rubric": {
+          "id": "mission.media.1.rubric",
+          "revision": 1
+        },
+        "keyboard_alternative": {
+          "id": "mission.media.1.write",
+          "revision": 1
+        }
+      },
+      "evidence_scope": "source_language",
+      "usage": "practice",
+      "lexical": [],
+      "preparation": false
+    },
+    {
+      "content": {
+        "id": "mission.media.1.challenge",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "Escribe una respuesta para la compañera: explica el conflicto, defiende una opción y propone una manera de apoyar al alumno que respete su decisión. 100–170 palabras."
+      },
+      "objectives": [
+        {
+          "id": "mission.media.1.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "mission.media.1.unseen",
+          "revision": 1
+        }
+      ],
+      "hints": [],
+      "reveal_policy": "after_session",
+      "skills": [
+        "writing",
+        "reading"
+      ],
+      "task": {
+        "kind": "writing",
+        "language": "es",
+        "min_words": 100,
+        "max_words": 170,
+        "rubric": {
+          "id": "mission.media.1.unseen.rubric",
+          "revision": 1
+        }
+      },
+      "evidence_scope": "source_language",
+      "usage": "assessment",
+      "lexical": [],
+      "preparation": false
+    }
+  ],
+  "materials": [
+    {
+      "content": {
+        "id": "mission.media.1.reading",
+        "revision": 1
+      },
+      "searchable": true,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Antes de publicar"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "de": "Originaler Lerntext · Personen, Gespräche und lokale Projekte sind erfunden. Synthetische Sprachausgabe.",
+              "en": "Original learning text · People, conversations and local projects are fictional. Synthetic speech."
+            }
+          ]
+        },
+        {
+          "kind": "audio",
+          "speech": {
+            "id": "mission.media.1.audio",
+            "revision": 1
+          }
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "El consejo de estudiantes quiere difundir un vídeo sobre una jornada solidaria ficticia. En una escena aparece una compañera que recibió ayuda. Ella autorizó la grabación para mostrarla en clase, pero no sabía que se publicaría en una cuenta abierta. La propuesta de publicar parece útil para dar visibilidad al proyecto; también plantea una pregunta sobre quién decide qué historia se cuenta.",
+              "annotations": [
+                {
+                  "start": 33,
+                  "end": 41,
+                  "occurrence": {
+                    "id": "mission.media.1.reading.p0.o0",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 254,
+                  "end": 263,
+                  "occurrence": {
+                    "id": "mission.media.1.reading.p0.o1",
+                    "revision": 1
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Nora quiere destacar el trabajo del grupo. Amir pide tener en cuenta el nuevo público: algo visto por una clase puede circular mucho más lejos en internet. No hace falta afirmar que alguien actuó con mala intención para reconocer el problema. El grupo tiene responsabilidad sobre su propia publicación y debe consultar a la compañera antes de ampliar el uso de su imagen.",
+              "annotations": [
+                {
+                  "start": 12,
+                  "end": 20,
+                  "occurrence": {
+                    "id": "mission.media.1.reading.p1.o0",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 53,
+                  "end": 68,
+                  "occurrence": {
+                    "id": "mission.media.1.reading.p1.o1",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 170,
+                  "end": 177,
+                  "occurrence": {
+                    "id": "mission.media.1.reading.p1.o2",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 258,
+                  "end": 273,
+                  "occurrence": {
+                    "id": "mission.media.1.reading.p1.o3",
+                    "revision": 1
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "La clase intenta llegar a un acuerdo: editar el vídeo, pedir un permiso claro para ese uso o contar el proyecto sin identificar a quien recibió ayuda. Nora teme perder un relato concreto. Amir responde que el beneficio para el proyecto no convierte a una persona en material disponible. La alternativa no es necesariamente dejar de comunicar; puede ser cambiar el encuadre, las imágenes o la voz que explica lo ocurrido.",
+              "annotations": [
+                {
+                  "start": 17,
+                  "end": 36,
+                  "occurrence": {
+                    "id": "mission.media.1.reading.p2.o0",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 209,
+                  "end": 218,
+                  "occurrence": {
+                    "id": "mission.media.1.reading.p2.o1",
+                    "revision": 1
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.media.1.comprehension.feedback",
+        "revision": 1
+      },
+      "searchable": false,
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "de": "Ein anderer Verwendungszweck und ein größeres Publikum erfordern eine neue Absprache im Szenario.",
+              "en": "A different use and wider audience require a new agreement in this scenario."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.media.1.preparation",
+        "revision": 1
+      },
+      "searchable": false,
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "de": "Plane: Was ist die zentrale Aussage? Welche zwei Details helfen? Für wen formulierst du? Notiere Stichwörter, bevor du einen zusammenhängenden Text schreibst oder sprichst.",
+              "en": "Plan: What is the main point? Which two details help? Who is your audience? Note keywords before writing or speaking a connected response."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.media.1.rubric.model",
+        "revision": 1
+      },
+      "searchable": false,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Una posible respuesta"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Antes de publicar, hablaría con nuestra compañera y explicaría exactamente dónde aparecería el vídeo. Su permiso para una clase no incluía una cuenta abierta. Entiendo que Nora quiera mostrar un relato concreto, pero podemos contar el proyecto con otras imágenes o dejar que la compañera decida cómo participar. Si no desea aparecer, editaría esa escena. Dar visibilidad al trabajo no exige identificar a quien recibió ayuda. No publicaría el material mientras esa conversación estuviera pendiente. Podemos preparar una versión centrada en las tareas del equipo, mostrando qué se hizo y con qué objetivo. Después consultaríamos a las personas que aparecen en ella. Así la urgencia de anunciar el proyecto no sustituye una decisión informada de nuestra compañera.",
+              "annotations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.media.1.unseen",
+        "revision": 1
+      },
+      "searchable": false,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Otra situación"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Un alumno comparte en el grupo privado de clase un audio en el que ensaya una presentación. Una compañera quiere publicarlo como ejemplo de superación. Él agradece el apoyo, pero no quiere que su primer ensayo salga del grupo.",
+              "annotations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.media.1.unseen.rubric.model",
+        "revision": 1
+      },
+      "searchable": false,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Una posible respuesta"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "El audio se compartió para ensayar dentro de un grupo, no para una publicación abierta. Aunque la intención sea animar, el alumno ha expresado que no quiere difundirlo. Respetaría esa decisión y le preguntaría si desea grabar una versión nueva o recibir comentarios privados. El apoyo puede centrarse en su objetivo, sin convertir el ensayo en una historia pública. Podrías decirle que has notado su esfuerzo y ofrecerte a escuchar el próximo ensayo. Si más adelante decide compartir un resultado, debería elegir él la versión y el público. Una historia de superación escrita por otra persona puede no coincidir con cómo vive su experiencia. Ayudar también significa aceptar que algo permanezca dentro del grupo.",
+              "annotations": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "speech": [
+    {
+      "content": {
+        "id": "mission.media.1.reading.p0.o0.audio",
+        "revision": 1
+      },
+      "text": "El consejo de estudiantes quiere difundir un vídeo sobre una jornada solidaria ficticia.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.media.1.reading.p0.o1.audio",
+        "revision": 1
+      },
+      "text": "La propuesta de publicar parece útil para dar visibilidad al proyecto; también plantea una pregunta sobre quién decide qué historia se cuenta.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.media.1.reading.p1.o0.audio",
+        "revision": 1
+      },
+      "text": "Nora quiere destacar el trabajo del grupo.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.media.1.reading.p1.o1.audio",
+        "revision": 1
+      },
+      "text": "Amir pide tener en cuenta el nuevo público: algo visto por una clase puede circular mucho más lejos en internet.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.media.1.reading.p1.o2.audio",
+        "revision": 1
+      },
+      "text": "No hace falta afirmar que alguien actuó con mala intención para reconocer el problema.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.media.1.reading.p1.o3.audio",
+        "revision": 1
+      },
+      "text": "El grupo tiene responsabilidad sobre su propia publicación y debe consultar a la compañera antes de ampliar el uso de su imagen.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.media.1.reading.p2.o0.audio",
+        "revision": 1
+      },
+      "text": "La clase intenta llegar a un acuerdo: editar el vídeo, pedir un permiso claro para ese uso o contar el proyecto sin identificar a quien recibió ayuda.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.media.1.reading.p2.o1.audio",
+        "revision": 1
+      },
+      "text": "Amir responde que el beneficio para el proyecto no convierte a una persona en material disponible.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.media.1.audio",
+        "revision": 1
+      },
+      "text": "El consejo de estudiantes quiere difundir un vídeo sobre una jornada solidaria ficticia. En una escena aparece una compañera que recibió ayuda. Ella autorizó la grabación para mostrarla en clase, pero no sabía que se publicaría en una cuenta abierta. La propuesta de publicar parece útil para dar visibilidad al proyecto; también plantea una pregunta sobre quién decide qué historia se cuenta. Nora quiere destacar el trabajo del grupo. Amir pide tener en cuenta el nuevo público: algo visto por una clase puede circular mucho más lejos en internet. No hace falta afirmar que alguien actuó con mala intención para reconocer el problema. El grupo tiene responsabilidad sobre su propia publicación y debe consultar a la compañera antes de ampliar el uso de su imagen. La clase intenta llegar a un acuerdo: editar el vídeo, pedir un permiso claro para ese uso o contar el proyecto sin identificar a quien recibió ayuda. Nora teme perder un relato concreto. Amir responde que el beneficio para el proyecto no convierte a una persona en material disponible. La alternativa no es necesariamente dejar de comunicar; puede ser cambiar el encuadre, las imágenes o la voz que explica lo ocurrido.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    }
+  ],
+  "rubrics": [
+    {
+      "content": {
+        "id": "mission.media.1.rubric",
+        "revision": 1
+      },
+      "criteria": [
+        {
+          "id": "task",
+          "label": {
+            "de": "Aufgabe und Adressat",
+            "en": "Task and audience"
+          },
+          "guidance": {
+            "de": "Erfülle die konkrete Schreib- oder Sprechabsicht der Aufgabe. Gehe auf die verlangten Teilfragen ein.",
+            "en": "Fulfil the specific writing or speaking purpose and address the requested points."
+          }
+        },
+        {
+          "id": "source",
+          "label": {
+            "de": "Belege und Genauigkeit",
+            "en": "Evidence and accuracy"
+          },
+          "guidance": {
+            "de": "Stütze deine Aussagen auf konkrete Details der Quelle; trenne Beleg, Deutung und eigene Meinung.",
+            "en": "Support claims with specific source details; separate evidence, interpretation and your opinion."
+          }
+        },
+        {
+          "id": "structure",
+          "label": {
+            "de": "Aufbau und Gegenposition",
+            "en": "Structure and alternative view"
+          },
+          "guidance": {
+            "de": "Ordne deine Gedanken nachvollziehbar. Gehe bei einer Diskussion auf einen begründeten Einwand ein.",
+            "en": "Organise ideas clearly. In discussion, address a reasonable objection."
+          }
+        },
+        {
+          "id": "language",
+          "label": {
+            "de": "Sprache",
+            "en": "Language"
+          },
+          "guidance": {
+            "de": "Formuliere verständlich und adressatengerecht. Prüfe Verbformen, Bezüge und passende Verknüpfungen.",
+            "en": "Write or speak clearly for your audience. Check verb forms, reference and suitable connectors."
+          }
+        }
+      ],
+      "model_answers": [
+        {
+          "id": "mission.media.1.rubric.model",
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.media.1.unseen.rubric",
+        "revision": 1
+      },
+      "criteria": [
+        {
+          "id": "task",
+          "label": {
+            "de": "Aufgabe und Adressat",
+            "en": "Task and audience"
+          },
+          "guidance": {
+            "de": "Erfülle die neue Aufgabe unabhängig. Belege deine Überlegungen mit der neuen Quelle; bei Sprachmittlung zählen Auswahl und Adressatenbezug, nicht wörtliche Übersetzung.",
+            "en": "Complete the new task independently. Use the new source; mediation requires relevant selection and audience awareness, not literal translation."
+          }
+        },
+        {
+          "id": "source",
+          "label": {
+            "de": "Belege und Genauigkeit",
+            "en": "Evidence and accuracy"
+          },
+          "guidance": {
+            "de": "Stütze deine Aussagen auf konkrete Details der Quelle; trenne Beleg, Deutung und eigene Meinung.",
+            "en": "Support claims with specific source details; separate evidence, interpretation and your opinion."
+          }
+        },
+        {
+          "id": "structure",
+          "label": {
+            "de": "Aufbau und Gegenposition",
+            "en": "Structure and alternative view"
+          },
+          "guidance": {
+            "de": "Ordne deine Gedanken nachvollziehbar. Gehe bei einer Diskussion auf einen begründeten Einwand ein.",
+            "en": "Organise ideas clearly. In discussion, address a reasonable objection."
+          }
+        },
+        {
+          "id": "language",
+          "label": {
+            "de": "Sprache",
+            "en": "Language"
+          },
+          "guidance": {
+            "de": "Formuliere verständlich und adressatengerecht. Prüfe Verbformen, Bezüge und passende Verknüpfungen.",
+            "en": "Write or speak clearly for your audience. Check verb forms, reference and suitable connectors."
+          }
+        }
+      ],
+      "model_answers": [
+        {
+          "id": "mission.media.1.unseen.rubric.model",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "assessments": [
+    {
+      "content": {
+        "id": "mission.media.1.assessment",
+        "revision": 1
+      },
+      "title": {
+        "de": "Neue Quelle · unabhängige Aufgabe",
+        "en": "New source · independent challenge"
+      },
+      "activities": [
+        {
+          "id": "mission.media.1.challenge",
+          "revision": 1
+        }
+      ],
+      "duration_seconds": 1800,
+      "audio_replays": 0
+    }
+  ]
+}

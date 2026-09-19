@@ -1,0 +1,662 @@
+{
+  "lessons": [
+    {
+      "content": {
+        "id": "es.a1.routines.lesson",
+        "revision": 5
+      },
+      "title": {
+        "slot": "es.a1.routines.title"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.routines.objective",
+          "revision": 4
+        }
+      ],
+      "activities": [
+        {
+          "id": "es.a1.routines.intro",
+          "revision": 4
+        },
+        {
+          "id": "es.a1.routines.choice",
+          "revision": 4
+        },
+        {
+          "id": "es.a1.routines.order",
+          "revision": 4
+        },
+        {
+          "id": "es.a1.routines.recall",
+          "revision": 5
+        },
+        {
+          "id": "es.a1.routines.listen",
+          "revision": 4
+        },
+        {
+          "id": "es.a1.routines.produce",
+          "revision": 4
+        }
+      ],
+      "estimated_minutes": 8
+    }
+  ],
+  "objectives": [
+    {
+      "content": {
+        "id": "es.a1.routines.objective",
+        "revision": 4
+      },
+      "band": "A1",
+      "can_do": {
+        "slot": "es.a1.routines.can_do"
+      },
+      "prerequisites": [
+        {
+          "id": "es.a1.timetable.objective",
+          "revision": 3
+        }
+      ],
+      "explanation_refs": [
+        {
+          "id": "es.a1.routines.guide",
+          "revision": 3
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "content": {
+        "id": "es.a1.routines.intro",
+        "revision": 4
+      },
+      "instruction": {
+        "slot": "es.a1.routines.title"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.routines.objective",
+          "revision": 4
+        }
+      ],
+      "materials": [],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "explanation",
+        "material": {
+          "id": "es.a1.routines.guide",
+          "revision": 3
+        }
+      },
+      "skills": [
+        "grammar"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.routines.choice",
+        "revision": 4
+      },
+      "instruction": {
+        "slot": "es.a1.routines.choice"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.routines.objective",
+          "revision": 4
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a1.routines.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "c1",
+            "label": {
+              "language": "es",
+              "text": "Me levanto a las siete."
+            }
+          },
+          {
+            "id": "c2",
+            "label": {
+              "language": "es",
+              "text": "Se levanta a las siete."
+            }
+          },
+          {
+            "id": "c3",
+            "label": {
+              "language": "es",
+              "text": "Nos levantamos a las siete."
+            }
+          }
+        ],
+        "correct_ids": [
+          "c1"
+        ],
+        "explanation": {
+          "id": "es.a1.routines.guide",
+          "revision": 3
+        }
+      },
+      "skills": [
+        "reading"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.routines.order",
+        "revision": 4
+      },
+      "instruction": {
+        "slot": "es.a1.routines.order"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.routines.objective",
+          "revision": 4
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a1.routines.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "order",
+        "items": [
+          {
+            "id": "w1",
+            "label": {
+              "language": "es",
+              "text": "Me"
+            }
+          },
+          {
+            "id": "w2",
+            "label": {
+              "language": "es",
+              "text": "levanto"
+            }
+          },
+          {
+            "id": "w3",
+            "label": {
+              "language": "es",
+              "text": "a"
+            }
+          },
+          {
+            "id": "w4",
+            "label": {
+              "language": "es",
+              "text": "las"
+            }
+          },
+          {
+            "id": "w5",
+            "label": {
+              "language": "es",
+              "text": "siete."
+            }
+          }
+        ],
+        "accepted_orders": [
+          [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ]
+        ],
+        "explanation": {
+          "id": "es.a1.routines.guide",
+          "revision": 3
+        }
+      },
+      "skills": [
+        "grammar"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.routines.recall",
+        "revision": 5
+      },
+      "instruction": {
+        "slot": "es.a1.routines.recall"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.routines.objective",
+          "revision": 4
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a1.routines.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "sentence_content",
+        "inputs": [
+          "keyboard",
+          "microphone"
+        ],
+        "accepted": [
+          "Me levanto a las siete",
+          "Yo me levanto a las siete",
+          "Me levanto a las 7",
+          "Yo me levanto a las 7"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.a1.routines.recall-answer",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "grammar",
+        "vocabulary"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.routines.listen",
+        "revision": 4
+      },
+      "instruction": {
+        "slot": "es.a1.routines.listen"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.routines.objective",
+          "revision": 4
+        }
+      ],
+      "materials": [
+        {
+          "id": "es.a1.routines.listening",
+          "revision": 1
+        }
+      ],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "l1",
+            "label": {
+              "language": "es",
+              "text": "En autobús."
+            }
+          },
+          {
+            "id": "l2",
+            "label": {
+              "language": "es",
+              "text": "En bicicleta."
+            }
+          },
+          {
+            "id": "l3",
+            "label": {
+              "language": "es",
+              "text": "A pie."
+            }
+          }
+        ],
+        "correct_ids": [
+          "l1"
+        ],
+        "explanation": {
+          "id": "es.a1.routines.listen-answer",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "listening"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.routines.produce",
+        "revision": 4
+      },
+      "instruction": {
+        "language": "es",
+        "text": "Explica tu rutina de un día de clase. Usa primero, después y al final."
+      },
+      "objectives": [
+        {
+          "id": "es.a1.routines.objective",
+          "revision": 4
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a1.routines.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "speaking",
+        "language": "es",
+        "max_seconds": 60,
+        "rubric": {
+          "id": "es.a1.routines.rubric",
+          "revision": 1
+        },
+        "keyboard_alternative": {
+          "id": "es.a1.routines.keyboard",
+          "revision": 4
+        }
+      },
+      "skills": [
+        "speaking"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.routines.keyboard",
+        "revision": 4
+      },
+      "instruction": {
+        "language": "es",
+        "text": "Explica tu rutina de un día de clase. Usa primero, después y al final."
+      },
+      "objectives": [
+        {
+          "id": "es.a1.routines.objective",
+          "revision": 4
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a1.routines.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "writing",
+        "language": "es",
+        "min_words": 15,
+        "max_words": 75,
+        "rubric": {
+          "id": "es.a1.routines.rubric",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "writing"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "content": {
+        "id": "es.a1.routines.listening",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "audio",
+          "speech": {
+            "id": "es.a1.routines.listening-audio",
+            "revision": 1
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.routines.listen-answer",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a1.routines.listen-feedback"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Normalmente voy al instituto en bicicleta. Si llueve, voy en autobús. Por la tarde hago los deberes y juego al baloncesto."
+            }
+          ],
+          "speech": null
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.routines.recall-answer",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "slot": "es.a1.routines.answer-title"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Me levanto a las siete"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a1.routines.guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.routines.model",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "slot": "es.a1.routines.model-title"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Primero me levanto a las siete y desayuno. Después voy al instituto en autobús. Por la tarde hago los deberes y juego con mis amigos. Al final del día leo un libro."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.routines.vocab",
+        "revision": 1
+      },
+      "searchable": true,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "language": "es",
+              "text": "los deberes"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a1.routines.gloss"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Primero me levanto. Después desayuno y voy al instituto."
+            }
+          ],
+          "speech": {
+            "id": "es.a1.routines.example-audio",
+            "revision": 1
+          }
+        }
+      ]
+    }
+  ],
+  "speech": [
+    {
+      "content": {
+        "id": "es.a1.routines.example-audio",
+        "revision": 1
+      },
+      "text": "Primero me levanto. Después desayuno y voy al instituto.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "es.a1.routines.listening-audio",
+        "revision": 1
+      },
+      "text": "Normalmente voy al instituto en bicicleta. Si llueve, voy en autobús. Por la tarde hago los deberes y juego al baloncesto.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "content": {
+        "id": "es.a1.routines.lexeme",
+        "revision": 1
+      },
+      "lemma": "los deberes",
+      "part_of_speech": "expression",
+      "gloss": {
+        "slot": "es.a1.routines.gloss"
+      },
+      "accepted_forms": [
+        "los deberes"
+      ],
+      "examples": [
+        {
+          "id": "es.a1.routines.vocab",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "rubrics": [
+    {
+      "content": {
+        "id": "es.a1.routines.rubric",
+        "revision": 1
+      },
+      "criteria": [
+        {
+          "id": "task",
+          "label": {
+            "slot": "es.a1.routines.rubric.task.label"
+          },
+          "guidance": {
+            "slot": "es.a1.routines.rubric.task.guidance"
+          }
+        },
+        {
+          "id": "structure",
+          "label": {
+            "slot": "es.a1.routines.rubric.structure.label"
+          },
+          "guidance": {
+            "slot": "es.a1.routines.rubric.structure.guidance"
+          }
+        },
+        {
+          "id": "language",
+          "label": {
+            "slot": "es.a1.routines.rubric.language.label"
+          },
+          "guidance": {
+            "slot": "es.a1.routines.rubric.language.guidance"
+          }
+        }
+      ],
+      "model_answers": [
+        {
+          "id": "es.a1.routines.model",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "assessments": []
+}

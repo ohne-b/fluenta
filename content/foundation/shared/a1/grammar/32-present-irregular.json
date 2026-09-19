@@ -1,0 +1,236 @@
+{
+  "grammar": [
+    {
+      "content": {
+        "id": "es.a1.present-irregular.grammar",
+        "revision": 1
+      },
+      "title": {
+        "slot": "es.a1.present-irregular.topic-title"
+      },
+      "summary": {
+        "slot": "es.a1.present-irregular.summary"
+      },
+      "band": "A1",
+      "category": "verbs",
+      "order": 32,
+      "group": {
+        "slot": "es.grammar.present"
+      },
+      "explanations": [
+        {
+          "id": "es.a1.present-irregular.guide",
+          "revision": 1
+        }
+      ],
+      "lessons": [
+        {
+          "id": "es.a1.present-irregular.recognise",
+          "revision": 1
+        },
+        {
+          "id": "es.a1.present-irregular.context",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "content": {
+        "id": "es.a1.present-irregular.guide",
+        "revision": 1
+      },
+      "searchable": true,
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a1.present-irregular.rule.p1"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a1.present-irregular.rule.p2"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Voy al instituto. Tengo que estudiar. Hago los deberes. Sé la respuesta y conozco a la profesora."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "table",
+          "caption": {
+            "slot": "es.a1.present-irregular.table-title"
+          },
+          "columns": [
+            {
+              "slot": "es.grammar.person"
+            },
+            {
+              "language": "es",
+              "text": "ir"
+            },
+            {
+              "language": "es",
+              "text": "tener"
+            },
+            {
+              "language": "es",
+              "text": "hacer"
+            },
+            {
+              "language": "es",
+              "text": "decir"
+            }
+          ],
+          "rows": [
+            [
+              {
+                "language": "es",
+                "text": "yo"
+              },
+              {
+                "language": "es",
+                "text": "voy"
+              },
+              {
+                "language": "es",
+                "text": "tengo"
+              },
+              {
+                "language": "es",
+                "text": "hago"
+              },
+              {
+                "language": "es",
+                "text": "digo"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "tú"
+              },
+              {
+                "language": "es",
+                "text": "vas"
+              },
+              {
+                "language": "es",
+                "text": "tienes"
+              },
+              {
+                "language": "es",
+                "text": "haces"
+              },
+              {
+                "language": "es",
+                "text": "dices"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "él / ella / usted"
+              },
+              {
+                "language": "es",
+                "text": "va"
+              },
+              {
+                "language": "es",
+                "text": "tiene"
+              },
+              {
+                "language": "es",
+                "text": "hace"
+              },
+              {
+                "language": "es",
+                "text": "dice"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "nosotros / nosotras"
+              },
+              {
+                "language": "es",
+                "text": "vamos"
+              },
+              {
+                "language": "es",
+                "text": "tenemos"
+              },
+              {
+                "language": "es",
+                "text": "hacemos"
+              },
+              {
+                "language": "es",
+                "text": "decimos"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "vosotros / vosotras"
+              },
+              {
+                "language": "es",
+                "text": "vais"
+              },
+              {
+                "language": "es",
+                "text": "tenéis"
+              },
+              {
+                "language": "es",
+                "text": "hacéis"
+              },
+              {
+                "language": "es",
+                "text": "decís"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "ellos / ellas / ustedes"
+              },
+              {
+                "language": "es",
+                "text": "van"
+              },
+              {
+                "language": "es",
+                "text": "tienen"
+              },
+              {
+                "language": "es",
+                "text": "hacen"
+              },
+              {
+                "language": "es",
+                "text": "dicen"
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

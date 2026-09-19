@@ -1,0 +1,8 @@
+[
+  {"name":"correct-plural","source_language":"de","band":"A2","mode":"explain","message":"Ist «Me gustan los idiomas» korrekt? Erkläre kurz die Grammatik.","review":"Keep the correct sentence. los idiomas is the plural grammatical subject; me is an indirect-object pronoun. Explain in German."},
+  {"name":"completed-past","source_language":"en","band":"A2","mode":"explain","message":"Correct «Ayer voy al museo» and explain the tense. Keep my meaning.","review":"Ayer fui al museo. Explain the completed past event in English; do not change the destination."},
+  {"name":"gender-agreement","source_language":"en","band":"A1","mode":"writing_feedback","message":"Please check: Mi hermana es muy simpático.","review":"Correct simpático to simpática because hermana is feminine. Avoid unrelated rewrites."},
+  {"name":"correct-age","source_language":"en","band":"A1","mode":"explain","message":"Is «Tengo dieciséis años» correct?","review":"Say it is correct. Explain tener for age in English; do not imply an unchanged sentence is a correction."},
+  {"name":"meaning-contrast","source_language":"de","band":"A2","mode":"explain","message":"Was ist der Unterschied zwischen «es aburrido» und «está aburrido»?","review":"Explain langweilig versus gelangweilt with examples. Do not reduce all ser/estar uses to permanent versus temporary."},
+  {"name":"conversation","source_language":"de","band":"A1","mode":"conversation","message":"Hola, me llamo Elena y me gusta la historia. ¿Y a ti?","review":"Reply naturally in simple Spanish, stay on school/history, and ask one short question."}
+]

@@ -1,0 +1,846 @@
+{
+  "missions": [
+    {
+      "content": {
+        "id": "mission.arts.1",
+        "revision": 1
+      },
+      "title": {
+        "language": "es",
+        "text": "La silla junto a la puerta"
+      },
+      "question": {
+        "language": "es",
+        "text": "¿Qué puede sugerir un final que no explica todo?"
+      },
+      "outcome": {
+        "de": "Interpretiere Erzählperspektive und Symbolik mit Textbelegen und einer alternativen Lesart.",
+        "en": "Interpret perspective and symbolism using evidence and an alternative reading."
+      },
+      "description": {
+        "de": "Verbinde Textverständnis, nützliche Wendungen und eine eigene Antwort.",
+        "en": "Connect understanding, useful expressions and your own response."
+      },
+      "band": "B2",
+      "lesson": {
+        "id": "mission.arts.1.lesson",
+        "revision": 1
+      },
+      "challenge": {
+        "id": "mission.arts.1.assessment",
+        "revision": 1
+      },
+      "vocabulary": [
+        {
+          "id": "lex.compartir",
+          "revision": 1
+        },
+        {
+          "id": "lex.echar",
+          "revision": 1
+        },
+        {
+          "id": "lex.afirmar",
+          "revision": 1
+        },
+        {
+          "id": "lex.reconocer",
+          "revision": 1
+        },
+        {
+          "id": "lex.perspectiva",
+          "revision": 1
+        },
+        {
+          "id": "lex.quedarse",
+          "revision": 1
+        },
+        {
+          "id": "lex.matizar",
+          "revision": 1
+        },
+        {
+          "id": "lex.embargo",
+          "revision": 1
+        }
+      ],
+      "sources": [
+        {
+          "title": "LehrplanPLUS · Spanisch 12/13, erhöhtes Anforderungsniveau",
+          "url": "https://www.lehrplanplus.bayern.de/fachlehrplan/gymnasium/12/spanisch/erhoeht",
+          "accessed": "2026-09-19",
+          "note": {
+            "de": "Zuordnung zu Themen und Kompetenzen; die Sammlungen sind redaktionell gegliedert.",
+            "en": "Mapping to themes and skills; collection titles are editorial groupings."
+          }
+        }
+      ],
+      "attribution": {
+        "de": "Originaler Lerntext · Personen, Gespräche und lokale Projekte sind erfunden. Synthetische Sprachausgabe.",
+        "en": "Original learning text · People, conversations and local projects are fictional. Synthetic speech."
+      },
+      "order": 13
+    }
+  ],
+  "lessons": [
+    {
+      "content": {
+        "id": "mission.arts.1.lesson",
+        "revision": 1
+      },
+      "title": {
+        "language": "es",
+        "text": "La silla junto a la puerta"
+      },
+      "objectives": [
+        {
+          "id": "mission.arts.1.objective",
+          "revision": 1
+        }
+      ],
+      "activities": [
+        {
+          "id": "mission.arts.1.input",
+          "revision": 1
+        },
+        {
+          "id": "mission.arts.1.comprehension",
+          "revision": 1
+        },
+        {
+          "id": "lex.compartir.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.echar.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.afirmar.listening",
+          "revision": 1
+        },
+        {
+          "id": "mission.arts.1.prepare",
+          "revision": 1
+        },
+        {
+          "id": "mission.arts.1.write",
+          "revision": 1
+        }
+      ],
+      "estimated_minutes": 22
+    }
+  ],
+  "objectives": [
+    {
+      "content": {
+        "id": "mission.arts.1.objective",
+        "revision": 1
+      },
+      "band": "B2",
+      "can_do": {
+        "de": "Interpretiere Erzählperspektive und Symbolik mit Textbelegen und einer alternativen Lesart.",
+        "en": "Interpret perspective and symbolism using evidence and an alternative reading."
+      },
+      "prerequisites": [],
+      "explanation_refs": [],
+      "grammar_topics": [
+        "es.b1.subjunctive.grammar",
+        "es.b2.argumentation.grammar"
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "content": {
+        "id": "mission.arts.1.input",
+        "revision": 1
+      },
+      "instruction": {
+        "de": "Lies oder höre den Text. Öffne nützliche Wendungen bei Bedarf.",
+        "en": "Read or listen. Open useful expressions when you need them."
+      },
+      "objectives": [
+        {
+          "id": "mission.arts.1.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "reading"
+      ],
+      "task": {
+        "kind": "explanation",
+        "material": {
+          "id": "mission.arts.1.reading",
+          "revision": 1
+        }
+      },
+      "evidence_scope": "source_language",
+      "usage": "practice",
+      "lexical": [],
+      "preparation": false
+    },
+    {
+      "content": {
+        "id": "mission.arts.1.comprehension",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "¿Cuál es una inferencia apoyada, pero no un hecho explícito?"
+      },
+      "objectives": [
+        {
+          "id": "mission.arts.1.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "mission.arts.1.reading",
+          "revision": 1
+        }
+      ],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "reading"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "option.0",
+            "label": {
+              "language": "es",
+              "text": "La silla puede sugerir una espera."
+            }
+          },
+          {
+            "id": "option.1",
+            "label": {
+              "language": "es",
+              "text": "El narrador identifica a la persona que Inés espera."
+            }
+          },
+          {
+            "id": "option.2",
+            "label": {
+              "language": "es",
+              "text": "Inés impide que su sobrina se siente."
+            }
+          }
+        ],
+        "correct_ids": [
+          "option.0"
+        ],
+        "explanation": {
+          "id": "mission.arts.1.comprehension.feedback",
+          "revision": 1
+        }
+      },
+      "evidence_scope": "source_language",
+      "usage": "practice",
+      "lexical": [],
+      "preparation": false
+    },
+    {
+      "content": {
+        "id": "mission.arts.1.prepare",
+        "revision": 1
+      },
+      "instruction": {
+        "de": "Bereite deine Antwort vor",
+        "en": "Prepare your response"
+      },
+      "objectives": [
+        {
+          "id": "mission.arts.1.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "reading"
+      ],
+      "task": {
+        "kind": "explanation",
+        "material": {
+          "id": "mission.arts.1.preparation",
+          "revision": 1
+        }
+      },
+      "evidence_scope": "source_language",
+      "usage": "practice",
+      "lexical": [],
+      "preparation": true
+    },
+    {
+      "content": {
+        "id": "mission.arts.1.write",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "Escribe para un club de lectura (160–240 palabras). Analiza la silla y el cambio del último párrafo narrativo. Cita dos detalles breves, propone una interpretación alternativa y explica sus límites."
+      },
+      "objectives": [
+        {
+          "id": "mission.arts.1.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "mission.arts.1.reading",
+          "revision": 1
+        }
+      ],
+      "hints": [
+        {
+          "id": "mission.arts.1.preparation",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "writing"
+      ],
+      "task": {
+        "kind": "writing",
+        "language": "es",
+        "min_words": 160,
+        "max_words": 240,
+        "rubric": {
+          "id": "mission.arts.1.rubric",
+          "revision": 1
+        }
+      },
+      "evidence_scope": "source_language",
+      "usage": "practice",
+      "lexical": [],
+      "preparation": false
+    },
+    {
+      "content": {
+        "id": "mission.arts.1.challenge",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "Interpreta el billete y la frase final para una revista literaria. Distingue observación e inferencia, examina el cambio de función del objeto y considera otra lectura posible. 160–240 palabras."
+      },
+      "objectives": [
+        {
+          "id": "mission.arts.1.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "mission.arts.1.unseen",
+          "revision": 1
+        }
+      ],
+      "hints": [],
+      "reveal_policy": "after_session",
+      "skills": [
+        "writing",
+        "reading"
+      ],
+      "task": {
+        "kind": "writing",
+        "language": "es",
+        "min_words": 160,
+        "max_words": 240,
+        "rubric": {
+          "id": "mission.arts.1.unseen.rubric",
+          "revision": 1
+        }
+      },
+      "evidence_scope": "source_language",
+      "usage": "assessment",
+      "lexical": [],
+      "preparation": false
+    }
+  ],
+  "materials": [
+    {
+      "content": {
+        "id": "mission.arts.1.reading",
+        "revision": 1
+      },
+      "searchable": true,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "language": "es",
+              "text": "La silla junto a la puerta"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "de": "Originaler Lerntext · Personen, Gespräche und lokale Projekte sind erfunden. Synthetische Sprachausgabe.",
+              "en": "Original learning text · People, conversations and local projects are fictional. Synthetic speech."
+            }
+          ]
+        },
+        {
+          "kind": "audio",
+          "speech": {
+            "id": "mission.arts.1.audio",
+            "revision": 1
+          }
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Relato original. Cada tarde, Inés colocaba una silla junto a la puerta. No esperaba visitas, decía. La usaba para dejar la bolsa del pan. Pero la bolsa siempre acababa en la mesa y la silla permanecía vacía. Desde la ventana, su vecino podía verla mover el asiento unos centímetros cuando llegaba la hora del autobús.",
+              "annotations": []
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Un jueves, el autobús pasó sin detenerse. Inés abrió la puerta, miró la calle y volvió a entrar. Su sobrina preguntó si podía sentarse. «Claro», respondió Inés, y por primera vez llevó la bolsa directamente a la mesa. La niña empezó a compartir una historia del colegio. Inés escuchó. Cuando sonó un motor en la calle, no se levantó. La silla siguió junto a la puerta.",
+              "annotations": [
+                {
+                  "start": 235,
+                  "end": 244,
+                  "occurrence": {
+                    "id": "mission.arts.1.reading.p1.o0",
+                    "revision": 1
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Lectura crítica: el relato no dice a quién podría echar de menos Inés ni permite afirmar que espera a una persona concreta. La repetición de gestos invita a reconocer una espera posible. Desde otra perspectiva, la silla también puede representar una costumbre que cambia al quedarse la sobrina. Conviene matizar cualquier interpretación con detalles y distinguir lo que el narrador muestra de lo que el lector infiere. Sin embargo, reconocer una ambigüedad no significa que cualquier lectura tenga el mismo apoyo en el texto.",
+              "annotations": [
+                {
+                  "start": 50,
+                  "end": 64,
+                  "occurrence": {
+                    "id": "mission.arts.1.reading.p2.o0",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 81,
+                  "end": 88,
+                  "occurrence": {
+                    "id": "mission.arts.1.reading.p2.o1",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 157,
+                  "end": 166,
+                  "occurrence": {
+                    "id": "mission.arts.1.reading.p2.o2",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 198,
+                  "end": 209,
+                  "occurrence": {
+                    "id": "mission.arts.1.reading.p2.o3",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 274,
+                  "end": 282,
+                  "occurrence": {
+                    "id": "mission.arts.1.reading.p2.o4",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 304,
+                  "end": 311,
+                  "occurrence": {
+                    "id": "mission.arts.1.reading.p2.o5",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 419,
+                  "end": 430,
+                  "occurrence": {
+                    "id": "mission.arts.1.reading.p2.o6",
+                    "revision": 1
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.arts.1.comprehension.feedback",
+        "revision": 1
+      },
+      "searchable": false,
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "de": "Wiederholung und Busmotiv stützen die Deutung, nennen aber keine erwartete Person.",
+              "en": "Repetition and the bus motif support the interpretation without identifying an expected person."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.arts.1.preparation",
+        "revision": 1
+      },
+      "searchable": false,
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "de": "Plane: Was ist die zentrale Aussage? Welche zwei Details helfen? Für wen formulierst du? Notiere Stichwörter, bevor du einen zusammenhängenden Text schreibst oder sprichst.",
+              "en": "Plan: What is the main point? Which two details help? Who is your audience? Note keywords before writing or speaking a connected response."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.arts.1.rubric.model",
+        "revision": 1
+      },
+      "searchable": false,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Una posible respuesta"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "La silla parece representar una espera que Inés no reconoce abiertamente. La bolsa nunca ocupa el asiento y el movimiento coincide con la llegada del autobús. Cuando la sobrina se sienta, la silla deja de estar vacía y otro vínculo ocupa ese espacio. El motor final ya no interrumpe la conversación. También podría leerse como el cambio de una costumbre solitaria. El relato no identifica a una persona ausente ni explica el pasado de Inés; por eso sería excesivo afirmar una pérdida concreta como si fuera un dato. La narración caracteriza a Inés mediante acciones pequeñas, sin explicar directamente sus sentimientos. Por eso el lector debe relacionar la silla vacía, el autobús y la conversación final. El contraste entre la repetición y la interrupción de la costumbre organiza el cambio del relato. La presencia de la sobrina no borra necesariamente una ausencia anterior; abre una relación en el presente. En un club de lectura, preguntaría qué detalle sostiene mejor cada interpretación y cuál nos obliga a corregirla, evitando convertir una posibilidad sugerida en una biografía inventada.",
+              "annotations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.arts.1.unseen",
+        "revision": 1
+      },
+      "searchable": false,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Otra situación"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Microrelato original: Leo guardó el billete de vuelta en un libro que nunca abría. Cada domingo compraba otro libro y dejaba el primero en la misma estantería. El día que su hermana vino a visitarlo, le pidió una recomendación. Leo sacó aquel volumen, encontró el billete y lo usó para marcar una página. «Empieza aquí», dijo.",
+              "annotations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.arts.1.unseen.rubric.model",
+        "revision": 1
+      },
+      "searchable": false,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Una posible respuesta"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "El billete conserva al principio la posibilidad de volver, pero queda dentro de un libro que Leo evita. La repetición dominical subraya esa separación entre lo nuevo y un objeto inmóvil. Al ofrecer el libro, convierte el billete en señal para una lectura compartida. Puede sugerir una relación distinta con el pasado, sin probar que ha decidido quedarse definitivamente. «Empieza aquí» se dirige a su hermana, aunque también puede invitar al lector a ver un nuevo comienzo. Otra lectura sería un gesto práctico sin una decisión definitiva; el texto mantiene esa ambigüedad. El narrador tampoco explica por qué Leo no abría el primer libro, de modo que una interpretación psicológica cerrada excedería la información disponible. Lo verificable es la transformación de un objeto guardado en una herramienta para orientar a otra persona. Ese cambio relaciona memoria y comunicación. El billete sigue físicamente presente: no se rompe ni se tira. Por ello, el final puede sugerir una nueva función para el pasado, más que su desaparición.",
+              "annotations": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "speech": [
+    {
+      "content": {
+        "id": "mission.arts.1.reading.p1.o0.audio",
+        "revision": 1
+      },
+      "text": "La niña empezó a compartir una historia del colegio.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.arts.1.reading.p2.o0.audio",
+        "revision": 1
+      },
+      "text": "Lectura crítica: el relato no dice a quién podría echar de menos Inés ni permite afirmar que espera a una persona concreta.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.arts.1.reading.p2.o1.audio",
+        "revision": 1
+      },
+      "text": "Lectura crítica: el relato no dice a quién podría echar de menos Inés ni permite afirmar que espera a una persona concreta.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.arts.1.reading.p2.o2.audio",
+        "revision": 1
+      },
+      "text": "La repetición de gestos invita a reconocer una espera posible.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.arts.1.reading.p2.o3.audio",
+        "revision": 1
+      },
+      "text": "Desde otra perspectiva, la silla también puede representar una costumbre que cambia al quedarse la sobrina.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.arts.1.reading.p2.o4.audio",
+        "revision": 1
+      },
+      "text": "Desde otra perspectiva, la silla también puede representar una costumbre que cambia al quedarse la sobrina.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.arts.1.reading.p2.o5.audio",
+        "revision": 1
+      },
+      "text": "Conviene matizar cualquier interpretación con detalles y distinguir lo que el narrador muestra de lo que el lector infiere.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.arts.1.reading.p2.o6.audio",
+        "revision": 1
+      },
+      "text": "Sin embargo, reconocer una ambigüedad no significa que cualquier lectura tenga el mismo apoyo en el texto.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.arts.1.audio",
+        "revision": 1
+      },
+      "text": "Relato original. Cada tarde, Inés colocaba una silla junto a la puerta. No esperaba visitas, decía. La usaba para dejar la bolsa del pan. Pero la bolsa siempre acababa en la mesa y la silla permanecía vacía. Desde la ventana, su vecino podía verla mover el asiento unos centímetros cuando llegaba la hora del autobús. Un jueves, el autobús pasó sin detenerse. Inés abrió la puerta, miró la calle y volvió a entrar. Su sobrina preguntó si podía sentarse. «Claro», respondió Inés, y por primera vez llevó la bolsa directamente a la mesa. La niña empezó a compartir una historia del colegio. Inés escuchó. Cuando sonó un motor en la calle, no se levantó. La silla siguió junto a la puerta. Lectura crítica: el relato no dice a quién podría echar de menos Inés ni permite afirmar que espera a una persona concreta. La repetición de gestos invita a reconocer una espera posible. Desde otra perspectiva, la silla también puede representar una costumbre que cambia al quedarse la sobrina. Conviene matizar cualquier interpretación con detalles y distinguir lo que el narrador muestra de lo que el lector infiere. Sin embargo, reconocer una ambigüedad no significa que cualquier lectura tenga el mismo apoyo en el texto.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    }
+  ],
+  "rubrics": [
+    {
+      "content": {
+        "id": "mission.arts.1.rubric",
+        "revision": 1
+      },
+      "criteria": [
+        {
+          "id": "task",
+          "label": {
+            "de": "Aufgabe und Adressat",
+            "en": "Task and audience"
+          },
+          "guidance": {
+            "de": "Erfülle die konkrete Schreib- oder Sprechabsicht der Aufgabe. Gehe auf die verlangten Teilfragen ein.",
+            "en": "Fulfil the specific writing or speaking purpose and address the requested points."
+          }
+        },
+        {
+          "id": "source",
+          "label": {
+            "de": "Belege und Genauigkeit",
+            "en": "Evidence and accuracy"
+          },
+          "guidance": {
+            "de": "Stütze deine Aussagen auf konkrete Details der Quelle; trenne Beleg, Deutung und eigene Meinung.",
+            "en": "Support claims with specific source details; separate evidence, interpretation and your opinion."
+          }
+        },
+        {
+          "id": "structure",
+          "label": {
+            "de": "Aufbau und Gegenposition",
+            "en": "Structure and alternative view"
+          },
+          "guidance": {
+            "de": "Ordne deine Gedanken nachvollziehbar. Gehe bei einer Diskussion auf einen begründeten Einwand ein.",
+            "en": "Organise ideas clearly. In discussion, address a reasonable objection."
+          }
+        },
+        {
+          "id": "language",
+          "label": {
+            "de": "Sprache",
+            "en": "Language"
+          },
+          "guidance": {
+            "de": "Formuliere verständlich und adressatengerecht. Prüfe Verbformen, Bezüge und passende Verknüpfungen.",
+            "en": "Write or speak clearly for your audience. Check verb forms, reference and suitable connectors."
+          }
+        }
+      ],
+      "model_answers": [
+        {
+          "id": "mission.arts.1.rubric.model",
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.arts.1.unseen.rubric",
+        "revision": 1
+      },
+      "criteria": [
+        {
+          "id": "task",
+          "label": {
+            "de": "Aufgabe und Adressat",
+            "en": "Task and audience"
+          },
+          "guidance": {
+            "de": "Erfülle die neue Aufgabe unabhängig. Belege deine Überlegungen mit der neuen Quelle; bei Sprachmittlung zählen Auswahl und Adressatenbezug, nicht wörtliche Übersetzung.",
+            "en": "Complete the new task independently. Use the new source; mediation requires relevant selection and audience awareness, not literal translation."
+          }
+        },
+        {
+          "id": "source",
+          "label": {
+            "de": "Belege und Genauigkeit",
+            "en": "Evidence and accuracy"
+          },
+          "guidance": {
+            "de": "Stütze deine Aussagen auf konkrete Details der Quelle; trenne Beleg, Deutung und eigene Meinung.",
+            "en": "Support claims with specific source details; separate evidence, interpretation and your opinion."
+          }
+        },
+        {
+          "id": "structure",
+          "label": {
+            "de": "Aufbau und Gegenposition",
+            "en": "Structure and alternative view"
+          },
+          "guidance": {
+            "de": "Ordne deine Gedanken nachvollziehbar. Gehe bei einer Diskussion auf einen begründeten Einwand ein.",
+            "en": "Organise ideas clearly. In discussion, address a reasonable objection."
+          }
+        },
+        {
+          "id": "language",
+          "label": {
+            "de": "Sprache",
+            "en": "Language"
+          },
+          "guidance": {
+            "de": "Formuliere verständlich und adressatengerecht. Prüfe Verbformen, Bezüge und passende Verknüpfungen.",
+            "en": "Write or speak clearly for your audience. Check verb forms, reference and suitable connectors."
+          }
+        }
+      ],
+      "model_answers": [
+        {
+          "id": "mission.arts.1.unseen.rubric.model",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "assessments": [
+    {
+      "content": {
+        "id": "mission.arts.1.assessment",
+        "revision": 1
+      },
+      "title": {
+        "de": "Neue Quelle · unabhängige Aufgabe",
+        "en": "New source · independent challenge"
+      },
+      "activities": [
+        {
+          "id": "mission.arts.1.challenge",
+          "revision": 1
+        }
+      ],
+      "duration_seconds": 1800,
+      "audio_replays": 0
+    }
+  ]
+}

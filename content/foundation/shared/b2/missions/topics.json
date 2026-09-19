@@ -1,0 +1,405 @@
+{
+  "topics": [
+    {
+      "content": {
+        "id": "topic.migration",
+        "revision": 1
+      },
+      "title": {
+        "de": "Migration und Zugehörigkeit",
+        "en": "Migration and belonging"
+      },
+      "question": {
+        "language": "es",
+        "text": "¿Qué necesitamos para llegar y pertenecer?"
+      },
+      "description": {
+        "de": "Sechs verbundene Kapitel: von einem ersten Schultag bis zur eigenständigen Bewertung einer Ausstellung.",
+        "en": "Six connected chapters: from a first school day to an independent evaluation of an exhibition."
+      },
+      "outcomes": [
+        {
+          "de": "Erfahrungen verstehen und vergleichen",
+          "en": "Understand and compare experiences"
+        },
+        {
+          "de": "Darstellungen prüfen und Vorschläge begründen",
+          "en": "Evaluate representations and justify proposals"
+        },
+        {
+          "de": "Sprache in neuen Situationen selbst verwenden",
+          "en": "Use language independently in new situations"
+        }
+      ],
+      "missions": [
+        {
+          "id": "mission.migration.1",
+          "revision": 1
+        },
+        {
+          "id": "mission.migration.2",
+          "revision": 1
+        },
+        {
+          "id": "mission.migration.3",
+          "revision": 1
+        },
+        {
+          "id": "mission.migration.4",
+          "revision": 1
+        },
+        {
+          "id": "mission.migration.5",
+          "revision": 1
+        },
+        {
+          "id": "mission.migration.6",
+          "revision": 1
+        }
+      ],
+      "sources": [
+        {
+          "title": "LehrplanPLUS · Spanisch 12/13, erhöhtes Anforderungsniveau",
+          "url": "https://www.lehrplanplus.bayern.de/fachlehrplan/gymnasium/12/spanisch/erhoeht",
+          "accessed": "2026-09-19",
+          "note": {
+            "de": "Zuordnung zu Themen und Kompetenzen; die Sammlungen sind redaktionell gegliedert.",
+            "en": "Mapping to themes and skills; collection titles are editorial groupings."
+          }
+        },
+        {
+          "title": "IOM · Glossary on Migration",
+          "url": "https://publications.iom.int/books/international-migration-law-ndeg34-glossary-migration",
+          "accessed": "2026-09-19",
+          "note": {
+            "de": "Begrifflicher Hintergrund. Die Personen und Ereignisse in den Lesetexten sind erfunden.",
+            "en": "Terminological background. People and events in the readings are fictional."
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "topic.spain-memory",
+        "revision": 1
+      },
+      "title": {
+        "de": "Spanien: Diktatur, Demokratie und Erinnerung",
+        "en": "Spain: dictatorship, democracy and memory"
+      },
+      "question": {
+        "language": "es",
+        "text": "¿Quién decide cómo recordamos?"
+      },
+      "description": {
+        "de": "Erinnerung mit Belegen statt einfachen Gegensätzen untersuchen.",
+        "en": "Investigate memory through evidence rather than simple oppositions."
+      },
+      "outcomes": [
+        {
+          "de": "Ordne historische Eckdaten ein und begründe eine Entscheidung über Erinnerung.",
+          "en": "Place key dates in context and justify a decision about public memory."
+        }
+      ],
+      "missions": [
+        {
+          "id": "mission.spain-memory.1",
+          "revision": 1
+        }
+      ],
+      "sources": [
+        {
+          "title": "LehrplanPLUS · Spanisch 12/13, erhöhtes Anforderungsniveau",
+          "url": "https://www.lehrplanplus.bayern.de/fachlehrplan/gymnasium/12/spanisch/erhoeht",
+          "accessed": "2026-09-19",
+          "note": {
+            "de": "Zuordnung zu Themen und Kompetenzen; die Sammlungen sind redaktionell gegliedert.",
+            "en": "Mapping to themes and skills; collection titles are editorial groupings."
+          }
+        },
+        {
+          "title": "Congreso · Constitución de 1978",
+          "url": "https://www.congreso.es/es/cem/const1978",
+          "accessed": "2026-09-19",
+          "note": {
+            "de": "Historische Eckdaten zu Wahlen 1977 und Verfassung 1978, eigenständig zusammengefasst.",
+            "en": "Historical dates for the 1977 elections and 1978 constitution, independently summarised."
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "topic.latin-america",
+        "revision": 1
+      },
+      "title": {
+        "de": "Lateinamerika: Länder und Geschichte",
+        "en": "Latin America: countries and history"
+      },
+      "question": {
+        "language": "es",
+        "text": "¿Puede una historia representar a todo un continente?"
+      },
+      "description": {
+        "de": "Chile als konkreten Einstieg untersuchen und Grenzen von Verallgemeinerungen erkennen.",
+        "en": "Use Chile as a specific entry point and recognise limits of generalisation."
+      },
+      "outcomes": [
+        {
+          "de": "Untersuche einen chilenischen Fall mit historischem Kontext und vermeide Verallgemeinerungen.",
+          "en": "Examine a Chilean case in historical context and avoid generalisation."
+        }
+      ],
+      "missions": [
+        {
+          "id": "mission.latin-america.1",
+          "revision": 1
+        }
+      ],
+      "sources": [
+        {
+          "title": "LehrplanPLUS · Spanisch 12/13, erhöhtes Anforderungsniveau",
+          "url": "https://www.lehrplanplus.bayern.de/fachlehrplan/gymnasium/12/spanisch/erhoeht",
+          "accessed": "2026-09-19",
+          "note": {
+            "de": "Zuordnung zu Themen und Kompetenzen; die Sammlungen sind redaktionell gegliedert.",
+            "en": "Mapping to themes and skills; collection titles are editorial groupings."
+          }
+        },
+        {
+          "title": "Biblioteca Nacional de Chile · Golpe de Estado de 1973",
+          "url": "https://www.memoriachilena.gob.cl/602/w3-article-92405.html",
+          "accessed": "2026-09-19",
+          "note": {
+            "de": "Historischer Hintergrund zum Staatsstreich am 11. September 1973.",
+            "en": "Historical background on the coup of 11 September 1973."
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "topic.language",
+        "revision": 1
+      },
+      "title": {
+        "de": "Sprache und Identität",
+        "en": "Language and identity"
+      },
+      "question": {
+        "language": "es",
+        "text": "¿Tenemos que elegir una sola voz?"
+      },
+      "description": {
+        "de": "Mehrsprachige Erfahrungen vergleichen und zwischen Recht und Alltag unterscheiden.",
+        "en": "Compare multilingual experiences and distinguish legal status from daily life."
+      },
+      "outcomes": [
+        {
+          "de": "Vergleiche mehrsprachige Erfahrungen, ohne Sprachpolitik auf persönliche Vorlieben zu reduzieren.",
+          "en": "Compare multilingual experiences without reducing language policy to personal preference."
+        }
+      ],
+      "missions": [
+        {
+          "id": "mission.language.1",
+          "revision": 1
+        }
+      ],
+      "sources": [
+        {
+          "title": "LehrplanPLUS · Spanisch 12/13, erhöhtes Anforderungsniveau",
+          "url": "https://www.lehrplanplus.bayern.de/fachlehrplan/gymnasium/12/spanisch/erhoeht",
+          "accessed": "2026-09-19",
+          "note": {
+            "de": "Zuordnung zu Themen und Kompetenzen; die Sammlungen sind redaktionell gegliedert.",
+            "en": "Mapping to themes and skills; collection titles are editorial groupings."
+          }
+        },
+        {
+          "title": "Generalitat · Estatut d’Autonomia",
+          "url": "https://justicia.gencat.cat/ca/departament/llengua/catala-administracio-justicia/marc-normatiu/normativa-ambit-judicial/estatut-dautonomia/",
+          "accessed": "2026-09-19",
+          "note": {
+            "de": "Bezug auf Katalanisch und Kastilisch im Autonomiestatut; keine vollständige Darstellung der Sprachpolitik.",
+            "en": "Catalan and Castilian in the Statute; not a complete account of language policy."
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "topic.media",
+        "revision": 1
+      },
+      "title": {
+        "de": "Gesellschaft, Jugend und Medien",
+        "en": "Society, young people and media"
+      },
+      "question": {
+        "language": "es",
+        "text": "¿Quién controla lo que compartimos?"
+      },
+      "description": {
+        "de": "Medienentscheidungen, Privatsphäre und Beteiligung abwägen.",
+        "en": "Weigh media choices, privacy and participation."
+      },
+      "outcomes": [
+        {
+          "de": "Begründe eine Medienentscheidung mit Blick auf Publikum und Einwilligung.",
+          "en": "Justify a media decision with audience and consent in mind."
+        }
+      ],
+      "missions": [
+        {
+          "id": "mission.media.1",
+          "revision": 1
+        }
+      ],
+      "sources": [
+        {
+          "title": "LehrplanPLUS · Spanisch 12/13, erhöhtes Anforderungsniveau",
+          "url": "https://www.lehrplanplus.bayern.de/fachlehrplan/gymnasium/12/spanisch/erhoeht",
+          "accessed": "2026-09-19",
+          "note": {
+            "de": "Zuordnung zu Themen und Kompetenzen; die Sammlungen sind redaktionell gegliedert.",
+            "en": "Mapping to themes and skills; collection titles are editorial groupings."
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "topic.sustainability",
+        "revision": 1
+      },
+      "title": {
+        "de": "Wirtschaft, Umwelt und Nachhaltigkeit",
+        "en": "Economy, environment and sustainability"
+      },
+      "question": {
+        "language": "es",
+        "text": "¿Quién paga una ciudad más sostenible?"
+      },
+      "description": {
+        "de": "Kosten, Nutzen und Verteilung anhand eines konkreten Projekts diskutieren.",
+        "en": "Discuss costs, benefits and distribution through a concrete project."
+      },
+      "outcomes": [
+        {
+          "de": "Interpretiere eine Modellgrafik und wäge Kosten, Nutzen und Grenzen ab.",
+          "en": "Interpret an illustrative chart and weigh costs, benefits and limits."
+        }
+      ],
+      "missions": [
+        {
+          "id": "mission.sustainability.1",
+          "revision": 1
+        }
+      ],
+      "sources": [
+        {
+          "title": "LehrplanPLUS · Spanisch 12/13, erhöhtes Anforderungsniveau",
+          "url": "https://www.lehrplanplus.bayern.de/fachlehrplan/gymnasium/12/spanisch/erhoeht",
+          "accessed": "2026-09-19",
+          "note": {
+            "de": "Zuordnung zu Themen und Kompetenzen; die Sammlungen sind redaktionell gegliedert.",
+            "en": "Mapping to themes and skills; collection titles are editorial groupings."
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "topic.world",
+        "revision": 1
+      },
+      "title": {
+        "de": "Spanien und die Welt",
+        "en": "Spain and the wider world"
+      },
+      "question": {
+        "language": "es",
+        "text": "¿Cómo se convierte una frontera en un puente?"
+      },
+      "description": {
+        "de": "Europäische Zusammenarbeit mit einer lokalen Perspektive verknüpfen.",
+        "en": "Connect European cooperation with a local perspective."
+      },
+      "outcomes": [
+        {
+          "de": "Verbinde einen europäischen Bezug mit einer adressatengerechten Projektidee.",
+          "en": "Connect a European reference with an audience-appropriate project proposal."
+        }
+      ],
+      "missions": [
+        {
+          "id": "mission.world.1",
+          "revision": 1
+        }
+      ],
+      "sources": [
+        {
+          "title": "LehrplanPLUS · Spanisch 12/13, erhöhtes Anforderungsniveau",
+          "url": "https://www.lehrplanplus.bayern.de/fachlehrplan/gymnasium/12/spanisch/erhoeht",
+          "accessed": "2026-09-19",
+          "note": {
+            "de": "Zuordnung zu Themen und Kompetenzen; die Sammlungen sind redaktionell gegliedert.",
+            "en": "Mapping to themes and skills; collection titles are editorial groupings."
+          }
+        },
+        {
+          "title": "European Union · Spain",
+          "url": "https://european-union.europa.eu/principles-countries-history/eu-countries/spain_en",
+          "accessed": "2026-09-19",
+          "note": {
+            "de": "Beitritt zu den Europäischen Gemeinschaften am 1. Januar 1986.",
+            "en": "Accession to the European Communities on 1 January 1986."
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "topic.arts",
+        "revision": 1
+      },
+      "title": {
+        "de": "Literatur, Film und Kunst",
+        "en": "Literature, film and art"
+      },
+      "question": {
+        "language": "es",
+        "text": "¿Qué puede decir un objeto que una persona calla?"
+      },
+      "description": {
+        "de": "Erzählperspektive, Bildsprache und Deutung an originalen Kurztexten üben.",
+        "en": "Practise perspective, imagery and interpretation with original short texts."
+      },
+      "outcomes": [
+        {
+          "de": "Interpretiere Erzählperspektive und Symbolik mit Textbelegen und einer alternativen Lesart.",
+          "en": "Interpret perspective and symbolism using evidence and an alternative reading."
+        }
+      ],
+      "missions": [
+        {
+          "id": "mission.arts.1",
+          "revision": 1
+        }
+      ],
+      "sources": [
+        {
+          "title": "LehrplanPLUS · Spanisch 12/13, erhöhtes Anforderungsniveau",
+          "url": "https://www.lehrplanplus.bayern.de/fachlehrplan/gymnasium/12/spanisch/erhoeht",
+          "accessed": "2026-09-19",
+          "note": {
+            "de": "Zuordnung zu Themen und Kompetenzen; die Sammlungen sind redaktionell gegliedert.",
+            "en": "Mapping to themes and skills; collection titles are editorial groupings."
+          }
+        }
+      ]
+    }
+  ]
+}

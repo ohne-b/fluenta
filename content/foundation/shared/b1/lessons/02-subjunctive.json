@@ -1,0 +1,683 @@
+{
+  "lessons": [
+    {
+      "content": {
+        "id": "es.b1.subjunctive.lesson",
+        "revision": 3
+      },
+      "title": {
+        "slot": "es.b1.subjunctive.title"
+      },
+      "objectives": [
+        {
+          "id": "es.b1.subjunctive.objective",
+          "revision": 3
+        }
+      ],
+      "activities": [
+        {
+          "id": "es.b1.subjunctive.intro",
+          "revision": 3
+        },
+        {
+          "id": "es.b1.subjunctive.choice",
+          "revision": 3
+        },
+        {
+          "id": "es.b1.subjunctive.order",
+          "revision": 3
+        },
+        {
+          "id": "es.b1.subjunctive.recall",
+          "revision": 3
+        },
+        {
+          "id": "es.b1.subjunctive.listen",
+          "revision": 3
+        },
+        {
+          "id": "es.b1.subjunctive.produce",
+          "revision": 3
+        }
+      ],
+      "estimated_minutes": 12
+    }
+  ],
+  "objectives": [
+    {
+      "content": {
+        "id": "es.b1.subjunctive.objective",
+        "revision": 3
+      },
+      "band": "B1",
+      "can_do": {
+        "slot": "es.b1.subjunctive.can_do"
+      },
+      "prerequisites": [
+        {
+          "id": "es.b1.summarising.objective",
+          "revision": 1
+        }
+      ],
+      "explanation_refs": [
+        {
+          "id": "es.b1.subjunctive.guide",
+          "revision": 3
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "content": {
+        "id": "es.b1.subjunctive.intro",
+        "revision": 3
+      },
+      "instruction": {
+        "slot": "es.b1.subjunctive.title"
+      },
+      "objectives": [
+        {
+          "id": "es.b1.subjunctive.objective",
+          "revision": 3
+        }
+      ],
+      "materials": [],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "explanation",
+        "material": {
+          "id": "es.b1.subjunctive.guide",
+          "revision": 3
+        }
+      },
+      "skills": [
+        "grammar"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.subjunctive.choice",
+        "revision": 3
+      },
+      "instruction": {
+        "slot": "es.b1.subjunctive.choice"
+      },
+      "objectives": [
+        {
+          "id": "es.b1.subjunctive.objective",
+          "revision": 3
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.b1.subjunctive.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "c1",
+            "label": {
+              "language": "es",
+              "text": "leas"
+            }
+          },
+          {
+            "id": "c2",
+            "label": {
+              "language": "es",
+              "text": "lees"
+            }
+          },
+          {
+            "id": "c3",
+            "label": {
+              "language": "es",
+              "text": "leer"
+            }
+          }
+        ],
+        "correct_ids": [
+          "c1"
+        ],
+        "explanation": {
+          "id": "es.b1.subjunctive.guide",
+          "revision": 3
+        }
+      },
+      "skills": [
+        "reading"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.subjunctive.order",
+        "revision": 3
+      },
+      "instruction": {
+        "slot": "es.b1.subjunctive.order"
+      },
+      "objectives": [
+        {
+          "id": "es.b1.subjunctive.objective",
+          "revision": 3
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.b1.subjunctive.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "order",
+        "items": [
+          {
+            "id": "w1",
+            "label": {
+              "language": "es",
+              "text": "Es"
+            }
+          },
+          {
+            "id": "w2",
+            "label": {
+              "language": "es",
+              "text": "importante"
+            }
+          },
+          {
+            "id": "w3",
+            "label": {
+              "language": "es",
+              "text": "que"
+            }
+          },
+          {
+            "id": "w4",
+            "label": {
+              "language": "es",
+              "text": "todos"
+            }
+          },
+          {
+            "id": "w5",
+            "label": {
+              "language": "es",
+              "text": "participen"
+            }
+          },
+          {
+            "id": "w6",
+            "label": {
+              "language": "es",
+              "text": "en"
+            }
+          },
+          {
+            "id": "w7",
+            "label": {
+              "language": "es",
+              "text": "el"
+            }
+          },
+          {
+            "id": "w8",
+            "label": {
+              "language": "es",
+              "text": "debate."
+            }
+          }
+        ],
+        "accepted_orders": [
+          [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ]
+        ],
+        "explanation": {
+          "id": "es.b1.subjunctive.guide",
+          "revision": 3
+        }
+      },
+      "skills": [
+        "grammar"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.subjunctive.recall",
+        "revision": 3
+      },
+      "instruction": {
+        "slot": "es.b1.subjunctive.recall"
+      },
+      "objectives": [
+        {
+          "id": "es.b1.subjunctive.objective",
+          "revision": 3
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.b1.subjunctive.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "sentence_content",
+        "inputs": [
+          "keyboard",
+          "microphone"
+        ],
+        "accepted": [
+          "participen"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.b1.subjunctive.recall-answer",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "grammar",
+        "vocabulary"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.subjunctive.listen",
+        "revision": 3
+      },
+      "instruction": {
+        "slot": "es.b1.subjunctive.listen"
+      },
+      "objectives": [
+        {
+          "id": "es.b1.subjunctive.objective",
+          "revision": 3
+        }
+      ],
+      "materials": [
+        {
+          "id": "es.b1.subjunctive.listening",
+          "revision": 1
+        }
+      ],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "l1",
+            "label": {
+              "language": "es",
+              "text": "Una reunión mensual."
+            }
+          },
+          {
+            "id": "l2",
+            "label": {
+              "language": "es",
+              "text": "Un examen semanal."
+            }
+          },
+          {
+            "id": "l3",
+            "label": {
+              "language": "es",
+              "text": "Una excursión diaria."
+            }
+          }
+        ],
+        "correct_ids": [
+          "l1"
+        ],
+        "explanation": {
+          "id": "es.b1.subjunctive.listen-answer",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "listening"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.subjunctive.produce",
+        "revision": 3
+      },
+      "instruction": {
+        "language": "es",
+        "text": "Propón dos cambios para mejorar la convivencia en tu instituto. Usa al menos una recomendación con que y subjuntivo."
+      },
+      "objectives": [
+        {
+          "id": "es.b1.subjunctive.objective",
+          "revision": 3
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.b1.subjunctive.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "speaking",
+        "language": "es",
+        "max_seconds": 90,
+        "rubric": {
+          "id": "es.b1.subjunctive.rubric",
+          "revision": 1
+        },
+        "keyboard_alternative": {
+          "id": "es.b1.subjunctive.keyboard",
+          "revision": 3
+        }
+      },
+      "skills": [
+        "speaking"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.subjunctive.keyboard",
+        "revision": 3
+      },
+      "instruction": {
+        "language": "es",
+        "text": "Propón dos cambios para mejorar la convivencia en tu instituto. Usa al menos una recomendación con que y subjuntivo."
+      },
+      "objectives": [
+        {
+          "id": "es.b1.subjunctive.objective",
+          "revision": 3
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.b1.subjunctive.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "writing",
+        "language": "es",
+        "min_words": 45,
+        "max_words": 160,
+        "rubric": {
+          "id": "es.b1.subjunctive.rubric",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "writing"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "content": {
+        "id": "es.b1.subjunctive.listening",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "audio",
+          "speech": {
+            "id": "es.b1.subjunctive.listening-audio",
+            "revision": 1
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.subjunctive.listen-answer",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.b1.subjunctive.listen-feedback"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Para mejorar la convivencia, el consejo escolar propone que cada clase elija a dos representantes. También recomienda que el alumnado organice una reunión mensual."
+            }
+          ],
+          "speech": null
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.subjunctive.recall-answer",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "slot": "es.b1.subjunctive.answer-title"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "participen"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.b1.subjunctive.guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.subjunctive.model",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "slot": "es.b1.subjunctive.model-title"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Propongo que cada clase organice una reunión al mes para hablar de los problemas de convivencia. Es importante que todos puedan participar sin miedo. También recomiendo que el instituto cree un grupo de mediación. Así, cuando haya un conflicto, el alumnado tendrá personas a las que pedir ayuda antes de que el problema empeore."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.subjunctive.vocab",
+        "revision": 1
+      },
+      "searchable": true,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "language": "es",
+              "text": "la convivencia"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.b1.subjunctive.gloss"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Es importante que respetemos otras opiniones. Te recomiendo que leas el texto otra vez."
+            }
+          ],
+          "speech": {
+            "id": "es.b1.subjunctive.example-audio",
+            "revision": 1
+          }
+        }
+      ]
+    }
+  ],
+  "speech": [
+    {
+      "content": {
+        "id": "es.b1.subjunctive.example-audio",
+        "revision": 1
+      },
+      "text": "Es importante que respetemos otras opiniones. Te recomiendo que leas el texto otra vez.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "es.b1.subjunctive.listening-audio",
+        "revision": 1
+      },
+      "text": "Para mejorar la convivencia, el consejo escolar propone que cada clase elija a dos representantes. También recomienda que el alumnado organice una reunión mensual.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "content": {
+        "id": "es.b1.subjunctive.lexeme",
+        "revision": 1
+      },
+      "lemma": "la convivencia",
+      "part_of_speech": "noun",
+      "gloss": {
+        "slot": "es.b1.subjunctive.gloss"
+      },
+      "accepted_forms": [
+        "la convivencia"
+      ],
+      "examples": [
+        {
+          "id": "es.b1.subjunctive.vocab",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "rubrics": [
+    {
+      "content": {
+        "id": "es.b1.subjunctive.rubric",
+        "revision": 1
+      },
+      "criteria": [
+        {
+          "id": "task",
+          "label": {
+            "slot": "es.b1.subjunctive.rubric.task.label"
+          },
+          "guidance": {
+            "slot": "es.b1.subjunctive.rubric.task.guidance"
+          }
+        },
+        {
+          "id": "structure",
+          "label": {
+            "slot": "es.b1.subjunctive.rubric.structure.label"
+          },
+          "guidance": {
+            "slot": "es.b1.subjunctive.rubric.structure.guidance"
+          }
+        },
+        {
+          "id": "language",
+          "label": {
+            "slot": "es.b1.subjunctive.rubric.language.label"
+          },
+          "guidance": {
+            "slot": "es.b1.subjunctive.rubric.language.guidance"
+          }
+        }
+      ],
+      "model_answers": [
+        {
+          "id": "es.b1.subjunctive.model",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "assessments": []
+}

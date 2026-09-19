@@ -1,0 +1,682 @@
+{
+  "lessons": [
+    {
+      "content": {
+        "id": "es.a2.past-background.lesson",
+        "revision": 3
+      },
+      "title": {
+        "slot": "es.a2.past-background.title"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.past-background.objective",
+          "revision": 3
+        }
+      ],
+      "activities": [
+        {
+          "id": "es.a2.past-background.intro",
+          "revision": 3
+        },
+        {
+          "id": "es.a2.past-background.choice",
+          "revision": 3
+        },
+        {
+          "id": "es.a2.past-background.order",
+          "revision": 3
+        },
+        {
+          "id": "es.a2.past-background.recall",
+          "revision": 3
+        },
+        {
+          "id": "es.a2.past-background.listen",
+          "revision": 3
+        },
+        {
+          "id": "es.a2.past-background.produce",
+          "revision": 3
+        }
+      ],
+      "estimated_minutes": 10
+    }
+  ],
+  "objectives": [
+    {
+      "content": {
+        "id": "es.a2.past-background.objective",
+        "revision": 3
+      },
+      "band": "A2",
+      "can_do": {
+        "slot": "es.a2.past-background.can_do"
+      },
+      "prerequisites": [
+        {
+          "id": "es.a2.past-events.objective",
+          "revision": 3
+        }
+      ],
+      "explanation_refs": [
+        {
+          "id": "es.a2.past-background.guide",
+          "revision": 3
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "content": {
+        "id": "es.a2.past-background.intro",
+        "revision": 3
+      },
+      "instruction": {
+        "slot": "es.a2.past-background.title"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.past-background.objective",
+          "revision": 3
+        }
+      ],
+      "materials": [],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "explanation",
+        "material": {
+          "id": "es.a2.past-background.guide",
+          "revision": 3
+        }
+      },
+      "skills": [
+        "grammar"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.past-background.choice",
+        "revision": 3
+      },
+      "instruction": {
+        "slot": "es.a2.past-background.choice"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.past-background.objective",
+          "revision": 3
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.past-background.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "c1",
+            "label": {
+              "language": "es",
+              "text": "De pequeño iba al colegio a pie."
+            }
+          },
+          {
+            "id": "c2",
+            "label": {
+              "language": "es",
+              "text": "Ayer fui al colegio a pie."
+            }
+          },
+          {
+            "id": "c3",
+            "label": {
+              "language": "es",
+              "text": "Un día perdí mi mochila."
+            }
+          }
+        ],
+        "correct_ids": [
+          "c1"
+        ],
+        "explanation": {
+          "id": "es.a2.past-background.guide",
+          "revision": 3
+        }
+      },
+      "skills": [
+        "reading"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.past-background.order",
+        "revision": 3
+      },
+      "instruction": {
+        "slot": "es.a2.past-background.order"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.past-background.objective",
+          "revision": 3
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.past-background.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "order",
+        "items": [
+          {
+            "id": "w1",
+            "label": {
+              "language": "es",
+              "text": "Cuando"
+            }
+          },
+          {
+            "id": "w2",
+            "label": {
+              "language": "es",
+              "text": "era"
+            }
+          },
+          {
+            "id": "w3",
+            "label": {
+              "language": "es",
+              "text": "pequeño"
+            }
+          },
+          {
+            "id": "w4",
+            "label": {
+              "language": "es",
+              "text": "iba"
+            }
+          },
+          {
+            "id": "w5",
+            "label": {
+              "language": "es",
+              "text": "al"
+            }
+          },
+          {
+            "id": "w6",
+            "label": {
+              "language": "es",
+              "text": "colegio"
+            }
+          },
+          {
+            "id": "w7",
+            "label": {
+              "language": "es",
+              "text": "a"
+            }
+          },
+          {
+            "id": "w8",
+            "label": {
+              "language": "es",
+              "text": "pie."
+            }
+          }
+        ],
+        "accepted_orders": [
+          [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ]
+        ],
+        "explanation": {
+          "id": "es.a2.past-background.guide",
+          "revision": 3
+        }
+      },
+      "skills": [
+        "grammar"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.past-background.recall",
+        "revision": 3
+      },
+      "instruction": {
+        "slot": "es.a2.past-background.recall"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.past-background.objective",
+          "revision": 3
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.past-background.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "orthography",
+        "inputs": [
+          "keyboard"
+        ],
+        "accepted": [
+          "íbamos"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.a2.past-background.recall-answer",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "grammar",
+        "vocabulary"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.past-background.listen",
+        "revision": 3
+      },
+      "instruction": {
+        "slot": "es.a2.past-background.listen"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.past-background.objective",
+          "revision": 3
+        }
+      ],
+      "materials": [
+        {
+          "id": "es.a2.past-background.listening",
+          "revision": 1
+        }
+      ],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "l1",
+            "label": {
+              "language": "es",
+              "text": "Sonó la alarma."
+            }
+          },
+          {
+            "id": "l2",
+            "label": {
+              "language": "es",
+              "text": "Empezó el recreo."
+            }
+          },
+          {
+            "id": "l3",
+            "label": {
+              "language": "es",
+              "text": "Llegó otra profesora."
+            }
+          }
+        ],
+        "correct_ids": [
+          "l1"
+        ],
+        "explanation": {
+          "id": "es.a2.past-background.listen-answer",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "listening"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.past-background.produce",
+        "revision": 3
+      },
+      "instruction": {
+        "language": "es",
+        "text": "Cuenta una situación inesperada en el instituto. Describe el ambiente y explica qué ocurrió."
+      },
+      "objectives": [
+        {
+          "id": "es.a2.past-background.objective",
+          "revision": 3
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.past-background.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "speaking",
+        "language": "es",
+        "max_seconds": 90,
+        "rubric": {
+          "id": "es.a2.past-background.rubric",
+          "revision": 1
+        },
+        "keyboard_alternative": {
+          "id": "es.a2.past-background.keyboard",
+          "revision": 3
+        }
+      },
+      "skills": [
+        "speaking"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.past-background.keyboard",
+        "revision": 3
+      },
+      "instruction": {
+        "language": "es",
+        "text": "Cuenta una situación inesperada en el instituto. Describe el ambiente y explica qué ocurrió."
+      },
+      "objectives": [
+        {
+          "id": "es.a2.past-background.objective",
+          "revision": 3
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.past-background.guide",
+          "revision": 3
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "writing",
+        "language": "es",
+        "min_words": 25,
+        "max_words": 110,
+        "rubric": {
+          "id": "es.a2.past-background.rubric",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "writing"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "content": {
+        "id": "es.a2.past-background.listening",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "audio",
+          "speech": {
+            "id": "es.a2.past-background.listening-audio",
+            "revision": 1
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.past-background.listen-answer",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a2.past-background.listen-feedback"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Estábamos en clase y la profesora explicaba un ejercicio. De repente, sonó la alarma. Salimos al patio y esperamos allí."
+            }
+          ],
+          "speech": null
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.past-background.recall-answer",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "slot": "es.a2.past-background.answer-title"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "íbamos"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a2.past-background.guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.past-background.model",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "slot": "es.a2.past-background.model-title"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Era un lunes y llovía mucho. Estábamos en clase y la profesora explicaba un problema. De repente, se apagaron las luces. Esperamos unos minutos y luego continuamos la clase con la luz de las ventanas."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.past-background.vocab",
+        "revision": 1
+      },
+      "searchable": true,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "language": "es",
+              "text": "de repente"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a2.past-background.gloss"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Cuando era pequeño, iba al colegio a pie. Un día perdí mi mochila."
+            }
+          ],
+          "speech": {
+            "id": "es.a2.past-background.example-audio",
+            "revision": 1
+          }
+        }
+      ]
+    }
+  ],
+  "speech": [
+    {
+      "content": {
+        "id": "es.a2.past-background.example-audio",
+        "revision": 1
+      },
+      "text": "Cuando era pequeño, iba al colegio a pie. Un día perdí mi mochila.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "es.a2.past-background.listening-audio",
+        "revision": 1
+      },
+      "text": "Estábamos en clase y la profesora explicaba un ejercicio. De repente, sonó la alarma. Salimos al patio y esperamos allí.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "content": {
+        "id": "es.a2.past-background.lexeme",
+        "revision": 1
+      },
+      "lemma": "de repente",
+      "part_of_speech": "expression",
+      "gloss": {
+        "slot": "es.a2.past-background.gloss"
+      },
+      "accepted_forms": [
+        "de repente"
+      ],
+      "examples": [
+        {
+          "id": "es.a2.past-background.vocab",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "rubrics": [
+    {
+      "content": {
+        "id": "es.a2.past-background.rubric",
+        "revision": 1
+      },
+      "criteria": [
+        {
+          "id": "task",
+          "label": {
+            "slot": "es.a2.past-background.rubric.task.label"
+          },
+          "guidance": {
+            "slot": "es.a2.past-background.rubric.task.guidance"
+          }
+        },
+        {
+          "id": "structure",
+          "label": {
+            "slot": "es.a2.past-background.rubric.structure.label"
+          },
+          "guidance": {
+            "slot": "es.a2.past-background.rubric.structure.guidance"
+          }
+        },
+        {
+          "id": "language",
+          "label": {
+            "slot": "es.a2.past-background.rubric.language.label"
+          },
+          "guidance": {
+            "slot": "es.a2.past-background.rubric.language.guidance"
+          }
+        }
+      ],
+      "model_answers": [
+        {
+          "id": "es.a2.past-background.model",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "assessments": []
+}

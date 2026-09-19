@@ -1,0 +1,808 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TutorContext",
+  "description": "Constructed by the backend. The UI cannot supply or extend this whitelist.",
+  "type": "object",
+  "properties": {
+    "band": {
+      "$ref": "#/$defs/Band"
+    },
+    "mode": {
+      "$ref": "#/$defs/TutorMode"
+    },
+    "objective": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/ContentRef"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "references": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/ReferenceExcerpt"
+      }
+    },
+    "solution_revealed": {
+      "type": "boolean"
+    },
+    "source_language": {
+      "$ref": "#/$defs/SourceLanguage"
+    },
+    "submitted_answer": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/Answer"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "visible_task": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/ActivityView"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "source_language",
+    "band",
+    "mode",
+    "references",
+    "solution_revealed"
+  ],
+  "$defs": {
+    "ActivityView": {
+      "type": "object",
+      "properties": {
+        "content": {
+          "$ref": "#/$defs/ContentRef"
+        },
+        "hints_remaining": {
+          "type": "integer",
+          "format": "uint32",
+          "minimum": 0
+        },
+        "instruction": {
+          "$ref": "#/$defs/Text"
+        },
+        "task": {
+          "$ref": "#/$defs/TaskView"
+        },
+        "visible_materials": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Material"
+          }
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "content",
+        "instruction",
+        "visible_materials",
+        "hints_remaining",
+        "task"
+      ]
+    },
+    "Annotation": {
+      "type": "object",
+      "properties": {
+        "end": {
+          "type": "integer",
+          "format": "uint32",
+          "minimum": 0
+        },
+        "occurrence": {
+          "$ref": "#/$defs/ContentRef"
+        },
+        "start": {
+          "description": "Unicode scalar offsets, not bytes or UTF-16 code units.",
+          "type": "integer",
+          "format": "uint32",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "start",
+        "end",
+        "occurrence"
+      ]
+    },
+    "Answer": {
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "type": "string",
+              "const": "acknowledged"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "type": "string",
+              "const": "choice"
+            },
+            "selected_ids": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/Id"
+              }
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "selected_ids"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "type": "string",
+              "const": "order"
+            },
+            "ordered_ids": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/Id"
+              }
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "ordered_ids"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "type": "string",
+              "const": "typed"
+            },
+            "text": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "text"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "confirmed_text": {
+              "type": "string"
+            },
+            "kind": {
+              "type": "string",
+              "const": "voice"
+            },
+            "recognition_id": {
+              "$ref": "#/$defs/Id"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "recognition_id",
+            "confirmed_text"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "type": "string",
+              "const": "writing"
+            },
+            "text": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "text"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "type": "string",
+              "const": "recording"
+            },
+            "recording_id": {
+              "$ref": "#/$defs/Id"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "recording_id"
+          ]
+        }
+      ]
+    },
+    "Band": {
+      "type": "string",
+      "enum": [
+        "A1",
+        "A2",
+        "B1",
+        "B2"
+      ]
+    },
+    "Block": {
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "caption": {
+              "$ref": "#/$defs/Text"
+            },
+            "kind": {
+              "type": "string",
+              "const": "source_text"
+            },
+            "language": {
+              "$ref": "#/$defs/Language"
+            },
+            "text": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "language",
+            "text",
+            "caption"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "alt": {
+              "$ref": "#/$defs/Text"
+            },
+            "caption": {
+              "$ref": "#/$defs/Text"
+            },
+            "kind": {
+              "type": "string",
+              "const": "image"
+            },
+            "png": {
+              "type": "array",
+              "items": {
+                "type": "integer",
+                "format": "uint8",
+                "maximum": 255,
+                "minimum": 0
+              }
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "png",
+            "alt",
+            "caption"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "caption": {
+              "$ref": "#/$defs/Text"
+            },
+            "kind": {
+              "type": "string",
+              "const": "recorded_audio"
+            },
+            "synthetic": {
+              "type": "boolean"
+            },
+            "wav": {
+              "type": "array",
+              "items": {
+                "type": "integer",
+                "format": "uint8",
+                "maximum": 255,
+                "minimum": 0
+              }
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "wav",
+            "caption",
+            "synthetic"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "type": "string",
+              "const": "audio"
+            },
+            "speech": {
+              "$ref": "#/$defs/ContentRef"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "speech"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "type": "string",
+              "const": "paragraph"
+            },
+            "spans": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/Text"
+              }
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "spans"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "type": "string",
+              "const": "heading"
+            },
+            "spans": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/Text"
+              }
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "spans"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "type": "string",
+              "const": "example"
+            },
+            "spans": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/Text"
+              }
+            },
+            "speech": {
+              "anyOf": [
+                {
+                  "$ref": "#/$defs/ContentRef"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "spans"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "items": {
+              "type": "array",
+              "items": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/$defs/Text"
+                }
+              }
+            },
+            "kind": {
+              "type": "string",
+              "const": "list"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "items"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "caption": {
+              "$ref": "#/$defs/Text"
+            },
+            "columns": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/Text"
+              }
+            },
+            "kind": {
+              "type": "string",
+              "const": "table"
+            },
+            "rows": {
+              "type": "array",
+              "items": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/$defs/Text"
+                }
+              }
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "caption",
+            "columns",
+            "rows"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "type": "string",
+              "const": "reference"
+            },
+            "label": {
+              "$ref": "#/$defs/Text"
+            },
+            "target": {
+              "$ref": "#/$defs/ContentRef"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "target",
+            "label"
+          ]
+        }
+      ]
+    },
+    "ContentRef": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/Id"
+        },
+        "revision": {
+          "type": "integer",
+          "format": "uint32",
+          "minimum": 1
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "revision"
+      ]
+    },
+    "Id": {
+      "type": "string",
+      "maxLength": 160,
+      "minLength": 1,
+      "not": {
+        "pattern": "[^A-Za-z0-9._:-]"
+      }
+    },
+    "InputMode": {
+      "type": "string",
+      "enum": [
+        "keyboard",
+        "microphone"
+      ]
+    },
+    "Language": {
+      "type": "string",
+      "enum": [
+        "de",
+        "en",
+        "es"
+      ]
+    },
+    "Material": {
+      "type": "object",
+      "properties": {
+        "blocks": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Block"
+          }
+        },
+        "content": {
+          "$ref": "#/$defs/ContentRef"
+        },
+        "searchable": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "content",
+        "blocks"
+      ]
+    },
+    "OptionItem": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/Id"
+        },
+        "label": {
+          "$ref": "#/$defs/Text"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "label"
+      ]
+    },
+    "ReferenceExcerpt": {
+      "type": "object",
+      "properties": {
+        "content": {
+          "$ref": "#/$defs/ContentRef"
+        },
+        "text": {
+          "$ref": "#/$defs/Text"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "content",
+        "text"
+      ]
+    },
+    "SourceLanguage": {
+      "type": "string",
+      "enum": [
+        "de",
+        "en"
+      ]
+    },
+    "TaskView": {
+      "description": "Answer-free projection. Solutions remain in Rust until reveal is permitted.",
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "type": "string",
+              "const": "explanation"
+            },
+            "material": {
+              "$ref": "#/$defs/ContentRef"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "material"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "type": "string",
+              "const": "choice"
+            },
+            "multiple": {
+              "type": "boolean"
+            },
+            "options": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/OptionItem"
+              }
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "options",
+            "multiple"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "items": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/OptionItem"
+              }
+            },
+            "kind": {
+              "type": "string",
+              "const": "order"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "items"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "inputs": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/InputMode"
+              }
+            },
+            "kind": {
+              "type": "string",
+              "const": "short_answer"
+            },
+            "language": {
+              "$ref": "#/$defs/Language"
+            },
+            "target": {
+              "$ref": "#/$defs/TextTarget"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "language",
+            "target",
+            "inputs"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "type": "string",
+              "const": "writing"
+            },
+            "language": {
+              "$ref": "#/$defs/Language"
+            },
+            "max_words": {
+              "type": "integer",
+              "format": "uint32",
+              "minimum": 1
+            },
+            "min_words": {
+              "type": "integer",
+              "format": "uint32",
+              "minimum": 0
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "language",
+            "min_words",
+            "max_words"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "keyboard_alternative": {
+              "$ref": "#/$defs/ContentRef"
+            },
+            "kind": {
+              "type": "string",
+              "const": "speaking"
+            },
+            "language": {
+              "$ref": "#/$defs/Language"
+            },
+            "max_seconds": {
+              "type": "integer",
+              "format": "uint32",
+              "minimum": 1
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "language",
+            "max_seconds",
+            "keyboard_alternative"
+          ]
+        }
+      ]
+    },
+    "Text": {
+      "description": "Fully resolved source-language teaching material, never executable markup.",
+      "type": "object",
+      "properties": {
+        "annotations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Annotation"
+          }
+        },
+        "language": {
+          "$ref": "#/$defs/Language"
+        },
+        "text": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "language",
+        "text"
+      ]
+    },
+    "TextTarget": {
+      "type": "string",
+      "enum": [
+        "orthography",
+        "sentence_content"
+      ]
+    },
+    "TutorMode": {
+      "type": "string",
+      "enum": [
+        "conversation",
+        "explain",
+        "writing_feedback"
+      ]
+    }
+  }
+}

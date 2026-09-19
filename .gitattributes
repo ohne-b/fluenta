@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.png binary
+*.ico binary
+*.woff2 binary
+*.sqlite binary
+# Preserve the supplied Figma export, including its original line endings.
+apps/desktop/src/assets/app-icon.svg -text

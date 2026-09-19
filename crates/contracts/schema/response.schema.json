@@ -1,0 +1,3294 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Response",
+  "type": "object",
+  "properties": {
+    "protocol_version": {
+      "type": "integer",
+      "format": "uint32",
+      "minimum": 1
+    },
+    "request_id": {
+      "$ref": "#/$defs/Id"
+    },
+    "result": {
+      "$ref": "#/$defs/ResponseResult"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "protocol_version",
+    "request_id",
+    "result"
+  ],
+  "$defs": {
+    "ActiveStep": {
+      "type": "object",
+      "properties": {
+        "activity": {
+          "$ref": "#/$defs/ActivityView"
+        },
+        "audio_plays": {
+          "type": "integer",
+          "format": "uint32",
+          "minimum": 0
+        },
+        "draft": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Answer"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "draft_sequence": {
+          "type": "integer",
+          "format": "uint32",
+          "minimum": 0
+        },
+        "feedback": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Feedback"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "index": {
+          "type": "integer",
+          "format": "uint32",
+          "minimum": 0
+        },
+        "phase": {
+          "$ref": "#/$defs/StepPhase"
+        },
+        "step_id": {
+          "$ref": "#/$defs/Id"
+        },
+        "version": {
+          "type": "integer",
+          "format": "uint32",
+          "minimum": 1
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "step_id",
+        "version",
+        "index",
+        "phase",
+        "activity",
+        "draft_sequence",
+        "audio_plays"
+      ]
+    },
+    "ActivityView": {
+      "type": "object",
+      "properties": {
+        "content": {
+          "$ref": "#/$defs/ContentRef"
+        },
+        "hints_remaining": {
+          "type": "integer",
+          "format": "uint32",
+          "minimum": 0
+        },
+        "instruction": {
+          "$ref": "#/$defs/Text"
+        },
+        "task": {
+          "$ref": "#/$defs/TaskView"
+        },
+        "visible_materials": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Material"
+          }
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "content",
+        "instruction",
+        "visible_materials",
+        "hints_remaining",
+        "task"
+      ]
+    },
+    "Annotation": {
+      "type": "object",
+      "properties": {
+        "end": {
+          "type": "integer",
+          "format": "uint32",
+          "minimum": 0
+        },
+        "occurrence": {
+          "$ref": "#/$defs/ContentRef"
+        },
+        "start": {
+          "description": "Unicode scalar offsets, not bytes or UTF-16 code units.",
+          "type": "integer",
+          "format": "uint32",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "start",
+        "end",
+        "occurrence"
+      ]
+    },
+    "Answer": {
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "type": "string",
+              "const": "acknowledged"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "type": "string",
+              "const": "choice"
+            },
+            "selected_ids": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/Id"
+              }
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "selected_ids"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "type": "string",
+              "const": "order"
+            },
+            "ordered_ids": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/Id"
+              }
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "ordered_ids"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "type": "string",
+              "const": "typed"
+            },
+            "text": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "text"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "confirmed_text": {
+              "type": "string"
+            },
+            "kind": {
+              "type": "string",
+              "const": "voice"
+            },
+            "recognition_id": {
+              "$ref": "#/$defs/Id"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "recognition_id",
+            "confirmed_text"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "type": "string",
+              "const": "writing"
+            },
+            "text": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "text"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "type": "string",
+              "const": "recording"
+            },
+            "recording_id": {
+              "$ref": "#/$defs/Id"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "recording_id"
+          ]
+        }
+      ]
+    },
+    "Band": {
+      "type": "string",
+      "enum": [
+        "A1",
+        "A2",
+        "B1",
+        "B2"
+      ]
+    },
+    "Block": {
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "caption": {
+              "$ref": "#/$defs/Text"
+            },
+            "kind": {
+              "type": "string",
+              "const": "source_text"
+            },
+            "language": {
+              "$ref": "#/$defs/Language"
+            },
+            "text": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "language",
+            "text",
+            "caption"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "alt": {
+              "$ref": "#/$defs/Text"
+            },
+            "caption": {
+              "$ref": "#/$defs/Text"
+            },
+            "kind": {
+              "type": "string",
+              "const": "image"
+            },
+            "png": {
+              "type": "array",
+              "items": {
+                "type": "integer",
+                "format": "uint8",
+                "maximum": 255,
+                "minimum": 0
+              }
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "png",
+            "alt",
+            "caption"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "caption": {
+              "$ref": "#/$defs/Text"
+            },
+            "kind": {
+              "type": "string",
+              "const": "recorded_audio"
+            },
+            "synthetic": {
+              "type": "boolean"
+            },
+            "wav": {
+              "type": "array",
+              "items": {
+                "type": "integer",
+                "format": "uint8",
+                "maximum": 255,
+                "minimum": 0
+              }
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "wav",
+            "caption",
+            "synthetic"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "type": "string",
+              "const": "audio"
+            },
+            "speech": {
+              "$ref": "#/$defs/ContentRef"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "speech"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "type": "string",
+              "const": "paragraph"
+            },
+            "spans": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/Text"
+              }
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "spans"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "type": "string",
+              "const": "heading"
+            },
+            "spans": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/Text"
+              }
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "spans"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "type": "string",
+              "const": "example"
+            },
+            "spans": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/Text"
+              }
+            },
+            "speech": {
+              "anyOf": [
+                {
+                  "$ref": "#/$defs/ContentRef"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "spans"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "items": {
+              "type": "array",
+              "items": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/$defs/Text"
+                }
+              }
+            },
+            "kind": {
+              "type": "string",
+              "const": "list"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "items"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "caption": {
+              "$ref": "#/$defs/Text"
+            },
+            "columns": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/Text"
+              }
+            },
+            "kind": {
+              "type": "string",
+              "const": "table"
+            },
+            "rows": {
+              "type": "array",
+              "items": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/$defs/Text"
+                }
+              }
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "caption",
+            "columns",
+            "rows"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "type": "string",
+              "const": "reference"
+            },
+            "label": {
+              "$ref": "#/$defs/Text"
+            },
+            "target": {
+              "$ref": "#/$defs/ContentRef"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "target",
+            "label"
+          ]
+        }
+      ]
+    },
+    "ConnectedResponse": {
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "data": {
+              "$ref": "#/$defs/DailyPlan"
+            },
+            "kind": {
+              "type": "string",
+              "const": "today"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "data"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "data": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/WordView"
+              }
+            },
+            "kind": {
+              "type": "string",
+              "const": "words"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "data"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "data": {
+              "$ref": "#/$defs/WordView"
+            },
+            "kind": {
+              "type": "string",
+              "const": "word"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "data"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "data": {
+              "$ref": "#/$defs/SessionSnapshot"
+            },
+            "kind": {
+              "type": "string",
+              "const": "session"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "data"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "data": {
+              "$ref": "#/$defs/MissionRecap"
+            },
+            "kind": {
+              "type": "string",
+              "const": "recap"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "data"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "data": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/ProductionRecord"
+              }
+            },
+            "kind": {
+              "type": "string",
+              "const": "productions"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "data"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "data": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/NotebookEntry"
+              }
+            },
+            "kind": {
+              "type": "string",
+              "const": "notebook"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "data"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "type": "string",
+              "const": "accepted"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind"
+          ]
+        }
+      ]
+    },
+    "ContentRef": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/Id"
+        },
+        "revision": {
+          "type": "integer",
+          "format": "uint32",
+          "minimum": 1
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "revision"
+      ]
+    },
+    "DailyPlan": {
+      "type": "object",
+      "properties": {
+        "due": {
+          "type": "integer",
+          "format": "uint32",
+          "minimum": 0
+        },
+        "independent_words": {
+          "type": "integer",
+          "format": "uint32",
+          "minimum": 0
+        },
+        "interests": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Id"
+          }
+        },
+        "minutes": {
+          "type": "integer",
+          "format": "uint32",
+          "minimum": 0
+        },
+        "new_word_limit": {
+          "type": "integer",
+          "format": "uint32",
+          "minimum": 0
+        },
+        "recommended": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/MissionView"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "review_limit": {
+          "type": "integer",
+          "format": "uint32",
+          "minimum": 0
+        },
+        "topics": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/TopicView"
+          }
+        },
+        "unseen_tasks": {
+          "type": "integer",
+          "format": "uint32",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "topics",
+        "due",
+        "review_limit",
+        "new_word_limit",
+        "minutes",
+        "interests",
+        "independent_words",
+        "unseen_tasks"
+      ]
+    },
+    "DayActivity": {
+      "type": "object",
+      "properties": {
+        "attempts": {
+          "type": "integer",
+          "format": "uint32",
+          "minimum": 0
+        },
+        "day": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "day",
+        "attempts"
+      ]
+    },
+    "DownloadItem": {
+      "type": "object",
+      "properties": {
+        "bytes": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        },
+        "installed": {
+          "type": "boolean"
+        },
+        "license": {
+          "type": "string"
+        },
+        "required": {
+          "type": "boolean"
+        },
+        "title": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "installed",
+        "bytes",
+        "required",
+        "license"
+      ]
+    },
+    "Downloads": {
+      "type": "object",
+      "properties": {
+        "available_bytes": {
+          "type": "string"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/DownloadItem"
+          }
+        },
+        "tutor_operation": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Id"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "items",
+        "available_bytes"
+      ]
+    },
+    "ErrorCode": {
+      "type": "string",
+      "enum": [
+        "invalid_request",
+        "not_found",
+        "conflict",
+        "unsupported_version",
+        "policy_denied",
+        "permission_denied",
+        "device_unavailable",
+        "no_speech",
+        "worker_unavailable",
+        "insufficient_space",
+        "storage_failure",
+        "download_failure",
+        "integrity_failure",
+        "cancelled"
+      ]
+    },
+    "Event": {
+      "type": "object",
+      "properties": {
+        "event": {
+          "$ref": "#/$defs/OperationEvent"
+        },
+        "operation_id": {
+          "$ref": "#/$defs/Id"
+        },
+        "sequence": {
+          "type": "integer",
+          "format": "uint32",
+          "minimum": 0
+        },
+        "session_id": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Id"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "operation_id",
+        "sequence",
+        "event"
+      ]
+    },
+    "Evidence": {
+      "type": "string",
+      "enum": [
+        "none",
+        "unaided_recall",
+        "assisted_recall",
+        "recognized_content",
+        "edited_transcript",
+        "self_assessment"
+      ]
+    },
+    "Failure": {
+      "type": "object",
+      "properties": {
+        "code": {
+          "$ref": "#/$defs/ErrorCode"
+        },
+        "message_key": {
+          "type": "string"
+        },
+        "retryable": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "code",
+        "message_key",
+        "retryable"
+      ]
+    },
+    "Feedback": {
+      "type": "object",
+      "properties": {
+        "evidence": {
+          "$ref": "#/$defs/Evidence"
+        },
+        "explanation": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Material"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "message": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Text"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "outcome": {
+          "$ref": "#/$defs/Outcome"
+        },
+        "rubric": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Rubric"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "outcome",
+        "evidence"
+      ]
+    },
+    "GrammarCategory": {
+      "type": "string",
+      "enum": [
+        "verbs",
+        "nouns",
+        "sentences"
+      ]
+    },
+    "GrammarTopic": {
+      "description": "A grammar course links canonical explanations to lessons that apply them.",
+      "type": "object",
+      "properties": {
+        "band": {
+          "$ref": "#/$defs/Band"
+        },
+        "category": {
+          "$ref": "#/$defs/GrammarCategory"
+        },
+        "content": {
+          "$ref": "#/$defs/ContentRef"
+        },
+        "explanations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/ContentRef"
+          }
+        },
+        "group": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Text"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "lessons": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/ContentRef"
+          }
+        },
+        "order": {
+          "type": "integer",
+          "format": "uint16",
+          "default": 0,
+          "maximum": 65535,
+          "minimum": 0
+        },
+        "summary": {
+          "$ref": "#/$defs/Text"
+        },
+        "title": {
+          "$ref": "#/$defs/Text"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "content",
+        "title",
+        "summary",
+        "band",
+        "category",
+        "explanations",
+        "lessons"
+      ]
+    },
+    "HomeView": {
+      "type": "object",
+      "properties": {
+        "continue_session_id": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Id"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "due_reviews": {
+          "type": "integer",
+          "format": "uint32",
+          "minimum": 0
+        },
+        "recommended_lesson": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ContentRef"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "source_language": {
+          "$ref": "#/$defs/SourceLanguage"
+        },
+        "tutor_installed": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "source_language",
+        "due_reviews",
+        "tutor_installed"
+      ]
+    },
+    "Id": {
+      "type": "string",
+      "maxLength": 160,
+      "minLength": 1,
+      "not": {
+        "pattern": "[^A-Za-z0-9._:-]"
+      }
+    },
+    "InputMode": {
+      "type": "string",
+      "enum": [
+        "keyboard",
+        "microphone"
+      ]
+    },
+    "Language": {
+      "type": "string",
+      "enum": [
+        "de",
+        "en",
+        "es"
+      ]
+    },
+    "Lesson": {
+      "type": "object",
+      "properties": {
+        "activities": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/ContentRef"
+          }
+        },
+        "content": {
+          "$ref": "#/$defs/ContentRef"
+        },
+        "estimated_minutes": {
+          "type": "integer",
+          "format": "uint32",
+          "minimum": 1
+        },
+        "objectives": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/ContentRef"
+          }
+        },
+        "title": {
+          "$ref": "#/$defs/Text"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "content",
+        "title",
+        "objectives",
+        "activities",
+        "estimated_minutes"
+      ]
+    },
+    "LessonOverview": {
+      "type": "object",
+      "properties": {
+        "activity_count": {
+          "type": "integer",
+          "format": "uint32",
+          "minimum": 0
+        },
+        "completed": {
+          "type": "boolean"
+        },
+        "content": {
+          "$ref": "#/$defs/ContentRef"
+        },
+        "estimated_minutes": {
+          "type": "integer",
+          "format": "uint32",
+          "minimum": 0
+        },
+        "objectives": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/ContentRef"
+          }
+        },
+        "skills": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "title": {
+          "$ref": "#/$defs/Text"
+        }
+      },
+      "required": [
+        "content",
+        "title",
+        "estimated_minutes",
+        "activity_count",
+        "completed",
+        "skills",
+        "objectives"
+      ]
+    },
+    "LexicalSense": {
+      "type": "object",
+      "properties": {
+        "accepted_forms": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "content": {
+          "$ref": "#/$defs/ContentRef"
+        },
+        "examples": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/ContentRef"
+          }
+        },
+        "gloss": {
+          "$ref": "#/$defs/Text"
+        },
+        "grammar": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Text"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "lemma": {
+          "type": "string"
+        },
+        "part_of_speech": {
+          "type": "string"
+        },
+        "practice": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/ContentRef"
+          }
+        },
+        "topics": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Id"
+          }
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "content",
+        "lemma",
+        "part_of_speech",
+        "gloss",
+        "accepted_forms",
+        "examples"
+      ]
+    },
+    "Material": {
+      "type": "object",
+      "properties": {
+        "blocks": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Block"
+          }
+        },
+        "content": {
+          "$ref": "#/$defs/ContentRef"
+        },
+        "searchable": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "content",
+        "blocks"
+      ]
+    },
+    "Mission": {
+      "type": "object",
+      "properties": {
+        "attribution": {
+          "$ref": "#/$defs/Text"
+        },
+        "band": {
+          "$ref": "#/$defs/Band"
+        },
+        "challenge": {
+          "$ref": "#/$defs/ContentRef"
+        },
+        "content": {
+          "$ref": "#/$defs/ContentRef"
+        },
+        "description": {
+          "$ref": "#/$defs/Text"
+        },
+        "lesson": {
+          "$ref": "#/$defs/ContentRef"
+        },
+        "order": {
+          "type": "integer",
+          "format": "uint32",
+          "minimum": 0
+        },
+        "outcome": {
+          "$ref": "#/$defs/Text"
+        },
+        "question": {
+          "$ref": "#/$defs/Text"
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Source"
+          }
+        },
+        "title": {
+          "$ref": "#/$defs/Text"
+        },
+        "vocabulary": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/ContentRef"
+          }
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "content",
+        "title",
+        "question",
+        "outcome",
+        "description",
+        "band",
+        "lesson",
+        "challenge",
+        "vocabulary",
+        "sources",
+        "attribution",
+        "order"
+      ]
+    },
+    "MissionRecap": {
+      "type": "object",
+      "properties": {
+        "mission": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Mission"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "productions": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/ProductionRecord"
+          }
+        },
+        "suggestions": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/WordView"
+          }
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "suggestions",
+        "productions"
+      ]
+    },
+    "MissionView": {
+      "type": "object",
+      "properties": {
+        "challenge_seen": {
+          "type": "boolean"
+        },
+        "completed": {
+          "type": "boolean"
+        },
+        "minutes": {
+          "type": "integer",
+          "format": "uint32",
+          "minimum": 0
+        },
+        "mission": {
+          "$ref": "#/$defs/Mission"
+        },
+        "resume": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Id"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "unseen_completed": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "mission",
+        "completed",
+        "challenge_seen",
+        "unseen_completed",
+        "minutes"
+      ]
+    },
+    "MutationContext": {
+      "type": "object",
+      "properties": {
+        "expected_step_version": {
+          "type": "integer",
+          "format": "uint32",
+          "minimum": 1
+        },
+        "session_id": {
+          "$ref": "#/$defs/Id"
+        },
+        "step_id": {
+          "$ref": "#/$defs/Id"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "session_id",
+        "step_id",
+        "expected_step_version"
+      ]
+    },
+    "NotebookEntry": {
+      "type": "object",
+      "properties": {
+        "counterargument": {
+          "type": "string"
+        },
+        "created_ms": {
+          "type": "number",
+          "format": "double"
+        },
+        "id": {
+          "$ref": "#/$defs/Id"
+        },
+        "source": {
+          "$ref": "#/$defs/ContentRef"
+        },
+        "source_title": {
+          "type": "string"
+        },
+        "text": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "text",
+        "source",
+        "source_title",
+        "counterargument",
+        "created_ms"
+      ]
+    },
+    "Occurrence": {
+      "type": "object",
+      "properties": {
+        "content": {
+          "$ref": "#/$defs/ContentRef"
+        },
+        "context": {
+          "$ref": "#/$defs/Text"
+        },
+        "meaning": {
+          "$ref": "#/$defs/Text"
+        },
+        "owner": {
+          "$ref": "#/$defs/ContentRef"
+        },
+        "sense": {
+          "$ref": "#/$defs/ContentRef"
+        },
+        "speech": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ContentRef"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "surface": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "content",
+        "sense",
+        "surface",
+        "context",
+        "meaning",
+        "owner"
+      ]
+    },
+    "OperationEvent": {
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "event": {
+              "type": "string",
+              "const": "transcript_ready"
+            },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "transcript": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "transcript"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "event",
+            "payload"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "event": {
+              "type": "string",
+              "const": "recording_started"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "event"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "event": {
+              "type": "string",
+              "const": "recording_ready"
+            },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "duration_milliseconds": {
+                  "type": "integer",
+                  "format": "uint32",
+                  "minimum": 0
+                },
+                "recording_id": {
+                  "$ref": "#/$defs/Id"
+                },
+                "session_id": {
+                  "$ref": "#/$defs/Id"
+                },
+                "step_id": {
+                  "$ref": "#/$defs/Id"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "recording_id",
+                "session_id",
+                "step_id",
+                "duration_milliseconds"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "event",
+            "payload"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "event": {
+              "type": "string",
+              "const": "recognition_ready"
+            },
+            "payload": {
+              "$ref": "#/$defs/Recognition"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "event",
+            "payload"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "event": {
+              "type": "string",
+              "const": "progress"
+            },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "completed_bytes": {
+                  "type": "string"
+                },
+                "total_bytes": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "completed_bytes"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "event",
+            "payload"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "event": {
+              "type": "string",
+              "const": "tutor_ready"
+            },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "reply": {
+                  "$ref": "#/$defs/TutorReply"
+                },
+                "thread_id": {
+                  "$ref": "#/$defs/Id"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "thread_id",
+                "reply"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "event",
+            "payload"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "event": {
+              "type": "string",
+              "const": "finished"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "event"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "event": {
+              "type": "string",
+              "const": "failed"
+            },
+            "payload": {
+              "$ref": "#/$defs/Failure"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "event",
+            "payload"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "event": {
+              "type": "string",
+              "const": "cancelled"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "event"
+          ]
+        }
+      ]
+    },
+    "OptionItem": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/Id"
+        },
+        "label": {
+          "$ref": "#/$defs/Text"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "label"
+      ]
+    },
+    "Outcome": {
+      "type": "string",
+      "enum": [
+        "correct",
+        "incorrect",
+        "completed",
+        "needs_self_review",
+        "deferred_until_recap"
+      ]
+    },
+    "Overview": {
+      "type": "object",
+      "properties": {
+        "continue_session": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Id"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "due_reviews": {
+          "type": "integer",
+          "format": "uint32",
+          "minimum": 0
+        },
+        "recommended_lesson": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ContentRef"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "settings": {
+          "$ref": "#/$defs/Settings"
+        },
+        "today_attempts": {
+          "type": "integer",
+          "format": "uint32",
+          "minimum": 0
+        },
+        "total_completed": {
+          "type": "integer",
+          "format": "uint32",
+          "minimum": 0
+        },
+        "tutor_installed": {
+          "type": "boolean"
+        },
+        "units": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/UnitOverview"
+          }
+        },
+        "week": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/DayActivity"
+          }
+        }
+      },
+      "required": [
+        "settings",
+        "units",
+        "due_reviews",
+        "total_completed",
+        "today_attempts",
+        "week",
+        "tutor_installed"
+      ]
+    },
+    "ProductionRecord": {
+      "type": "object",
+      "properties": {
+        "activity": {
+          "$ref": "#/$defs/ActivityView"
+        },
+        "assisted": {
+          "type": "boolean"
+        },
+        "context": {
+          "$ref": "#/$defs/MutationContext"
+        },
+        "created_ms": {
+          "type": "number",
+          "format": "double"
+        },
+        "feedback": {
+          "$ref": "#/$defs/Feedback"
+        },
+        "original": {
+          "$ref": "#/$defs/Answer"
+        },
+        "revisions": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Revision"
+          }
+        },
+        "session_id": {
+          "$ref": "#/$defs/Id"
+        },
+        "step_id": {
+          "$ref": "#/$defs/Id"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "context",
+        "session_id",
+        "step_id",
+        "activity",
+        "original",
+        "feedback",
+        "revisions",
+        "created_ms",
+        "assisted"
+      ]
+    },
+    "Recognition": {
+      "type": "object",
+      "properties": {
+        "language": {
+          "$ref": "#/$defs/Language"
+        },
+        "recognition_id": {
+          "$ref": "#/$defs/Id"
+        },
+        "session_id": {
+          "$ref": "#/$defs/Id"
+        },
+        "step_id": {
+          "$ref": "#/$defs/Id"
+        },
+        "transcript": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "recognition_id",
+        "session_id",
+        "step_id",
+        "language",
+        "transcript"
+      ]
+    },
+    "ResponseResult": {
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "payload": {
+              "$ref": "#/$defs/Success"
+            },
+            "status": {
+              "type": "string",
+              "const": "ok"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "status",
+            "payload"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "payload": {
+              "$ref": "#/$defs/Failure"
+            },
+            "status": {
+              "type": "string",
+              "const": "error"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "status",
+            "payload"
+          ]
+        }
+      ]
+    },
+    "RevealPolicy": {
+      "type": "string",
+      "enum": [
+        "after_submission",
+        "on_request",
+        "after_session"
+      ]
+    },
+    "ReviewedStep": {
+      "type": "object",
+      "properties": {
+        "activity": {
+          "$ref": "#/$defs/ActivityView"
+        },
+        "answer": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Answer"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "feedback": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Feedback"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "activity"
+      ]
+    },
+    "Revision": {
+      "type": "object",
+      "properties": {
+        "answer": {
+          "$ref": "#/$defs/Answer"
+        },
+        "created_ms": {
+          "type": "number",
+          "format": "double"
+        },
+        "criteria": {
+          "description": "Self-review only: met / developing / not_assessed. Never an automatic grade.",
+          "type": "object",
+          "additionalProperties": {
+            "$ref": "#/$defs/SelfReview"
+          }
+        },
+        "id": {
+          "$ref": "#/$defs/Id"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "answer",
+        "criteria",
+        "created_ms"
+      ]
+    },
+    "Rubric": {
+      "type": "object",
+      "properties": {
+        "content": {
+          "$ref": "#/$defs/ContentRef"
+        },
+        "criteria": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/RubricCriterion"
+          }
+        },
+        "model_answers": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/ContentRef"
+          }
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "content",
+        "criteria",
+        "model_answers"
+      ]
+    },
+    "RubricCriterion": {
+      "type": "object",
+      "properties": {
+        "guidance": {
+          "$ref": "#/$defs/Text"
+        },
+        "id": {
+          "$ref": "#/$defs/Id"
+        },
+        "label": {
+          "$ref": "#/$defs/Text"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "label",
+        "guidance"
+      ]
+    },
+    "SearchHit": {
+      "type": "object",
+      "properties": {
+        "content": {
+          "$ref": "#/$defs/ContentRef"
+        },
+        "excerpt": {
+          "$ref": "#/$defs/Text"
+        },
+        "title": {
+          "$ref": "#/$defs/Text"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "content",
+        "title",
+        "excerpt"
+      ]
+    },
+    "SelfReview": {
+      "type": "string",
+      "enum": [
+        "met",
+        "developing",
+        "not_assessed"
+      ]
+    },
+    "SessionMode": {
+      "type": "string",
+      "enum": [
+        "lesson",
+        "review",
+        "focused_practice",
+        "test"
+      ]
+    },
+    "SessionPolicy": {
+      "type": "object",
+      "properties": {
+        "audio_replays": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "format": "uint32",
+          "minimum": 0
+        },
+        "hints_allowed": {
+          "type": "boolean"
+        },
+        "reveal": {
+          "$ref": "#/$defs/RevealPolicy"
+        },
+        "time_limit_seconds": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "format": "uint32",
+          "minimum": 1
+        },
+        "tutor_allowed": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "hints_allowed",
+        "tutor_allowed",
+        "reveal"
+      ]
+    },
+    "SessionReview": {
+      "type": "object",
+      "properties": {
+        "session": {
+          "$ref": "#/$defs/SessionSnapshot"
+        },
+        "steps": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/ReviewedStep"
+          }
+        }
+      },
+      "required": [
+        "session",
+        "steps"
+      ]
+    },
+    "SessionSnapshot": {
+      "type": "object",
+      "properties": {
+        "deadline_ms": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "format": "double"
+        },
+        "mode": {
+          "$ref": "#/$defs/SessionMode"
+        },
+        "policy": {
+          "$ref": "#/$defs/SessionPolicy"
+        },
+        "release_id": {
+          "$ref": "#/$defs/Id"
+        },
+        "session": {
+          "$ref": "#/$defs/SessionState"
+        },
+        "session_id": {
+          "$ref": "#/$defs/Id"
+        },
+        "source_language": {
+          "$ref": "#/$defs/SourceLanguage"
+        },
+        "step_count": {
+          "type": "integer",
+          "format": "uint32",
+          "minimum": 1
+        },
+        "version": {
+          "type": "integer",
+          "format": "uint32",
+          "minimum": 1
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "session_id",
+        "source_language",
+        "mode",
+        "release_id",
+        "version",
+        "step_count",
+        "policy",
+        "session"
+      ]
+    },
+    "SessionState": {
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "state": {
+              "type": "string",
+              "const": "active"
+            },
+            "step": {
+              "$ref": "#/$defs/ActiveStep"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "state",
+            "step"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "state": {
+              "type": "string",
+              "const": "completed"
+            },
+            "summary": {
+              "$ref": "#/$defs/SessionSummary"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "state",
+            "summary"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "state": {
+              "type": "string",
+              "const": "abandoned"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "state"
+          ]
+        }
+      ]
+    },
+    "SessionSummary": {
+      "type": "object",
+      "properties": {
+        "completed_steps": {
+          "type": "integer",
+          "format": "uint32",
+          "minimum": 0
+        },
+        "correct_unaided": {
+          "type": "integer",
+          "format": "uint32",
+          "minimum": 0
+        },
+        "needs_review": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/ContentRef"
+          }
+        },
+        "objectively_marked": {
+          "type": "integer",
+          "format": "uint32",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "completed_steps",
+        "objectively_marked",
+        "correct_unaided",
+        "needs_review"
+      ]
+    },
+    "Settings": {
+      "type": "object",
+      "properties": {
+        "audio_enabled": {
+          "type": "boolean"
+        },
+        "daily_minutes": {
+          "type": "integer",
+          "format": "uint32",
+          "minimum": 0
+        },
+        "onboarding_complete": {
+          "type": "boolean"
+        },
+        "source_language": {
+          "$ref": "#/$defs/SourceLanguage"
+        },
+        "starting_band": {
+          "$ref": "#/$defs/Band"
+        },
+        "theme": {
+          "$ref": "#/$defs/Theme"
+        },
+        "ui_language": {
+          "$ref": "#/$defs/SourceLanguage"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "source_language",
+        "ui_language",
+        "starting_band",
+        "theme",
+        "daily_minutes",
+        "audio_enabled",
+        "onboarding_complete"
+      ]
+    },
+    "Source": {
+      "type": "object",
+      "properties": {
+        "accessed": {
+          "type": "string"
+        },
+        "note": {
+          "$ref": "#/$defs/Text"
+        },
+        "title": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "title",
+        "url",
+        "accessed",
+        "note"
+      ]
+    },
+    "SourceLanguage": {
+      "type": "string",
+      "enum": [
+        "de",
+        "en"
+      ]
+    },
+    "StepPhase": {
+      "type": "string",
+      "enum": [
+        "answering",
+        "feedback"
+      ]
+    },
+    "Success": {
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "data": {
+              "$ref": "#/$defs/ConnectedResponse"
+            },
+            "kind": {
+              "type": "string",
+              "const": "connected"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "data"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "data": {
+              "$ref": "#/$defs/HomeView"
+            },
+            "kind": {
+              "type": "string",
+              "const": "home"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "data"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "data": {
+              "$ref": "#/$defs/Overview"
+            },
+            "kind": {
+              "type": "string",
+              "const": "overview"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "data"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "data": {
+              "$ref": "#/$defs/Settings"
+            },
+            "kind": {
+              "type": "string",
+              "const": "settings"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "data"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "data": {
+              "$ref": "#/$defs/SessionReview"
+            },
+            "kind": {
+              "type": "string",
+              "const": "session_review"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "data"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "data": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/TutorThread"
+              }
+            },
+            "kind": {
+              "type": "string",
+              "const": "tutor_threads"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "data"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "data": {
+              "$ref": "#/$defs/ThreadDetail"
+            },
+            "kind": {
+              "type": "string",
+              "const": "tutor_thread"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "data"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "data": {
+              "$ref": "#/$defs/Downloads"
+            },
+            "kind": {
+              "type": "string",
+              "const": "downloads"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "data"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "data": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/SearchHit"
+              }
+            },
+            "kind": {
+              "type": "string",
+              "const": "bookmarks"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "data"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "data": {
+              "$ref": "#/$defs/Lesson"
+            },
+            "kind": {
+              "type": "string",
+              "const": "lesson"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "data"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "data": {
+              "$ref": "#/$defs/Material"
+            },
+            "kind": {
+              "type": "string",
+              "const": "reference"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "data"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "data": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/GrammarTopic"
+              }
+            },
+            "kind": {
+              "type": "string",
+              "const": "grammar"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "data"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "data": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/Material"
+              }
+            },
+            "kind": {
+              "type": "string",
+              "const": "grammar_help"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "data"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "data": {
+              "type": "object",
+              "properties": {
+                "items": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/Unit"
+                  }
+                },
+                "next_cursor": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "items"
+              ]
+            },
+            "kind": {
+              "type": "string",
+              "const": "units"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "data"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "data": {
+              "type": "object",
+              "properties": {
+                "items": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/SearchHit"
+                  }
+                },
+                "next_cursor": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "items"
+              ]
+            },
+            "kind": {
+              "type": "string",
+              "const": "search"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "data"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "data": {
+              "$ref": "#/$defs/SessionSnapshot"
+            },
+            "kind": {
+              "type": "string",
+              "const": "session"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "data"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "data": {
+              "type": "object",
+              "properties": {
+                "accepted_sequence": {
+                  "type": "integer",
+                  "format": "uint32",
+                  "minimum": 0
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "accepted_sequence"
+              ]
+            },
+            "kind": {
+              "type": "string",
+              "const": "draft_saved"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "data"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "data": {
+              "type": "object",
+              "properties": {
+                "material": {
+                  "$ref": "#/$defs/Material"
+                },
+                "session": {
+                  "$ref": "#/$defs/SessionSnapshot"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "material",
+                "session"
+              ]
+            },
+            "kind": {
+              "type": "string",
+              "const": "hint"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "data"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "data": {
+              "type": "object",
+              "properties": {
+                "operation_id": {
+                  "$ref": "#/$defs/Id"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "operation_id"
+              ]
+            },
+            "kind": {
+              "type": "string",
+              "const": "operation_started"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "data"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "data": {
+              "type": "object",
+              "properties": {
+                "items": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/Event"
+                  }
+                },
+                "last_sequence": {
+                  "type": "integer",
+                  "format": "uint32",
+                  "minimum": 0
+                },
+                "terminal": {
+                  "type": "boolean"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "items",
+                "last_sequence",
+                "terminal"
+              ]
+            },
+            "kind": {
+              "type": "string",
+              "const": "operation_events"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "data"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "type": "string",
+              "const": "accepted"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind"
+          ]
+        }
+      ]
+    },
+    "TaskView": {
+      "description": "Answer-free projection. Solutions remain in Rust until reveal is permitted.",
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "type": "string",
+              "const": "explanation"
+            },
+            "material": {
+              "$ref": "#/$defs/ContentRef"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "material"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "type": "string",
+              "const": "choice"
+            },
+            "multiple": {
+              "type": "boolean"
+            },
+            "options": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/OptionItem"
+              }
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "options",
+            "multiple"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "items": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/OptionItem"
+              }
+            },
+            "kind": {
+              "type": "string",
+              "const": "order"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "items"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "inputs": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/InputMode"
+              }
+            },
+            "kind": {
+              "type": "string",
+              "const": "short_answer"
+            },
+            "language": {
+              "$ref": "#/$defs/Language"
+            },
+            "target": {
+              "$ref": "#/$defs/TextTarget"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "language",
+            "target",
+            "inputs"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "type": "string",
+              "const": "writing"
+            },
+            "language": {
+              "$ref": "#/$defs/Language"
+            },
+            "max_words": {
+              "type": "integer",
+              "format": "uint32",
+              "minimum": 1
+            },
+            "min_words": {
+              "type": "integer",
+              "format": "uint32",
+              "minimum": 0
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "language",
+            "min_words",
+            "max_words"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "keyboard_alternative": {
+              "$ref": "#/$defs/ContentRef"
+            },
+            "kind": {
+              "type": "string",
+              "const": "speaking"
+            },
+            "language": {
+              "$ref": "#/$defs/Language"
+            },
+            "max_seconds": {
+              "type": "integer",
+              "format": "uint32",
+              "minimum": 1
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "language",
+            "max_seconds",
+            "keyboard_alternative"
+          ]
+        }
+      ]
+    },
+    "Text": {
+      "description": "Fully resolved source-language teaching material, never executable markup.",
+      "type": "object",
+      "properties": {
+        "annotations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Annotation"
+          }
+        },
+        "language": {
+          "$ref": "#/$defs/Language"
+        },
+        "text": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "language",
+        "text"
+      ]
+    },
+    "TextTarget": {
+      "type": "string",
+      "enum": [
+        "orthography",
+        "sentence_content"
+      ]
+    },
+    "Theme": {
+      "type": "string",
+      "enum": [
+        "system",
+        "light",
+        "dark"
+      ]
+    },
+    "ThreadDetail": {
+      "type": "object",
+      "properties": {
+        "thread": {
+          "$ref": "#/$defs/TutorThread"
+        },
+        "turns": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/TutorTurn"
+          }
+        }
+      },
+      "required": [
+        "thread",
+        "turns"
+      ]
+    },
+    "Topic": {
+      "type": "object",
+      "properties": {
+        "content": {
+          "$ref": "#/$defs/ContentRef"
+        },
+        "description": {
+          "$ref": "#/$defs/Text"
+        },
+        "missions": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/ContentRef"
+          }
+        },
+        "outcomes": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Text"
+          }
+        },
+        "question": {
+          "$ref": "#/$defs/Text"
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Source"
+          }
+        },
+        "title": {
+          "$ref": "#/$defs/Text"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "content",
+        "title",
+        "question",
+        "description",
+        "outcomes",
+        "missions",
+        "sources"
+      ]
+    },
+    "TopicView": {
+      "type": "object",
+      "properties": {
+        "missions": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/MissionView"
+          }
+        },
+        "topic": {
+          "$ref": "#/$defs/Topic"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "topic",
+        "missions"
+      ]
+    },
+    "TutorReply": {
+      "type": "object",
+      "properties": {
+        "explanation_native": {
+          "type": "string"
+        },
+        "reference_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Id"
+          }
+        },
+        "reply_es": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "reply_es",
+        "explanation_native",
+        "reference_ids"
+      ]
+    },
+    "TutorThread": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/Id"
+        },
+        "source_language": {
+          "$ref": "#/$defs/SourceLanguage"
+        },
+        "title": {
+          "type": "string"
+        },
+        "updated_ms": {
+          "type": "number",
+          "format": "double"
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "source_language",
+        "updated_ms"
+      ]
+    },
+    "TutorTurn": {
+      "type": "object",
+      "properties": {
+        "explanation": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "references": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/ContentRef"
+          }
+        },
+        "role": {
+          "type": "string"
+        },
+        "text": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "role",
+        "text",
+        "references"
+      ]
+    },
+    "Unit": {
+      "type": "object",
+      "properties": {
+        "assessment": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ContentRef"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "content": {
+          "$ref": "#/$defs/ContentRef"
+        },
+        "lessons": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/ContentRef"
+          }
+        },
+        "objectives": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/ContentRef"
+          }
+        },
+        "title": {
+          "$ref": "#/$defs/Text"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "content",
+        "title",
+        "objectives",
+        "lessons"
+      ]
+    },
+    "UnitOverview": {
+      "type": "object",
+      "properties": {
+        "assessment": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ContentRef"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "band": {
+          "$ref": "#/$defs/Band"
+        },
+        "content": {
+          "$ref": "#/$defs/ContentRef"
+        },
+        "lessons": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/LessonOverview"
+          }
+        },
+        "title": {
+          "$ref": "#/$defs/Text"
+        }
+      },
+      "required": [
+        "content",
+        "title",
+        "band",
+        "lessons"
+      ]
+    },
+    "WordStatus": {
+      "type": "string",
+      "enum": [
+        "recent",
+        "active",
+        "paused",
+        "archived"
+      ]
+    },
+    "WordView": {
+      "type": "object",
+      "properties": {
+        "assisted_recall": {
+          "type": "integer",
+          "format": "uint32",
+          "minimum": 0
+        },
+        "contexts": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Occurrence"
+          }
+        },
+        "due_ms": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "format": "double"
+        },
+        "independent_recall": {
+          "type": "integer",
+          "format": "uint32",
+          "minimum": 0
+        },
+        "notes": {
+          "type": "string"
+        },
+        "productive_attempts": {
+          "type": "integer",
+          "format": "uint32",
+          "minimum": 0
+        },
+        "sense": {
+          "$ref": "#/$defs/LexicalSense"
+        },
+        "spelling_recall": {
+          "type": "integer",
+          "format": "uint32",
+          "minimum": 0
+        },
+        "spoken_recognition": {
+          "type": "integer",
+          "format": "uint32",
+          "minimum": 0
+        },
+        "status": {
+          "$ref": "#/$defs/WordStatus"
+        },
+        "understanding": {
+          "type": "integer",
+          "format": "uint32",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "sense",
+        "status",
+        "notes",
+        "contexts",
+        "understanding",
+        "independent_recall",
+        "assisted_recall",
+        "spoken_recognition",
+        "productive_attempts",
+        "spelling_recall"
+      ]
+    }
+  }
+}

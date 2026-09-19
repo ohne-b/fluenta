@@ -1,0 +1,684 @@
+{
+  "lessons": [
+    {
+      "content": {
+        "id": "es.b1.digital-life.lesson",
+        "revision": 3
+      },
+      "title": {
+        "slot": "es.b1.digital-life.title"
+      },
+      "objectives": [
+        {
+          "id": "es.b1.digital-life.objective",
+          "revision": 3
+        }
+      ],
+      "activities": [
+        {
+          "id": "es.b1.digital-life.intro",
+          "revision": 3
+        },
+        {
+          "id": "es.b1.digital-life.choice",
+          "revision": 3
+        },
+        {
+          "id": "es.b1.digital-life.order",
+          "revision": 3
+        },
+        {
+          "id": "es.b1.digital-life.recall",
+          "revision": 3
+        },
+        {
+          "id": "es.b1.digital-life.listen",
+          "revision": 3
+        },
+        {
+          "id": "es.b1.digital-life.produce",
+          "revision": 3
+        }
+      ],
+      "estimated_minutes": 12
+    }
+  ],
+  "objectives": [
+    {
+      "content": {
+        "id": "es.b1.digital-life.objective",
+        "revision": 3
+      },
+      "band": "B1",
+      "can_do": {
+        "slot": "es.b1.digital-life.can_do"
+      },
+      "prerequisites": [
+        {
+          "id": "es.b1.mediation.objective",
+          "revision": 3
+        }
+      ],
+      "explanation_refs": [
+        {
+          "id": "es.b1.digital-life.guide",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "content": {
+        "id": "es.b1.digital-life.intro",
+        "revision": 3
+      },
+      "instruction": {
+        "slot": "es.b1.digital-life.title"
+      },
+      "objectives": [
+        {
+          "id": "es.b1.digital-life.objective",
+          "revision": 3
+        }
+      ],
+      "materials": [],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "explanation",
+        "material": {
+          "id": "es.b1.digital-life.guide",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "grammar"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.digital-life.choice",
+        "revision": 3
+      },
+      "instruction": {
+        "slot": "es.b1.digital-life.choice"
+      },
+      "objectives": [
+        {
+          "id": "es.b1.digital-life.objective",
+          "revision": 3
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.b1.digital-life.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "c1",
+            "label": {
+              "language": "es",
+              "text": "Sin embargo."
+            }
+          },
+          {
+            "id": "c2",
+            "label": {
+              "language": "es",
+              "text": "Por eso."
+            }
+          },
+          {
+            "id": "c3",
+            "label": {
+              "language": "es",
+              "text": "Por ejemplo."
+            }
+          }
+        ],
+        "correct_ids": [
+          "c1"
+        ],
+        "explanation": {
+          "id": "es.b1.digital-life.guide",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "reading"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.digital-life.order",
+        "revision": 3
+      },
+      "instruction": {
+        "slot": "es.b1.digital-life.order"
+      },
+      "objectives": [
+        {
+          "id": "es.b1.digital-life.objective",
+          "revision": 3
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.b1.digital-life.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "order",
+        "items": [
+          {
+            "id": "w1",
+            "label": {
+              "language": "es",
+              "text": "Las"
+            }
+          },
+          {
+            "id": "w2",
+            "label": {
+              "language": "es",
+              "text": "redes"
+            }
+          },
+          {
+            "id": "w3",
+            "label": {
+              "language": "es",
+              "text": "son"
+            }
+          },
+          {
+            "id": "w4",
+            "label": {
+              "language": "es",
+              "text": "útiles"
+            }
+          },
+          {
+            "id": "w5",
+            "label": {
+              "language": "es",
+              "text": "pero"
+            }
+          },
+          {
+            "id": "w6",
+            "label": {
+              "language": "es",
+              "text": "conviene"
+            }
+          },
+          {
+            "id": "w7",
+            "label": {
+              "language": "es",
+              "text": "establecer"
+            }
+          },
+          {
+            "id": "w8",
+            "label": {
+              "language": "es",
+              "text": "límites."
+            }
+          }
+        ],
+        "accepted_orders": [
+          [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ]
+        ],
+        "explanation": {
+          "id": "es.b1.digital-life.guide",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "grammar"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.digital-life.recall",
+        "revision": 3
+      },
+      "instruction": {
+        "slot": "es.b1.digital-life.recall"
+      },
+      "objectives": [
+        {
+          "id": "es.b1.digital-life.objective",
+          "revision": 3
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.b1.digital-life.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "sentence_content",
+        "inputs": [
+          "keyboard",
+          "microphone"
+        ],
+        "accepted": [
+          "Sin embargo",
+          "No obstante"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.b1.digital-life.recall-answer",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "grammar",
+        "vocabulary"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.digital-life.listen",
+        "revision": 3
+      },
+      "instruction": {
+        "slot": "es.b1.digital-life.listen"
+      },
+      "objectives": [
+        {
+          "id": "es.b1.digital-life.objective",
+          "revision": 3
+        }
+      ],
+      "materials": [
+        {
+          "id": "es.b1.digital-life.listening",
+          "revision": 1
+        }
+      ],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "l1",
+            "label": {
+              "language": "es",
+              "text": "Evitar distracciones."
+            }
+          },
+          {
+            "id": "l2",
+            "label": {
+              "language": "es",
+              "text": "Eliminar todas las actividades digitales."
+            }
+          },
+          {
+            "id": "l3",
+            "label": {
+              "language": "es",
+              "text": "Permitir cualquier uso del móvil."
+            }
+          }
+        ],
+        "correct_ids": [
+          "l1"
+        ],
+        "explanation": {
+          "id": "es.b1.digital-life.listen-answer",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "listening"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.digital-life.produce",
+        "revision": 3
+      },
+      "instruction": {
+        "language": "es",
+        "text": "¿Debería limitarse el uso del móvil durante la jornada escolar? Presenta una postura, una razón, un ejemplo y un contraargumento."
+      },
+      "objectives": [
+        {
+          "id": "es.b1.digital-life.objective",
+          "revision": 3
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.b1.digital-life.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "speaking",
+        "language": "es",
+        "max_seconds": 90,
+        "rubric": {
+          "id": "es.b1.digital-life.rubric",
+          "revision": 1
+        },
+        "keyboard_alternative": {
+          "id": "es.b1.digital-life.keyboard",
+          "revision": 3
+        }
+      },
+      "skills": [
+        "speaking"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.digital-life.keyboard",
+        "revision": 3
+      },
+      "instruction": {
+        "language": "es",
+        "text": "¿Debería limitarse el uso del móvil durante la jornada escolar? Presenta una postura, una razón, un ejemplo y un contraargumento."
+      },
+      "objectives": [
+        {
+          "id": "es.b1.digital-life.objective",
+          "revision": 3
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.b1.digital-life.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "writing",
+        "language": "es",
+        "min_words": 45,
+        "max_words": 160,
+        "rubric": {
+          "id": "es.b1.digital-life.rubric",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "writing"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "content": {
+        "id": "es.b1.digital-life.listening",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "audio",
+          "speech": {
+            "id": "es.b1.digital-life.listening-audio",
+            "revision": 1
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.digital-life.listen-answer",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.b1.digital-life.listen-feedback"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "En nuestro instituto se permite usar el móvil para algunas actividades. Fuera de esas actividades debe permanecer guardado. El objetivo no es prohibir la tecnología, sino evitar distracciones."
+            }
+          ],
+          "speech": null
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.digital-life.recall-answer",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "slot": "es.b1.digital-life.answer-title"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Sin embargo"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.b1.digital-life.guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.digital-life.model",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "slot": "es.b1.digital-life.model-title"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Creo que debería limitarse el uso del móvil durante las clases porque las notificaciones pueden distraernos. Por ejemplo, es difícil seguir una explicación si estamos leyendo mensajes. Sin embargo, el móvil también sirve para buscar información. Por eso propongo que se permita cuando lo indique el profesorado y que permanezca guardado durante las demás actividades."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.digital-life.vocab",
+        "revision": 1
+      },
+      "searchable": true,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "language": "es",
+              "text": "sin embargo"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.b1.digital-life.gloss"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Las redes facilitan la comunicación. Sin embargo, pueden distraernos. Por eso conviene establecer límites."
+            }
+          ],
+          "speech": {
+            "id": "es.b1.digital-life.example-audio",
+            "revision": 1
+          }
+        }
+      ]
+    }
+  ],
+  "speech": [
+    {
+      "content": {
+        "id": "es.b1.digital-life.example-audio",
+        "revision": 1
+      },
+      "text": "Las redes facilitan la comunicación. Sin embargo, pueden distraernos. Por eso conviene establecer límites.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "es.b1.digital-life.listening-audio",
+        "revision": 1
+      },
+      "text": "En nuestro instituto se permite usar el móvil para algunas actividades. Fuera de esas actividades debe permanecer guardado. El objetivo no es prohibir la tecnología, sino evitar distracciones.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "content": {
+        "id": "es.b1.digital-life.lexeme",
+        "revision": 1
+      },
+      "lemma": "sin embargo",
+      "part_of_speech": "expression",
+      "gloss": {
+        "slot": "es.b1.digital-life.gloss"
+      },
+      "accepted_forms": [
+        "sin embargo"
+      ],
+      "examples": [
+        {
+          "id": "es.b1.digital-life.vocab",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "rubrics": [
+    {
+      "content": {
+        "id": "es.b1.digital-life.rubric",
+        "revision": 1
+      },
+      "criteria": [
+        {
+          "id": "task",
+          "label": {
+            "slot": "es.b1.digital-life.rubric.task.label"
+          },
+          "guidance": {
+            "slot": "es.b1.digital-life.rubric.task.guidance"
+          }
+        },
+        {
+          "id": "structure",
+          "label": {
+            "slot": "es.b1.digital-life.rubric.structure.label"
+          },
+          "guidance": {
+            "slot": "es.b1.digital-life.rubric.structure.guidance"
+          }
+        },
+        {
+          "id": "language",
+          "label": {
+            "slot": "es.b1.digital-life.rubric.language.label"
+          },
+          "guidance": {
+            "slot": "es.b1.digital-life.rubric.language.guidance"
+          }
+        }
+      ],
+      "model_answers": [
+        {
+          "id": "es.b1.digital-life.model",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "assessments": []
+}

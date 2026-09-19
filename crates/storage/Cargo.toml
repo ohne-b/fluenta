@@ -1,0 +1,17 @@
+[package]
+name = "fluenta-storage"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+fluenta-contracts.workspace = true
+fluenta-learning.workspace = true
+fluenta-content.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+rusqlite.workspace = true
+thiserror.workspace = true
+uuid.workspace = true
+rand.workspace = true
+tempfile.workspace = true

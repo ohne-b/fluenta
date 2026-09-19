@@ -1,0 +1,947 @@
+{
+  "missions": [
+    {
+      "content": {
+        "id": "mission.migration.2",
+        "revision": 1
+      },
+      "title": {
+        "language": "es",
+        "text": "¿Por qué nos vamos?"
+      },
+      "question": {
+        "language": "es",
+        "text": "¿Es siempre una elección marcharse?"
+      },
+      "outcome": {
+        "de": "Vergleiche zwei Motive, ohne verschiedene Erfahrungen gleichzusetzen.",
+        "en": "Compare two reasons without treating different experiences as identical."
+      },
+      "description": {
+        "de": "Verbinde Textverständnis, nützliche Wendungen und eine eigene Antwort.",
+        "en": "Connect understanding, useful expressions and your own response."
+      },
+      "band": "B1",
+      "lesson": {
+        "id": "mission.migration.2.lesson",
+        "revision": 1
+      },
+      "challenge": {
+        "id": "mission.migration.2.assessment",
+        "revision": 1
+      },
+      "vocabulary": [
+        {
+          "id": "lex.motivo",
+          "revision": 1
+        },
+        {
+          "id": "lex.oportunidad",
+          "revision": 1
+        },
+        {
+          "id": "lex.empleo",
+          "revision": 1
+        },
+        {
+          "id": "lex.huir",
+          "revision": 1
+        },
+        {
+          "id": "lex.reunirse",
+          "revision": 1
+        },
+        {
+          "id": "lex.decidir",
+          "revision": 1
+        },
+        {
+          "id": "lex.frontera",
+          "revision": 1
+        },
+        {
+          "id": "lex.obligado",
+          "revision": 1
+        },
+        {
+          "id": "lex.arraigo",
+          "revision": 1
+        },
+        {
+          "id": "lex.regresar",
+          "revision": 1
+        }
+      ],
+      "sources": [
+        {
+          "title": "LehrplanPLUS · Spanisch 12/13, erhöhtes Anforderungsniveau",
+          "url": "https://www.lehrplanplus.bayern.de/fachlehrplan/gymnasium/12/spanisch/erhoeht",
+          "accessed": "2026-09-19",
+          "note": {
+            "de": "Zuordnung zu Themen und Kompetenzen; die Sammlungen sind redaktionell gegliedert.",
+            "en": "Mapping to themes and skills; collection titles are editorial groupings."
+          }
+        },
+        {
+          "title": "IOM · Glossary on Migration",
+          "url": "https://publications.iom.int/books/international-migration-law-ndeg34-glossary-migration",
+          "accessed": "2026-09-19",
+          "note": {
+            "de": "Begrifflicher Hintergrund. Die Personen und Ereignisse in den Lesetexten sind erfunden.",
+            "en": "Terminological background. People and events in the readings are fictional."
+          }
+        }
+      ],
+      "attribution": {
+        "de": "Originaler Lerntext · Personen, Gespräche und lokale Projekte sind erfunden. Synthetische Sprachausgabe.",
+        "en": "Original learning text · People, conversations and local projects are fictional. Synthetic speech."
+      },
+      "order": 2
+    }
+  ],
+  "lessons": [
+    {
+      "content": {
+        "id": "mission.migration.2.lesson",
+        "revision": 1
+      },
+      "title": {
+        "language": "es",
+        "text": "¿Por qué nos vamos?"
+      },
+      "objectives": [
+        {
+          "id": "mission.migration.2.objective",
+          "revision": 1
+        }
+      ],
+      "activities": [
+        {
+          "id": "mission.migration.2.input",
+          "revision": 1
+        },
+        {
+          "id": "mission.migration.2.comprehension",
+          "revision": 1
+        },
+        {
+          "id": "lex.motivo.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.oportunidad.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.empleo.listening",
+          "revision": 1
+        },
+        {
+          "id": "mission.migration.2.prepare",
+          "revision": 1
+        },
+        {
+          "id": "mission.migration.2.speak",
+          "revision": 1
+        }
+      ],
+      "estimated_minutes": 15
+    }
+  ],
+  "objectives": [
+    {
+      "content": {
+        "id": "mission.migration.2.objective",
+        "revision": 1
+      },
+      "band": "B1",
+      "can_do": {
+        "de": "Vergleiche zwei Motive, ohne verschiedene Erfahrungen gleichzusetzen.",
+        "en": "Compare two reasons without treating different experiences as identical."
+      },
+      "prerequisites": [],
+      "explanation_refs": [],
+      "grammar_topics": [
+        "es.a2.past-events.grammar",
+        "es.a2.past-background.grammar"
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "content": {
+        "id": "mission.migration.2.input",
+        "revision": 1
+      },
+      "instruction": {
+        "de": "Lies oder höre den Text. Öffne nützliche Wendungen bei Bedarf.",
+        "en": "Read or listen. Open useful expressions when you need them."
+      },
+      "objectives": [
+        {
+          "id": "mission.migration.2.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "reading"
+      ],
+      "task": {
+        "kind": "explanation",
+        "material": {
+          "id": "mission.migration.2.reading",
+          "revision": 1
+        }
+      },
+      "evidence_scope": "source_language",
+      "usage": "practice",
+      "lexical": [],
+      "preparation": false
+    },
+    {
+      "content": {
+        "id": "mission.migration.2.comprehension",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "¿Qué conclusión respeta los tres relatos?"
+      },
+      "objectives": [
+        {
+          "id": "mission.migration.2.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "mission.migration.2.reading",
+          "revision": 1
+        }
+      ],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "reading"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "option.0",
+            "label": {
+              "language": "es",
+              "text": "Hay motivos y grados de elección distintos."
+            }
+          },
+          {
+            "id": "option.1",
+            "label": {
+              "language": "es",
+              "text": "Toda migración empieza con una beca."
+            }
+          },
+          {
+            "id": "option.2",
+            "label": {
+              "language": "es",
+              "text": "Mudarse dentro de un país no supone ningún cambio."
+            }
+          }
+        ],
+        "correct_ids": [
+          "option.0"
+        ],
+        "explanation": {
+          "id": "mission.migration.2.comprehension.feedback",
+          "revision": 1
+        }
+      },
+      "evidence_scope": "source_language",
+      "usage": "practice",
+      "lexical": [],
+      "preparation": false
+    },
+    {
+      "content": {
+        "id": "mission.migration.2.prepare",
+        "revision": 1
+      },
+      "instruction": {
+        "de": "Bereite deine Antwort vor",
+        "en": "Prepare your response"
+      },
+      "objectives": [
+        {
+          "id": "mission.migration.2.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "reading"
+      ],
+      "task": {
+        "kind": "explanation",
+        "material": {
+          "id": "mission.migration.2.preparation",
+          "revision": 1
+        }
+      },
+      "evidence_scope": "source_language",
+      "usage": "practice",
+      "lexical": [],
+      "preparation": true
+    },
+    {
+      "content": {
+        "id": "mission.migration.2.write",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "Graba un mensaje para el grupo de clase (60–90 segundos), o escribe 80–140 palabras. Compara a Ada y Nabil: una semejanza, dos diferencias y una afirmación que los relatos no permiten hacer."
+      },
+      "objectives": [
+        {
+          "id": "mission.migration.2.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "mission.migration.2.reading",
+          "revision": 1
+        }
+      ],
+      "hints": [
+        {
+          "id": "mission.migration.2.preparation",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "writing"
+      ],
+      "task": {
+        "kind": "writing",
+        "language": "es",
+        "min_words": 80,
+        "max_words": 140,
+        "rubric": {
+          "id": "mission.migration.2.rubric",
+          "revision": 1
+        }
+      },
+      "evidence_scope": "source_language",
+      "usage": "practice",
+      "lexical": [],
+      "preparation": false
+    },
+    {
+      "content": {
+        "id": "mission.migration.2.speak",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "Graba un mensaje para el grupo de clase (60–90 segundos), o escribe 80–140 palabras. Compara a Ada y Nabil: una semejanza, dos diferencias y una afirmación que los relatos no permiten hacer."
+      },
+      "objectives": [
+        {
+          "id": "mission.migration.2.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "mission.migration.2.reading",
+          "revision": 1
+        }
+      ],
+      "hints": [
+        {
+          "id": "mission.migration.2.preparation",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "speaking"
+      ],
+      "task": {
+        "kind": "speaking",
+        "language": "es",
+        "max_seconds": 150,
+        "rubric": {
+          "id": "mission.migration.2.rubric",
+          "revision": 1
+        },
+        "keyboard_alternative": {
+          "id": "mission.migration.2.write",
+          "revision": 1
+        }
+      },
+      "evidence_scope": "source_language",
+      "usage": "practice",
+      "lexical": [],
+      "preparation": false
+    },
+    {
+      "content": {
+        "id": "mission.migration.2.challenge",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "Prepara una comparación para una revista escolar: explica el motivo y una limitación de cada persona. Discute si «pueden volver» significa que no tienen dificultades. 100–160 palabras."
+      },
+      "objectives": [
+        {
+          "id": "mission.migration.2.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "mission.migration.2.unseen",
+          "revision": 1
+        }
+      ],
+      "hints": [],
+      "reveal_policy": "after_session",
+      "skills": [
+        "writing",
+        "reading"
+      ],
+      "task": {
+        "kind": "writing",
+        "language": "es",
+        "min_words": 100,
+        "max_words": 160,
+        "rubric": {
+          "id": "mission.migration.2.unseen.rubric",
+          "revision": 1
+        }
+      },
+      "evidence_scope": "source_language",
+      "usage": "assessment",
+      "lexical": [],
+      "preparation": false
+    }
+  ],
+  "materials": [
+    {
+      "content": {
+        "id": "mission.migration.2.reading",
+        "revision": 1
+      },
+      "searchable": true,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "language": "es",
+              "text": "¿Por qué nos vamos?"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "de": "Originaler Lerntext · Personen, Gespräche und lokale Projekte sind erfunden. Synthetische Sprachausgabe.",
+              "en": "Original learning text · People, conversations and local projects are fictional. Synthetic speech."
+            }
+          ]
+        },
+        {
+          "kind": "audio",
+          "speech": {
+            "id": "mission.migration.2.audio",
+            "revision": 1
+          }
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "En un taller del instituto, Lucía escucha tres relatos ficticios. Ada se ha trasladado a otra región porque obtuvo una beca. Para ella, el motivo principal era estudiar una especialidad que no existía en su localidad. La beca creó una oportunidad, pero no pagaba todos los gastos. Su padre buscó empleo adicional para ayudarla. Ada insiste: «Elegí irme, aunque no podía elegir cualquier destino».",
+              "annotations": [
+                {
+                  "start": 136,
+                  "end": 145,
+                  "occurrence": {
+                    "id": "mission.migration.2.reading.p0.o0",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 231,
+                  "end": 246,
+                  "occurrence": {
+                    "id": "mission.migration.2.reading.p0.o1",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 296,
+                  "end": 302,
+                  "occurrence": {
+                    "id": "mission.migration.2.reading.p0.o2",
+                    "revision": 1
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Nabil cuenta una experiencia distinta. Su familia tuvo que huir de una zona donde había violencia. No describe el viaje como una aventura. Su prioridad era encontrar seguridad y, más tarde, reunirse con su hermana. No corresponde al grupo decidir su situación jurídica a partir de unas frases: ser refugiado tiene un significado específico y no es un sinónimo de toda persona que migra.",
+              "annotations": [
+                {
+                  "start": 59,
+                  "end": 66,
+                  "occurrence": {
+                    "id": "mission.migration.2.reading.p1.o0",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 190,
+                  "end": 202,
+                  "occurrence": {
+                    "id": "mission.migration.2.reading.p1.o1",
+                    "revision": 1
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Marina se mudó dentro de su país para cuidar a su padre. Antes de tomar una decisión, habló con sus hermanos. No cruzó la frontera internacional. Explica que verse obligado a escoger entre el trabajo y el cuidado familiar limita la libertad, aunque su situación no sea igual a la de Nabil. Ahora construye arraigo en la nueva ciudad, pero quiere regresar a su pueblo cuando pueda. Lucía concluye que comparar no significa borrar las diferencias: las decisiones combinan deseos, recursos y restricciones.",
+              "annotations": [
+                {
+                  "start": 66,
+                  "end": 84,
+                  "occurrence": {
+                    "id": "mission.migration.2.reading.p2.o0",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 119,
+                  "end": 130,
+                  "occurrence": {
+                    "id": "mission.migration.2.reading.p2.o1",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 158,
+                  "end": 174,
+                  "occurrence": {
+                    "id": "mission.migration.2.reading.p2.o2",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 306,
+                  "end": 313,
+                  "occurrence": {
+                    "id": "mission.migration.2.reading.p2.o3",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 346,
+                  "end": 356,
+                  "occurrence": {
+                    "id": "mission.migration.2.reading.p2.o4",
+                    "revision": 1
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.migration.2.comprehension.feedback",
+        "revision": 1
+      },
+      "searchable": false,
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "de": "Die Texte unterscheiden Studium, Sicherheit und Pflege sowie unterschiedliche Handlungsspielräume.",
+              "en": "The texts distinguish study, safety and care, and different degrees of choice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.migration.2.preparation",
+        "revision": 1
+      },
+      "searchable": false,
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "de": "Plane: Was ist die zentrale Aussage? Welche zwei Details helfen? Für wen formulierst du? Notiere Stichwörter, bevor du einen zusammenhängenden Text schreibst oder sprichst.",
+              "en": "Plan: What is the main point? Which two details help? Who is your audience? Note keywords before writing or speaking a connected response."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.migration.2.rubric.model",
+        "revision": 1
+      },
+      "searchable": false,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Una posible respuesta"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Ada y Nabil dejan un entorno conocido, pero sus motivos y posibilidades son diferentes. Ada busca una formación concreta y cuenta con una beca parcial. Nabil busca seguridad y quiere reunirse con su hermana. Ambos afrontan restricciones, aunque no son equivalentes. Los relatos no permiten determinar la situación jurídica de Nabil ni afirmar que todas las personas migran por una sola causa. No sabemos cómo será su vida después de llegar. Por eso evitaría presentar a Ada como una persona sin problemas o reducir a Nabil únicamente a su necesidad de protección. Sus relatos permiten comparar situaciones, no clasificar su valor personal.",
+              "annotations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.migration.2.unseen",
+        "revision": 1
+      },
+      "searchable": false,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Otra situación"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Clara consigue un contrato de seis meses en otra ciudad y paga una habitación muy cara. Iván se traslada para vivir cerca de su hija y conserva su trabajo a distancia. Ambos dicen que pueden volver, pero Clara perdería el depósito de la habitación e Iván volvería a ver menos a su hija.",
+              "annotations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.migration.2.unseen.rubric.model",
+        "revision": 1
+      },
+      "searchable": false,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Una posible respuesta"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Clara se traslada por un contrato temporal, mientras que Iván quiere estar cerca de su hija. La posibilidad de volver existe para ambos, pero tiene consecuencias distintas: Clara perdería dinero e Iván reduciría el contacto familiar. Por tanto, volver no es una opción sin costes. Los casos muestran que la libertad de decidir puede estar condicionada sin desaparecer por completo. En una revista escolar, evitaría describir esas consecuencias como si fueran idénticas. Clara depende de la duración de su contrato y de una habitación costosa; Iván conserva su empleo, pero organiza su vida alrededor de una relación familiar. Para comprender mejor sus decisiones, preguntaría qué alternativas reales consideraron antes de trasladarse.",
+              "annotations": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "speech": [
+    {
+      "content": {
+        "id": "mission.migration.2.reading.p0.o0.audio",
+        "revision": 1
+      },
+      "text": "Para ella, el motivo principal era estudiar una especialidad que no existía en su localidad.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.2.reading.p0.o1.audio",
+        "revision": 1
+      },
+      "text": "La beca creó una oportunidad, pero no pagaba todos los gastos.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.2.reading.p0.o2.audio",
+        "revision": 1
+      },
+      "text": "Su padre buscó empleo adicional para ayudarla.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.2.reading.p1.o0.audio",
+        "revision": 1
+      },
+      "text": "Su familia tuvo que huir de una zona donde había violencia.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.2.reading.p1.o1.audio",
+        "revision": 1
+      },
+      "text": "Su prioridad era encontrar seguridad y, más tarde, reunirse con su hermana.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.2.reading.p2.o0.audio",
+        "revision": 1
+      },
+      "text": "Antes de tomar una decisión, habló con sus hermanos.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.2.reading.p2.o1.audio",
+        "revision": 1
+      },
+      "text": "No cruzó la frontera internacional.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.2.reading.p2.o2.audio",
+        "revision": 1
+      },
+      "text": "Explica que verse obligado a escoger entre el trabajo y el cuidado familiar limita la libertad, aunque su situación no sea igual a la de Nabil.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.2.reading.p2.o3.audio",
+        "revision": 1
+      },
+      "text": "Ahora construye arraigo en la nueva ciudad, pero quiere regresar a su pueblo cuando pueda.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.2.reading.p2.o4.audio",
+        "revision": 1
+      },
+      "text": "Ahora construye arraigo en la nueva ciudad, pero quiere regresar a su pueblo cuando pueda.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.2.audio",
+        "revision": 1
+      },
+      "text": "En un taller del instituto, Lucía escucha tres relatos ficticios. Ada se ha trasladado a otra región porque obtuvo una beca. Para ella, el motivo principal era estudiar una especialidad que no existía en su localidad. La beca creó una oportunidad, pero no pagaba todos los gastos. Su padre buscó empleo adicional para ayudarla. Ada insiste: «Elegí irme, aunque no podía elegir cualquier destino». Nabil cuenta una experiencia distinta. Su familia tuvo que huir de una zona donde había violencia. No describe el viaje como una aventura. Su prioridad era encontrar seguridad y, más tarde, reunirse con su hermana. No corresponde al grupo decidir su situación jurídica a partir de unas frases: ser refugiado tiene un significado específico y no es un sinónimo de toda persona que migra. Marina se mudó dentro de su país para cuidar a su padre. Antes de tomar una decisión, habló con sus hermanos. No cruzó la frontera internacional. Explica que verse obligado a escoger entre el trabajo y el cuidado familiar limita la libertad, aunque su situación no sea igual a la de Nabil. Ahora construye arraigo en la nueva ciudad, pero quiere regresar a su pueblo cuando pueda. Lucía concluye que comparar no significa borrar las diferencias: las decisiones combinan deseos, recursos y restricciones.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    }
+  ],
+  "rubrics": [
+    {
+      "content": {
+        "id": "mission.migration.2.rubric",
+        "revision": 1
+      },
+      "criteria": [
+        {
+          "id": "task",
+          "label": {
+            "de": "Aufgabe und Adressat",
+            "en": "Task and audience"
+          },
+          "guidance": {
+            "de": "Erfülle die konkrete Schreib- oder Sprechabsicht der Aufgabe. Gehe auf die verlangten Teilfragen ein.",
+            "en": "Fulfil the specific writing or speaking purpose and address the requested points."
+          }
+        },
+        {
+          "id": "source",
+          "label": {
+            "de": "Belege und Genauigkeit",
+            "en": "Evidence and accuracy"
+          },
+          "guidance": {
+            "de": "Stütze deine Aussagen auf konkrete Details der Quelle; trenne Beleg, Deutung und eigene Meinung.",
+            "en": "Support claims with specific source details; separate evidence, interpretation and your opinion."
+          }
+        },
+        {
+          "id": "structure",
+          "label": {
+            "de": "Aufbau und Gegenposition",
+            "en": "Structure and alternative view"
+          },
+          "guidance": {
+            "de": "Ordne deine Gedanken nachvollziehbar. Gehe bei einer Diskussion auf einen begründeten Einwand ein.",
+            "en": "Organise ideas clearly. In discussion, address a reasonable objection."
+          }
+        },
+        {
+          "id": "language",
+          "label": {
+            "de": "Sprache",
+            "en": "Language"
+          },
+          "guidance": {
+            "de": "Formuliere verständlich und adressatengerecht. Prüfe Verbformen, Bezüge und passende Verknüpfungen.",
+            "en": "Write or speak clearly for your audience. Check verb forms, reference and suitable connectors."
+          }
+        }
+      ],
+      "model_answers": [
+        {
+          "id": "mission.migration.2.rubric.model",
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.migration.2.unseen.rubric",
+        "revision": 1
+      },
+      "criteria": [
+        {
+          "id": "task",
+          "label": {
+            "de": "Aufgabe und Adressat",
+            "en": "Task and audience"
+          },
+          "guidance": {
+            "de": "Erfülle die neue Aufgabe unabhängig. Belege deine Überlegungen mit der neuen Quelle; bei Sprachmittlung zählen Auswahl und Adressatenbezug, nicht wörtliche Übersetzung.",
+            "en": "Complete the new task independently. Use the new source; mediation requires relevant selection and audience awareness, not literal translation."
+          }
+        },
+        {
+          "id": "source",
+          "label": {
+            "de": "Belege und Genauigkeit",
+            "en": "Evidence and accuracy"
+          },
+          "guidance": {
+            "de": "Stütze deine Aussagen auf konkrete Details der Quelle; trenne Beleg, Deutung und eigene Meinung.",
+            "en": "Support claims with specific source details; separate evidence, interpretation and your opinion."
+          }
+        },
+        {
+          "id": "structure",
+          "label": {
+            "de": "Aufbau und Gegenposition",
+            "en": "Structure and alternative view"
+          },
+          "guidance": {
+            "de": "Ordne deine Gedanken nachvollziehbar. Gehe bei einer Diskussion auf einen begründeten Einwand ein.",
+            "en": "Organise ideas clearly. In discussion, address a reasonable objection."
+          }
+        },
+        {
+          "id": "language",
+          "label": {
+            "de": "Sprache",
+            "en": "Language"
+          },
+          "guidance": {
+            "de": "Formuliere verständlich und adressatengerecht. Prüfe Verbformen, Bezüge und passende Verknüpfungen.",
+            "en": "Write or speak clearly for your audience. Check verb forms, reference and suitable connectors."
+          }
+        }
+      ],
+      "model_answers": [
+        {
+          "id": "mission.migration.2.unseen.rubric.model",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "assessments": [
+    {
+      "content": {
+        "id": "mission.migration.2.assessment",
+        "revision": 1
+      },
+      "title": {
+        "de": "Neue Quelle · unabhängige Aufgabe",
+        "en": "New source · independent challenge"
+      },
+      "activities": [
+        {
+          "id": "mission.migration.2.challenge",
+          "revision": 1
+        }
+      ],
+      "duration_seconds": 1200,
+      "audio_replays": 0
+    }
+  ]
+}

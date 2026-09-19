@@ -1,0 +1,71 @@
+{
+  "grammar": [
+    {
+      "content": {
+        "id": "es.b1.digital-life.grammar",
+        "revision": 2
+      },
+      "title": {
+        "slot": "es.b1.digital-life.grammar.title"
+      },
+      "summary": {
+        "slot": "es.b1.digital-life.grammar.summary"
+      },
+      "band": "B1",
+      "category": "sentences",
+      "explanations": [
+        {
+          "id": "es.b1.digital-life.guide",
+          "revision": 1
+        }
+      ],
+      "lessons": [
+        {
+          "id": "es.b1.digital-life.lesson",
+          "revision": 3
+        }
+      ],
+      "order": 140
+    }
+  ],
+  "materials": [
+    {
+      "content": {
+        "id": "es.b1.digital-life.guide",
+        "revision": 1
+      },
+      "searchable": true,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "slot": "es.b1.digital-life.title"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.b1.digital-life.guide"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Las redes facilitan la comunicación. Sin embargo, pueden distraernos. Por eso conviene establecer límites."
+            }
+          ],
+          "speech": {
+            "id": "es.b1.digital-life.example-audio",
+            "revision": 1
+          }
+        }
+      ]
+    }
+  ]
+}

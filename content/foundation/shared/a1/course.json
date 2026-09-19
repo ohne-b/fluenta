@@ -1,0 +1,230 @@
+{
+  "schema_version": 3,
+  "release_id": "foundation.a1.source",
+  "course": {
+    "content": {
+      "id": "es.a1.course",
+      "revision": 6
+    },
+    "source_language": "en",
+    "band": "A1",
+    "title": {
+      "slot": "es.a1.title"
+    },
+    "units": [
+      {
+        "id": "es.a1.unit",
+        "revision": 6
+      },
+      {
+        "id": "es.a1.unit.grammar-10",
+        "revision": 1
+      },
+      {
+        "id": "es.a1.unit.grammar-20",
+        "revision": 1
+      },
+      {
+        "id": "es.a1.unit.grammar-30",
+        "revision": 1
+      },
+      {
+        "id": "es.a1.unit.grammar-31",
+        "revision": 1
+      },
+      {
+        "id": "es.a1.unit.grammar-32",
+        "revision": 1
+      }
+    ]
+  },
+  "units": [
+    {
+      "content": {
+        "id": "es.a1.unit",
+        "revision": 6
+      },
+      "title": {
+        "slot": "es.a1.title"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.identities.objective",
+          "revision": 2
+        },
+        {
+          "id": "es.a1.classroom.objective",
+          "revision": 2
+        },
+        {
+          "id": "es.a1.timetable.objective",
+          "revision": 3
+        },
+        {
+          "id": "es.a1.routines.objective",
+          "revision": 4
+        }
+      ],
+      "lessons": [
+        {
+          "id": "es.a1.identities.lesson",
+          "revision": 2
+        },
+        {
+          "id": "es.a1.classroom.lesson",
+          "revision": 2
+        },
+        {
+          "id": "es.a1.timetable.lesson",
+          "revision": 4
+        },
+        {
+          "id": "es.a1.routines.lesson",
+          "revision": 5
+        }
+      ],
+      "assessment": {
+        "id": "es.a1.checkpoint",
+        "revision": 2
+      }
+    },
+    {
+      "content": {
+        "id": "es.a1.unit.grammar-10",
+        "revision": 1
+      },
+      "title": {
+        "slot": "es.a1.ser-estar.topic-title"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.ser-estar.practice-objective",
+          "revision": 1
+        }
+      ],
+      "lessons": [
+        {
+          "id": "es.a1.ser-estar.recognise",
+          "revision": 1
+        },
+        {
+          "id": "es.a1.ser-estar.context",
+          "revision": 1
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "content": {
+        "id": "es.a1.unit.grammar-20",
+        "revision": 1
+      },
+      "title": {
+        "slot": "es.a1.hay.topic-title"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.hay.practice-objective",
+          "revision": 1
+        }
+      ],
+      "lessons": [
+        {
+          "id": "es.a1.hay.recognise",
+          "revision": 1
+        },
+        {
+          "id": "es.a1.hay.context",
+          "revision": 1
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "content": {
+        "id": "es.a1.unit.grammar-30",
+        "revision": 1
+      },
+      "title": {
+        "slot": "es.a1.present-regular.topic-title"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.present-regular.practice-objective",
+          "revision": 1
+        }
+      ],
+      "lessons": [
+        {
+          "id": "es.a1.present-regular.recognise",
+          "revision": 1
+        },
+        {
+          "id": "es.a1.present-regular.context",
+          "revision": 1
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "content": {
+        "id": "es.a1.unit.grammar-31",
+        "revision": 1
+      },
+      "title": {
+        "slot": "es.a1.present-stem.topic-title"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.present-stem.practice-objective",
+          "revision": 1
+        }
+      ],
+      "lessons": [
+        {
+          "id": "es.a1.present-stem.recognise",
+          "revision": 1
+        },
+        {
+          "id": "es.a1.present-stem.context",
+          "revision": 1
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "content": {
+        "id": "es.a1.unit.grammar-32",
+        "revision": 1
+      },
+      "title": {
+        "slot": "es.a1.present-irregular.topic-title"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.present-irregular.practice-objective",
+          "revision": 1
+        }
+      ],
+      "lessons": [
+        {
+          "id": "es.a1.present-irregular.recognise",
+          "revision": 1
+        },
+        {
+          "id": "es.a1.present-irregular.context",
+          "revision": 1
+        }
+      ],
+      "assessment": null
+    }
+  ],
+  "lessons": [],
+  "objectives": [],
+  "activities": [],
+  "materials": [],
+  "speech": [],
+  "vocabulary": [],
+  "rubrics": [],
+  "assessments": []
+}

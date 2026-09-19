@@ -1,0 +1,855 @@
+{
+  "missions": [
+    {
+      "content": {
+        "id": "mission.language.1",
+        "revision": 1
+      },
+      "title": {
+        "language": "es",
+        "text": "Dos lenguas, muchas voces"
+      },
+      "question": {
+        "language": "es",
+        "text": "¿Qué diferencia hay entre poder hablar y sentirse escuchado?"
+      },
+      "outcome": {
+        "de": "Vergleiche mehrsprachige Erfahrungen, ohne Sprachpolitik auf persönliche Vorlieben zu reduzieren.",
+        "en": "Compare multilingual experiences without reducing language policy to personal preference."
+      },
+      "description": {
+        "de": "Verbinde Textverständnis, nützliche Wendungen und eine eigene Antwort.",
+        "en": "Connect understanding, useful expressions and your own response."
+      },
+      "band": "B1",
+      "lesson": {
+        "id": "mission.language.1.lesson",
+        "revision": 1
+      },
+      "challenge": {
+        "id": "mission.language.1.assessment",
+        "revision": 1
+      },
+      "vocabulary": [
+        {
+          "id": "lex.identidad",
+          "revision": 1
+        },
+        {
+          "id": "lex.compartir",
+          "revision": 1
+        },
+        {
+          "id": "lex.apoyo",
+          "revision": 1
+        },
+        {
+          "id": "lex.acento",
+          "revision": 1
+        },
+        {
+          "id": "lex.confianza",
+          "revision": 1
+        },
+        {
+          "id": "lex.pertenecer",
+          "revision": 1
+        },
+        {
+          "id": "lex.participar",
+          "revision": 1
+        },
+        {
+          "id": "lex.cuenta",
+          "revision": 1
+        }
+      ],
+      "sources": [
+        {
+          "title": "LehrplanPLUS · Spanisch 12/13, erhöhtes Anforderungsniveau",
+          "url": "https://www.lehrplanplus.bayern.de/fachlehrplan/gymnasium/12/spanisch/erhoeht",
+          "accessed": "2026-09-19",
+          "note": {
+            "de": "Zuordnung zu Themen und Kompetenzen; die Sammlungen sind redaktionell gegliedert.",
+            "en": "Mapping to themes and skills; collection titles are editorial groupings."
+          }
+        },
+        {
+          "title": "Generalitat · Estatut d’Autonomia",
+          "url": "https://justicia.gencat.cat/ca/departament/llengua/catala-administracio-justicia/marc-normatiu/normativa-ambit-judicial/estatut-dautonomia/",
+          "accessed": "2026-09-19",
+          "note": {
+            "de": "Bezug auf Katalanisch und Kastilisch im Autonomiestatut; keine vollständige Darstellung der Sprachpolitik.",
+            "en": "Catalan and Castilian in the Statute; not a complete account of language policy."
+          }
+        }
+      ],
+      "attribution": {
+        "de": "Originaler Lerntext · Sachlicher Einstieg mit Quellen; das anschließende Szenario ist erfunden. Synthetische Sprachausgabe.",
+        "en": "Original learning text · Sourced factual introduction; the following scenario is fictional. Synthetic speech."
+      },
+      "order": 9
+    }
+  ],
+  "lessons": [
+    {
+      "content": {
+        "id": "mission.language.1.lesson",
+        "revision": 1
+      },
+      "title": {
+        "language": "es",
+        "text": "Dos lenguas, muchas voces"
+      },
+      "objectives": [
+        {
+          "id": "mission.language.1.objective",
+          "revision": 1
+        }
+      ],
+      "activities": [
+        {
+          "id": "mission.language.1.input",
+          "revision": 1
+        },
+        {
+          "id": "mission.language.1.comprehension",
+          "revision": 1
+        },
+        {
+          "id": "lex.identidad.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.compartir.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.apoyo.listening",
+          "revision": 1
+        },
+        {
+          "id": "mission.language.1.prepare",
+          "revision": 1
+        },
+        {
+          "id": "mission.language.1.write",
+          "revision": 1
+        }
+      ],
+      "estimated_minutes": 22
+    }
+  ],
+  "objectives": [
+    {
+      "content": {
+        "id": "mission.language.1.objective",
+        "revision": 1
+      },
+      "band": "B1",
+      "can_do": {
+        "de": "Vergleiche mehrsprachige Erfahrungen, ohne Sprachpolitik auf persönliche Vorlieben zu reduzieren.",
+        "en": "Compare multilingual experiences without reducing language policy to personal preference."
+      },
+      "prerequisites": [],
+      "explanation_refs": [],
+      "grammar_topics": [
+        "es.a2.pronouns.grammar",
+        "es.b2.perspectives.grammar"
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "content": {
+        "id": "mission.language.1.input",
+        "revision": 1
+      },
+      "instruction": {
+        "de": "Lies oder höre den Text. Öffne nützliche Wendungen bei Bedarf.",
+        "en": "Read or listen. Open useful expressions when you need them."
+      },
+      "objectives": [
+        {
+          "id": "mission.language.1.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "reading"
+      ],
+      "task": {
+        "kind": "explanation",
+        "material": {
+          "id": "mission.language.1.reading",
+          "revision": 1
+        }
+      },
+      "evidence_scope": "source_language",
+      "usage": "practice",
+      "lexical": [],
+      "preparation": false
+    },
+    {
+      "content": {
+        "id": "mission.language.1.comprehension",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "¿Qué distinción explica la situación de Leo?"
+      },
+      "objectives": [
+        {
+          "id": "mission.language.1.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "mission.language.1.reading",
+          "revision": 1
+        }
+      ],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "reading"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "option.0",
+            "label": {
+              "language": "es",
+              "text": "Comprender una lengua no implica poder expresarse con la misma facilidad."
+            }
+          },
+          {
+            "id": "option.1",
+            "label": {
+              "language": "es",
+              "text": "El acento determina la calidad de todas sus ideas."
+            }
+          },
+          {
+            "id": "option.2",
+            "label": {
+              "language": "es",
+              "text": "Cambiar de lengua obliga a cambiar de identidad."
+            }
+          }
+        ],
+        "correct_ids": [
+          "option.0"
+        ],
+        "explanation": {
+          "id": "mission.language.1.comprehension.feedback",
+          "revision": 1
+        }
+      },
+      "evidence_scope": "source_language",
+      "usage": "practice",
+      "lexical": [],
+      "preparation": false
+    },
+    {
+      "content": {
+        "id": "mission.language.1.prepare",
+        "revision": 1
+      },
+      "instruction": {
+        "de": "Bereite deine Antwort vor",
+        "en": "Prepare your response"
+      },
+      "objectives": [
+        {
+          "id": "mission.language.1.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "reading"
+      ],
+      "task": {
+        "kind": "explanation",
+        "material": {
+          "id": "mission.language.1.preparation",
+          "revision": 1
+        }
+      },
+      "evidence_scope": "source_language",
+      "usage": "practice",
+      "lexical": [],
+      "preparation": true
+    },
+    {
+      "content": {
+        "id": "mission.language.1.write",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "Escribe al equipo del pódcast (100–170 palabras). Compara las preocupaciones de Aina y Leo y propone dos reglas concretas que respondan a ambas."
+      },
+      "objectives": [
+        {
+          "id": "mission.language.1.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "mission.language.1.reading",
+          "revision": 1
+        }
+      ],
+      "hints": [
+        {
+          "id": "mission.language.1.preparation",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "writing"
+      ],
+      "task": {
+        "kind": "writing",
+        "language": "es",
+        "min_words": 100,
+        "max_words": 170,
+        "rubric": {
+          "id": "mission.language.1.rubric",
+          "revision": 1
+        }
+      },
+      "evidence_scope": "source_language",
+      "usage": "practice",
+      "lexical": [],
+      "preparation": false
+    },
+    {
+      "content": {
+        "id": "mission.language.1.challenge",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "Responde al moderador. Valora su objetivo y propone una alternativa que conserve el trabajo con el original y permita participar. 110–180 palabras."
+      },
+      "objectives": [
+        {
+          "id": "mission.language.1.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "mission.language.1.unseen",
+          "revision": 1
+        }
+      ],
+      "hints": [],
+      "reveal_policy": "after_session",
+      "skills": [
+        "writing",
+        "reading"
+      ],
+      "task": {
+        "kind": "writing",
+        "language": "es",
+        "min_words": 110,
+        "max_words": 180,
+        "rubric": {
+          "id": "mission.language.1.unseen.rubric",
+          "revision": 1
+        }
+      },
+      "evidence_scope": "source_language",
+      "usage": "assessment",
+      "lexical": [],
+      "preparation": false
+    }
+  ],
+  "materials": [
+    {
+      "content": {
+        "id": "mission.language.1.reading",
+        "revision": 1
+      },
+      "searchable": true,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Dos lenguas, muchas voces"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "de": "Originaler Lerntext · Sachlicher Einstieg mit Quellen; das anschließende Szenario ist erfunden. Synthetische Sprachausgabe.",
+              "en": "Original learning text · Sourced factual introduction; the following scenario is fictional. Synthetic speech."
+            }
+          ]
+        },
+        {
+          "kind": "audio",
+          "speech": {
+            "id": "mission.language.1.audio",
+            "revision": 1
+          }
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "El Estatuto de Autonomía de Cataluña reconoce el catalán como lengua propia y la oficialidad del catalán y del castellano. Una descripción jurídica no explica por sí sola qué lengua utiliza cada persona en cada situación. En el siguiente diálogo ficticio, dos alumnos preparan un pódcast de su instituto.",
+              "annotations": []
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Aina habla catalán con parte de su familia y castellano con algunos amigos. Para ella, cambiar de lengua no significa cambiar de identidad. Le gustaría compartir canciones en ambas lenguas. Leo llegó hace poco y todavía necesita apoyo para seguir conversaciones rápidas en catalán. Entiende más de lo que puede expresar: comprensión y producción no avanzan siempre al mismo ritmo.",
+              "annotations": [
+                {
+                  "start": 129,
+                  "end": 138,
+                  "occurrence": {
+                    "id": "mission.language.1.reading.p1.o0",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 152,
+                  "end": 161,
+                  "occurrence": {
+                    "id": "mission.language.1.reading.p1.o1",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 229,
+                  "end": 234,
+                  "occurrence": {
+                    "id": "mission.language.1.reading.p1.o2",
+                    "revision": 1
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Aina teme que elegir siempre la lengua más fácil para todos deje otras voces sin espacio. Leo teme que su acento provoque bromas y pierda confianza. Ninguno pide que el otro renuncie a pertenecer a su comunidad. Proponen preparar resúmenes y acordar cuándo es útil repetir una idea. Quieren participar en el pódcast sin fingir que ya tienen la misma facilidad. El equipo debe tener en cuenta el acceso y el valor de distintas lenguas a la vez. Un acuerdo práctico para este proyecto no resuelve toda la política lingüística.",
+              "annotations": [
+                {
+                  "start": 106,
+                  "end": 112,
+                  "occurrence": {
+                    "id": "mission.language.1.reading.p2.o0",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 138,
+                  "end": 147,
+                  "occurrence": {
+                    "id": "mission.language.1.reading.p2.o1",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 185,
+                  "end": 197,
+                  "occurrence": {
+                    "id": "mission.language.1.reading.p2.o2",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 291,
+                  "end": 304,
+                  "occurrence": {
+                    "id": "mission.language.1.reading.p2.o3",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 376,
+                  "end": 391,
+                  "occurrence": {
+                    "id": "mission.language.1.reading.p2.o4",
+                    "revision": 1
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.language.1.comprehension.feedback",
+        "revision": 1
+      },
+      "searchable": false,
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "de": "Rezeptive und produktive Fähigkeiten werden getrennt betrachtet.",
+              "en": "Receptive and productive abilities are treated separately."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.language.1.preparation",
+        "revision": 1
+      },
+      "searchable": false,
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "de": "Plane: Was ist die zentrale Aussage? Welche zwei Details helfen? Für wen formulierst du? Notiere Stichwörter, bevor du einen zusammenhängenden Text schreibst oder sprichst.",
+              "en": "Plan: What is the main point? Which two details help? Who is your audience? Note keywords before writing or speaking a connected response."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.language.1.rubric.model",
+        "revision": 1
+      },
+      "searchable": false,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Una posible respuesta"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Aina quiere que distintas lenguas tengan espacio, mientras que Leo necesita apoyo para seguir y responder. Podrían enviar un guion breve antes de grabar y permitir que cada participante pida una reformulación. Un resumen facilitaría el acceso sin sustituir todas las intervenciones por una sola lengua. También acordaría no corregir un acento como si fuera un defecto de las ideas. Antes de publicar el pódcast, pediría a ambos que revisaran si estas reglas les permiten intervenir de verdad. No bastaría con contar cuántas lenguas aparecen: también importa quién puede desarrollar una idea y ser escuchado. Las reglas podrían ajustarse después de la primera grabación.",
+              "annotations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.language.1.unseen",
+        "revision": 1
+      },
+      "searchable": false,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Otra situación"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "En un club de lectura, algunas personas leen una novela en su lengua original y otras una traducción. Una participante entiende el original, pero necesita más tiempo para responder. El moderador propone excluir traducciones para que la actividad sea «auténtica».",
+              "annotations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.language.1.unseen.rubric.model",
+        "revision": 1
+      },
+      "searchable": false,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Una posible respuesta"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Trabajar con el original puede permitir observar matices, pero excluir traducciones no garantiza una conversación mejor. Propongo comparar fragmentos breves y ofrecer tiempo para preparar las respuestas. Quienes usan una traducción podrían señalar decisiones de traducción, mientras otros comentan el original. Así la diferencia de recursos se convierte en una pregunta útil y no en un motivo de exclusión. Como moderador, podrías elegir un pasaje breve del original para todos y preguntar qué se gana o se pierde al traducirlo. Dar unos minutos para pensar antes de hablar permitiría intervenir a quien comprende pero responde más despacio. Mantendríamos así el contacto con la lengua original sin confundir rapidez, recursos lingüísticos y calidad de la interpretación.",
+              "annotations": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "speech": [
+    {
+      "content": {
+        "id": "mission.language.1.reading.p1.o0.audio",
+        "revision": 1
+      },
+      "text": "Para ella, cambiar de lengua no significa cambiar de identidad.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.language.1.reading.p1.o1.audio",
+        "revision": 1
+      },
+      "text": "Le gustaría compartir canciones en ambas lenguas.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.language.1.reading.p1.o2.audio",
+        "revision": 1
+      },
+      "text": "Leo llegó hace poco y todavía necesita apoyo para seguir conversaciones rápidas en catalán.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.language.1.reading.p2.o0.audio",
+        "revision": 1
+      },
+      "text": "Leo teme que su acento provoque bromas y pierda confianza.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.language.1.reading.p2.o1.audio",
+        "revision": 1
+      },
+      "text": "Leo teme que su acento provoque bromas y pierda confianza.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.language.1.reading.p2.o2.audio",
+        "revision": 1
+      },
+      "text": "Ninguno pide que el otro renuncie a pertenecer a su comunidad.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.language.1.reading.p2.o3.audio",
+        "revision": 1
+      },
+      "text": "Quieren participar en el pódcast sin fingir que ya tienen la misma facilidad.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.language.1.reading.p2.o4.audio",
+        "revision": 1
+      },
+      "text": "El equipo debe tener en cuenta el acceso y el valor de distintas lenguas a la vez.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.language.1.audio",
+        "revision": 1
+      },
+      "text": "El Estatuto de Autonomía de Cataluña reconoce el catalán como lengua propia y la oficialidad del catalán y del castellano. Una descripción jurídica no explica por sí sola qué lengua utiliza cada persona en cada situación. En el siguiente diálogo ficticio, dos alumnos preparan un pódcast de su instituto. Aina habla catalán con parte de su familia y castellano con algunos amigos. Para ella, cambiar de lengua no significa cambiar de identidad. Le gustaría compartir canciones en ambas lenguas. Leo llegó hace poco y todavía necesita apoyo para seguir conversaciones rápidas en catalán. Entiende más de lo que puede expresar: comprensión y producción no avanzan siempre al mismo ritmo. Aina teme que elegir siempre la lengua más fácil para todos deje otras voces sin espacio. Leo teme que su acento provoque bromas y pierda confianza. Ninguno pide que el otro renuncie a pertenecer a su comunidad. Proponen preparar resúmenes y acordar cuándo es útil repetir una idea. Quieren participar en el pódcast sin fingir que ya tienen la misma facilidad. El equipo debe tener en cuenta el acceso y el valor de distintas lenguas a la vez. Un acuerdo práctico para este proyecto no resuelve toda la política lingüística.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    }
+  ],
+  "rubrics": [
+    {
+      "content": {
+        "id": "mission.language.1.rubric",
+        "revision": 1
+      },
+      "criteria": [
+        {
+          "id": "task",
+          "label": {
+            "de": "Aufgabe und Adressat",
+            "en": "Task and audience"
+          },
+          "guidance": {
+            "de": "Erfülle die konkrete Schreib- oder Sprechabsicht der Aufgabe. Gehe auf die verlangten Teilfragen ein.",
+            "en": "Fulfil the specific writing or speaking purpose and address the requested points."
+          }
+        },
+        {
+          "id": "source",
+          "label": {
+            "de": "Belege und Genauigkeit",
+            "en": "Evidence and accuracy"
+          },
+          "guidance": {
+            "de": "Stütze deine Aussagen auf konkrete Details der Quelle; trenne Beleg, Deutung und eigene Meinung.",
+            "en": "Support claims with specific source details; separate evidence, interpretation and your opinion."
+          }
+        },
+        {
+          "id": "structure",
+          "label": {
+            "de": "Aufbau und Gegenposition",
+            "en": "Structure and alternative view"
+          },
+          "guidance": {
+            "de": "Ordne deine Gedanken nachvollziehbar. Gehe bei einer Diskussion auf einen begründeten Einwand ein.",
+            "en": "Organise ideas clearly. In discussion, address a reasonable objection."
+          }
+        },
+        {
+          "id": "language",
+          "label": {
+            "de": "Sprache",
+            "en": "Language"
+          },
+          "guidance": {
+            "de": "Formuliere verständlich und adressatengerecht. Prüfe Verbformen, Bezüge und passende Verknüpfungen.",
+            "en": "Write or speak clearly for your audience. Check verb forms, reference and suitable connectors."
+          }
+        }
+      ],
+      "model_answers": [
+        {
+          "id": "mission.language.1.rubric.model",
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.language.1.unseen.rubric",
+        "revision": 1
+      },
+      "criteria": [
+        {
+          "id": "task",
+          "label": {
+            "de": "Aufgabe und Adressat",
+            "en": "Task and audience"
+          },
+          "guidance": {
+            "de": "Erfülle die neue Aufgabe unabhängig. Belege deine Überlegungen mit der neuen Quelle; bei Sprachmittlung zählen Auswahl und Adressatenbezug, nicht wörtliche Übersetzung.",
+            "en": "Complete the new task independently. Use the new source; mediation requires relevant selection and audience awareness, not literal translation."
+          }
+        },
+        {
+          "id": "source",
+          "label": {
+            "de": "Belege und Genauigkeit",
+            "en": "Evidence and accuracy"
+          },
+          "guidance": {
+            "de": "Stütze deine Aussagen auf konkrete Details der Quelle; trenne Beleg, Deutung und eigene Meinung.",
+            "en": "Support claims with specific source details; separate evidence, interpretation and your opinion."
+          }
+        },
+        {
+          "id": "structure",
+          "label": {
+            "de": "Aufbau und Gegenposition",
+            "en": "Structure and alternative view"
+          },
+          "guidance": {
+            "de": "Ordne deine Gedanken nachvollziehbar. Gehe bei einer Diskussion auf einen begründeten Einwand ein.",
+            "en": "Organise ideas clearly. In discussion, address a reasonable objection."
+          }
+        },
+        {
+          "id": "language",
+          "label": {
+            "de": "Sprache",
+            "en": "Language"
+          },
+          "guidance": {
+            "de": "Formuliere verständlich und adressatengerecht. Prüfe Verbformen, Bezüge und passende Verknüpfungen.",
+            "en": "Write or speak clearly for your audience. Check verb forms, reference and suitable connectors."
+          }
+        }
+      ],
+      "model_answers": [
+        {
+          "id": "mission.language.1.unseen.rubric.model",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "assessments": [
+    {
+      "content": {
+        "id": "mission.language.1.assessment",
+        "revision": 1
+      },
+      "title": {
+        "de": "Neue Quelle · unabhängige Aufgabe",
+        "en": "New source · independent challenge"
+      },
+      "activities": [
+        {
+          "id": "mission.language.1.challenge",
+          "revision": 1
+        }
+      ],
+      "duration_seconds": 1800,
+      "audio_replays": 0
+    }
+  ]
+}

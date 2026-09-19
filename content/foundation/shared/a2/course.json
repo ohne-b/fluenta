@@ -1,0 +1,200 @@
+{
+  "schema_version": 3,
+  "release_id": "foundation.a2.source",
+  "course": {
+    "content": {
+      "id": "es.a2.course",
+      "revision": 3
+    },
+    "source_language": "en",
+    "band": "A2",
+    "title": {
+      "slot": "es.a2.title"
+    },
+    "units": [
+      {
+        "id": "es.a2.unit",
+        "revision": 3
+      },
+      {
+        "id": "es.a2.unit.grammar-40",
+        "revision": 1
+      },
+      {
+        "id": "es.a2.unit.grammar-50",
+        "revision": 1
+      },
+      {
+        "id": "es.a2.unit.grammar-60",
+        "revision": 1
+      },
+      {
+        "id": "es.a2.unit.grammar-80",
+        "revision": 1
+      }
+    ]
+  },
+  "units": [
+    {
+      "content": {
+        "id": "es.a2.unit",
+        "revision": 3
+      },
+      "title": {
+        "slot": "es.a2.title"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.past-events.objective",
+          "revision": 3
+        },
+        {
+          "id": "es.a2.past-background.objective",
+          "revision": 3
+        },
+        {
+          "id": "es.a2.plans.objective",
+          "revision": 3
+        },
+        {
+          "id": "es.a2.opinions.objective",
+          "revision": 3
+        }
+      ],
+      "lessons": [
+        {
+          "id": "es.a2.past-events.lesson",
+          "revision": 3
+        },
+        {
+          "id": "es.a2.past-background.lesson",
+          "revision": 3
+        },
+        {
+          "id": "es.a2.plans.lesson",
+          "revision": 3
+        },
+        {
+          "id": "es.a2.opinions.lesson",
+          "revision": 3
+        }
+      ],
+      "assessment": {
+        "id": "es.a2.checkpoint",
+        "revision": 3
+      }
+    },
+    {
+      "content": {
+        "id": "es.a2.unit.grammar-40",
+        "revision": 1
+      },
+      "title": {
+        "slot": "es.a2.perfecto.topic-title"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.perfecto.practice-objective",
+          "revision": 1
+        }
+      ],
+      "lessons": [
+        {
+          "id": "es.a2.perfecto.recognise",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.perfecto.context",
+          "revision": 1
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "content": {
+        "id": "es.a2.unit.grammar-50",
+        "revision": 1
+      },
+      "title": {
+        "slot": "es.a2.indefinido.topic-title"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.indefinido.practice-objective",
+          "revision": 1
+        }
+      ],
+      "lessons": [
+        {
+          "id": "es.a2.indefinido.recognise",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.indefinido.context",
+          "revision": 1
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "content": {
+        "id": "es.a2.unit.grammar-60",
+        "revision": 1
+      },
+      "title": {
+        "slot": "es.a2.imperfecto.topic-title"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.imperfecto.practice-objective",
+          "revision": 1
+        }
+      ],
+      "lessons": [
+        {
+          "id": "es.a2.imperfecto.recognise",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.imperfecto.context",
+          "revision": 1
+        }
+      ],
+      "assessment": null
+    },
+    {
+      "content": {
+        "id": "es.a2.unit.grammar-80",
+        "revision": 1
+      },
+      "title": {
+        "slot": "es.a2.pronouns.topic-title"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.pronouns.practice-objective",
+          "revision": 1
+        }
+      ],
+      "lessons": [
+        {
+          "id": "es.a2.pronouns.recognise",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.pronouns.context",
+          "revision": 1
+        }
+      ],
+      "assessment": null
+    }
+  ],
+  "lessons": [],
+  "objectives": [],
+  "activities": [],
+  "materials": [],
+  "speech": [],
+  "vocabulary": [],
+  "rubrics": [],
+  "assessments": []
+}

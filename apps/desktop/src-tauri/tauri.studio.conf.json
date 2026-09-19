@@ -1,0 +1,32 @@
+{
+  "productName": "Fluenta Studio",
+  "identifier": "org.fluenta.studio",
+  "build": {
+    "beforeDevCommand": "npm run studio:ui",
+    "devUrl": "http://localhost:1421",
+    "beforeBuildCommand": "npm run studio:ui:build",
+    "frontendDist": "../dist-studio"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "Fluenta Studio",
+        "width": 1380,
+        "height": 920,
+        "minWidth": 900,
+        "minHeight": 600,
+        "decorations": false
+      }
+    ]
+  },
+  "bundle": {
+    "shortDescription": "Author and preview Fluenta curricula."
+  },
+  "plugins": {
+    "updater": {
+      "endpoints": [
+        "https://github.com/ohne-b/fluenta/releases/latest/download/studio-latest.json"
+      ]
+    }
+  }
+}

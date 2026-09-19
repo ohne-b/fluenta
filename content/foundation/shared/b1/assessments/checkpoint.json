@@ -1,0 +1,363 @@
+{
+  "assessments": [
+    {
+      "content": {
+        "id": "es.b1.checkpoint",
+        "revision": 1
+      },
+      "title": {
+        "slot": "es.b1.checkpoint.title"
+      },
+      "activities": [
+        {
+          "id": "es.b1.checkpoint.one",
+          "revision": 1
+        },
+        {
+          "id": "es.b1.checkpoint.two",
+          "revision": 1
+        },
+        {
+          "id": "es.b1.checkpoint.listen",
+          "revision": 1
+        },
+        {
+          "id": "es.b1.checkpoint.write",
+          "revision": 1
+        }
+      ],
+      "duration_seconds": 900,
+      "audio_replays": 2
+    }
+  ],
+  "activities": [
+    {
+      "content": {
+        "id": "es.b1.checkpoint.one",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "Completa con respetar: Es fundamental que el alumnado ___ otras opiniones."
+      },
+      "objectives": [
+        {
+          "id": "es.b1.summarising.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [],
+      "reveal_policy": "after_session",
+      "usage": "assessment",
+      "evidence_scope": "spanish",
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "orthography",
+        "inputs": [
+          "keyboard"
+        ],
+        "accepted": [
+          "respete"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.b1.checkpoint.one.answer",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "grammar",
+        "vocabulary"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.checkpoint.two",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "Completa el contraste: El proyecto es útil. Sin ___, necesita más recursos."
+      },
+      "objectives": [
+        {
+          "id": "es.b1.summarising.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [],
+      "reveal_policy": "after_session",
+      "usage": "assessment",
+      "evidence_scope": "spanish",
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "orthography",
+        "inputs": [
+          "keyboard"
+        ],
+        "accepted": [
+          "embargo"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.b1.checkpoint.two.answer",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "grammar",
+        "vocabulary"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.checkpoint.listen",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.b1.checkpoint.question"
+      },
+      "objectives": [
+        {
+          "id": "es.b1.summarising.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "es.b1.checkpoint.audio",
+          "revision": 1
+        }
+      ],
+      "hints": [],
+      "reveal_policy": "after_session",
+      "usage": "assessment",
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "c1",
+            "label": {
+              "language": "es",
+              "text": "No se requiere experiencia y hay que inscribirse antes del dos de marzo."
+            }
+          },
+          {
+            "id": "c2",
+            "label": {
+              "language": "es",
+              "text": "Es obligatorio comprar equipo profesional."
+            }
+          },
+          {
+            "id": "c3",
+            "label": {
+              "language": "es",
+              "text": "El taller se celebra todas las mañanas."
+            }
+          }
+        ],
+        "correct_ids": [
+          "c1"
+        ],
+        "explanation": {
+          "id": "es.b1.checkpoint.listen.answer",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "listening"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.checkpoint.write",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "Explica a un compañero por qué participarías o no en un taller de radio escolar. Da dos razones y considera una posible dificultad."
+      },
+      "objectives": [
+        {
+          "id": "es.b1.summarising.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [],
+      "reveal_policy": "after_session",
+      "usage": "assessment",
+      "task": {
+        "kind": "writing",
+        "language": "es",
+        "min_words": 45,
+        "max_words": 160,
+        "rubric": {
+          "id": "es.b1.checkpoint.rubric",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "writing"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "content": {
+        "id": "es.b1.checkpoint.one.answer",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "respete"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.checkpoint.two.answer",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "embargo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.checkpoint.audio",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "audio",
+          "speech": {
+            "id": "es.b1.checkpoint.speech",
+            "revision": 1
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.checkpoint.listen.answer",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "El ayuntamiento ofrece un taller gratuito de radio para jóvenes. Se celebra los jueves por la tarde. Hay doce plazas y es necesario inscribirse antes del dos de marzo. No se requiere experiencia."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.checkpoint.model",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Participaría en un taller de radio escolar porque me permitiría practicar la expresión oral y aprender a preparar entrevistas. Además, podría conocer mejor los intereses de mis compañeros. Una dificultad sería encontrar tiempo durante los exámenes. Por eso propondría organizar el trabajo con antelación y repartir las tareas para que todos pudieran participar sin descuidar sus estudios."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "speech": [
+    {
+      "content": {
+        "id": "es.b1.checkpoint.speech",
+        "revision": 1
+      },
+      "text": "El ayuntamiento ofrece un taller gratuito de radio para jóvenes. Se celebra los jueves por la tarde. Hay doce plazas y es necesario inscribirse antes del dos de marzo. No se requiere experiencia.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    }
+  ],
+  "rubrics": [
+    {
+      "content": {
+        "id": "es.b1.checkpoint.rubric",
+        "revision": 1
+      },
+      "criteria": [
+        {
+          "id": "task",
+          "label": {
+            "slot": "es.b1.checkpoint.criterion.task"
+          },
+          "guidance": {
+            "slot": "es.b1.checkpoint.guide.task"
+          }
+        },
+        {
+          "id": "structure",
+          "label": {
+            "slot": "es.b1.checkpoint.criterion.structure"
+          },
+          "guidance": {
+            "slot": "es.b1.checkpoint.guide.structure"
+          }
+        },
+        {
+          "id": "language",
+          "label": {
+            "slot": "es.b1.checkpoint.criterion.language"
+          },
+          "guidance": {
+            "slot": "es.b1.checkpoint.guide.language"
+          }
+        }
+      ],
+      "model_answers": [
+        {
+          "id": "es.b1.checkpoint.model",
+          "revision": 1
+        }
+      ]
+    }
+  ]
+}

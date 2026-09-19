@@ -1,0 +1,70 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Fluenta",
+  "version": "0.0.1",
+  "identifier": "org.fluenta.desktop",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "devUrl": "http://localhost:1420",
+    "beforeBuildCommand": "npm run build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "Fluenta",
+        "width": 1180,
+        "height": 820,
+        "minWidth": 600,
+        "minHeight": 500,
+        "backgroundColor": "#FCFAF7",
+        "decorations": false
+      }
+    ],
+    "security": {
+      "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' asset: http://asset.localhost data:; font-src 'self'; connect-src ipc: http://ipc.localhost; media-src 'self' blob:; object-src 'none'; base-uri 'self'; frame-src 'none'"
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "shortDescription": "Offline Spanish learning for school, with English and German teaching.",
+    "category": "Education",
+    "copyright": "Copyright © 2026 Fluenta contributors",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ],
+    "resources": {
+      "resources/courses/": "courses/",
+      "resources/models/": "models/",
+      "resources/runtimes/": "runtimes/",
+      "resources/notices/": "notices/",
+      "resources/resource-manifest.json": "resource-manifest.json"
+    },
+    "windows": {
+      "webviewInstallMode": {
+        "type": "offlineInstaller"
+      },
+      "allowDowngrades": true,
+      "nsis": {
+        "installerIcon": "icons/icon.ico"
+      }
+    },
+    "macOS": {
+      "minimumSystemVersion": "12.0",
+      "infoPlist": "Info.plist"
+    }
+  },
+  "plugins": {
+    "updater": {
+      "endpoints": [
+        "https://github.com/ohne-b/fluenta/releases/latest/download/latest.json"
+      ],
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEVFMjRFMURGMkUxNTNBNDgKUldSSU9oVXUzK0VrN3RXSHY2cTNCNThCK1NBNnJKaWFjZzR6YkEzRFZlQU45T2pvdEJDQ1lxVTQK"
+    }
+  }
+}

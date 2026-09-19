@@ -1,0 +1,253 @@
+{
+  "grammar": [
+    {
+      "content": {
+        "id": "es.b1.subjunctive.grammar",
+        "revision": 2
+      },
+      "title": {
+        "slot": "es.b1.subjuntivo.topic-title"
+      },
+      "summary": {
+        "slot": "es.b1.subjuntivo.summary"
+      },
+      "band": "B1",
+      "category": "verbs",
+      "order": 70,
+      "explanations": [
+        {
+          "id": "es.b1.subjunctive.guide",
+          "revision": 3
+        }
+      ],
+      "lessons": [
+        {
+          "id": "es.b1.subjuntivo.recognise",
+          "revision": 1
+        },
+        {
+          "id": "es.b1.subjuntivo.context",
+          "revision": 1
+        },
+        {
+          "id": "es.b1.subjunctive.lesson",
+          "revision": 3
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "content": {
+        "id": "es.b1.subjunctive.guide",
+        "revision": 3
+      },
+      "searchable": true,
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.b1.subjuntivo.rule.p1"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.b1.subjuntivo.rule.p2"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.b1.subjuntivo.rule.p3"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.b1.subjuntivo.rule.p4"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Quiero estudiar. Quiero que estudies conmigo. Creo que es útil. No creo que sea difícil."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "table",
+          "caption": {
+            "slot": "es.b1.subjuntivo.table-title"
+          },
+          "columns": [
+            {
+              "slot": "es.grammar.person"
+            },
+            {
+              "language": "es",
+              "text": "hablar"
+            },
+            {
+              "language": "es",
+              "text": "comer"
+            },
+            {
+              "language": "es",
+              "text": "vivir"
+            },
+            {
+              "language": "es",
+              "text": "ser"
+            }
+          ],
+          "rows": [
+            [
+              {
+                "language": "es",
+                "text": "yo"
+              },
+              {
+                "language": "es",
+                "text": "hable"
+              },
+              {
+                "language": "es",
+                "text": "coma"
+              },
+              {
+                "language": "es",
+                "text": "viva"
+              },
+              {
+                "language": "es",
+                "text": "sea"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "tú"
+              },
+              {
+                "language": "es",
+                "text": "hables"
+              },
+              {
+                "language": "es",
+                "text": "comas"
+              },
+              {
+                "language": "es",
+                "text": "vivas"
+              },
+              {
+                "language": "es",
+                "text": "seas"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "él / ella / usted"
+              },
+              {
+                "language": "es",
+                "text": "hable"
+              },
+              {
+                "language": "es",
+                "text": "coma"
+              },
+              {
+                "language": "es",
+                "text": "viva"
+              },
+              {
+                "language": "es",
+                "text": "sea"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "nosotros / nosotras"
+              },
+              {
+                "language": "es",
+                "text": "hablemos"
+              },
+              {
+                "language": "es",
+                "text": "comamos"
+              },
+              {
+                "language": "es",
+                "text": "vivamos"
+              },
+              {
+                "language": "es",
+                "text": "seamos"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "vosotros / vosotras"
+              },
+              {
+                "language": "es",
+                "text": "habléis"
+              },
+              {
+                "language": "es",
+                "text": "comáis"
+              },
+              {
+                "language": "es",
+                "text": "viváis"
+              },
+              {
+                "language": "es",
+                "text": "seáis"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "ellos / ellas / ustedes"
+              },
+              {
+                "language": "es",
+                "text": "hablen"
+              },
+              {
+                "language": "es",
+                "text": "coman"
+              },
+              {
+                "language": "es",
+                "text": "vivan"
+              },
+              {
+                "language": "es",
+                "text": "sean"
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

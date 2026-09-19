@@ -1,0 +1,20 @@
+{
+  "content": {"id": "activity.past.001", "revision": 1},
+  "instruction": {"language": "de", "text": "Ergänze das Verb im Indefinido."},
+  "objectives": [{"id": "objective.es.past.completed", "revision": 1}],
+  "materials": [{"id": "material.es.past.001", "revision": 1}],
+  "hints": [{"id": "hint.es.past.yo.de", "revision": 1}],
+  "reveal_policy": "after_submission",
+  "task": {
+    "kind": "short_answer",
+    "language": "es",
+    "target": "orthography",
+    "inputs": ["keyboard"],
+    "accepted": ["estudié"],
+    "normalization": ["unicode_nfc", "trim"],
+    "mistakes": [
+      {"answers": ["estudiaba"], "feedback": {"id": "feedback.es.past.contrast.de", "revision": 1}}
+    ],
+    "explanation": {"id": "explanation.es.past.yo.de", "revision": 1}
+  }
+}

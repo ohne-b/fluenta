@@ -1,0 +1,80 @@
+{
+  "model": "gemma4-e2b",
+  "notice": "Schema validity and latency are measured. Teaching accuracy requires human review.",
+  "results": [
+    {
+      "case": "correct-plural",
+      "error": null,
+      "message": "Ist «Me gustan los idiomas» korrekt? Erkläre kurz die Grammatik.",
+      "reply": {
+        "explanation_native": "Die Konstruktion 'gustar' erfordert, dass das Verb im Plural steht, wenn es sich auf mehrere Dinge bezieht. Da 'los idiomas' (die Sprachen) im Plural ist, muss auch das Verb 'gustar' im Plural sein (gustan).",
+        "reference_ids": [],
+        "reply_es": "La forma correcta es «Me gustan los idiomas»."
+      },
+      "review_criteria": "Keep the correct sentence. los idiomas is the plural grammatical subject; me is an indirect-object pronoun. Explain in German.",
+      "seconds": 8.6001992
+    },
+    {
+      "case": "completed-past",
+      "error": null,
+      "message": "Correct «Ayer voy al museo» and explain the tense. Keep my meaning.",
+      "reply": {
+        "explanation_native": "The original sentence 'Ayer voy al museo' uses the present tense ('voy'), which is incorrect for an action that happened yesterday. To talk about an action that happened in the past, you need to use the simple past tense (Pretérito Perfecto Simple). The correct form of 'ir' (to go) in the preterite for 'yo' is 'fui'.",
+        "reference_ids": [],
+        "reply_es": "Ayer fui al museo."
+      },
+      "review_criteria": "Ayer fui al museo. Explain the completed past event in English; do not change the destination.",
+      "seconds": 7.7279469
+    },
+    {
+      "case": "gender-agreement",
+      "error": null,
+      "message": "Please check: Mi hermana es muy simpático.",
+      "reply": {
+        "explanation_native": "The adjective 'simpático' must agree in gender with the noun it describes. Since 'hermana' is feminine, the adjective needs to end in '-a'.",
+        "reference_ids": [],
+        "reply_es": "Mi hermana es muy simpática."
+      },
+      "review_criteria": "Correct simpático to simpática because hermana is feminine. Avoid unrelated rewrites.",
+      "seconds": 6.1607631
+    },
+    {
+      "case": "correct-age",
+      "error": null,
+      "message": "Is «Tengo dieciséis años» correct?",
+      "reply": {
+        "explanation_native": "The sentence is grammatically correct. 'Tener' is the verb used for expressing age in Spanish. The structure is Subject + Tener + [age].",
+        "reference_ids": [],
+        "reply_es": "Sí, «Tengo dieciséis años» es correcto."
+      },
+      "review_criteria": "Say it is correct. Explain tener for age in English; do not imply an unchanged sentence is a correction.",
+      "seconds": 6.2373691
+    },
+    {
+      "case": "meaning-contrast",
+      "error": null,
+      "message": "Was ist der Unterschied zwischen «es aburrido» und «está aburrido»?",
+      "reply": {
+        "explanation_native": "Der Unterschied liegt in der Verwendung des 'ser' und 'estar'. 'Ser' wird für dauerhafte Eigenschaften verwendet (z.B. 'es aburrido'), während 'estar' für temporäre Zustände oder Gefühle verwendet wird (z.B. 'está aburrido').",
+        "reference_ids": [],
+        "reply_es": "La diferencia es que «es aburrido» es una descripción general, mientras que «está aburrido» indica que alguien o algo está aburrido en este momento."
+      },
+      "review_criteria": "Explain langweilig versus gelangweilt with examples. Do not reduce all ser/estar uses to permanent versus temporary.",
+      "seconds": 8.2996142
+    },
+    {
+      "case": "conversation",
+      "error": null,
+      "message": "Hola, me llamo Elena y me gusta la historia. ¿Y a ti?",
+      "reply": {
+        "explanation_native": "Die Antwort ist eine einfache Gesprächsantwort. Du stellst eine Frage und antwortest darauf. Das Verb 'gustar' wird verwendet, um Präferenzen auszudrücken.",
+        "reference_ids": [],
+        "reply_es": "Hola Elena, me llamo Fluenta y me gusta mucho la historia. ¿Qué tipo de historia te gusta leer?"
+      },
+      "review_criteria": "Reply naturally in simple Spanish, stay on school/history, and ask one short question.",
+      "seconds": 6.9424691
+    }
+  ],
+  "runtime": "llama.cpp b10956 CPU",
+  "sha256": "740185b21d22ceb83a11c3aa62ad5842ef32c70f6096d756bbee85a1e4ec34b8"
+}

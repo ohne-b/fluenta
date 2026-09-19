@@ -1,0 +1,363 @@
+{
+  "assessments": [
+    {
+      "content": {
+        "id": "es.b2.checkpoint",
+        "revision": 1
+      },
+      "title": {
+        "slot": "es.b2.checkpoint.title"
+      },
+      "activities": [
+        {
+          "id": "es.b2.checkpoint.one",
+          "revision": 1
+        },
+        {
+          "id": "es.b2.checkpoint.two",
+          "revision": 1
+        },
+        {
+          "id": "es.b2.checkpoint.listen",
+          "revision": 1
+        },
+        {
+          "id": "es.b2.checkpoint.write",
+          "revision": 1
+        }
+      ],
+      "duration_seconds": 1200,
+      "audio_replays": 2
+    }
+  ],
+  "activities": [
+    {
+      "content": {
+        "id": "es.b2.checkpoint.one",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "Completa el conector: La propuesta exige recursos; por ___, es necesario estudiar su financiación."
+      },
+      "objectives": [
+        {
+          "id": "es.b2.text-analysis.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [],
+      "reveal_policy": "after_session",
+      "usage": "assessment",
+      "evidence_scope": "spanish",
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "orthography",
+        "inputs": [
+          "keyboard"
+        ],
+        "accepted": [
+          "consiguiente"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.b2.checkpoint.one.answer",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "grammar",
+        "vocabulary"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b2.checkpoint.two",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "Completa: La autora pone de ___ la desigualdad entre ambas situaciones."
+      },
+      "objectives": [
+        {
+          "id": "es.b2.text-analysis.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [],
+      "reveal_policy": "after_session",
+      "usage": "assessment",
+      "evidence_scope": "spanish",
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "orthography",
+        "inputs": [
+          "keyboard"
+        ],
+        "accepted": [
+          "relieve"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.b2.checkpoint.two.answer",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "grammar",
+        "vocabulary"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b2.checkpoint.listen",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.b2.checkpoint.question"
+      },
+      "objectives": [
+        {
+          "id": "es.b2.text-analysis.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "es.b2.checkpoint.audio",
+          "revision": 1
+        }
+      ],
+      "hints": [],
+      "reveal_policy": "after_session",
+      "usage": "assessment",
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "c1",
+            "label": {
+              "language": "es",
+              "text": "Aumentaron los préstamos, pero no basta para medir el cambio en el hábito de lectura."
+            }
+          },
+          {
+            "id": "c2",
+            "label": {
+              "language": "es",
+              "text": "Toda la población lee ahora el doble."
+            }
+          },
+          {
+            "id": "c3",
+            "label": {
+              "language": "es",
+              "text": "El proyecto no ha facilitado el acceso a los libros."
+            }
+          }
+        ],
+        "correct_ids": [
+          "c1"
+        ],
+        "explanation": {
+          "id": "es.b2.checkpoint.listen.answer",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "listening"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b2.checkpoint.write",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "Comenta la propuesta de ampliar el horario de la biblioteca escolar. Formula una tesis, considera beneficios y dificultades, y termina con una recomendación matizada."
+      },
+      "objectives": [
+        {
+          "id": "es.b2.text-analysis.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [],
+      "reveal_policy": "after_session",
+      "usage": "assessment",
+      "task": {
+        "kind": "writing",
+        "language": "es",
+        "min_words": 70,
+        "max_words": 240,
+        "rubric": {
+          "id": "es.b2.checkpoint.rubric",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "writing"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "content": {
+        "id": "es.b2.checkpoint.one.answer",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "consiguiente"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b2.checkpoint.two.answer",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "relieve"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b2.checkpoint.audio",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "audio",
+          "speech": {
+            "id": "es.b2.checkpoint.speech",
+            "revision": 1
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b2.checkpoint.listen.answer",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Un proyecto de bibliotecas móviles ha mejorado el acceso a los libros en algunas zonas rurales. Sus responsables destacan el aumento de préstamos, aunque advierten que ese dato no permite conocer por sí solo cuánto ha cambiado el hábito de lectura."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b2.checkpoint.model",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Ampliar el horario de la biblioteca escolar podría ofrecer un lugar tranquilo a quienes no disponen de él en casa. Además, facilitaría el acceso a materiales y recursos digitales. Sin embargo, haría falta organizar la supervisión y comprobar que existe una demanda suficiente. Por eso no propondría una ampliación permanente desde el principio. Sería preferible iniciar una prueba durante el periodo de exámenes, recoger las opiniones del alumnado y evaluar el uso del espacio. A partir de esos resultados, la dirección podría decidir un horario sostenible."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "speech": [
+    {
+      "content": {
+        "id": "es.b2.checkpoint.speech",
+        "revision": 1
+      },
+      "text": "Un proyecto de bibliotecas móviles ha mejorado el acceso a los libros en algunas zonas rurales. Sus responsables destacan el aumento de préstamos, aunque advierten que ese dato no permite conocer por sí solo cuánto ha cambiado el hábito de lectura.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    }
+  ],
+  "rubrics": [
+    {
+      "content": {
+        "id": "es.b2.checkpoint.rubric",
+        "revision": 1
+      },
+      "criteria": [
+        {
+          "id": "task",
+          "label": {
+            "slot": "es.b2.checkpoint.criterion.task"
+          },
+          "guidance": {
+            "slot": "es.b2.checkpoint.guide.task"
+          }
+        },
+        {
+          "id": "structure",
+          "label": {
+            "slot": "es.b2.checkpoint.criterion.structure"
+          },
+          "guidance": {
+            "slot": "es.b2.checkpoint.guide.structure"
+          }
+        },
+        {
+          "id": "language",
+          "label": {
+            "slot": "es.b2.checkpoint.criterion.language"
+          },
+          "guidance": {
+            "slot": "es.b2.checkpoint.guide.language"
+          }
+        }
+      ],
+      "model_answers": [
+        {
+          "id": "es.b2.checkpoint.model",
+          "revision": 1
+        }
+      ]
+    }
+  ]
+}

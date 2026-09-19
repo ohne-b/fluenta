@@ -1,0 +1,245 @@
+{
+  "grammar": [
+    {
+      "content": {
+        "id": "es.a2.past-events.grammar",
+        "revision": 2
+      },
+      "title": {
+        "slot": "es.a2.indefinido.topic-title"
+      },
+      "summary": {
+        "slot": "es.a2.indefinido.summary"
+      },
+      "band": "A2",
+      "category": "verbs",
+      "order": 50,
+      "explanations": [
+        {
+          "id": "es.a2.past-events.guide",
+          "revision": 3
+        }
+      ],
+      "lessons": [
+        {
+          "id": "es.a2.indefinido.recognise",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.indefinido.context",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.past-events.lesson",
+          "revision": 3
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "content": {
+        "id": "es.a2.past-events.guide",
+        "revision": 3
+      },
+      "searchable": true,
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a2.indefinido.rule.p1"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a2.indefinido.rule.p2"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a2.indefinido.rule.p3"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Ayer fuimos al museo. Primero vimos una exposición y después escribimos un informe. Llovía cuando salimos."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "table",
+          "caption": {
+            "slot": "es.a2.indefinido.table-title"
+          },
+          "columns": [
+            {
+              "slot": "es.grammar.person"
+            },
+            {
+              "language": "es",
+              "text": "hablar"
+            },
+            {
+              "language": "es",
+              "text": "comer"
+            },
+            {
+              "language": "es",
+              "text": "vivir"
+            },
+            {
+              "language": "es",
+              "text": "ir / ser"
+            }
+          ],
+          "rows": [
+            [
+              {
+                "language": "es",
+                "text": "yo"
+              },
+              {
+                "language": "es",
+                "text": "hablé"
+              },
+              {
+                "language": "es",
+                "text": "comí"
+              },
+              {
+                "language": "es",
+                "text": "viví"
+              },
+              {
+                "language": "es",
+                "text": "fui"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "tú"
+              },
+              {
+                "language": "es",
+                "text": "hablaste"
+              },
+              {
+                "language": "es",
+                "text": "comiste"
+              },
+              {
+                "language": "es",
+                "text": "viviste"
+              },
+              {
+                "language": "es",
+                "text": "fuiste"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "él / ella / usted"
+              },
+              {
+                "language": "es",
+                "text": "habló"
+              },
+              {
+                "language": "es",
+                "text": "comió"
+              },
+              {
+                "language": "es",
+                "text": "vivió"
+              },
+              {
+                "language": "es",
+                "text": "fue"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "nosotros / nosotras"
+              },
+              {
+                "language": "es",
+                "text": "hablamos"
+              },
+              {
+                "language": "es",
+                "text": "comimos"
+              },
+              {
+                "language": "es",
+                "text": "vivimos"
+              },
+              {
+                "language": "es",
+                "text": "fuimos"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "vosotros / vosotras"
+              },
+              {
+                "language": "es",
+                "text": "hablasteis"
+              },
+              {
+                "language": "es",
+                "text": "comisteis"
+              },
+              {
+                "language": "es",
+                "text": "vivisteis"
+              },
+              {
+                "language": "es",
+                "text": "fuisteis"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "ellos / ellas / ustedes"
+              },
+              {
+                "language": "es",
+                "text": "hablaron"
+              },
+              {
+                "language": "es",
+                "text": "comieron"
+              },
+              {
+                "language": "es",
+                "text": "vivieron"
+              },
+              {
+                "language": "es",
+                "text": "fueron"
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

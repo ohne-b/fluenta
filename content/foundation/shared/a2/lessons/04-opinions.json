@@ -1,0 +1,686 @@
+{
+  "lessons": [
+    {
+      "content": {
+        "id": "es.a2.opinions.lesson",
+        "revision": 3
+      },
+      "title": {
+        "slot": "es.a2.opinions.title"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.opinions.objective",
+          "revision": 3
+        }
+      ],
+      "activities": [
+        {
+          "id": "es.a2.opinions.intro",
+          "revision": 3
+        },
+        {
+          "id": "es.a2.opinions.choice",
+          "revision": 3
+        },
+        {
+          "id": "es.a2.opinions.order",
+          "revision": 3
+        },
+        {
+          "id": "es.a2.opinions.recall",
+          "revision": 3
+        },
+        {
+          "id": "es.a2.opinions.listen",
+          "revision": 3
+        },
+        {
+          "id": "es.a2.opinions.produce",
+          "revision": 3
+        }
+      ],
+      "estimated_minutes": 10
+    }
+  ],
+  "objectives": [
+    {
+      "content": {
+        "id": "es.a2.opinions.objective",
+        "revision": 3
+      },
+      "band": "A2",
+      "can_do": {
+        "slot": "es.a2.opinions.can_do"
+      },
+      "prerequisites": [
+        {
+          "id": "es.a2.plans.objective",
+          "revision": 3
+        }
+      ],
+      "explanation_refs": [
+        {
+          "id": "es.a2.opinions.guide",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "content": {
+        "id": "es.a2.opinions.intro",
+        "revision": 3
+      },
+      "instruction": {
+        "slot": "es.a2.opinions.title"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.opinions.objective",
+          "revision": 3
+        }
+      ],
+      "materials": [],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "explanation",
+        "material": {
+          "id": "es.a2.opinions.guide",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "grammar"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.opinions.choice",
+        "revision": 3
+      },
+      "instruction": {
+        "slot": "es.a2.opinions.choice"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.opinions.objective",
+          "revision": 3
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.opinions.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "c1",
+            "label": {
+              "language": "es",
+              "text": "Me gustan los idiomas."
+            }
+          },
+          {
+            "id": "c2",
+            "label": {
+              "language": "es",
+              "text": "Me gusta los idiomas."
+            }
+          },
+          {
+            "id": "c3",
+            "label": {
+              "language": "es",
+              "text": "Yo gusto los idiomas."
+            }
+          }
+        ],
+        "correct_ids": [
+          "c1"
+        ],
+        "explanation": {
+          "id": "es.a2.opinions.guide",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "reading"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.opinions.order",
+        "revision": 3
+      },
+      "instruction": {
+        "slot": "es.a2.opinions.order"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.opinions.objective",
+          "revision": 3
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.opinions.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "order",
+        "items": [
+          {
+            "id": "w1",
+            "label": {
+              "language": "es",
+              "text": "La"
+            }
+          },
+          {
+            "id": "w2",
+            "label": {
+              "language": "es",
+              "text": "lectura"
+            }
+          },
+          {
+            "id": "w3",
+            "label": {
+              "language": "es",
+              "text": "es"
+            }
+          },
+          {
+            "id": "w4",
+            "label": {
+              "language": "es",
+              "text": "tan"
+            }
+          },
+          {
+            "id": "w5",
+            "label": {
+              "language": "es",
+              "text": "importante"
+            }
+          },
+          {
+            "id": "w6",
+            "label": {
+              "language": "es",
+              "text": "como"
+            }
+          },
+          {
+            "id": "w7",
+            "label": {
+              "language": "es",
+              "text": "la"
+            }
+          },
+          {
+            "id": "w8",
+            "label": {
+              "language": "es",
+              "text": "gramática."
+            }
+          }
+        ],
+        "accepted_orders": [
+          [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ]
+        ],
+        "explanation": {
+          "id": "es.a2.opinions.guide",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "grammar"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.opinions.recall",
+        "revision": 3
+      },
+      "instruction": {
+        "slot": "es.a2.opinions.recall"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.opinions.objective",
+          "revision": 3
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.opinions.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "sentence_content",
+        "inputs": [
+          "keyboard",
+          "microphone"
+        ],
+        "accepted": [
+          "Me gustan los idiomas",
+          "A mí me gustan los idiomas",
+          "Me gustan las lenguas",
+          "A mí me gustan las lenguas"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.a2.opinions.recall-answer",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "grammar",
+        "vocabulary"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.opinions.listen",
+        "revision": 3
+      },
+      "instruction": {
+        "slot": "es.a2.opinions.listen"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.opinions.objective",
+          "revision": 3
+        }
+      ],
+      "materials": [
+        {
+          "id": "es.a2.opinions.listening",
+          "revision": 1
+        }
+      ],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "l1",
+            "label": {
+              "language": "es",
+              "text": "Porque se pueden compartir ideas."
+            }
+          },
+          {
+            "id": "l2",
+            "label": {
+              "language": "es",
+              "text": "Porque siempre es más rápido."
+            }
+          },
+          {
+            "id": "l3",
+            "label": {
+              "language": "es",
+              "text": "Porque no hay que estudiar."
+            }
+          }
+        ],
+        "correct_ids": [
+          "l1"
+        ],
+        "explanation": {
+          "id": "es.a2.opinions.listen-answer",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "listening"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.opinions.produce",
+        "revision": 3
+      },
+      "instruction": {
+        "language": "es",
+        "text": "Compara estudiar solo y estudiar en grupo. Da tu opinión y justifícala con dos razones."
+      },
+      "objectives": [
+        {
+          "id": "es.a2.opinions.objective",
+          "revision": 3
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.opinions.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "speaking",
+        "language": "es",
+        "max_seconds": 90,
+        "rubric": {
+          "id": "es.a2.opinions.rubric",
+          "revision": 1
+        },
+        "keyboard_alternative": {
+          "id": "es.a2.opinions.keyboard",
+          "revision": 3
+        }
+      },
+      "skills": [
+        "speaking"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.opinions.keyboard",
+        "revision": 3
+      },
+      "instruction": {
+        "language": "es",
+        "text": "Compara estudiar solo y estudiar en grupo. Da tu opinión y justifícala con dos razones."
+      },
+      "objectives": [
+        {
+          "id": "es.a2.opinions.objective",
+          "revision": 3
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.opinions.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "writing",
+        "language": "es",
+        "min_words": 25,
+        "max_words": 110,
+        "rubric": {
+          "id": "es.a2.opinions.rubric",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "writing"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "content": {
+        "id": "es.a2.opinions.listening",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "audio",
+          "speech": {
+            "id": "es.a2.opinions.listening-audio",
+            "revision": 1
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.opinions.listen-answer",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a2.opinions.listen-feedback"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Me gusta trabajar en grupo porque podemos compartir ideas. Sin embargo, para aprender vocabulario prefiero estudiar solo. Así me concentro mejor."
+            }
+          ],
+          "speech": null
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.opinions.recall-answer",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "slot": "es.a2.opinions.answer-title"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Me gustan los idiomas"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a2.opinions.guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.opinions.model",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "slot": "es.a2.opinions.model-title"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Me gusta estudiar solo cuando tengo que aprender vocabulario, porque me concentro mejor. Sin embargo, prefiero trabajar en grupo para preparar una presentación. Podemos compartir ideas y explicar las cosas que no entendemos. Las dos formas son útiles."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.opinions.vocab",
+        "revision": 1
+      },
+      "searchable": true,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "language": "es",
+              "text": "compartir"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a2.opinions.gloss"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Me gustan los idiomas porque me permiten conocer otras culturas. La lectura es tan importante como la gramática."
+            }
+          ],
+          "speech": {
+            "id": "es.a2.opinions.example-audio",
+            "revision": 1
+          }
+        }
+      ]
+    }
+  ],
+  "speech": [
+    {
+      "content": {
+        "id": "es.a2.opinions.example-audio",
+        "revision": 1
+      },
+      "text": "Me gustan los idiomas porque me permiten conocer otras culturas. La lectura es tan importante como la gramática.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "es.a2.opinions.listening-audio",
+        "revision": 1
+      },
+      "text": "Me gusta trabajar en grupo porque podemos compartir ideas. Sin embargo, para aprender vocabulario prefiero estudiar solo. Así me concentro mejor.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "content": {
+        "id": "es.a2.opinions.lexeme",
+        "revision": 1
+      },
+      "lemma": "compartir",
+      "part_of_speech": "expression",
+      "gloss": {
+        "slot": "es.a2.opinions.gloss"
+      },
+      "accepted_forms": [
+        "compartir"
+      ],
+      "examples": [
+        {
+          "id": "es.a2.opinions.vocab",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "rubrics": [
+    {
+      "content": {
+        "id": "es.a2.opinions.rubric",
+        "revision": 1
+      },
+      "criteria": [
+        {
+          "id": "task",
+          "label": {
+            "slot": "es.a2.opinions.rubric.task.label"
+          },
+          "guidance": {
+            "slot": "es.a2.opinions.rubric.task.guidance"
+          }
+        },
+        {
+          "id": "structure",
+          "label": {
+            "slot": "es.a2.opinions.rubric.structure.label"
+          },
+          "guidance": {
+            "slot": "es.a2.opinions.rubric.structure.guidance"
+          }
+        },
+        {
+          "id": "language",
+          "label": {
+            "slot": "es.a2.opinions.rubric.language.label"
+          },
+          "guidance": {
+            "slot": "es.a2.opinions.rubric.language.guidance"
+          }
+        }
+      ],
+      "model_answers": [
+        {
+          "id": "es.a2.opinions.model",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "assessments": []
+}

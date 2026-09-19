@@ -1,0 +1,691 @@
+{
+  "lessons": [
+    {
+      "content": {
+        "id": "es.b2.argumentation.lesson",
+        "revision": 2
+      },
+      "title": {
+        "slot": "es.b2.argumentation.title"
+      },
+      "objectives": [
+        {
+          "id": "es.b2.argumentation.objective",
+          "revision": 1
+        }
+      ],
+      "activities": [
+        {
+          "id": "es.b2.argumentation.intro",
+          "revision": 2
+        },
+        {
+          "id": "es.b2.argumentation.choice",
+          "revision": 1
+        },
+        {
+          "id": "es.b2.argumentation.order",
+          "revision": 1
+        },
+        {
+          "id": "es.b2.argumentation.recall",
+          "revision": 1
+        },
+        {
+          "id": "es.b2.argumentation.listen",
+          "revision": 1
+        },
+        {
+          "id": "es.b2.argumentation.produce",
+          "revision": 1
+        }
+      ],
+      "estimated_minutes": 12
+    }
+  ],
+  "objectives": [
+    {
+      "content": {
+        "id": "es.b2.argumentation.objective",
+        "revision": 1
+      },
+      "band": "B2",
+      "can_do": {
+        "slot": "es.b2.argumentation.can_do"
+      },
+      "prerequisites": [
+        {
+          "id": "es.b2.text-analysis.objective",
+          "revision": 1
+        }
+      ],
+      "explanation_refs": [
+        {
+          "id": "es.b2.argumentation.guide",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "content": {
+        "id": "es.b2.argumentation.intro",
+        "revision": 2
+      },
+      "instruction": {
+        "slot": "es.b2.argumentation.title"
+      },
+      "objectives": [
+        {
+          "id": "es.b2.argumentation.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "explanation",
+        "material": {
+          "id": "es.b2.argumentation.guide",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "grammar"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b2.argumentation.choice",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.b2.argumentation.choice"
+      },
+      "objectives": [
+        {
+          "id": "es.b2.argumentation.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.b2.argumentation.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "c1",
+            "label": {
+              "language": "es",
+              "text": "La medida podría beneficiar a parte del alumnado."
+            }
+          },
+          {
+            "id": "c2",
+            "label": {
+              "language": "es",
+              "text": "La medida resolverá todos los problemas para siempre."
+            }
+          },
+          {
+            "id": "c3",
+            "label": {
+              "language": "es",
+              "text": "Nadie puede tener una opinión diferente."
+            }
+          }
+        ],
+        "correct_ids": [
+          "c1"
+        ],
+        "explanation": {
+          "id": "es.b2.argumentation.guide",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "reading"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b2.argumentation.order",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.b2.argumentation.order"
+      },
+      "objectives": [
+        {
+          "id": "es.b2.argumentation.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.b2.argumentation.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "order",
+        "items": [
+          {
+            "id": "w1",
+            "label": {
+              "language": "es",
+              "text": "Aunque"
+            }
+          },
+          {
+            "id": "w2",
+            "label": {
+              "language": "es",
+              "text": "la"
+            }
+          },
+          {
+            "id": "w3",
+            "label": {
+              "language": "es",
+              "text": "propuesta"
+            }
+          },
+          {
+            "id": "w4",
+            "label": {
+              "language": "es",
+              "text": "tiene"
+            }
+          },
+          {
+            "id": "w5",
+            "label": {
+              "language": "es",
+              "text": "ventajas"
+            }
+          },
+          {
+            "id": "w6",
+            "label": {
+              "language": "es",
+              "text": "conviene"
+            }
+          },
+          {
+            "id": "w7",
+            "label": {
+              "language": "es",
+              "text": "considerar"
+            }
+          },
+          {
+            "id": "w8",
+            "label": {
+              "language": "es",
+              "text": "sus"
+            }
+          },
+          {
+            "id": "w9",
+            "label": {
+              "language": "es",
+              "text": "límites."
+            }
+          }
+        ],
+        "accepted_orders": [
+          [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ]
+        ],
+        "explanation": {
+          "id": "es.b2.argumentation.guide",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "grammar"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b2.argumentation.recall",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.b2.argumentation.recall"
+      },
+      "objectives": [
+        {
+          "id": "es.b2.argumentation.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.b2.argumentation.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "sentence_content",
+        "inputs": [
+          "keyboard",
+          "microphone"
+        ],
+        "accepted": [
+          "consiguiente"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.b2.argumentation.recall-answer",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "grammar",
+        "vocabulary"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b2.argumentation.listen",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.b2.argumentation.listen"
+      },
+      "objectives": [
+        {
+          "id": "es.b2.argumentation.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "es.b2.argumentation.listening",
+          "revision": 1
+        }
+      ],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "l1",
+            "label": {
+              "language": "es",
+              "text": "La falta de conexiones rurales."
+            }
+          },
+          {
+            "id": "l2",
+            "label": {
+              "language": "es",
+              "text": "La imposibilidad de reducir gastos."
+            }
+          },
+          {
+            "id": "l3",
+            "label": {
+              "language": "es",
+              "text": "La ausencia de estudiantes en las ciudades."
+            }
+          }
+        ],
+        "correct_ids": [
+          "l1"
+        ],
+        "explanation": {
+          "id": "es.b2.argumentation.listen-answer",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "listening"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b2.argumentation.produce",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "¿Debería ser gratuito el transporte público para todo el alumnado? Redacta un comentario con una tesis, argumentos, una objeción y una conclusión matizada."
+      },
+      "objectives": [
+        {
+          "id": "es.b2.argumentation.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.b2.argumentation.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "speaking",
+        "language": "es",
+        "max_seconds": 90,
+        "rubric": {
+          "id": "es.b2.argumentation.rubric",
+          "revision": 1
+        },
+        "keyboard_alternative": {
+          "id": "es.b2.argumentation.keyboard",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "speaking"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b2.argumentation.keyboard",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "¿Debería ser gratuito el transporte público para todo el alumnado? Redacta un comentario con una tesis, argumentos, una objeción y una conclusión matizada."
+      },
+      "objectives": [
+        {
+          "id": "es.b2.argumentation.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.b2.argumentation.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "writing",
+        "language": "es",
+        "min_words": 70,
+        "max_words": 240,
+        "rubric": {
+          "id": "es.b2.argumentation.rubric",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "writing"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "content": {
+        "id": "es.b2.argumentation.listening",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "audio",
+          "speech": {
+            "id": "es.b2.argumentation.listening-audio",
+            "revision": 1
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b2.argumentation.listen-answer",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.b2.argumentation.listen-feedback"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Ofrecer transporte público gratuito al alumnado puede reducir gastos familiares. Sin embargo, la gratuidad por sí sola no resuelve la falta de conexiones en zonas rurales. También sería necesario ampliar las rutas."
+            }
+          ],
+          "speech": null
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b2.argumentation.recall-answer",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "slot": "es.b2.argumentation.answer-title"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "consiguiente"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.b2.argumentation.guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b2.argumentation.model",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "slot": "es.b2.argumentation.model-title"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "El transporte gratuito para el alumnado podría facilitar el acceso a la educación y aliviar los gastos de muchas familias. También podría animar a algunas personas a dejar el coche en casa. Sin embargo, la medida tendría un coste público y no solucionaría por sí sola la falta de conexiones rurales. Por consiguiente, debería acompañarse de una mejora de las rutas y de una evaluación de sus resultados. Apoyo la propuesta siempre que se tenga en cuenta tanto la financiación como la calidad del servicio."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b2.argumentation.vocab",
+        "revision": 1
+      },
+      "searchable": true,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "language": "es",
+              "text": "si bien"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.b2.argumentation.gloss"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Aunque la medida cuesta dinero, puede mejorar el acceso a la educación. Conviene, por tanto, evaluar sus beneficios."
+            }
+          ],
+          "speech": {
+            "id": "es.b2.argumentation.example-audio",
+            "revision": 1
+          }
+        }
+      ]
+    }
+  ],
+  "speech": [
+    {
+      "content": {
+        "id": "es.b2.argumentation.example-audio",
+        "revision": 1
+      },
+      "text": "Aunque la medida cuesta dinero, puede mejorar el acceso a la educación. Conviene, por tanto, evaluar sus beneficios.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "es.b2.argumentation.listening-audio",
+        "revision": 1
+      },
+      "text": "Ofrecer transporte público gratuito al alumnado puede reducir gastos familiares. Sin embargo, la gratuidad por sí sola no resuelve la falta de conexiones en zonas rurales. También sería necesario ampliar las rutas.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "content": {
+        "id": "es.b2.argumentation.lexeme",
+        "revision": 1
+      },
+      "lemma": "si bien",
+      "part_of_speech": "expression",
+      "gloss": {
+        "slot": "es.b2.argumentation.gloss"
+      },
+      "accepted_forms": [
+        "si bien"
+      ],
+      "examples": [
+        {
+          "id": "es.b2.argumentation.vocab",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "rubrics": [
+    {
+      "content": {
+        "id": "es.b2.argumentation.rubric",
+        "revision": 1
+      },
+      "criteria": [
+        {
+          "id": "task",
+          "label": {
+            "slot": "es.b2.argumentation.rubric.task.label"
+          },
+          "guidance": {
+            "slot": "es.b2.argumentation.rubric.task.guidance"
+          }
+        },
+        {
+          "id": "structure",
+          "label": {
+            "slot": "es.b2.argumentation.rubric.structure.label"
+          },
+          "guidance": {
+            "slot": "es.b2.argumentation.rubric.structure.guidance"
+          }
+        },
+        {
+          "id": "language",
+          "label": {
+            "slot": "es.b2.argumentation.rubric.language.label"
+          },
+          "guidance": {
+            "slot": "es.b2.argumentation.rubric.language.guidance"
+          }
+        }
+      ],
+      "model_answers": [
+        {
+          "id": "es.b2.argumentation.model",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "assessments": []
+}

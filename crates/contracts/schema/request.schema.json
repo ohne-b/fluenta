@@ -1,0 +1,1725 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Request",
+  "type": "object",
+  "properties": {
+    "command": {
+      "$ref": "#/$defs/Command"
+    },
+    "protocol_version": {
+      "type": "integer",
+      "format": "uint32",
+      "minimum": 1
+    },
+    "request_id": {
+      "$ref": "#/$defs/Id"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "protocol_version",
+    "request_id",
+    "command"
+  ],
+  "$defs": {
+    "Answer": {
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "type": "string",
+              "const": "acknowledged"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "type": "string",
+              "const": "choice"
+            },
+            "selected_ids": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/Id"
+              }
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "selected_ids"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "type": "string",
+              "const": "order"
+            },
+            "ordered_ids": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/Id"
+              }
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "ordered_ids"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "type": "string",
+              "const": "typed"
+            },
+            "text": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "text"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "confirmed_text": {
+              "type": "string"
+            },
+            "kind": {
+              "type": "string",
+              "const": "voice"
+            },
+            "recognition_id": {
+              "$ref": "#/$defs/Id"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "recognition_id",
+            "confirmed_text"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "type": "string",
+              "const": "writing"
+            },
+            "text": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "text"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "type": "string",
+              "const": "recording"
+            },
+            "recording_id": {
+              "$ref": "#/$defs/Id"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "recording_id"
+          ]
+        }
+      ]
+    },
+    "Band": {
+      "type": "string",
+      "enum": [
+        "A1",
+        "A2",
+        "B1",
+        "B2"
+      ]
+    },
+    "Command": {
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "command": {
+              "type": "string",
+              "const": "open_source"
+            },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "url": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "url"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "command",
+            "payload"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "command": {
+              "type": "string",
+              "const": "connected"
+            },
+            "payload": {
+              "$ref": "#/$defs/ConnectedCommand"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "command",
+            "payload"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "command": {
+              "type": "string",
+              "const": "get_home"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "command"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "command": {
+              "type": "string",
+              "const": "get_overview"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "command"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "command": {
+              "type": "string",
+              "const": "get_settings"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "command"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "command": {
+              "type": "string",
+              "const": "update_settings"
+            },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "settings": {
+                  "$ref": "#/$defs/Settings"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "settings"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "command",
+            "payload"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "command": {
+              "type": "string",
+              "const": "get_session_review"
+            },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "session_id": {
+                  "$ref": "#/$defs/Id"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "session_id"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "command",
+            "payload"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "command": {
+              "type": "string",
+              "const": "abandon_session"
+            },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "session_id": {
+                  "$ref": "#/$defs/Id"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "session_id"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "command",
+            "payload"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "command": {
+              "type": "string",
+              "const": "list_tutor_threads"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "command"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "command": {
+              "type": "string",
+              "const": "get_tutor_thread"
+            },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "thread_id": {
+                  "$ref": "#/$defs/Id"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "thread_id"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "command",
+            "payload"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "command": {
+              "type": "string",
+              "const": "delete_tutor_thread"
+            },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "thread_id": {
+                  "$ref": "#/$defs/Id"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "thread_id"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "command",
+            "payload"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "command": {
+              "type": "string",
+              "const": "get_downloads"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "command"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "command": {
+              "type": "string",
+              "const": "remove_tutor"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "command"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "command": {
+              "type": "string",
+              "const": "stop_playback"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "command"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "command": {
+              "type": "string",
+              "const": "keyboard_alternative"
+            },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "context": {
+                  "$ref": "#/$defs/MutationContext"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "context"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "command",
+            "payload"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "command": {
+              "type": "string",
+              "const": "play_recording"
+            },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "recording_id": {
+                  "$ref": "#/$defs/Id"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "recording_id"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "command",
+            "payload"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "command": {
+              "type": "string",
+              "const": "speak_tutor"
+            },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "slow": {
+                  "type": "boolean"
+                },
+                "thread_id": {
+                  "$ref": "#/$defs/Id"
+                },
+                "turn_index": {
+                  "type": "integer",
+                  "format": "uint32",
+                  "minimum": 0
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "thread_id",
+                "turn_index",
+                "slow"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "command",
+            "payload"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "command": {
+              "type": "string",
+              "const": "start_tutor_recording"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "command"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "command": {
+              "type": "string",
+              "const": "restore_backup"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "command"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "command": {
+              "type": "string",
+              "const": "import_courses"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "command"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "command": {
+              "type": "string",
+              "const": "list_bookmarks"
+            },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "source_language": {
+                  "$ref": "#/$defs/SourceLanguage"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "source_language"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "command",
+            "payload"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "command": {
+              "type": "string",
+              "const": "list_grammar"
+            },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "source_language": {
+                  "$ref": "#/$defs/SourceLanguage"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "source_language"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "command",
+            "payload"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "command": {
+              "type": "string",
+              "const": "get_grammar_help"
+            },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "context": {
+                  "$ref": "#/$defs/MutationContext"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "context"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "command",
+            "payload"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "command": {
+              "type": "string",
+              "const": "toggle_bookmark"
+            },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "content": {
+                  "$ref": "#/$defs/ContentRef"
+                },
+                "source_language": {
+                  "$ref": "#/$defs/SourceLanguage"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "content",
+                "source_language"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "command",
+            "payload"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "command": {
+              "type": "string",
+              "const": "select_source_language"
+            },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "source_language": {
+                  "$ref": "#/$defs/SourceLanguage"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "source_language"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "command",
+            "payload"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "command": {
+              "type": "string",
+              "const": "list_units"
+            },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "band": {
+                  "$ref": "#/$defs/Band"
+                },
+                "cursor": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "source_language": {
+                  "$ref": "#/$defs/SourceLanguage"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "source_language",
+                "band"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "command",
+            "payload"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "command": {
+              "type": "string",
+              "const": "search_content"
+            },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "cursor": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "query": {
+                  "type": "string"
+                },
+                "source_language": {
+                  "$ref": "#/$defs/SourceLanguage"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "query",
+                "source_language"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "command",
+            "payload"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "command": {
+              "type": "string",
+              "const": "get_lesson"
+            },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "content": {
+                  "$ref": "#/$defs/ContentRef"
+                },
+                "source_language": {
+                  "$ref": "#/$defs/SourceLanguage"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "content",
+                "source_language"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "command",
+            "payload"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "command": {
+              "type": "string",
+              "const": "get_reference"
+            },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "content": {
+                  "$ref": "#/$defs/ContentRef"
+                },
+                "source_language": {
+                  "$ref": "#/$defs/SourceLanguage"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "content",
+                "source_language"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "command",
+            "payload"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "command": {
+              "type": "string",
+              "const": "start_session"
+            },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "mode": {
+                  "$ref": "#/$defs/SessionMode"
+                },
+                "skill": {
+                  "anyOf": [
+                    {
+                      "$ref": "#/$defs/Skill"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "source_language": {
+                  "$ref": "#/$defs/SourceLanguage"
+                },
+                "target": {
+                  "$ref": "#/$defs/ContentRef"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "source_language",
+                "mode",
+                "target"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "command",
+            "payload"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "command": {
+              "type": "string",
+              "const": "resume_session"
+            },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "session_id": {
+                  "$ref": "#/$defs/Id"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "session_id"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "command",
+            "payload"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "command": {
+              "type": "string",
+              "const": "save_draft"
+            },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "answer": {
+                  "$ref": "#/$defs/Answer"
+                },
+                "context": {
+                  "$ref": "#/$defs/MutationContext"
+                },
+                "sequence": {
+                  "type": "integer",
+                  "format": "uint32",
+                  "minimum": 0
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "context",
+                "sequence",
+                "answer"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "command",
+            "payload"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "command": {
+              "type": "string",
+              "const": "submit_answer"
+            },
+            "payload": {
+              "$ref": "#/$defs/SubmitAnswer"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "command",
+            "payload"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "command": {
+              "type": "string",
+              "const": "advance_session"
+            },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "context": {
+                  "$ref": "#/$defs/MutationContext"
+                },
+                "mutation_id": {
+                  "$ref": "#/$defs/Id"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "context",
+                "mutation_id"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "command",
+            "payload"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "command": {
+              "type": "string",
+              "const": "reveal_hint"
+            },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "context": {
+                  "$ref": "#/$defs/MutationContext"
+                },
+                "mutation_id": {
+                  "$ref": "#/$defs/Id"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "context",
+                "mutation_id"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "command",
+            "payload"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "command": {
+              "type": "string",
+              "const": "start_recording"
+            },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "context": {
+                  "$ref": "#/$defs/MutationContext"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "context"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "command",
+            "payload"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "command": {
+              "type": "string",
+              "const": "stop_recording"
+            },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "operation_id": {
+                  "$ref": "#/$defs/Id"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "operation_id"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "command",
+            "payload"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "command": {
+              "type": "string",
+              "const": "synthesize"
+            },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "context": {
+                  "anyOf": [
+                    {
+                      "$ref": "#/$defs/MutationContext"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "segment": {
+                  "$ref": "#/$defs/ContentRef"
+                },
+                "slow": {
+                  "type": "boolean"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "segment",
+                "slow"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "command",
+            "payload"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "command": {
+              "type": "string",
+              "const": "start_tutor_turn"
+            },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "message": {
+                  "type": "string"
+                },
+                "mode": {
+                  "$ref": "#/$defs/TutorMode"
+                },
+                "session_id": {
+                  "anyOf": [
+                    {
+                      "$ref": "#/$defs/Id"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "thread_id": {
+                  "anyOf": [
+                    {
+                      "$ref": "#/$defs/Id"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "mode",
+                "message"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "command",
+            "payload"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "command": {
+              "type": "string",
+              "const": "install_pack"
+            },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "release_id": {
+                  "$ref": "#/$defs/Id"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "release_id"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "command",
+            "payload"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "command": {
+              "type": "string",
+              "const": "cancel_operation"
+            },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "operation_id": {
+                  "$ref": "#/$defs/Id"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "operation_id"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "command",
+            "payload"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "command": {
+              "type": "string",
+              "const": "read_operation"
+            },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "after_sequence": {
+                  "type": "integer",
+                  "format": "uint32",
+                  "minimum": 0
+                },
+                "operation_id": {
+                  "$ref": "#/$defs/Id"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "operation_id",
+                "after_sequence"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "command",
+            "payload"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "command": {
+              "type": "string",
+              "const": "create_backup"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "command"
+          ]
+        }
+      ]
+    },
+    "ConnectedCommand": {
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "action": {
+              "type": "string",
+              "const": "today"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "action"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "action": {
+              "type": "string",
+              "const": "interests"
+            },
+            "topics": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/Id"
+              }
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "action",
+            "topics"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "action": {
+              "type": "string",
+              "const": "words"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "action"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "action": {
+              "type": "string",
+              "const": "lookup"
+            },
+            "context": {
+              "anyOf": [
+                {
+                  "$ref": "#/$defs/MutationContext"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "occurrence": {
+              "$ref": "#/$defs/ContentRef"
+            },
+            "opened": {
+              "type": "boolean"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "action",
+            "occurrence",
+            "opened"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "action": {
+              "type": "string",
+              "const": "learn_word"
+            },
+            "context": {
+              "anyOf": [
+                {
+                  "$ref": "#/$defs/MutationContext"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "occurrence": {
+              "$ref": "#/$defs/ContentRef"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "action",
+            "occurrence"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "action": {
+              "type": "string",
+              "const": "update_word"
+            },
+            "notes": {
+              "type": "string"
+            },
+            "sense": {
+              "$ref": "#/$defs/ContentRef"
+            },
+            "status": {
+              "$ref": "#/$defs/WordStatus"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "action",
+            "sense",
+            "status",
+            "notes"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "action": {
+              "type": "string",
+              "const": "start_mission"
+            },
+            "mission": {
+              "$ref": "#/$defs/ContentRef"
+            },
+            "support": {
+              "$ref": "#/$defs/SupportLevel"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "action",
+            "mission",
+            "support"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "action": {
+              "type": "string",
+              "const": "review_words"
+            },
+            "production": {
+              "type": "boolean"
+            },
+            "sense": {
+              "anyOf": [
+                {
+                  "$ref": "#/$defs/ContentRef"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "action",
+            "production"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "action": {
+              "type": "string",
+              "const": "recap"
+            },
+            "session_id": {
+              "$ref": "#/$defs/Id"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "action",
+            "session_id"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "action": {
+              "type": "string",
+              "const": "productions"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "action"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "action": {
+              "type": "string",
+              "const": "revise"
+            },
+            "answer": {
+              "$ref": "#/$defs/Answer"
+            },
+            "criteria": {
+              "type": "object",
+              "additionalProperties": {
+                "$ref": "#/$defs/SelfReview"
+              }
+            },
+            "step_id": {
+              "$ref": "#/$defs/Id"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "action",
+            "step_id",
+            "answer",
+            "criteria"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "action": {
+              "type": "string",
+              "const": "notebook"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "action"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "action": {
+              "type": "string",
+              "const": "save_argument"
+            },
+            "counterargument": {
+              "type": "string"
+            },
+            "id": {
+              "anyOf": [
+                {
+                  "$ref": "#/$defs/Id"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "source": {
+              "$ref": "#/$defs/ContentRef"
+            },
+            "text": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "action",
+            "source",
+            "text",
+            "counterargument"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "action": {
+              "type": "string",
+              "const": "delete_argument"
+            },
+            "id": {
+              "$ref": "#/$defs/Id"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "action",
+            "id"
+          ]
+        }
+      ]
+    },
+    "ContentRef": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/Id"
+        },
+        "revision": {
+          "type": "integer",
+          "format": "uint32",
+          "minimum": 1
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "revision"
+      ]
+    },
+    "Id": {
+      "type": "string",
+      "maxLength": 160,
+      "minLength": 1,
+      "not": {
+        "pattern": "[^A-Za-z0-9._:-]"
+      }
+    },
+    "MutationContext": {
+      "type": "object",
+      "properties": {
+        "expected_step_version": {
+          "type": "integer",
+          "format": "uint32",
+          "minimum": 1
+        },
+        "session_id": {
+          "$ref": "#/$defs/Id"
+        },
+        "step_id": {
+          "$ref": "#/$defs/Id"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "session_id",
+        "step_id",
+        "expected_step_version"
+      ]
+    },
+    "SelfReview": {
+      "type": "string",
+      "enum": [
+        "met",
+        "developing",
+        "not_assessed"
+      ]
+    },
+    "SessionMode": {
+      "type": "string",
+      "enum": [
+        "lesson",
+        "review",
+        "focused_practice",
+        "test"
+      ]
+    },
+    "Settings": {
+      "type": "object",
+      "properties": {
+        "audio_enabled": {
+          "type": "boolean"
+        },
+        "daily_minutes": {
+          "type": "integer",
+          "format": "uint32",
+          "minimum": 0
+        },
+        "onboarding_complete": {
+          "type": "boolean"
+        },
+        "source_language": {
+          "$ref": "#/$defs/SourceLanguage"
+        },
+        "starting_band": {
+          "$ref": "#/$defs/Band"
+        },
+        "theme": {
+          "$ref": "#/$defs/Theme"
+        },
+        "ui_language": {
+          "$ref": "#/$defs/SourceLanguage"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "source_language",
+        "ui_language",
+        "starting_band",
+        "theme",
+        "daily_minutes",
+        "audio_enabled",
+        "onboarding_complete"
+      ]
+    },
+    "Skill": {
+      "type": "string",
+      "enum": [
+        "grammar",
+        "vocabulary",
+        "reading",
+        "listening",
+        "writing",
+        "speaking"
+      ]
+    },
+    "SourceLanguage": {
+      "type": "string",
+      "enum": [
+        "de",
+        "en"
+      ]
+    },
+    "SubmitAnswer": {
+      "type": "object",
+      "properties": {
+        "answer": {
+          "$ref": "#/$defs/Answer"
+        },
+        "context": {
+          "$ref": "#/$defs/MutationContext"
+        },
+        "submission_id": {
+          "$ref": "#/$defs/Id"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "context",
+        "submission_id",
+        "answer"
+      ]
+    },
+    "SupportLevel": {
+      "type": "string",
+      "enum": [
+        "learn",
+        "independent",
+        "rehearsal"
+      ]
+    },
+    "Theme": {
+      "type": "string",
+      "enum": [
+        "system",
+        "light",
+        "dark"
+      ]
+    },
+    "TutorMode": {
+      "type": "string",
+      "enum": [
+        "conversation",
+        "explain",
+        "writing_feedback"
+      ]
+    },
+    "WordStatus": {
+      "type": "string",
+      "enum": [
+        "recent",
+        "active",
+        "paused",
+        "archived"
+      ]
+    }
+  }
+}

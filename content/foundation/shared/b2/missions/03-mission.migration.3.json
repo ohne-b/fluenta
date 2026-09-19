@@ -1,0 +1,888 @@
+{
+  "missions": [
+    {
+      "content": {
+        "id": "mission.migration.3",
+        "revision": 1
+      },
+      "title": {
+        "language": "es",
+        "text": "Entre dos lugares"
+      },
+      "question": {
+        "language": "es",
+        "text": "¿Se puede pertenecer a más de un lugar?"
+      },
+      "outcome": {
+        "de": "Vergleiche Zugehörigkeit aus zwei Perspektiven und vermittle eine Nachricht.",
+        "en": "Compare two perspectives on belonging and mediate a message."
+      },
+      "description": {
+        "de": "Verbinde Textverständnis, nützliche Wendungen und eine eigene Antwort.",
+        "en": "Connect understanding, useful expressions and your own response."
+      },
+      "band": "B1",
+      "lesson": {
+        "id": "mission.migration.3.lesson",
+        "revision": 1
+      },
+      "challenge": {
+        "id": "mission.migration.3.assessment",
+        "revision": 1
+      },
+      "vocabulary": [
+        {
+          "id": "lex.pertenecer",
+          "revision": 1
+        },
+        {
+          "id": "lex.identidad",
+          "revision": 1
+        },
+        {
+          "id": "lex.lengua",
+          "revision": 1
+        },
+        {
+          "id": "lex.acento",
+          "revision": 1
+        },
+        {
+          "id": "lex.vinculo",
+          "revision": 1
+        },
+        {
+          "id": "lex.encajar",
+          "revision": 1
+        },
+        {
+          "id": "lex.compartir",
+          "revision": 1
+        },
+        {
+          "id": "lex.rechazo",
+          "revision": 1
+        },
+        {
+          "id": "lex.reconocer",
+          "revision": 1
+        },
+        {
+          "id": "lex.cuenta",
+          "revision": 1
+        }
+      ],
+      "sources": [
+        {
+          "title": "LehrplanPLUS · Spanisch 12/13, erhöhtes Anforderungsniveau",
+          "url": "https://www.lehrplanplus.bayern.de/fachlehrplan/gymnasium/12/spanisch/erhoeht",
+          "accessed": "2026-09-19",
+          "note": {
+            "de": "Zuordnung zu Themen und Kompetenzen; die Sammlungen sind redaktionell gegliedert.",
+            "en": "Mapping to themes and skills; collection titles are editorial groupings."
+          }
+        },
+        {
+          "title": "IOM · Glossary on Migration",
+          "url": "https://publications.iom.int/books/international-migration-law-ndeg34-glossary-migration",
+          "accessed": "2026-09-19",
+          "note": {
+            "de": "Begrifflicher Hintergrund. Die Personen und Ereignisse in den Lesetexten sind erfunden.",
+            "en": "Terminological background. People and events in the readings are fictional."
+          }
+        }
+      ],
+      "attribution": {
+        "de": "Originaler Lerntext · Personen, Gespräche und lokale Projekte sind erfunden. Synthetische Sprachausgabe.",
+        "en": "Original learning text · People, conversations and local projects are fictional. Synthetic speech."
+      },
+      "order": 3
+    }
+  ],
+  "lessons": [
+    {
+      "content": {
+        "id": "mission.migration.3.lesson",
+        "revision": 1
+      },
+      "title": {
+        "language": "es",
+        "text": "Entre dos lugares"
+      },
+      "objectives": [
+        {
+          "id": "mission.migration.3.objective",
+          "revision": 1
+        }
+      ],
+      "activities": [
+        {
+          "id": "mission.migration.3.input",
+          "revision": 1
+        },
+        {
+          "id": "mission.migration.3.comprehension",
+          "revision": 1
+        },
+        {
+          "id": "lex.pertenecer.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.identidad.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.lengua.listening",
+          "revision": 1
+        },
+        {
+          "id": "mission.migration.3.prepare",
+          "revision": 1
+        },
+        {
+          "id": "mission.migration.3.write",
+          "revision": 1
+        }
+      ],
+      "estimated_minutes": 15
+    }
+  ],
+  "objectives": [
+    {
+      "content": {
+        "id": "mission.migration.3.objective",
+        "revision": 1
+      },
+      "band": "B1",
+      "can_do": {
+        "de": "Vergleiche Zugehörigkeit aus zwei Perspektiven und vermittle eine Nachricht.",
+        "en": "Compare two perspectives on belonging and mediate a message."
+      },
+      "prerequisites": [],
+      "explanation_refs": [],
+      "grammar_topics": [
+        "es.a2.pronouns.grammar",
+        "es.b2.perspectives.grammar"
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "content": {
+        "id": "mission.migration.3.input",
+        "revision": 1
+      },
+      "instruction": {
+        "de": "Lies oder höre den Text. Öffne nützliche Wendungen bei Bedarf.",
+        "en": "Read or listen. Open useful expressions when you need them."
+      },
+      "objectives": [
+        {
+          "id": "mission.migration.3.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "reading"
+      ],
+      "task": {
+        "kind": "explanation",
+        "material": {
+          "id": "mission.migration.3.reading",
+          "revision": 1
+        }
+      },
+      "evidence_scope": "source_language",
+      "usage": "practice",
+      "lexical": [],
+      "preparation": false
+    },
+    {
+      "content": {
+        "id": "mission.migration.3.comprehension",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "¿Por qué Dani habla menos árabe?"
+      },
+      "objectives": [
+        {
+          "id": "mission.migration.3.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "mission.migration.3.reading",
+          "revision": 1
+        }
+      ],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "reading"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "option.0",
+            "label": {
+              "language": "es",
+              "text": "Teme equivocarse después de una burla."
+            }
+          },
+          {
+            "id": "option.1",
+            "label": {
+              "language": "es",
+              "text": "No tiene ningún vínculo con su familia."
+            }
+          },
+          {
+            "id": "option.2",
+            "label": {
+              "language": "es",
+              "text": "La profesora prohíbe otras lenguas."
+            }
+          }
+        ],
+        "correct_ids": [
+          "option.0"
+        ],
+        "explanation": {
+          "id": "mission.migration.3.comprehension.feedback",
+          "revision": 1
+        }
+      },
+      "evidence_scope": "source_language",
+      "usage": "practice",
+      "lexical": [],
+      "preparation": false
+    },
+    {
+      "content": {
+        "id": "mission.migration.3.prepare",
+        "revision": 1
+      },
+      "instruction": {
+        "de": "Bereite deine Antwort vor",
+        "en": "Prepare your response"
+      },
+      "objectives": [
+        {
+          "id": "mission.migration.3.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "reading"
+      ],
+      "task": {
+        "kind": "explanation",
+        "material": {
+          "id": "mission.migration.3.preparation",
+          "revision": 1
+        }
+      },
+      "evidence_scope": "source_language",
+      "usage": "practice",
+      "lexical": [],
+      "preparation": true
+    },
+    {
+      "content": {
+        "id": "mission.migration.3.write",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "Para la profesora, compara las posiciones de Sara y Dani (80–140 palabras). Propón una forma de participar que no obligue a nadie a representar a todo un grupo. Usa detalles de ambos relatos."
+      },
+      "objectives": [
+        {
+          "id": "mission.migration.3.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "mission.migration.3.reading",
+          "revision": 1
+        }
+      ],
+      "hints": [
+        {
+          "id": "mission.migration.3.preparation",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "writing"
+      ],
+      "task": {
+        "kind": "writing",
+        "language": "es",
+        "min_words": 80,
+        "max_words": 140,
+        "rubric": {
+          "id": "mission.migration.3.rubric",
+          "revision": 1
+        }
+      },
+      "evidence_scope": "source_language",
+      "usage": "practice",
+      "lexical": [],
+      "preparation": false
+    },
+    {
+      "content": {
+        "id": "mission.migration.3.challenge",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "Una amiga hispanohablante cree que debe cantar en alemán para asistir. Escríbele un mensaje en español: aclara lo relevante para ella y explica para qué sirve la inscripción. No traduzcas palabra por palabra. 70–120 palabras."
+      },
+      "objectives": [
+        {
+          "id": "mission.migration.3.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "mission.migration.3.unseen",
+          "revision": 1
+        }
+      ],
+      "hints": [],
+      "reveal_policy": "after_session",
+      "skills": [
+        "writing",
+        "reading"
+      ],
+      "task": {
+        "kind": "writing",
+        "language": "es",
+        "min_words": 70,
+        "max_words": 120,
+        "rubric": {
+          "id": "mission.migration.3.unseen.rubric",
+          "revision": 1
+        }
+      },
+      "evidence_scope": "source_language",
+      "usage": "assessment",
+      "lexical": [],
+      "preparation": false
+    }
+  ],
+  "materials": [
+    {
+      "content": {
+        "id": "mission.migration.3.reading",
+        "revision": 1
+      },
+      "searchable": true,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Entre dos lugares"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "de": "Originaler Lerntext · Personen, Gespräche und lokale Projekte sind erfunden. Synthetische Sprachausgabe.",
+              "en": "Original learning text · People, conversations and local projects are fictional. Synthetic speech."
+            }
+          ]
+        },
+        {
+          "kind": "audio",
+          "speech": {
+            "id": "mission.migration.3.audio",
+            "revision": 1
+          }
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "En el club de radio, Lucía entrevista a Sara, que habla español con su madre y árabe con su abuela. Sara dice que puede pertenecer a varios lugares sin dividirse en partes. Para ella, la identidad cambia con las personas y las situaciones. No quiere que cada entrevista empiece con la misma pregunta sobre su origen.",
+              "annotations": [
+                {
+                  "start": 120,
+                  "end": 132,
+                  "occurrence": {
+                    "id": "mission.migration.3.reading.p0.o0",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 184,
+                  "end": 196,
+                  "occurrence": {
+                    "id": "mission.migration.3.reading.p0.o1",
+                    "revision": 1
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Su hermano Dani entiende el árabe, pero suele contestar en español. Sara considera importante conservar la lengua materna de la familia; Dani teme equivocarse cuando habla. Una vez se rieron de su acento y desde entonces participa menos. Sin embargo, mantiene el vínculo con sus primos mediante vídeos y juegos. No hablar de la misma manera no significa que no le importe su familia.",
+              "annotations": [
+                {
+                  "start": 104,
+                  "end": 121,
+                  "occurrence": {
+                    "id": "mission.migration.3.reading.p1.o0",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 194,
+                  "end": 203,
+                  "occurrence": {
+                    "id": "mission.migration.3.reading.p1.o1",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 260,
+                  "end": 270,
+                  "occurrence": {
+                    "id": "mission.migration.3.reading.p1.o2",
+                    "revision": 1
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "En el instituto, ambos intentan encajar en un grupo. Sara propone compartir canciones en distintas lenguas. Dani teme sentir rechazo si todos esperan una actuación perfecta. La profesora decide reconocer esa preocupación y tener en cuenta distintas formas de participar: presentar una canción, explicar por qué importa o simplemente escuchar. Nadie debe representar a una comunidad entera. Sara y Dani aceptan preparar juntos una introducción, pero no prometen estar de acuerdo en todo.",
+              "annotations": [
+                {
+                  "start": 32,
+                  "end": 42,
+                  "occurrence": {
+                    "id": "mission.migration.3.reading.p2.o0",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 66,
+                  "end": 75,
+                  "occurrence": {
+                    "id": "mission.migration.3.reading.p2.o1",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 125,
+                  "end": 132,
+                  "occurrence": {
+                    "id": "mission.migration.3.reading.p2.o2",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 194,
+                  "end": 203,
+                  "occurrence": {
+                    "id": "mission.migration.3.reading.p2.o3",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 223,
+                  "end": 238,
+                  "occurrence": {
+                    "id": "mission.migration.3.reading.p2.o4",
+                    "revision": 1
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.migration.3.comprehension.feedback",
+        "revision": 1
+      },
+      "searchable": false,
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "de": "Der Text nennt Angst nach einem Spottmoment. Die familiäre Bindung besteht weiter.",
+              "en": "The text gives fear after mockery as a reason. Family ties remain."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.migration.3.preparation",
+        "revision": 1
+      },
+      "searchable": false,
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "de": "Plane: Was ist die zentrale Aussage? Welche zwei Details helfen? Für wen formulierst du? Notiere Stichwörter, bevor du einen zusammenhängenden Text schreibst oder sprichst.",
+              "en": "Plan: What is the main point? Which two details help? Who is your audience? Note keywords before writing or speaking a connected response."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.migration.3.rubric.model",
+        "revision": 1
+      },
+      "searchable": false,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Una posible respuesta"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Sara desea conservar y compartir una lengua familiar. Dani también mantiene vínculos con su familia, pero teme equivocarse después de una burla. No se trata simplemente de interés frente a desinterés. La actividad podría permitir explicar una canción sin cantarla y trabajar por parejas. Así se tiene en cuenta la inseguridad de Dani sin impedir que Sara comparta algo importante para ella. Preguntaría a ambos qué forma de participación prefieren antes de cerrar el programa. Escuchar también sería una opción legítima. Presentar una lengua familiar no debería convertirse en una prueba pública de identidad ni de perfección.",
+              "annotations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.migration.3.unseen",
+        "revision": 1
+      },
+      "searchable": false,
+      "blocks": [
+        {
+          "kind": "source_text",
+          "language": "de",
+          "text": "Am Freitag stellen Jugendliche Musik vor, die ihnen wichtig ist. Niemand muss singen oder in einer bestimmten Sprache sprechen. Man kann allein oder zu zweit teilnehmen. Wer nur zuhören möchte, ist ebenfalls willkommen. Die Anmeldung bis Mittwoch dient nur dazu, die Reihenfolge zu planen.",
+          "caption": {
+            "de": "Erfundene Mitteilung eines Jugendzentrums · deutsche Ausgangsquelle",
+            "en": "Fictional youth-centre notice · German source"
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.migration.3.unseen.rubric.model",
+        "revision": 1
+      },
+      "searchable": false,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Una posible respuesta"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Puedes venir el viernes aunque no quieras cantar ni hablar alemán. Cada participante presenta música que le importa, pero también se puede asistir solo para escuchar. Si te animas a presentar algo, puedes hacerlo con otra persona. Conviene inscribirse antes del miércoles únicamente para que el centro organice el orden de las presentaciones. No es una prueba de idiomas y nadie tiene que actuar para ser bienvenido. Podemos ir juntas y decidir después si queremos presentar una canción o simplemente escuchar a los demás.",
+              "annotations": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "speech": [
+    {
+      "content": {
+        "id": "mission.migration.3.reading.p0.o0.audio",
+        "revision": 1
+      },
+      "text": "Sara dice que puede pertenecer a varios lugares sin dividirse en partes.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.3.reading.p0.o1.audio",
+        "revision": 1
+      },
+      "text": "Para ella, la identidad cambia con las personas y las situaciones.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.3.reading.p1.o0.audio",
+        "revision": 1
+      },
+      "text": "Sara considera importante conservar la lengua materna de la familia; Dani teme equivocarse cuando habla.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.3.reading.p1.o1.audio",
+        "revision": 1
+      },
+      "text": "Una vez se rieron de su acento y desde entonces participa menos.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.3.reading.p1.o2.audio",
+        "revision": 1
+      },
+      "text": "Sin embargo, mantiene el vínculo con sus primos mediante vídeos y juegos.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.3.reading.p2.o0.audio",
+        "revision": 1
+      },
+      "text": "En el instituto, ambos intentan encajar en un grupo.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.3.reading.p2.o1.audio",
+        "revision": 1
+      },
+      "text": "Sara propone compartir canciones en distintas lenguas.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.3.reading.p2.o2.audio",
+        "revision": 1
+      },
+      "text": "Dani teme sentir rechazo si todos esperan una actuación perfecta.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.3.reading.p2.o3.audio",
+        "revision": 1
+      },
+      "text": "La profesora decide reconocer esa preocupación y tener en cuenta distintas formas de participar: presentar una canción, explicar por qué importa o simplemente escuchar.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.3.reading.p2.o4.audio",
+        "revision": 1
+      },
+      "text": "La profesora decide reconocer esa preocupación y tener en cuenta distintas formas de participar: presentar una canción, explicar por qué importa o simplemente escuchar.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.3.audio",
+        "revision": 1
+      },
+      "text": "En el club de radio, Lucía entrevista a Sara, que habla español con su madre y árabe con su abuela. Sara dice que puede pertenecer a varios lugares sin dividirse en partes. Para ella, la identidad cambia con las personas y las situaciones. No quiere que cada entrevista empiece con la misma pregunta sobre su origen. Su hermano Dani entiende el árabe, pero suele contestar en español. Sara considera importante conservar la lengua materna de la familia; Dani teme equivocarse cuando habla. Una vez se rieron de su acento y desde entonces participa menos. Sin embargo, mantiene el vínculo con sus primos mediante vídeos y juegos. No hablar de la misma manera no significa que no le importe su familia. En el instituto, ambos intentan encajar en un grupo. Sara propone compartir canciones en distintas lenguas. Dani teme sentir rechazo si todos esperan una actuación perfecta. La profesora decide reconocer esa preocupación y tener en cuenta distintas formas de participar: presentar una canción, explicar por qué importa o simplemente escuchar. Nadie debe representar a una comunidad entera. Sara y Dani aceptan preparar juntos una introducción, pero no prometen estar de acuerdo en todo.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    }
+  ],
+  "rubrics": [
+    {
+      "content": {
+        "id": "mission.migration.3.rubric",
+        "revision": 1
+      },
+      "criteria": [
+        {
+          "id": "task",
+          "label": {
+            "de": "Aufgabe und Adressat",
+            "en": "Task and audience"
+          },
+          "guidance": {
+            "de": "Erfülle die konkrete Schreib- oder Sprechabsicht der Aufgabe. Gehe auf die verlangten Teilfragen ein.",
+            "en": "Fulfil the specific writing or speaking purpose and address the requested points."
+          }
+        },
+        {
+          "id": "source",
+          "label": {
+            "de": "Belege und Genauigkeit",
+            "en": "Evidence and accuracy"
+          },
+          "guidance": {
+            "de": "Stütze deine Aussagen auf konkrete Details der Quelle; trenne Beleg, Deutung und eigene Meinung.",
+            "en": "Support claims with specific source details; separate evidence, interpretation and your opinion."
+          }
+        },
+        {
+          "id": "structure",
+          "label": {
+            "de": "Aufbau und Gegenposition",
+            "en": "Structure and alternative view"
+          },
+          "guidance": {
+            "de": "Ordne deine Gedanken nachvollziehbar. Gehe bei einer Diskussion auf einen begründeten Einwand ein.",
+            "en": "Organise ideas clearly. In discussion, address a reasonable objection."
+          }
+        },
+        {
+          "id": "language",
+          "label": {
+            "de": "Sprache",
+            "en": "Language"
+          },
+          "guidance": {
+            "de": "Formuliere verständlich und adressatengerecht. Prüfe Verbformen, Bezüge und passende Verknüpfungen.",
+            "en": "Write or speak clearly for your audience. Check verb forms, reference and suitable connectors."
+          }
+        }
+      ],
+      "model_answers": [
+        {
+          "id": "mission.migration.3.rubric.model",
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.migration.3.unseen.rubric",
+        "revision": 1
+      },
+      "criteria": [
+        {
+          "id": "task",
+          "label": {
+            "de": "Aufgabe und Adressat",
+            "en": "Task and audience"
+          },
+          "guidance": {
+            "de": "Erfülle die neue Aufgabe unabhängig. Belege deine Überlegungen mit der neuen Quelle; bei Sprachmittlung zählen Auswahl und Adressatenbezug, nicht wörtliche Übersetzung.",
+            "en": "Complete the new task independently. Use the new source; mediation requires relevant selection and audience awareness, not literal translation."
+          }
+        },
+        {
+          "id": "source",
+          "label": {
+            "de": "Belege und Genauigkeit",
+            "en": "Evidence and accuracy"
+          },
+          "guidance": {
+            "de": "Stütze deine Aussagen auf konkrete Details der Quelle; trenne Beleg, Deutung und eigene Meinung.",
+            "en": "Support claims with specific source details; separate evidence, interpretation and your opinion."
+          }
+        },
+        {
+          "id": "structure",
+          "label": {
+            "de": "Aufbau und Gegenposition",
+            "en": "Structure and alternative view"
+          },
+          "guidance": {
+            "de": "Ordne deine Gedanken nachvollziehbar. Gehe bei einer Diskussion auf einen begründeten Einwand ein.",
+            "en": "Organise ideas clearly. In discussion, address a reasonable objection."
+          }
+        },
+        {
+          "id": "language",
+          "label": {
+            "de": "Sprache",
+            "en": "Language"
+          },
+          "guidance": {
+            "de": "Formuliere verständlich und adressatengerecht. Prüfe Verbformen, Bezüge und passende Verknüpfungen.",
+            "en": "Write or speak clearly for your audience. Check verb forms, reference and suitable connectors."
+          }
+        }
+      ],
+      "model_answers": [
+        {
+          "id": "mission.migration.3.unseen.rubric.model",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "assessments": [
+    {
+      "content": {
+        "id": "mission.migration.3.assessment",
+        "revision": 1
+      },
+      "title": {
+        "de": "Neue Quelle · unabhängige Aufgabe",
+        "en": "New source · independent challenge"
+      },
+      "activities": [
+        {
+          "id": "mission.migration.3.challenge",
+          "revision": 1
+        }
+      ],
+      "duration_seconds": 1200,
+      "audio_replays": 0
+    }
+  ]
+}

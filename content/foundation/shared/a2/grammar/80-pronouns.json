@@ -1,0 +1,213 @@
+{
+  "grammar": [
+    {
+      "content": {
+        "id": "es.a2.pronouns.grammar",
+        "revision": 1
+      },
+      "title": {
+        "slot": "es.a2.pronouns.topic-title"
+      },
+      "summary": {
+        "slot": "es.a2.pronouns.summary"
+      },
+      "band": "A2",
+      "category": "nouns",
+      "order": 80,
+      "explanations": [
+        {
+          "id": "es.a2.pronouns.guide",
+          "revision": 1
+        }
+      ],
+      "lessons": [
+        {
+          "id": "es.a2.pronouns.recognise",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.pronouns.context",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "content": {
+        "id": "es.a2.pronouns.guide",
+        "revision": 1
+      },
+      "searchable": true,
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a2.pronouns.rule.p1"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a2.pronouns.rule.p2"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a2.pronouns.rule.p3"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Leo el libro → Lo leo. Doy el libro a Ana → Se lo doy. Me levanto temprano. Voy a leerlo."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "table",
+          "caption": {
+            "slot": "es.a2.pronouns.table-title"
+          },
+          "columns": [
+            {
+              "slot": "es.grammar.person"
+            },
+            {
+              "language": "es",
+              "text": "objeto directo"
+            },
+            {
+              "language": "es",
+              "text": "objeto indirecto"
+            },
+            {
+              "language": "es",
+              "text": "reflexivo"
+            }
+          ],
+          "rows": [
+            [
+              {
+                "language": "es",
+                "text": "yo"
+              },
+              {
+                "language": "es",
+                "text": "me"
+              },
+              {
+                "language": "es",
+                "text": "me"
+              },
+              {
+                "language": "es",
+                "text": "me"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "tú"
+              },
+              {
+                "language": "es",
+                "text": "te"
+              },
+              {
+                "language": "es",
+                "text": "te"
+              },
+              {
+                "language": "es",
+                "text": "te"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "él / ella / usted"
+              },
+              {
+                "language": "es",
+                "text": "lo / la"
+              },
+              {
+                "language": "es",
+                "text": "le"
+              },
+              {
+                "language": "es",
+                "text": "se"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "nosotros / nosotras"
+              },
+              {
+                "language": "es",
+                "text": "nos"
+              },
+              {
+                "language": "es",
+                "text": "nos"
+              },
+              {
+                "language": "es",
+                "text": "nos"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "vosotros / vosotras"
+              },
+              {
+                "language": "es",
+                "text": "os"
+              },
+              {
+                "language": "es",
+                "text": "os"
+              },
+              {
+                "language": "es",
+                "text": "os"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "ellos / ellas / ustedes"
+              },
+              {
+                "language": "es",
+                "text": "los / las"
+              },
+              {
+                "language": "es",
+                "text": "les"
+              },
+              {
+                "language": "es",
+                "text": "se"
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

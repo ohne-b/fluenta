@@ -1,0 +1,683 @@
+{
+  "lessons": [
+    {
+      "content": {
+        "id": "es.b1.summarising.lesson",
+        "revision": 2
+      },
+      "title": {
+        "slot": "es.b1.summarising.title"
+      },
+      "objectives": [
+        {
+          "id": "es.b1.summarising.objective",
+          "revision": 1
+        }
+      ],
+      "activities": [
+        {
+          "id": "es.b1.summarising.intro",
+          "revision": 2
+        },
+        {
+          "id": "es.b1.summarising.choice",
+          "revision": 1
+        },
+        {
+          "id": "es.b1.summarising.order",
+          "revision": 1
+        },
+        {
+          "id": "es.b1.summarising.recall",
+          "revision": 1
+        },
+        {
+          "id": "es.b1.summarising.listen",
+          "revision": 1
+        },
+        {
+          "id": "es.b1.summarising.produce",
+          "revision": 1
+        }
+      ],
+      "estimated_minutes": 12
+    }
+  ],
+  "objectives": [
+    {
+      "content": {
+        "id": "es.b1.summarising.objective",
+        "revision": 1
+      },
+      "band": "B1",
+      "can_do": {
+        "slot": "es.b1.summarising.can_do"
+      },
+      "prerequisites": [],
+      "explanation_refs": [
+        {
+          "id": "es.b1.summarising.guide",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "content": {
+        "id": "es.b1.summarising.intro",
+        "revision": 2
+      },
+      "instruction": {
+        "slot": "es.b1.summarising.title"
+      },
+      "objectives": [
+        {
+          "id": "es.b1.summarising.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "explanation",
+        "material": {
+          "id": "es.b1.summarising.guide",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "grammar"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.summarising.choice",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.b1.summarising.choice"
+      },
+      "objectives": [
+        {
+          "id": "es.b1.summarising.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.b1.summarising.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "c1",
+            "label": {
+              "language": "es",
+              "text": "El texto trata del uso de las redes sociales."
+            }
+          },
+          {
+            "id": "c2",
+            "label": {
+              "language": "es",
+              "text": "El texto es aburridísimo y no me gusta."
+            }
+          },
+          {
+            "id": "c3",
+            "label": {
+              "language": "es",
+              "text": "Todos sabemos que el autor tiene razón."
+            }
+          }
+        ],
+        "correct_ids": [
+          "c1"
+        ],
+        "explanation": {
+          "id": "es.b1.summarising.guide",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "reading"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.summarising.order",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.b1.summarising.order"
+      },
+      "objectives": [
+        {
+          "id": "es.b1.summarising.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.b1.summarising.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "order",
+        "items": [
+          {
+            "id": "w1",
+            "label": {
+              "language": "es",
+              "text": "La"
+            }
+          },
+          {
+            "id": "w2",
+            "label": {
+              "language": "es",
+              "text": "autora"
+            }
+          },
+          {
+            "id": "w3",
+            "label": {
+              "language": "es",
+              "text": "explica"
+            }
+          },
+          {
+            "id": "w4",
+            "label": {
+              "language": "es",
+              "text": "que"
+            }
+          },
+          {
+            "id": "w5",
+            "label": {
+              "language": "es",
+              "text": "el"
+            }
+          },
+          {
+            "id": "w6",
+            "label": {
+              "language": "es",
+              "text": "transporte"
+            }
+          },
+          {
+            "id": "w7",
+            "label": {
+              "language": "es",
+              "text": "público"
+            }
+          },
+          {
+            "id": "w8",
+            "label": {
+              "language": "es",
+              "text": "es"
+            }
+          },
+          {
+            "id": "w9",
+            "label": {
+              "language": "es",
+              "text": "importante."
+            }
+          }
+        ],
+        "accepted_orders": [
+          [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ]
+        ],
+        "explanation": {
+          "id": "es.b1.summarising.guide",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "grammar"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.summarising.recall",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.b1.summarising.recall"
+      },
+      "objectives": [
+        {
+          "id": "es.b1.summarising.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.b1.summarising.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "sentence_content",
+        "inputs": [
+          "keyboard",
+          "microphone"
+        ],
+        "accepted": [
+          "trata"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.b1.summarising.recall-answer",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "grammar",
+        "vocabulary"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.summarising.listen",
+        "revision": 1
+      },
+      "instruction": {
+        "slot": "es.b1.summarising.listen"
+      },
+      "objectives": [
+        {
+          "id": "es.b1.summarising.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "es.b1.summarising.listening",
+          "revision": 1
+        }
+      ],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "l1",
+            "label": {
+              "language": "es",
+              "text": "Un huerto escolar combina aprendizaje, alimentación y cooperación."
+            }
+          },
+          {
+            "id": "l2",
+            "label": {
+              "language": "es",
+              "text": "El instituto ha dejado de enseñar otras asignaturas."
+            }
+          },
+          {
+            "id": "l3",
+            "label": {
+              "language": "es",
+              "text": "Todo el alumnado quiere trabajar en agricultura."
+            }
+          }
+        ],
+        "correct_ids": [
+          "l1"
+        ],
+        "explanation": {
+          "id": "es.b1.summarising.listen-answer",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "listening"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.summarising.produce",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "Resume este texto en tus propias palabras: «Una biblioteca abre por la tarde para que el alumnado pueda estudiar. Hay ordenadores gratuitos y una profesora que ayuda con las tareas. Durante los exámenes también abre los sábados.»"
+      },
+      "objectives": [
+        {
+          "id": "es.b1.summarising.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.b1.summarising.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "writing",
+        "language": "es",
+        "min_words": 45,
+        "max_words": 160,
+        "rubric": {
+          "id": "es.b1.summarising.rubric",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "writing"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "content": {
+        "id": "es.b1.summarising.guide",
+        "revision": 1
+      },
+      "searchable": true,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "slot": "es.b1.summarising.title"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.b1.summarising.guide"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "El texto trata de la movilidad sostenible. La autora explica que muchas familias necesitan alternativas al coche."
+            }
+          ],
+          "speech": {
+            "id": "es.b1.summarising.example-audio",
+            "revision": 1
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.summarising.listening",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "audio",
+          "speech": {
+            "id": "es.b1.summarising.listening-audio",
+            "revision": 1
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.summarising.listen-answer",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.b1.summarising.listen-feedback"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Un instituto ha creado un huerto escolar. El alumnado cultiva verduras y aprende a cuidar el suelo. Una parte de la cosecha se utiliza en el comedor. El proyecto también ayuda a trabajar en equipo."
+            }
+          ],
+          "speech": null
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.summarising.recall-answer",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "slot": "es.b1.summarising.answer-title"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "trata"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.b1.summarising.guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.summarising.model",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "slot": "es.b1.summarising.model-title"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "El texto presenta una biblioteca que ofrece un espacio de estudio por las tardes. Además de ordenadores gratuitos, dispone de ayuda de una profesora para las tareas. Para facilitar la preparación de los exámenes, amplía su horario a los sábados. La iniciativa combina recursos materiales, apoyo docente y más tiempo para estudiar."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b1.summarising.vocab",
+        "revision": 1
+      },
+      "searchable": true,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "language": "es",
+              "text": "la idea principal"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.b1.summarising.gloss"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "El texto trata de la movilidad sostenible. La autora explica que muchas familias necesitan alternativas al coche."
+            }
+          ],
+          "speech": {
+            "id": "es.b1.summarising.example-audio",
+            "revision": 1
+          }
+        }
+      ]
+    }
+  ],
+  "speech": [
+    {
+      "content": {
+        "id": "es.b1.summarising.example-audio",
+        "revision": 1
+      },
+      "text": "El texto trata de la movilidad sostenible. La autora explica que muchas familias necesitan alternativas al coche.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "es.b1.summarising.listening-audio",
+        "revision": 1
+      },
+      "text": "Un instituto ha creado un huerto escolar. El alumnado cultiva verduras y aprende a cuidar el suelo. Una parte de la cosecha se utiliza en el comedor. El proyecto también ayuda a trabajar en equipo.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "content": {
+        "id": "es.b1.summarising.lexeme",
+        "revision": 1
+      },
+      "lemma": "la idea principal",
+      "part_of_speech": "noun",
+      "gloss": {
+        "slot": "es.b1.summarising.gloss"
+      },
+      "accepted_forms": [
+        "la idea principal"
+      ],
+      "examples": [
+        {
+          "id": "es.b1.summarising.vocab",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "rubrics": [
+    {
+      "content": {
+        "id": "es.b1.summarising.rubric",
+        "revision": 1
+      },
+      "criteria": [
+        {
+          "id": "task",
+          "label": {
+            "slot": "es.b1.summarising.rubric.task.label"
+          },
+          "guidance": {
+            "slot": "es.b1.summarising.rubric.task.guidance"
+          }
+        },
+        {
+          "id": "structure",
+          "label": {
+            "slot": "es.b1.summarising.rubric.structure.label"
+          },
+          "guidance": {
+            "slot": "es.b1.summarising.rubric.structure.guidance"
+          }
+        },
+        {
+          "id": "language",
+          "label": {
+            "slot": "es.b1.summarising.rubric.language.label"
+          },
+          "guidance": {
+            "slot": "es.b1.summarising.rubric.language.guidance"
+          }
+        }
+      ],
+      "model_answers": [
+        {
+          "id": "es.b1.summarising.model",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "assessments": []
+}

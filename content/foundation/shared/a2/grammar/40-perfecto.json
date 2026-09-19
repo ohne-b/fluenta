@@ -1,0 +1,241 @@
+{
+  "grammar": [
+    {
+      "content": {
+        "id": "es.a2.perfecto.grammar",
+        "revision": 1
+      },
+      "title": {
+        "slot": "es.a2.perfecto.topic-title"
+      },
+      "summary": {
+        "slot": "es.a2.perfecto.summary"
+      },
+      "band": "A2",
+      "category": "verbs",
+      "order": 40,
+      "explanations": [
+        {
+          "id": "es.a2.perfecto.guide",
+          "revision": 1
+        }
+      ],
+      "lessons": [
+        {
+          "id": "es.a2.perfecto.recognise",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.perfecto.context",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "content": {
+        "id": "es.a2.perfecto.guide",
+        "revision": 1
+      },
+      "searchable": true,
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a2.perfecto.rule.p1"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a2.perfecto.rule.p2"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a2.perfecto.rule.p3"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Hoy he terminado el proyecto. ¿Has hecho los deberes? Todavía no hemos visto el vídeo."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "table",
+          "caption": {
+            "slot": "es.a2.perfecto.table-title"
+          },
+          "columns": [
+            {
+              "slot": "es.grammar.person"
+            },
+            {
+              "language": "es",
+              "text": "haber"
+            },
+            {
+              "language": "es",
+              "text": "estudiar"
+            },
+            {
+              "language": "es",
+              "text": "comer"
+            },
+            {
+              "language": "es",
+              "text": "vivir"
+            }
+          ],
+          "rows": [
+            [
+              {
+                "language": "es",
+                "text": "yo"
+              },
+              {
+                "language": "es",
+                "text": "he"
+              },
+              {
+                "language": "es",
+                "text": "he estudiado"
+              },
+              {
+                "language": "es",
+                "text": "he comido"
+              },
+              {
+                "language": "es",
+                "text": "he vivido"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "tú"
+              },
+              {
+                "language": "es",
+                "text": "has"
+              },
+              {
+                "language": "es",
+                "text": "has estudiado"
+              },
+              {
+                "language": "es",
+                "text": "has comido"
+              },
+              {
+                "language": "es",
+                "text": "has vivido"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "él / ella / usted"
+              },
+              {
+                "language": "es",
+                "text": "ha"
+              },
+              {
+                "language": "es",
+                "text": "ha estudiado"
+              },
+              {
+                "language": "es",
+                "text": "ha comido"
+              },
+              {
+                "language": "es",
+                "text": "ha vivido"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "nosotros / nosotras"
+              },
+              {
+                "language": "es",
+                "text": "hemos"
+              },
+              {
+                "language": "es",
+                "text": "hemos estudiado"
+              },
+              {
+                "language": "es",
+                "text": "hemos comido"
+              },
+              {
+                "language": "es",
+                "text": "hemos vivido"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "vosotros / vosotras"
+              },
+              {
+                "language": "es",
+                "text": "habéis"
+              },
+              {
+                "language": "es",
+                "text": "habéis estudiado"
+              },
+              {
+                "language": "es",
+                "text": "habéis comido"
+              },
+              {
+                "language": "es",
+                "text": "habéis vivido"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "ellos / ellas / ustedes"
+              },
+              {
+                "language": "es",
+                "text": "han"
+              },
+              {
+                "language": "es",
+                "text": "han estudiado"
+              },
+              {
+                "language": "es",
+                "text": "han comido"
+              },
+              {
+                "language": "es",
+                "text": "han vivido"
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

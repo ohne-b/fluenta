@@ -1,0 +1,237 @@
+{
+  "grammar": [
+    {
+      "content": {
+        "id": "es.a2.past-background.grammar",
+        "revision": 2
+      },
+      "title": {
+        "slot": "es.a2.imperfecto.topic-title"
+      },
+      "summary": {
+        "slot": "es.a2.imperfecto.summary"
+      },
+      "band": "A2",
+      "category": "verbs",
+      "order": 60,
+      "explanations": [
+        {
+          "id": "es.a2.past-background.guide",
+          "revision": 3
+        }
+      ],
+      "lessons": [
+        {
+          "id": "es.a2.imperfecto.recognise",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.imperfecto.context",
+          "revision": 1
+        },
+        {
+          "id": "es.a2.past-background.lesson",
+          "revision": 3
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "content": {
+        "id": "es.a2.past-background.guide",
+        "revision": 3
+      },
+      "searchable": true,
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a2.imperfecto.rule.p1"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a2.imperfecto.rule.p2"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Cuando era pequeña, iba a una escuela cerca de casa. Hacía frío y llovía cuando llegó el autobús."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "table",
+          "caption": {
+            "slot": "es.a2.imperfecto.table-title"
+          },
+          "columns": [
+            {
+              "slot": "es.grammar.person"
+            },
+            {
+              "language": "es",
+              "text": "hablar"
+            },
+            {
+              "language": "es",
+              "text": "comer / vivir"
+            },
+            {
+              "language": "es",
+              "text": "ser"
+            },
+            {
+              "language": "es",
+              "text": "ir"
+            }
+          ],
+          "rows": [
+            [
+              {
+                "language": "es",
+                "text": "yo"
+              },
+              {
+                "language": "es",
+                "text": "hablaba"
+              },
+              {
+                "language": "es",
+                "text": "comía / vivía"
+              },
+              {
+                "language": "es",
+                "text": "era"
+              },
+              {
+                "language": "es",
+                "text": "iba"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "tú"
+              },
+              {
+                "language": "es",
+                "text": "hablabas"
+              },
+              {
+                "language": "es",
+                "text": "comías / vivías"
+              },
+              {
+                "language": "es",
+                "text": "eras"
+              },
+              {
+                "language": "es",
+                "text": "ibas"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "él / ella / usted"
+              },
+              {
+                "language": "es",
+                "text": "hablaba"
+              },
+              {
+                "language": "es",
+                "text": "comía / vivía"
+              },
+              {
+                "language": "es",
+                "text": "era"
+              },
+              {
+                "language": "es",
+                "text": "iba"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "nosotros / nosotras"
+              },
+              {
+                "language": "es",
+                "text": "hablábamos"
+              },
+              {
+                "language": "es",
+                "text": "comíamos / vivíamos"
+              },
+              {
+                "language": "es",
+                "text": "éramos"
+              },
+              {
+                "language": "es",
+                "text": "íbamos"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "vosotros / vosotras"
+              },
+              {
+                "language": "es",
+                "text": "hablabais"
+              },
+              {
+                "language": "es",
+                "text": "comíais / vivíais"
+              },
+              {
+                "language": "es",
+                "text": "erais"
+              },
+              {
+                "language": "es",
+                "text": "ibais"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "ellos / ellas / ustedes"
+              },
+              {
+                "language": "es",
+                "text": "hablaban"
+              },
+              {
+                "language": "es",
+                "text": "comían / vivían"
+              },
+              {
+                "language": "es",
+                "text": "eran"
+              },
+              {
+                "language": "es",
+                "text": "iban"
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

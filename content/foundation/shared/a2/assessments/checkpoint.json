@@ -1,0 +1,363 @@
+{
+  "assessments": [
+    {
+      "content": {
+        "id": "es.a2.checkpoint",
+        "revision": 3
+      },
+      "title": {
+        "slot": "es.a2.checkpoint.title"
+      },
+      "activities": [
+        {
+          "id": "es.a2.checkpoint.one",
+          "revision": 3
+        },
+        {
+          "id": "es.a2.checkpoint.two",
+          "revision": 3
+        },
+        {
+          "id": "es.a2.checkpoint.listen",
+          "revision": 3
+        },
+        {
+          "id": "es.a2.checkpoint.write",
+          "revision": 3
+        }
+      ],
+      "duration_seconds": 720,
+      "audio_replays": 2
+    }
+  ],
+  "activities": [
+    {
+      "content": {
+        "id": "es.a2.checkpoint.one",
+        "revision": 3
+      },
+      "instruction": {
+        "language": "es",
+        "text": "Completa con hablar en indefinido: Ayer yo ___ con la profesora."
+      },
+      "objectives": [
+        {
+          "id": "es.a2.past-events.objective",
+          "revision": 3
+        }
+      ],
+      "materials": [],
+      "hints": [],
+      "reveal_policy": "after_session",
+      "usage": "assessment",
+      "evidence_scope": "spanish",
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "orthography",
+        "inputs": [
+          "keyboard"
+        ],
+        "accepted": [
+          "hablé"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.a2.checkpoint.one.answer",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "grammar",
+        "vocabulary"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.checkpoint.two",
+        "revision": 3
+      },
+      "instruction": {
+        "language": "es",
+        "text": "Completa con ir en imperfecto: De pequeños, mis amigos ___ al colegio a pie."
+      },
+      "objectives": [
+        {
+          "id": "es.a2.past-events.objective",
+          "revision": 3
+        }
+      ],
+      "materials": [],
+      "hints": [],
+      "reveal_policy": "after_session",
+      "usage": "assessment",
+      "evidence_scope": "spanish",
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "orthography",
+        "inputs": [
+          "keyboard"
+        ],
+        "accepted": [
+          "iban"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.a2.checkpoint.two.answer",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "grammar",
+        "vocabulary"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.checkpoint.listen",
+        "revision": 3
+      },
+      "instruction": {
+        "slot": "es.a2.checkpoint.question"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.past-events.objective",
+          "revision": 3
+        }
+      ],
+      "materials": [
+        {
+          "id": "es.a2.checkpoint.audio",
+          "revision": 1
+        }
+      ],
+      "hints": [],
+      "reveal_policy": "after_session",
+      "usage": "assessment",
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "c1",
+            "label": {
+              "language": "es",
+              "text": "Preparó un examen con compañeras."
+            }
+          },
+          {
+            "id": "c2",
+            "label": {
+              "language": "es",
+              "text": "Dejó de estudiar fechas."
+            }
+          },
+          {
+            "id": "c3",
+            "label": {
+              "language": "es",
+              "text": "Empezó a ir a otro instituto."
+            }
+          }
+        ],
+        "correct_ids": [
+          "c1"
+        ],
+        "explanation": {
+          "id": "es.a2.checkpoint.listen.answer",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "listening"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.checkpoint.write",
+        "revision": 3
+      },
+      "instruction": {
+        "language": "es",
+        "text": "Cuenta una experiencia escolar pasada y explica qué vas a hacer de otra manera la próxima vez. Distingue el contexto y los acontecimientos."
+      },
+      "objectives": [
+        {
+          "id": "es.a2.past-events.objective",
+          "revision": 3
+        }
+      ],
+      "materials": [],
+      "hints": [],
+      "reveal_policy": "after_session",
+      "usage": "assessment",
+      "task": {
+        "kind": "writing",
+        "language": "es",
+        "min_words": 25,
+        "max_words": 110,
+        "rubric": {
+          "id": "es.a2.checkpoint.rubric",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "writing"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "content": {
+        "id": "es.a2.checkpoint.one.answer",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "hablé"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.checkpoint.two.answer",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "iban"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.checkpoint.audio",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "audio",
+          "speech": {
+            "id": "es.a2.checkpoint.speech",
+            "revision": 1
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.checkpoint.listen.answer",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Antes estudiaba siempre sola. El mes pasado preparé un examen con dos compañeras. Fue útil, pero para memorizar fechas todavía prefiero trabajar sola."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.checkpoint.model",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Antes preparaba los exámenes el día anterior y siempre estaba nervioso. El mes pasado organicé un horario con una amiga. Repasamos un poco cada día y el examen fue mejor. La próxima vez voy a empezar antes y voy a dejar tiempo para descansar."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "speech": [
+    {
+      "content": {
+        "id": "es.a2.checkpoint.speech",
+        "revision": 1
+      },
+      "text": "Antes estudiaba siempre sola. El mes pasado preparé un examen con dos compañeras. Fue útil, pero para memorizar fechas todavía prefiero trabajar sola.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    }
+  ],
+  "rubrics": [
+    {
+      "content": {
+        "id": "es.a2.checkpoint.rubric",
+        "revision": 1
+      },
+      "criteria": [
+        {
+          "id": "task",
+          "label": {
+            "slot": "es.a2.checkpoint.criterion.task"
+          },
+          "guidance": {
+            "slot": "es.a2.checkpoint.guide.task"
+          }
+        },
+        {
+          "id": "structure",
+          "label": {
+            "slot": "es.a2.checkpoint.criterion.structure"
+          },
+          "guidance": {
+            "slot": "es.a2.checkpoint.guide.structure"
+          }
+        },
+        {
+          "id": "language",
+          "label": {
+            "slot": "es.a2.checkpoint.criterion.language"
+          },
+          "guidance": {
+            "slot": "es.a2.checkpoint.guide.language"
+          }
+        }
+      ],
+      "model_answers": [
+        {
+          "id": "es.a2.checkpoint.model",
+          "revision": 1
+        }
+      ]
+    }
+  ]
+}

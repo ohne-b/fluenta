@@ -1,0 +1,212 @@
+{
+  "grammar": [
+    {
+      "content": {
+        "id": "es.b2.perspectives.grammar",
+        "revision": 2
+      },
+      "title": {
+        "slot": "es.b2.perspectives.grammar.title"
+      },
+      "summary": {
+        "slot": "es.b2.perspectives.grammar.summary"
+      },
+      "band": "B2",
+      "category": "verbs",
+      "explanations": [
+        {
+          "id": "es.b2.perspectives.guide",
+          "revision": 2
+        }
+      ],
+      "lessons": [
+        {
+          "id": "es.b2.perspectives.lesson",
+          "revision": 3
+        }
+      ],
+      "order": 130
+    }
+  ],
+  "materials": [
+    {
+      "content": {
+        "id": "es.b2.perspectives.guide",
+        "revision": 2
+      },
+      "searchable": true,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "slot": "es.b2.perspectives.title"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.b2.perspectives.guide"
+            }
+          ]
+        },
+        {
+          "kind": "table",
+          "caption": {
+            "slot": "es.tables.conditional.caption"
+          },
+          "columns": [
+            {
+              "slot": "es.tables.person"
+            },
+            {
+              "language": "es",
+              "text": "-ar · hablar"
+            },
+            {
+              "language": "es",
+              "text": "-er · comer"
+            },
+            {
+              "language": "es",
+              "text": "-ir · vivir"
+            }
+          ],
+          "rows": [
+            [
+              {
+                "language": "es",
+                "text": "yo"
+              },
+              {
+                "language": "es",
+                "text": "hablaría"
+              },
+              {
+                "language": "es",
+                "text": "comería"
+              },
+              {
+                "language": "es",
+                "text": "viviría"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "tú"
+              },
+              {
+                "language": "es",
+                "text": "hablarías"
+              },
+              {
+                "language": "es",
+                "text": "comerías"
+              },
+              {
+                "language": "es",
+                "text": "vivirías"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "él / ella / usted"
+              },
+              {
+                "language": "es",
+                "text": "hablaría"
+              },
+              {
+                "language": "es",
+                "text": "comería"
+              },
+              {
+                "language": "es",
+                "text": "viviría"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "nosotros / nosotras"
+              },
+              {
+                "language": "es",
+                "text": "hablaríamos"
+              },
+              {
+                "language": "es",
+                "text": "comeríamos"
+              },
+              {
+                "language": "es",
+                "text": "viviríamos"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "vosotros / vosotras"
+              },
+              {
+                "language": "es",
+                "text": "hablaríais"
+              },
+              {
+                "language": "es",
+                "text": "comeríais"
+              },
+              {
+                "language": "es",
+                "text": "viviríais"
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "ellos / ellas / ustedes"
+              },
+              {
+                "language": "es",
+                "text": "hablarían"
+              },
+              {
+                "language": "es",
+                "text": "comerían"
+              },
+              {
+                "language": "es",
+                "text": "vivirían"
+              }
+            ]
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.tables.conditional.note"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Ambos coinciden en que la participación es importante, mientras que discrepan sobre cómo organizarla."
+            }
+          ],
+          "speech": {
+            "id": "es.b2.perspectives.example-audio",
+            "revision": 1
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "release_id": "example.de-es.a2.1",
+  "course": {
+    "content": {"id": "course.school.es.a2", "revision": 1},
+    "source_language": "de", "band": "A2",
+    "title": {"language": "de", "text": "Spanisch für die Schule: Deine Geschichte"},
+    "units": [{"id": "unit.es.past", "revision": 1}]
+  },
+  "units": [{
+    "content": {"id": "unit.es.past", "revision": 1},
+    "title": {"language": "de", "text": "Deine Geschichte"},
+    "objectives": [{"id": "objective.es.past.completed", "revision": 1}],
+    "lessons": [{"id": "lesson.es.past.yesterday", "revision": 1}]
+  }],
+  "lessons": [{
+    "content": {"id": "lesson.es.past.yesterday", "revision": 1},
+    "title": {"language": "de", "text": "Gestern, in deinen Worten"},
+    "objectives": [{"id": "objective.es.past.completed", "revision": 1}],
+    "activities": [
+      {"id": "activity.es.past.explore", "revision": 1},
+      {"id": "activity.es.past.ayer", "revision": 1},
+      {"id": "activity.es.past.type", "revision": 1},
+      {"id": "activity.es.past.speak", "revision": 1}
+    ],
+    "estimated_minutes": 8
+  }],
+  "objectives": [{
+    "content": {"id": "objective.es.past.completed", "revision": 1},
+    "band": "A2",
+    "can_do": {"language": "de", "text": "Ich kann mit einem regelmäßigen Verb auf -ar eine abgeschlossene Handlung in der Vergangenheit beschreiben."},
+    "prerequisites": [],
+    "explanation_refs": [{"id": "explanation.es.past.completed", "revision": 1}]
+  }],
+  "activities": [
+    {
+      "content": {"id": "activity.es.past.explore", "revision": 1},
+      "instruction": {"language": "de", "text": "Abgeschlossen? Dann passt hier das Indefinido."},
+      "objectives": [{"id": "objective.es.past.completed", "revision": 1}],
+      "materials": [], "hints": [], "reveal_policy": "on_request",
+      "task": {"kind": "explanation", "material": {"id": "explanation.es.past.completed", "revision": 1}}
+    },
+    {
+      "content": {"id": "activity.es.past.ayer", "revision": 1},
+      "instruction": {"language": "de", "text": "Was bedeutet ayer?"},
+      "objectives": [{"id": "objective.es.past.completed", "revision": 1}],
+      "materials": [], "hints": [{"id": "hint.es.ayer", "revision": 1}],
+      "reveal_policy": "after_submission",
+      "task": {
+        "kind": "choice",
+        "options": [
+          {"id": "yesterday", "label": {"language": "de", "text": "Gestern"}},
+          {"id": "tomorrow", "label": {"language": "de", "text": "Morgen"}},
+          {"id": "every_day", "label": {"language": "de", "text": "Jeden Tag"}}
+        ],
+        "correct_ids": ["yesterday"],
+        "explanation": {"id": "explanation.es.ayer", "revision": 1}
+      }
+    },
+    {
+      "content": {"id": "activity.es.past.type", "revision": 1},
+      "instruction": {"language": "de", "text": "Ergänze den Satz mit estudiar im Indefinido."},
+      "objectives": [{"id": "objective.es.past.completed", "revision": 1}],
+      "materials": [{"id": "material.es.past.gap", "revision": 1}],
+      "hints": [{"id": "hint.es.past.yo", "revision": 1}], "reveal_policy": "after_submission",
+      "task": {
+        "kind": "short_answer", "language": "es", "target": "orthography",
+        "inputs": ["keyboard"], "accepted": ["estudié"],
+        "normalization": ["unicode_nfc", "trim"],
+        "mistakes": [{"answers": ["estudiaba"], "feedback": {"id": "feedback.es.past.viewpoint", "revision": 1}}],
+        "explanation": {"id": "explanation.es.past.yo", "revision": 1}
+      }
+    },
+    {
+      "content": {"id": "activity.es.past.speak", "revision": 1},
+      "instruction": {"language": "de", "text": "Sage, dass du gestern für die Prüfung gelernt hast. Stelle die Handlung dabei als abgeschlossen dar."},
+      "objectives": [{"id": "objective.es.past.completed", "revision": 1}],
+      "materials": [], "hints": [{"id": "hint.es.past.yo", "revision": 1}],
+      "reveal_policy": "after_submission",
+      "task": {
+        "kind": "short_answer", "language": "es", "target": "sentence_content",
+        "inputs": ["keyboard", "microphone"],
+        "accepted": ["Ayer estudié para el examen", "Ayer yo estudié para el examen"],
+        "normalization": ["unicode_nfc", "trim", "collapse_whitespace", "ignore_case", "ignore_terminal_punctuation"],
+        "mistakes": [], "explanation": {"id": "explanation.es.past.yo", "revision": 1}
+      }
+    }
+  ],
+  "materials": [
+    {
+      "content": {"id": "explanation.es.past.completed", "revision": 1},
+      "blocks": [
+        {"kind": "paragraph", "spans": [{"language": "de", "text": "Verwende das Indefinido, wenn du eine vergangene Handlung als abgeschlossen darstellst. Bei regelmäßigen Verben auf -ar endet die yo-Form auf -é."}]},
+        {"kind": "example", "spans": [{"language": "es", "text": "Ayer estudié para el examen."}], "speech": {"id": "speech.es.past.exam", "revision": 1}},
+        {"kind": "paragraph", "spans": [{"language": "de", "text": "Das deutsche Perfekt entspricht nicht automatisch dem spanischen Indefinido. Entscheidend ist hier, dass du die Handlung als abgeschlossen darstellst."}]}
+      ]
+    },
+    {"content": {"id": "material.es.past.gap", "revision": 1}, "blocks": [{"kind": "paragraph", "spans": [{"language": "es", "text": "Ayer yo _____ para el examen. (estudiar)"}]}]},
+    {"content": {"id": "hint.es.ayer", "revision": 1}, "blocks": [{"kind": "paragraph", "spans": [{"language": "de", "text": "Ayer liegt einen Tag vor heute."}]}]},
+    {"content": {"id": "hint.es.past.yo", "revision": 1}, "blocks": [{"kind": "paragraph", "spans": [{"language": "de", "text": "Achte auf die yo-Endung der regelmäßigen -ar-Verben: -é."}]}]},
+    {"content": {"id": "explanation.es.ayer", "revision": 1}, "blocks": [{"kind": "paragraph", "spans": [{"language": "de", "text": "Ayer bedeutet gestern."}]}]},
+    {"content": {"id": "explanation.es.past.yo", "revision": 1}, "blocks": [{"kind": "paragraph", "spans": [{"language": "de", "text": "Die Endung -é kennzeichnet yo im Indefinido: estudié. Achte auf den geschriebenen Akzent."}]}]},
+    {"content": {"id": "feedback.es.past.viewpoint", "revision": 1}, "blocks": [{"kind": "paragraph", "spans": [{"language": "de", "text": "Diese Aufgabe verlangt die abgeschlossene Sichtweise: estudié. Estudiaba kann passen, wenn du die Handlung als gerade ablaufend oder gewohnheitsmäßig beschreibst."}]}]}
+  ],
+  "speech": [{"content": {"id": "speech.es.past.exam", "revision": 1}, "text": "Ayer estudié para el examen.", "speaker_role": null, "pronunciation_override": null}],
+  "vocabulary": [{
+    "content": {"id": "sense.es.ayer.day-before", "revision": 1},
+    "lemma": "ayer", "part_of_speech": "adverb",
+    "gloss": {"language": "de", "text": "gestern"},
+    "accepted_forms": ["ayer"],
+    "examples": [{"id": "speech.es.past.exam", "revision": 1}]
+  }],
+  "rubrics": []
+}

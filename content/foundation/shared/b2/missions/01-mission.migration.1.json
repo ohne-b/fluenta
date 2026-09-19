@@ -1,0 +1,898 @@
+{
+  "missions": [
+    {
+      "content": {
+        "id": "mission.migration.1",
+        "revision": 1
+      },
+      "title": {
+        "language": "es",
+        "text": "Llegar"
+      },
+      "question": {
+        "language": "es",
+        "text": "¿Qué ayuda a sentirse parte de un lugar?"
+      },
+      "outcome": {
+        "de": "Erkläre Lucías erste Schwierigkeit und schlage eine konkrete Hilfe vor.",
+        "en": "Explain Lucía’s first difficulty and suggest one practical way to help."
+      },
+      "description": {
+        "de": "Verbinde Textverständnis, nützliche Wendungen und eine eigene Antwort.",
+        "en": "Connect understanding, useful expressions and your own response."
+      },
+      "band": "A2",
+      "lesson": {
+        "id": "mission.migration.1.lesson",
+        "revision": 1
+      },
+      "challenge": {
+        "id": "mission.migration.1.assessment",
+        "revision": 1
+      },
+      "vocabulary": [
+        {
+          "id": "lex.llegar",
+          "revision": 1
+        },
+        {
+          "id": "lex.barrio",
+          "revision": 1
+        },
+        {
+          "id": "lex.acogida",
+          "revision": 1
+        },
+        {
+          "id": "lex.mudarse",
+          "revision": 1
+        },
+        {
+          "id": "lex.echar",
+          "revision": 1
+        },
+        {
+          "id": "lex.tramite",
+          "revision": 1
+        },
+        {
+          "id": "lex.apoyo",
+          "revision": 1
+        },
+        {
+          "id": "lex.quedarse",
+          "revision": 1
+        },
+        {
+          "id": "lex.confianza",
+          "revision": 1
+        },
+        {
+          "id": "lex.acostumbrarse",
+          "revision": 1
+        }
+      ],
+      "sources": [
+        {
+          "title": "LehrplanPLUS · Spanisch 12/13, erhöhtes Anforderungsniveau",
+          "url": "https://www.lehrplanplus.bayern.de/fachlehrplan/gymnasium/12/spanisch/erhoeht",
+          "accessed": "2026-09-19",
+          "note": {
+            "de": "Zuordnung zu Themen und Kompetenzen; die Sammlungen sind redaktionell gegliedert.",
+            "en": "Mapping to themes and skills; collection titles are editorial groupings."
+          }
+        },
+        {
+          "title": "IOM · Glossary on Migration",
+          "url": "https://publications.iom.int/books/international-migration-law-ndeg34-glossary-migration",
+          "accessed": "2026-09-19",
+          "note": {
+            "de": "Begrifflicher Hintergrund. Die Personen und Ereignisse in den Lesetexten sind erfunden.",
+            "en": "Terminological background. People and events in the readings are fictional."
+          }
+        }
+      ],
+      "attribution": {
+        "de": "Originaler Lerntext · Personen, Gespräche und lokale Projekte sind erfunden. Synthetische Sprachausgabe.",
+        "en": "Original learning text · People, conversations and local projects are fictional. Synthetic speech."
+      },
+      "order": 1
+    }
+  ],
+  "lessons": [
+    {
+      "content": {
+        "id": "mission.migration.1.lesson",
+        "revision": 1
+      },
+      "title": {
+        "language": "es",
+        "text": "Llegar"
+      },
+      "objectives": [
+        {
+          "id": "mission.migration.1.objective",
+          "revision": 1
+        }
+      ],
+      "activities": [
+        {
+          "id": "mission.migration.1.input",
+          "revision": 1
+        },
+        {
+          "id": "mission.migration.1.comprehension",
+          "revision": 1
+        },
+        {
+          "id": "lex.llegar.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.barrio.gap.practice",
+          "revision": 1
+        },
+        {
+          "id": "lex.acogida.listening",
+          "revision": 1
+        },
+        {
+          "id": "mission.migration.1.prepare",
+          "revision": 1
+        },
+        {
+          "id": "mission.migration.1.write",
+          "revision": 1
+        }
+      ],
+      "estimated_minutes": 15
+    }
+  ],
+  "objectives": [
+    {
+      "content": {
+        "id": "mission.migration.1.objective",
+        "revision": 1
+      },
+      "band": "A2",
+      "can_do": {
+        "de": "Erkläre Lucías erste Schwierigkeit und schlage eine konkrete Hilfe vor.",
+        "en": "Explain Lucía’s first difficulty and suggest one practical way to help."
+      },
+      "prerequisites": [],
+      "explanation_refs": [],
+      "grammar_topics": [
+        "es.a1.identities.grammar",
+        "es.a1.routines.grammar"
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "content": {
+        "id": "mission.migration.1.input",
+        "revision": 1
+      },
+      "instruction": {
+        "de": "Lies oder höre den Text. Öffne nützliche Wendungen bei Bedarf.",
+        "en": "Read or listen. Open useful expressions when you need them."
+      },
+      "objectives": [
+        {
+          "id": "mission.migration.1.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "reading"
+      ],
+      "task": {
+        "kind": "explanation",
+        "material": {
+          "id": "mission.migration.1.reading",
+          "revision": 1
+        }
+      },
+      "evidence_scope": "source_language",
+      "usage": "practice",
+      "lexical": [],
+      "preparation": false
+    },
+    {
+      "content": {
+        "id": "mission.migration.1.comprehension",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "¿Qué dificulta la llegada de Lucía?"
+      },
+      "objectives": [
+        {
+          "id": "mission.migration.1.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "mission.migration.1.reading",
+          "revision": 1
+        }
+      ],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "reading"
+      ],
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "option.0",
+            "label": {
+              "language": "es",
+              "text": "Las normas y los horarios que nadie explica."
+            }
+          },
+          {
+            "id": "option.1",
+            "label": {
+              "language": "es",
+              "text": "La prohibición de entrar en la biblioteca."
+            }
+          },
+          {
+            "id": "option.2",
+            "label": {
+              "language": "es",
+              "text": "Su falta de interés por conocer a alguien."
+            }
+          }
+        ],
+        "correct_ids": [
+          "option.0"
+        ],
+        "explanation": {
+          "id": "mission.migration.1.comprehension.feedback",
+          "revision": 1
+        }
+      },
+      "evidence_scope": "source_language",
+      "usage": "practice",
+      "lexical": [],
+      "preparation": false
+    },
+    {
+      "content": {
+        "id": "mission.migration.1.prepare",
+        "revision": 1
+      },
+      "instruction": {
+        "de": "Bereite deine Antwort vor",
+        "en": "Prepare your response"
+      },
+      "objectives": [
+        {
+          "id": "mission.migration.1.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "reading"
+      ],
+      "task": {
+        "kind": "explanation",
+        "material": {
+          "id": "mission.migration.1.preparation",
+          "revision": 1
+        }
+      },
+      "evidence_scope": "source_language",
+      "usage": "practice",
+      "lexical": [],
+      "preparation": true
+    },
+    {
+      "content": {
+        "id": "mission.migration.1.write",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "Eres representante de clase. Escribe a una compañera que quiere ayudar a Lucía: explica una dificultad concreta, cita un detalle del relato y propone una acción que respete sus intereses. 50–100 palabras."
+      },
+      "objectives": [
+        {
+          "id": "mission.migration.1.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "mission.migration.1.reading",
+          "revision": 1
+        }
+      ],
+      "hints": [
+        {
+          "id": "mission.migration.1.preparation",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "skills": [
+        "writing"
+      ],
+      "task": {
+        "kind": "writing",
+        "language": "es",
+        "min_words": 50,
+        "max_words": 100,
+        "rubric": {
+          "id": "mission.migration.1.rubric",
+          "revision": 1
+        }
+      },
+      "evidence_scope": "source_language",
+      "usage": "practice",
+      "lexical": [],
+      "preparation": false
+    },
+    {
+      "content": {
+        "id": "mission.migration.1.challenge",
+        "revision": 1
+      },
+      "instruction": {
+        "language": "es",
+        "text": "Para el consejo escolar, resume el problema de Samuel y compara dos respuestas posibles. Explica con un detalle del texto por qué una ayuda bien intencionada puede no responder a su necesidad. 80–140 palabras."
+      },
+      "objectives": [
+        {
+          "id": "mission.migration.1.objective",
+          "revision": 1
+        }
+      ],
+      "materials": [
+        {
+          "id": "mission.migration.1.unseen",
+          "revision": 1
+        }
+      ],
+      "hints": [],
+      "reveal_policy": "after_session",
+      "skills": [
+        "writing",
+        "reading"
+      ],
+      "task": {
+        "kind": "writing",
+        "language": "es",
+        "min_words": 80,
+        "max_words": 140,
+        "rubric": {
+          "id": "mission.migration.1.unseen.rubric",
+          "revision": 1
+        }
+      },
+      "evidence_scope": "source_language",
+      "usage": "assessment",
+      "lexical": [],
+      "preparation": false
+    }
+  ],
+  "materials": [
+    {
+      "content": {
+        "id": "mission.migration.1.reading",
+        "revision": 1
+      },
+      "searchable": true,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Llegar"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "de": "Originaler Lerntext · Personen, Gespräche und lokale Projekte sind erfunden. Synthetische Sprachausgabe.",
+              "en": "Original learning text · People, conversations and local projects are fictional. Synthetic speech."
+            }
+          ]
+        },
+        {
+          "kind": "audio",
+          "speech": {
+            "id": "mission.migration.1.audio",
+            "revision": 1
+          }
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Lucía tiene dieciséis años y acaba de llegar a Zaragoza con su madre. Antes vivían en otra ciudad de España. Su madre empieza un trabajo nuevo y Lucía cambia de instituto. No todas las migraciones cruzan una frontera. El primer lunes, Lucía busca su aula en un edificio que todavía no conoce. Un compañero le pregunta de dónde es. Ella responde, pero preferiría que también le preguntaran qué música le gusta.",
+              "annotations": [
+                {
+                  "start": 38,
+                  "end": 46,
+                  "occurrence": {
+                    "id": "mission.migration.1.reading.p0.o0",
+                    "revision": 1
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Por la tarde recorre el barrio. Encuentra una biblioteca y una pequeña cancha de baloncesto. Piensa en sus amigas y empieza a echar de menos las conversaciones de siempre. La acogida en clase ha sido amable, aunque a veces nadie explica las reglas que todos parecen conocer. Para terminar el trámite de la matrícula, su madre necesita un documento que aún no tiene.",
+              "annotations": [
+                {
+                  "start": 21,
+                  "end": 30,
+                  "occurrence": {
+                    "id": "mission.migration.1.reading.p1.o0",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 126,
+                  "end": 140,
+                  "occurrence": {
+                    "id": "mission.migration.1.reading.p1.o1",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 175,
+                  "end": 182,
+                  "occurrence": {
+                    "id": "mission.migration.1.reading.p1.o2",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 289,
+                  "end": 299,
+                  "occurrence": {
+                    "id": "mission.migration.1.reading.p1.o3",
+                    "revision": 1
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Lucía recibe apoyo de Inés, que le enseña dónde se consultan los horarios. Decide quedarse en la biblioteca después de clase. Allí gana confianza para pedir ayuda. Su familia no piensa mudarse a otro piso de inmediato: primero quiere conocer la ciudad. Lucía sabe que va a necesitar tiempo para acostumbrarse a esta vida. Al día siguiente invita a Inés a jugar al baloncesto. Esta vez también ella tiene algo que ofrecer.",
+              "annotations": [
+                {
+                  "start": 13,
+                  "end": 18,
+                  "occurrence": {
+                    "id": "mission.migration.1.reading.p2.o0",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 82,
+                  "end": 90,
+                  "occurrence": {
+                    "id": "mission.migration.1.reading.p2.o1",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 136,
+                  "end": 145,
+                  "occurrence": {
+                    "id": "mission.migration.1.reading.p2.o2",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 185,
+                  "end": 194,
+                  "occurrence": {
+                    "id": "mission.migration.1.reading.p2.o3",
+                    "revision": 1
+                  }
+                },
+                {
+                  "start": 295,
+                  "end": 310,
+                  "occurrence": {
+                    "id": "mission.migration.1.reading.p2.o4",
+                    "revision": 1
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.migration.1.comprehension.feedback",
+        "revision": 1
+      },
+      "searchable": false,
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "de": "Lucía kennt Regeln und Zeiten noch nicht; der Text zeigt aber Interesse am Mitmachen.",
+              "en": "Lucía does not know the rules and schedules; the text does show her interest in participating."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.migration.1.preparation",
+        "revision": 1
+      },
+      "searchable": false,
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "de": "Plane: Was ist die zentrale Aussage? Welche zwei Details helfen? Für wen formulierst du? Notiere Stichwörter, bevor du einen zusammenhängenden Text schreibst oder sprichst.",
+              "en": "Plan: What is the main point? Which two details help? Who is your audience? Note keywords before writing or speaking a connected response."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.migration.1.rubric.model",
+        "revision": 1
+      },
+      "searchable": false,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Una posible respuesta"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Lucía no necesita que todos hablen por ella. Le cuesta entender las reglas que sus compañeros ya conocen: por ejemplo, no sabe dónde consultar los horarios. Podríamos preparar juntos una guía breve y preguntarle qué información falta. Además, le gusta el baloncesto. Invitarla a jugar permitiría compartir una actividad sin convertirla siempre en «la alumna nueva».",
+              "annotations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.migration.1.unseen",
+        "revision": 1
+      },
+      "searchable": false,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Otra situación"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Samuel llega a un pueblo para vivir con su abuelo durante un curso. Entiende las clases, pero el autobús de vuelta sale diez minutos después de la última hora. Por eso nunca puede quedarse en las actividades del centro. Una profesora propone ofrecerle más fichas de vocabulario; Samuel pide que primero se revise el horario del autobús.",
+              "annotations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.migration.1.unseen.rubric.model",
+        "revision": 1
+      },
+      "searchable": false,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Una posible respuesta"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Samuel comprende las clases, pero el horario del autobús le impide participar en actividades. Las fichas de vocabulario no solucionan esa dificultad. Revisar el transporte permitiría su participación, aunque podría exigir coordinación y recursos. Conviene preguntarle a Samuel qué actividades le interesan antes de decidir. Para el consejo escolar, propondría hablar primero con el servicio de transporte y con el propio alumno. Otra posibilidad sería organizar alguna actividad antes de la salida del autobús. Ambas respuestas atienden al tiempo disponible; habría que comparar su viabilidad sin suponer que Samuel necesita más ejercicios de lengua.",
+              "annotations": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "speech": [
+    {
+      "content": {
+        "id": "mission.migration.1.reading.p0.o0.audio",
+        "revision": 1
+      },
+      "text": "Lucía tiene dieciséis años y acaba de llegar a Zaragoza con su madre.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.1.reading.p1.o0.audio",
+        "revision": 1
+      },
+      "text": "Por la tarde recorre el barrio.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.1.reading.p1.o1.audio",
+        "revision": 1
+      },
+      "text": "Piensa en sus amigas y empieza a echar de menos las conversaciones de siempre.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.1.reading.p1.o2.audio",
+        "revision": 1
+      },
+      "text": "La acogida en clase ha sido amable, aunque a veces nadie explica las reglas que todos parecen conocer.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.1.reading.p1.o3.audio",
+        "revision": 1
+      },
+      "text": "Para terminar el trámite de la matrícula, su madre necesita un documento que aún no tiene.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.1.reading.p2.o0.audio",
+        "revision": 1
+      },
+      "text": "Lucía recibe apoyo de Inés, que le enseña dónde se consultan los horarios.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.1.reading.p2.o1.audio",
+        "revision": 1
+      },
+      "text": "Decide quedarse en la biblioteca después de clase.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.1.reading.p2.o2.audio",
+        "revision": 1
+      },
+      "text": "Allí gana confianza para pedir ayuda.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.1.reading.p2.o3.audio",
+        "revision": 1
+      },
+      "text": "Su familia no piensa mudarse a otro piso de inmediato: primero quiere conocer la ciudad.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.1.reading.p2.o4.audio",
+        "revision": 1
+      },
+      "text": "Lucía sabe que va a necesitar tiempo para acostumbrarse a esta vida.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "mission.migration.1.audio",
+        "revision": 1
+      },
+      "text": "Lucía tiene dieciséis años y acaba de llegar a Zaragoza con su madre. Antes vivían en otra ciudad de España. Su madre empieza un trabajo nuevo y Lucía cambia de instituto. No todas las migraciones cruzan una frontera. El primer lunes, Lucía busca su aula en un edificio que todavía no conoce. Un compañero le pregunta de dónde es. Ella responde, pero preferiría que también le preguntaran qué música le gusta. Por la tarde recorre el barrio. Encuentra una biblioteca y una pequeña cancha de baloncesto. Piensa en sus amigas y empieza a echar de menos las conversaciones de siempre. La acogida en clase ha sido amable, aunque a veces nadie explica las reglas que todos parecen conocer. Para terminar el trámite de la matrícula, su madre necesita un documento que aún no tiene. Lucía recibe apoyo de Inés, que le enseña dónde se consultan los horarios. Decide quedarse en la biblioteca después de clase. Allí gana confianza para pedir ayuda. Su familia no piensa mudarse a otro piso de inmediato: primero quiere conocer la ciudad. Lucía sabe que va a necesitar tiempo para acostumbrarse a esta vida. Al día siguiente invita a Inés a jugar al baloncesto. Esta vez también ella tiene algo que ofrecer.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    }
+  ],
+  "rubrics": [
+    {
+      "content": {
+        "id": "mission.migration.1.rubric",
+        "revision": 1
+      },
+      "criteria": [
+        {
+          "id": "task",
+          "label": {
+            "de": "Aufgabe und Adressat",
+            "en": "Task and audience"
+          },
+          "guidance": {
+            "de": "Erfülle die konkrete Schreib- oder Sprechabsicht der Aufgabe. Gehe auf die verlangten Teilfragen ein.",
+            "en": "Fulfil the specific writing or speaking purpose and address the requested points."
+          }
+        },
+        {
+          "id": "source",
+          "label": {
+            "de": "Belege und Genauigkeit",
+            "en": "Evidence and accuracy"
+          },
+          "guidance": {
+            "de": "Stütze deine Aussagen auf konkrete Details der Quelle; trenne Beleg, Deutung und eigene Meinung.",
+            "en": "Support claims with specific source details; separate evidence, interpretation and your opinion."
+          }
+        },
+        {
+          "id": "structure",
+          "label": {
+            "de": "Aufbau und Gegenposition",
+            "en": "Structure and alternative view"
+          },
+          "guidance": {
+            "de": "Ordne deine Gedanken nachvollziehbar. Gehe bei einer Diskussion auf einen begründeten Einwand ein.",
+            "en": "Organise ideas clearly. In discussion, address a reasonable objection."
+          }
+        },
+        {
+          "id": "language",
+          "label": {
+            "de": "Sprache",
+            "en": "Language"
+          },
+          "guidance": {
+            "de": "Formuliere verständlich und adressatengerecht. Prüfe Verbformen, Bezüge und passende Verknüpfungen.",
+            "en": "Write or speak clearly for your audience. Check verb forms, reference and suitable connectors."
+          }
+        }
+      ],
+      "model_answers": [
+        {
+          "id": "mission.migration.1.rubric.model",
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "mission.migration.1.unseen.rubric",
+        "revision": 1
+      },
+      "criteria": [
+        {
+          "id": "task",
+          "label": {
+            "de": "Aufgabe und Adressat",
+            "en": "Task and audience"
+          },
+          "guidance": {
+            "de": "Erfülle die neue Aufgabe unabhängig. Belege deine Überlegungen mit der neuen Quelle; bei Sprachmittlung zählen Auswahl und Adressatenbezug, nicht wörtliche Übersetzung.",
+            "en": "Complete the new task independently. Use the new source; mediation requires relevant selection and audience awareness, not literal translation."
+          }
+        },
+        {
+          "id": "source",
+          "label": {
+            "de": "Belege und Genauigkeit",
+            "en": "Evidence and accuracy"
+          },
+          "guidance": {
+            "de": "Stütze deine Aussagen auf konkrete Details der Quelle; trenne Beleg, Deutung und eigene Meinung.",
+            "en": "Support claims with specific source details; separate evidence, interpretation and your opinion."
+          }
+        },
+        {
+          "id": "structure",
+          "label": {
+            "de": "Aufbau und Gegenposition",
+            "en": "Structure and alternative view"
+          },
+          "guidance": {
+            "de": "Ordne deine Gedanken nachvollziehbar. Gehe bei einer Diskussion auf einen begründeten Einwand ein.",
+            "en": "Organise ideas clearly. In discussion, address a reasonable objection."
+          }
+        },
+        {
+          "id": "language",
+          "label": {
+            "de": "Sprache",
+            "en": "Language"
+          },
+          "guidance": {
+            "de": "Formuliere verständlich und adressatengerecht. Prüfe Verbformen, Bezüge und passende Verknüpfungen.",
+            "en": "Write or speak clearly for your audience. Check verb forms, reference and suitable connectors."
+          }
+        }
+      ],
+      "model_answers": [
+        {
+          "id": "mission.migration.1.unseen.rubric.model",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "assessments": [
+    {
+      "content": {
+        "id": "mission.migration.1.assessment",
+        "revision": 1
+      },
+      "title": {
+        "de": "Neue Quelle · unabhängige Aufgabe",
+        "en": "New source · independent challenge"
+      },
+      "activities": [
+        {
+          "id": "mission.migration.1.challenge",
+          "revision": 1
+        }
+      ],
+      "duration_seconds": 1200,
+      "audio_replays": 0
+    }
+  ]
+}

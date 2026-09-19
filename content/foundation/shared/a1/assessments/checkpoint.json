@@ -1,0 +1,363 @@
+{
+  "assessments": [
+    {
+      "content": {
+        "id": "es.a1.checkpoint",
+        "revision": 2
+      },
+      "title": {
+        "slot": "es.a1.checkpoint.title"
+      },
+      "activities": [
+        {
+          "id": "es.a1.checkpoint.one",
+          "revision": 2
+        },
+        {
+          "id": "es.a1.checkpoint.two",
+          "revision": 2
+        },
+        {
+          "id": "es.a1.checkpoint.listen",
+          "revision": 2
+        },
+        {
+          "id": "es.a1.checkpoint.write",
+          "revision": 2
+        }
+      ],
+      "duration_seconds": 600,
+      "audio_replays": 2
+    }
+  ],
+  "activities": [
+    {
+      "content": {
+        "id": "es.a1.checkpoint.one",
+        "revision": 2
+      },
+      "instruction": {
+        "language": "es",
+        "text": "Completa con estudiar: Mi hermana ___ español."
+      },
+      "objectives": [
+        {
+          "id": "es.a1.identities.objective",
+          "revision": 2
+        }
+      ],
+      "materials": [],
+      "hints": [],
+      "reveal_policy": "after_session",
+      "usage": "assessment",
+      "evidence_scope": "spanish",
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "orthography",
+        "inputs": [
+          "keyboard"
+        ],
+        "accepted": [
+          "estudia"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.a1.checkpoint.one.answer",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "grammar",
+        "vocabulary"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.checkpoint.two",
+        "revision": 2
+      },
+      "instruction": {
+        "language": "es",
+        "text": "Escribe el plural: la ventana grande → ___."
+      },
+      "objectives": [
+        {
+          "id": "es.a1.identities.objective",
+          "revision": 2
+        }
+      ],
+      "materials": [],
+      "hints": [],
+      "reveal_policy": "after_session",
+      "usage": "assessment",
+      "evidence_scope": "spanish",
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "orthography",
+        "inputs": [
+          "keyboard"
+        ],
+        "accepted": [
+          "las ventanas grandes"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.a1.checkpoint.two.answer",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "grammar",
+        "vocabulary"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.checkpoint.listen",
+        "revision": 2
+      },
+      "instruction": {
+        "slot": "es.a1.checkpoint.question"
+      },
+      "objectives": [
+        {
+          "id": "es.a1.identities.objective",
+          "revision": 2
+        }
+      ],
+      "materials": [
+        {
+          "id": "es.a1.checkpoint.audio",
+          "revision": 1
+        }
+      ],
+      "hints": [],
+      "reveal_policy": "after_session",
+      "usage": "assessment",
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "c1",
+            "label": {
+              "language": "es",
+              "text": "A pie."
+            }
+          },
+          {
+            "id": "c2",
+            "label": {
+              "language": "es",
+              "text": "En autobús."
+            }
+          },
+          {
+            "id": "c3",
+            "label": {
+              "language": "es",
+              "text": "En bicicleta."
+            }
+          }
+        ],
+        "correct_ids": [
+          "c1"
+        ],
+        "explanation": {
+          "id": "es.a1.checkpoint.listen.answer",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "listening"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.checkpoint.write",
+        "revision": 2
+      },
+      "instruction": {
+        "language": "es",
+        "text": "Escribe un mensaje breve a una persona de intercambio. Describe tu instituto y dos actividades de un día normal."
+      },
+      "objectives": [
+        {
+          "id": "es.a1.identities.objective",
+          "revision": 2
+        }
+      ],
+      "materials": [],
+      "hints": [],
+      "reveal_policy": "after_session",
+      "usage": "assessment",
+      "task": {
+        "kind": "writing",
+        "language": "es",
+        "min_words": 15,
+        "max_words": 75,
+        "rubric": {
+          "id": "es.a1.checkpoint.rubric",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "writing"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "content": {
+        "id": "es.a1.checkpoint.one.answer",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "estudia"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.checkpoint.two.answer",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "las ventanas grandes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.checkpoint.audio",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "audio",
+          "speech": {
+            "id": "es.a1.checkpoint.speech",
+            "revision": 1
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.checkpoint.listen.answer",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Soy Pablo. Mi clase de historia empieza a las once. Hoy voy al instituto a pie porque hace buen tiempo."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a1.checkpoint.model",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Hola, me llamo Nora. Mi instituto es pequeño y tiene una biblioteca grande. Los martes estudio español a las nueve. Después del recreo tengo música. Por la tarde hago los deberes y juego al tenis."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "speech": [
+    {
+      "content": {
+        "id": "es.a1.checkpoint.speech",
+        "revision": 1
+      },
+      "text": "Soy Pablo. Mi clase de historia empieza a las once. Hoy voy al instituto a pie porque hace buen tiempo.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    }
+  ],
+  "rubrics": [
+    {
+      "content": {
+        "id": "es.a1.checkpoint.rubric",
+        "revision": 1
+      },
+      "criteria": [
+        {
+          "id": "task",
+          "label": {
+            "slot": "es.a1.checkpoint.criterion.task"
+          },
+          "guidance": {
+            "slot": "es.a1.checkpoint.guide.task"
+          }
+        },
+        {
+          "id": "structure",
+          "label": {
+            "slot": "es.a1.checkpoint.criterion.structure"
+          },
+          "guidance": {
+            "slot": "es.a1.checkpoint.guide.structure"
+          }
+        },
+        {
+          "id": "language",
+          "label": {
+            "slot": "es.a1.checkpoint.criterion.language"
+          },
+          "guidance": {
+            "slot": "es.a1.checkpoint.guide.language"
+          }
+        }
+      ],
+      "model_answers": [
+        {
+          "id": "es.a1.checkpoint.model",
+          "revision": 1
+        }
+      ]
+    }
+  ]
+}

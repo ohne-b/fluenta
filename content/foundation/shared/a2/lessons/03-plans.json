@@ -1,0 +1,635 @@
+{
+  "lessons": [
+    {
+      "content": {
+        "id": "es.a2.plans.lesson",
+        "revision": 3
+      },
+      "title": {
+        "slot": "es.a2.plans.title"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.plans.objective",
+          "revision": 3
+        }
+      ],
+      "activities": [
+        {
+          "id": "es.a2.plans.intro",
+          "revision": 3
+        },
+        {
+          "id": "es.a2.plans.choice",
+          "revision": 3
+        },
+        {
+          "id": "es.a2.plans.order",
+          "revision": 3
+        },
+        {
+          "id": "es.a2.plans.recall",
+          "revision": 3
+        },
+        {
+          "id": "es.a2.plans.listen",
+          "revision": 3
+        },
+        {
+          "id": "es.a2.plans.produce",
+          "revision": 3
+        }
+      ],
+      "estimated_minutes": 10
+    }
+  ],
+  "objectives": [
+    {
+      "content": {
+        "id": "es.a2.plans.objective",
+        "revision": 3
+      },
+      "band": "A2",
+      "can_do": {
+        "slot": "es.a2.plans.can_do"
+      },
+      "prerequisites": [
+        {
+          "id": "es.a2.past-background.objective",
+          "revision": 3
+        }
+      ],
+      "explanation_refs": [
+        {
+          "id": "es.a2.plans.guide",
+          "revision": 2
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "content": {
+        "id": "es.a2.plans.intro",
+        "revision": 3
+      },
+      "instruction": {
+        "slot": "es.a2.plans.title"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.plans.objective",
+          "revision": 3
+        }
+      ],
+      "materials": [],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "explanation",
+        "material": {
+          "id": "es.a2.plans.guide",
+          "revision": 2
+        }
+      },
+      "skills": [
+        "grammar"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.plans.choice",
+        "revision": 3
+      },
+      "instruction": {
+        "slot": "es.a2.plans.choice"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.plans.objective",
+          "revision": 3
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.plans.guide",
+          "revision": 2
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "c1",
+            "label": {
+              "language": "es",
+              "text": "Voy a estudiar esta tarde."
+            }
+          },
+          {
+            "id": "c2",
+            "label": {
+              "language": "es",
+              "text": "Voy estudiar esta tarde."
+            }
+          },
+          {
+            "id": "c3",
+            "label": {
+              "language": "es",
+              "text": "Voy a estudio esta tarde."
+            }
+          }
+        ],
+        "correct_ids": [
+          "c1"
+        ],
+        "explanation": {
+          "id": "es.a2.plans.guide",
+          "revision": 2
+        }
+      },
+      "skills": [
+        "reading"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.plans.order",
+        "revision": 3
+      },
+      "instruction": {
+        "slot": "es.a2.plans.order"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.plans.objective",
+          "revision": 3
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.plans.guide",
+          "revision": 2
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "order",
+        "items": [
+          {
+            "id": "w1",
+            "label": {
+              "language": "es",
+              "text": "Tenemos"
+            }
+          },
+          {
+            "id": "w2",
+            "label": {
+              "language": "es",
+              "text": "que"
+            }
+          },
+          {
+            "id": "w3",
+            "label": {
+              "language": "es",
+              "text": "preparar"
+            }
+          },
+          {
+            "id": "w4",
+            "label": {
+              "language": "es",
+              "text": "una"
+            }
+          },
+          {
+            "id": "w5",
+            "label": {
+              "language": "es",
+              "text": "presentación"
+            }
+          },
+          {
+            "id": "w6",
+            "label": {
+              "language": "es",
+              "text": "para"
+            }
+          },
+          {
+            "id": "w7",
+            "label": {
+              "language": "es",
+              "text": "mañana."
+            }
+          }
+        ],
+        "accepted_orders": [
+          [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ]
+        ],
+        "explanation": {
+          "id": "es.a2.plans.guide",
+          "revision": 2
+        }
+      },
+      "skills": [
+        "grammar"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.plans.recall",
+        "revision": 3
+      },
+      "instruction": {
+        "slot": "es.a2.plans.recall"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.plans.objective",
+          "revision": 3
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.plans.guide",
+          "revision": 2
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "sentence_content",
+        "inputs": [
+          "keyboard",
+          "microphone"
+        ],
+        "accepted": [
+          "Voy a estudiar",
+          "Yo voy a estudiar"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.a2.plans.recall-answer",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "grammar",
+        "vocabulary"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.plans.listen",
+        "revision": 3
+      },
+      "instruction": {
+        "slot": "es.a2.plans.listen"
+      },
+      "objectives": [
+        {
+          "id": "es.a2.plans.objective",
+          "revision": 3
+        }
+      ],
+      "materials": [
+        {
+          "id": "es.a2.plans.listening",
+          "revision": 1
+        }
+      ],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "l1",
+            "label": {
+              "language": "es",
+              "text": "Escribir la introducción."
+            }
+          },
+          {
+            "id": "l2",
+            "label": {
+              "language": "es",
+              "text": "Buscar imágenes."
+            }
+          },
+          {
+            "id": "l3",
+            "label": {
+              "language": "es",
+              "text": "Presentar el viernes."
+            }
+          }
+        ],
+        "correct_ids": [
+          "l1"
+        ],
+        "explanation": {
+          "id": "es.a2.plans.listen-answer",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "listening"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.plans.produce",
+        "revision": 3
+      },
+      "instruction": {
+        "language": "es",
+        "text": "Propón un plan de estudio para la próxima semana. Explica tres tareas y sus objetivos."
+      },
+      "objectives": [
+        {
+          "id": "es.a2.plans.objective",
+          "revision": 3
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.a2.plans.guide",
+          "revision": 2
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "writing",
+        "language": "es",
+        "min_words": 25,
+        "max_words": 110,
+        "rubric": {
+          "id": "es.a2.plans.rubric",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "writing"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "content": {
+        "id": "es.a2.plans.listening",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "audio",
+          "speech": {
+            "id": "es.a2.plans.listening-audio",
+            "revision": 1
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.plans.listen-answer",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a2.plans.listen-feedback"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "El viernes vamos a preparar una presentación sobre México. Ana va a buscar imágenes y yo voy a escribir la introducción. La presentamos el lunes."
+            }
+          ],
+          "speech": null
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.plans.recall-answer",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "slot": "es.a2.plans.answer-title"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Voy a estudiar"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a2.plans.guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.plans.model",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "slot": "es.a2.plans.model-title"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "El lunes voy a repasar los verbos para preparar el examen. El miércoles voy a leer un texto porque necesito practicar la comprensión. El viernes voy a estudiar vocabulario con una amiga. Tenemos que organizar bien el tiempo."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.a2.plans.vocab",
+        "revision": 1
+      },
+      "searchable": true,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "language": "es",
+              "text": "repasar"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a2.plans.gloss"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Voy a repasar los verbos porque mañana tengo un examen. Estudio para aprobar."
+            }
+          ],
+          "speech": {
+            "id": "es.a2.plans.example-audio",
+            "revision": 1
+          }
+        }
+      ]
+    }
+  ],
+  "speech": [
+    {
+      "content": {
+        "id": "es.a2.plans.example-audio",
+        "revision": 1
+      },
+      "text": "Voy a repasar los verbos porque mañana tengo un examen. Estudio para aprobar.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "es.a2.plans.listening-audio",
+        "revision": 1
+      },
+      "text": "El viernes vamos a preparar una presentación sobre México. Ana va a buscar imágenes y yo voy a escribir la introducción. La presentamos el lunes.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "content": {
+        "id": "es.a2.plans.lexeme",
+        "revision": 1
+      },
+      "lemma": "repasar",
+      "part_of_speech": "expression",
+      "gloss": {
+        "slot": "es.a2.plans.gloss"
+      },
+      "accepted_forms": [
+        "repasar"
+      ],
+      "examples": [
+        {
+          "id": "es.a2.plans.vocab",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "rubrics": [
+    {
+      "content": {
+        "id": "es.a2.plans.rubric",
+        "revision": 1
+      },
+      "criteria": [
+        {
+          "id": "task",
+          "label": {
+            "slot": "es.a2.plans.rubric.task.label"
+          },
+          "guidance": {
+            "slot": "es.a2.plans.rubric.task.guidance"
+          }
+        },
+        {
+          "id": "structure",
+          "label": {
+            "slot": "es.a2.plans.rubric.structure.label"
+          },
+          "guidance": {
+            "slot": "es.a2.plans.rubric.structure.guidance"
+          }
+        },
+        {
+          "id": "language",
+          "label": {
+            "slot": "es.a2.plans.rubric.language.label"
+          },
+          "guidance": {
+            "slot": "es.a2.plans.rubric.language.guidance"
+          }
+        }
+      ],
+      "model_answers": [
+        {
+          "id": "es.a2.plans.model",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "assessments": []
+}

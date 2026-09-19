@@ -1,0 +1,38 @@
+{
+  "name": "fluenta",
+  "version": "0.0.1",
+  "private": true,
+  "workspaces": [
+    "apps/desktop",
+    "packages/contracts"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "npm run dev -w @fluenta/desktop",
+    "build": "npm run build -w @fluenta/desktop",
+    "desktop:dev": "npm run tauri -w @fluenta/desktop -- dev",
+    "desktop:build": "npm run tauri -w @fluenta/desktop -- build",
+    "studio:dev": "npm run tauri -w @fluenta/desktop -- dev --features studio --config src-tauri/tauri.studio.conf.json",
+    "studio:build": "npm run tauri -w @fluenta/desktop -- build --features studio --config src-tauri/tauri.studio.conf.json",
+    "contracts": "cargo run -p fluenta-contracts --bin export && node scripts/contracts.mjs",
+    "content:build": "cargo run -p fluenta-content --bin content-build -- content/foundation apps/desktop/src-tauri/resources/courses",
+    "check": "python scripts/test-release.py && node scripts/contracts.mjs --check && npm run build && npm run studio:ui:build -w @fluenta/desktop && cargo test --workspace --all-features && cargo clippy --workspace --all-targets --all-features -- -D warnings",
+    "test:e2e": "playwright test",
+    "format": "cargo fmt --all && prettier --write apps/desktop/src apps/studio/src packages/contracts scripts/*.mjs",
+    "release": "python scripts/package-release.py"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@tauri-apps/cli": "^2.11.4",
+    "@types/node": "^26.5.1",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "json-schema-to-typescript": "^16.0.0",
+    "prettier": "^3.9.6",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.0"
+  }
+}

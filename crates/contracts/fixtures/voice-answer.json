@@ -1,0 +1,18 @@
+{
+  "content": {"id": "activity.past.spoken.001", "revision": 1},
+  "instruction": {"language": "en", "text": "Say that you studied for the exam yesterday."},
+  "objectives": [{"id": "objective.es.past.completed", "revision": 1}],
+  "materials": [],
+  "hints": [],
+  "reveal_policy": "after_submission",
+  "task": {
+    "kind": "short_answer",
+    "language": "es",
+    "target": "sentence_content",
+    "inputs": ["keyboard", "microphone"],
+    "accepted": ["Ayer estudié para el examen", "Ayer yo estudié para el examen"],
+    "normalization": ["unicode_nfc", "trim", "collapse_whitespace", "ignore_case", "ignore_terminal_punctuation"],
+    "mistakes": [],
+    "explanation": {"id": "explanation.es.past.yo.en", "revision": 1}
+  }
+}

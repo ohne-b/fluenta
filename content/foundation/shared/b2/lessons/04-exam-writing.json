@@ -1,0 +1,737 @@
+{
+  "lessons": [
+    {
+      "content": {
+        "id": "es.b2.exam-writing.lesson",
+        "revision": 3
+      },
+      "title": {
+        "slot": "es.b2.exam-writing.title"
+      },
+      "objectives": [
+        {
+          "id": "es.b2.exam-writing.objective",
+          "revision": 2
+        }
+      ],
+      "activities": [
+        {
+          "id": "es.b2.exam-writing.intro",
+          "revision": 3
+        },
+        {
+          "id": "es.b2.exam-writing.choice",
+          "revision": 2
+        },
+        {
+          "id": "es.b2.exam-writing.order",
+          "revision": 2
+        },
+        {
+          "id": "es.b2.exam-writing.recall",
+          "revision": 2
+        },
+        {
+          "id": "es.b2.exam-writing.listen",
+          "revision": 2
+        },
+        {
+          "id": "es.b2.exam-writing.produce",
+          "revision": 2
+        }
+      ],
+      "estimated_minutes": 12
+    }
+  ],
+  "objectives": [
+    {
+      "content": {
+        "id": "es.b2.exam-writing.objective",
+        "revision": 2
+      },
+      "band": "B2",
+      "can_do": {
+        "slot": "es.b2.exam-writing.can_do"
+      },
+      "prerequisites": [
+        {
+          "id": "es.b2.perspectives.objective",
+          "revision": 2
+        }
+      ],
+      "explanation_refs": [
+        {
+          "id": "es.b2.exam-writing.guide",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "content": {
+        "id": "es.b2.exam-writing.intro",
+        "revision": 3
+      },
+      "instruction": {
+        "slot": "es.b2.exam-writing.title"
+      },
+      "objectives": [
+        {
+          "id": "es.b2.exam-writing.objective",
+          "revision": 2
+        }
+      ],
+      "materials": [],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "explanation",
+        "material": {
+          "id": "es.b2.exam-writing.guide",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "grammar"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b2.exam-writing.choice",
+        "revision": 2
+      },
+      "instruction": {
+        "slot": "es.b2.exam-writing.choice"
+      },
+      "objectives": [
+        {
+          "id": "es.b2.exam-writing.objective",
+          "revision": 2
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.b2.exam-writing.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "c1",
+            "label": {
+              "language": "es",
+              "text": "Atentamente, Elena García."
+            }
+          },
+          {
+            "id": "c2",
+            "label": {
+              "language": "es",
+              "text": "¡Nos vemos, colega!"
+            }
+          },
+          {
+            "id": "c3",
+            "label": {
+              "language": "es",
+              "text": "Besitos y hasta luego."
+            }
+          }
+        ],
+        "correct_ids": [
+          "c1"
+        ],
+        "explanation": {
+          "id": "es.b2.exam-writing.guide",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "reading"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b2.exam-writing.order",
+        "revision": 2
+      },
+      "instruction": {
+        "slot": "es.b2.exam-writing.order"
+      },
+      "objectives": [
+        {
+          "id": "es.b2.exam-writing.objective",
+          "revision": 2
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.b2.exam-writing.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "order",
+        "items": [
+          {
+            "id": "w1",
+            "label": {
+              "language": "es",
+              "text": "Me"
+            }
+          },
+          {
+            "id": "w2",
+            "label": {
+              "language": "es",
+              "text": "dirijo"
+            }
+          },
+          {
+            "id": "w3",
+            "label": {
+              "language": "es",
+              "text": "a"
+            }
+          },
+          {
+            "id": "w4",
+            "label": {
+              "language": "es",
+              "text": "usted"
+            }
+          },
+          {
+            "id": "w5",
+            "label": {
+              "language": "es",
+              "text": "para"
+            }
+          },
+          {
+            "id": "w6",
+            "label": {
+              "language": "es",
+              "text": "proponer"
+            }
+          },
+          {
+            "id": "w7",
+            "label": {
+              "language": "es",
+              "text": "una"
+            }
+          },
+          {
+            "id": "w8",
+            "label": {
+              "language": "es",
+              "text": "mejora"
+            }
+          },
+          {
+            "id": "w9",
+            "label": {
+              "language": "es",
+              "text": "del"
+            }
+          },
+          {
+            "id": "w10",
+            "label": {
+              "language": "es",
+              "text": "instituto."
+            }
+          }
+        ],
+        "accepted_orders": [
+          [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ]
+        ],
+        "explanation": {
+          "id": "es.b2.exam-writing.guide",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "grammar"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b2.exam-writing.recall",
+        "revision": 2
+      },
+      "instruction": {
+        "slot": "es.b2.exam-writing.recall"
+      },
+      "objectives": [
+        {
+          "id": "es.b2.exam-writing.objective",
+          "revision": 2
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.b2.exam-writing.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "sentence_content",
+        "inputs": [
+          "keyboard",
+          "microphone"
+        ],
+        "accepted": [
+          "dirijo"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.b2.exam-writing.recall-answer",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "grammar",
+        "vocabulary"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b2.exam-writing.listen",
+        "revision": 2
+      },
+      "instruction": {
+        "slot": "es.b2.exam-writing.listen"
+      },
+      "objectives": [
+        {
+          "id": "es.b2.exam-writing.objective",
+          "revision": 2
+        }
+      ],
+      "materials": [
+        {
+          "id": "es.b2.exam-writing.listening",
+          "revision": 1
+        }
+      ],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "l1",
+            "label": {
+              "language": "es",
+              "text": "Una estimación de los recursos necesarios."
+            }
+          },
+          {
+            "id": "l2",
+            "label": {
+              "language": "es",
+              "text": "Una lista de todas las notas del curso."
+            }
+          },
+          {
+            "id": "l3",
+            "label": {
+              "language": "es",
+              "text": "Una traducción a tres idiomas."
+            }
+          }
+        ],
+        "correct_ids": [
+          "l1"
+        ],
+        "explanation": {
+          "id": "es.b2.exam-writing.listen-answer",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "listening"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b2.exam-writing.produce",
+        "revision": 2
+      },
+      "instruction": {
+        "language": "es",
+        "text": "Escribe un correo formal a la dirección de tu instituto. Propón una mejora de un espacio común, explica su utilidad, considera una dificultad y solicita una respuesta."
+      },
+      "objectives": [
+        {
+          "id": "es.b2.exam-writing.objective",
+          "revision": 2
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.b2.exam-writing.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "speaking",
+        "language": "es",
+        "max_seconds": 90,
+        "rubric": {
+          "id": "es.b2.exam-writing.rubric",
+          "revision": 1
+        },
+        "keyboard_alternative": {
+          "id": "es.b2.exam-writing.keyboard",
+          "revision": 2
+        }
+      },
+      "skills": [
+        "speaking"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b2.exam-writing.keyboard",
+        "revision": 2
+      },
+      "instruction": {
+        "language": "es",
+        "text": "Escribe un correo formal a la dirección de tu instituto. Propón una mejora de un espacio común, explica su utilidad, considera una dificultad y solicita una respuesta."
+      },
+      "objectives": [
+        {
+          "id": "es.b2.exam-writing.objective",
+          "revision": 2
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.b2.exam-writing.guide",
+          "revision": 1
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "writing",
+        "language": "es",
+        "min_words": 70,
+        "max_words": 240,
+        "rubric": {
+          "id": "es.b2.exam-writing.rubric",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "writing"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "content": {
+        "id": "es.b2.exam-writing.guide",
+        "revision": 1
+      },
+      "searchable": true,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "slot": "es.b2.exam-writing.title"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.b2.exam-writing.guide"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Estimada directora: Me dirijo a usted para proponer la creación de un espacio de estudio. Atentamente, Elena García."
+            }
+          ],
+          "speech": {
+            "id": "es.b2.exam-writing.example-audio",
+            "revision": 1
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b2.exam-writing.listening",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "audio",
+          "speech": {
+            "id": "es.b2.exam-writing.listening-audio",
+            "revision": 1
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b2.exam-writing.listen-answer",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.b2.exam-writing.listen-feedback"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "La dirección invita al alumnado a enviar propuestas para mejorar los espacios comunes. Cada propuesta debe explicar el problema, presentar una solución y estimar los recursos necesarios. El plazo termina el treinta de abril."
+            }
+          ],
+          "speech": null
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b2.exam-writing.recall-answer",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "slot": "es.b2.exam-writing.answer-title"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "dirijo"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.b2.exam-writing.guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b2.exam-writing.model",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "slot": "es.b2.exam-writing.model-title"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Estimada directora: Me dirijo a usted para proponer la creación de una zona de estudio en una parte de la biblioteca. Este espacio permitiría trabajar con tranquilidad durante los recreos y después de las clases. Para empezar, podríamos utilizar mesas que ya tiene el instituto. Entiendo que sería necesario organizar la supervisión, por lo que propongo consultar al profesorado y al alumnado antes de fijar un horario. Le agradecería que valorara la propuesta y nos comunicara su opinión. Atentamente, Elena García."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b2.exam-writing.vocab",
+        "revision": 1
+      },
+      "searchable": true,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "language": "es",
+              "text": "atentamente"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.b2.exam-writing.gloss"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Estimada directora: Me dirijo a usted para proponer la creación de un espacio de estudio. Atentamente, Elena García."
+            }
+          ],
+          "speech": {
+            "id": "es.b2.exam-writing.example-audio",
+            "revision": 1
+          }
+        }
+      ]
+    }
+  ],
+  "speech": [
+    {
+      "content": {
+        "id": "es.b2.exam-writing.example-audio",
+        "revision": 1
+      },
+      "text": "Estimada directora: Me dirijo a usted para proponer la creación de un espacio de estudio. Atentamente, Elena García.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "es.b2.exam-writing.listening-audio",
+        "revision": 1
+      },
+      "text": "La dirección invita al alumnado a enviar propuestas para mejorar los espacios comunes. Cada propuesta debe explicar el problema, presentar una solución y estimar los recursos necesarios. El plazo termina el treinta de abril.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "content": {
+        "id": "es.b2.exam-writing.lexeme",
+        "revision": 1
+      },
+      "lemma": "atentamente",
+      "part_of_speech": "expression",
+      "gloss": {
+        "slot": "es.b2.exam-writing.gloss"
+      },
+      "accepted_forms": [
+        "atentamente"
+      ],
+      "examples": [
+        {
+          "id": "es.b2.exam-writing.vocab",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "rubrics": [
+    {
+      "content": {
+        "id": "es.b2.exam-writing.rubric",
+        "revision": 1
+      },
+      "criteria": [
+        {
+          "id": "task",
+          "label": {
+            "slot": "es.b2.exam-writing.rubric.task.label"
+          },
+          "guidance": {
+            "slot": "es.b2.exam-writing.rubric.task.guidance"
+          }
+        },
+        {
+          "id": "structure",
+          "label": {
+            "slot": "es.b2.exam-writing.rubric.structure.label"
+          },
+          "guidance": {
+            "slot": "es.b2.exam-writing.rubric.structure.guidance"
+          }
+        },
+        {
+          "id": "language",
+          "label": {
+            "slot": "es.b2.exam-writing.rubric.language.label"
+          },
+          "guidance": {
+            "slot": "es.b2.exam-writing.rubric.language.guidance"
+          }
+        }
+      ],
+      "model_answers": [
+        {
+          "id": "es.b2.exam-writing.model",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "assessments": []
+}

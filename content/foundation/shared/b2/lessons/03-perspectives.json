@@ -1,0 +1,658 @@
+{
+  "lessons": [
+    {
+      "content": {
+        "id": "es.b2.perspectives.lesson",
+        "revision": 3
+      },
+      "title": {
+        "slot": "es.b2.perspectives.title"
+      },
+      "objectives": [
+        {
+          "id": "es.b2.perspectives.objective",
+          "revision": 2
+        }
+      ],
+      "activities": [
+        {
+          "id": "es.b2.perspectives.intro",
+          "revision": 3
+        },
+        {
+          "id": "es.b2.perspectives.choice",
+          "revision": 2
+        },
+        {
+          "id": "es.b2.perspectives.order",
+          "revision": 2
+        },
+        {
+          "id": "es.b2.perspectives.recall",
+          "revision": 2
+        },
+        {
+          "id": "es.b2.perspectives.listen",
+          "revision": 2
+        },
+        {
+          "id": "es.b2.perspectives.produce",
+          "revision": 2
+        }
+      ],
+      "estimated_minutes": 12
+    }
+  ],
+  "objectives": [
+    {
+      "content": {
+        "id": "es.b2.perspectives.objective",
+        "revision": 2
+      },
+      "band": "B2",
+      "can_do": {
+        "slot": "es.b2.perspectives.can_do"
+      },
+      "prerequisites": [
+        {
+          "id": "es.b2.argumentation.objective",
+          "revision": 1
+        }
+      ],
+      "explanation_refs": [
+        {
+          "id": "es.b2.perspectives.guide",
+          "revision": 2
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "content": {
+        "id": "es.b2.perspectives.intro",
+        "revision": 3
+      },
+      "instruction": {
+        "slot": "es.b2.perspectives.title"
+      },
+      "objectives": [
+        {
+          "id": "es.b2.perspectives.objective",
+          "revision": 2
+        }
+      ],
+      "materials": [],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "explanation",
+        "material": {
+          "id": "es.b2.perspectives.guide",
+          "revision": 2
+        }
+      },
+      "skills": [
+        "grammar"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b2.perspectives.choice",
+        "revision": 2
+      },
+      "instruction": {
+        "slot": "es.b2.perspectives.choice"
+      },
+      "objectives": [
+        {
+          "id": "es.b2.perspectives.objective",
+          "revision": 2
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.b2.perspectives.guide",
+          "revision": 2
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "c1",
+            "label": {
+              "language": "es",
+              "text": "Según la entrevistada, la participación debería ser voluntaria."
+            }
+          },
+          {
+            "id": "c2",
+            "label": {
+              "language": "es",
+              "text": "Todo el mundo piensa exactamente lo mismo."
+            }
+          },
+          {
+            "id": "c3",
+            "label": {
+              "language": "es",
+              "text": "Así son todas las personas de ese país."
+            }
+          }
+        ],
+        "correct_ids": [
+          "c1"
+        ],
+        "explanation": {
+          "id": "es.b2.perspectives.guide",
+          "revision": 2
+        }
+      },
+      "skills": [
+        "reading"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b2.perspectives.order",
+        "revision": 2
+      },
+      "instruction": {
+        "slot": "es.b2.perspectives.order"
+      },
+      "objectives": [
+        {
+          "id": "es.b2.perspectives.objective",
+          "revision": 2
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.b2.perspectives.guide",
+          "revision": 2
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "order",
+        "items": [
+          {
+            "id": "w1",
+            "label": {
+              "language": "es",
+              "text": "Ambos"
+            }
+          },
+          {
+            "id": "w2",
+            "label": {
+              "language": "es",
+              "text": "coinciden"
+            }
+          },
+          {
+            "id": "w3",
+            "label": {
+              "language": "es",
+              "text": "en"
+            }
+          },
+          {
+            "id": "w4",
+            "label": {
+              "language": "es",
+              "text": "que"
+            }
+          },
+          {
+            "id": "w5",
+            "label": {
+              "language": "es",
+              "text": "la"
+            }
+          },
+          {
+            "id": "w6",
+            "label": {
+              "language": "es",
+              "text": "participación"
+            }
+          },
+          {
+            "id": "w7",
+            "label": {
+              "language": "es",
+              "text": "del"
+            }
+          },
+          {
+            "id": "w8",
+            "label": {
+              "language": "es",
+              "text": "alumnado"
+            }
+          },
+          {
+            "id": "w9",
+            "label": {
+              "language": "es",
+              "text": "es"
+            }
+          },
+          {
+            "id": "w10",
+            "label": {
+              "language": "es",
+              "text": "esencial."
+            }
+          }
+        ],
+        "accepted_orders": [
+          [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ]
+        ],
+        "explanation": {
+          "id": "es.b2.perspectives.guide",
+          "revision": 2
+        }
+      },
+      "skills": [
+        "grammar"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b2.perspectives.recall",
+        "revision": 2
+      },
+      "instruction": {
+        "slot": "es.b2.perspectives.recall"
+      },
+      "objectives": [
+        {
+          "id": "es.b2.perspectives.objective",
+          "revision": 2
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.b2.perspectives.guide",
+          "revision": 2
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "short_answer",
+        "language": "es",
+        "target": "sentence_content",
+        "inputs": [
+          "keyboard",
+          "microphone"
+        ],
+        "accepted": [
+          "en"
+        ],
+        "normalization": [
+          "unicode_nfc",
+          "trim",
+          "collapse_whitespace",
+          "ignore_case",
+          "ignore_terminal_punctuation"
+        ],
+        "mistakes": [],
+        "explanation": {
+          "id": "es.b2.perspectives.recall-answer",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "grammar",
+        "vocabulary"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b2.perspectives.listen",
+        "revision": 2
+      },
+      "instruction": {
+        "slot": "es.b2.perspectives.listen"
+      },
+      "objectives": [
+        {
+          "id": "es.b2.perspectives.objective",
+          "revision": 2
+        }
+      ],
+      "materials": [
+        {
+          "id": "es.b2.perspectives.listening",
+          "revision": 1
+        }
+      ],
+      "hints": [],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "choice",
+        "options": [
+          {
+            "id": "l1",
+            "label": {
+              "language": "es",
+              "text": "En el valor del voluntariado."
+            }
+          },
+          {
+            "id": "l2",
+            "label": {
+              "language": "es",
+              "text": "En que debe ser obligatorio."
+            }
+          },
+          {
+            "id": "l3",
+            "label": {
+              "language": "es",
+              "text": "En que carece de utilidad."
+            }
+          }
+        ],
+        "correct_ids": [
+          "l1"
+        ],
+        "explanation": {
+          "id": "es.b2.perspectives.listen-answer",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "listening"
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b2.perspectives.produce",
+        "revision": 2
+      },
+      "instruction": {
+        "language": "es",
+        "text": "Compara estas posturas sin generalizar: Marta propone voluntariado escolar obligatorio para ampliar la participación. Diego defiende la elección personal para mantener la motivación. Explica un punto común y una diferencia, y después justifica tu posición."
+      },
+      "objectives": [
+        {
+          "id": "es.b2.perspectives.objective",
+          "revision": 2
+        }
+      ],
+      "materials": [],
+      "hints": [
+        {
+          "id": "es.b2.perspectives.guide",
+          "revision": 2
+        }
+      ],
+      "reveal_policy": "after_submission",
+      "evidence_scope": "source_language",
+      "task": {
+        "kind": "writing",
+        "language": "es",
+        "min_words": 70,
+        "max_words": 240,
+        "rubric": {
+          "id": "es.b2.perspectives.rubric",
+          "revision": 1
+        }
+      },
+      "skills": [
+        "writing"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "content": {
+        "id": "es.b2.perspectives.listening",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "audio",
+          "speech": {
+            "id": "es.b2.perspectives.listening-audio",
+            "revision": 1
+          }
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b2.perspectives.listen-answer",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.b2.perspectives.listen-feedback"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Marta cree que el voluntariado escolar debe ser obligatorio para que participe todo el mundo. Diego también valora el voluntariado, pero piensa que debe ser una decisión personal para mantener la motivación."
+            }
+          ],
+          "speech": null
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b2.perspectives.recall-answer",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "slot": "es.b2.perspectives.answer-title"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "en"
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.b2.perspectives.guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b2.perspectives.model",
+        "revision": 1
+      },
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "slot": "es.b2.perspectives.model-title"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Marta y Diego coinciden en que el voluntariado tiene valor, pero discrepan sobre cómo organizar la participación. Marta defiende la obligatoriedad porque quiere que participe más alumnado. Diego, en cambio, considera que la elección personal favorece la motivación. A mi juicio, convendría ofrecer experiencias iniciales dentro del horario escolar y permitir después una participación voluntaria. Así se daría a conocer el proyecto sin ignorar las preferencias y responsabilidades personales. Esta propuesta combina la preocupación de Marta por el acceso con la de Diego por la autonomía."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "id": "es.b2.perspectives.vocab",
+        "revision": 1
+      },
+      "searchable": true,
+      "blocks": [
+        {
+          "kind": "heading",
+          "spans": [
+            {
+              "language": "es",
+              "text": "discrepar"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.b2.perspectives.gloss"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "Ambos coinciden en que la participación es importante, mientras que discrepan sobre cómo organizarla."
+            }
+          ],
+          "speech": {
+            "id": "es.b2.perspectives.example-audio",
+            "revision": 1
+          }
+        }
+      ]
+    }
+  ],
+  "speech": [
+    {
+      "content": {
+        "id": "es.b2.perspectives.example-audio",
+        "revision": 1
+      },
+      "text": "Ambos coinciden en que la participación es importante, mientras que discrepan sobre cómo organizarla.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    },
+    {
+      "content": {
+        "id": "es.b2.perspectives.listening-audio",
+        "revision": 1
+      },
+      "text": "Marta cree que el voluntariado escolar debe ser obligatorio para que participe todo el mundo. Diego también valora el voluntariado, pero piensa que debe ser una decisión personal para mantener la motivación.",
+      "speaker_role": null,
+      "pronunciation_override": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "content": {
+        "id": "es.b2.perspectives.lexeme",
+        "revision": 1
+      },
+      "lemma": "discrepar",
+      "part_of_speech": "expression",
+      "gloss": {
+        "slot": "es.b2.perspectives.gloss"
+      },
+      "accepted_forms": [
+        "discrepar"
+      ],
+      "examples": [
+        {
+          "id": "es.b2.perspectives.vocab",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "rubrics": [
+    {
+      "content": {
+        "id": "es.b2.perspectives.rubric",
+        "revision": 1
+      },
+      "criteria": [
+        {
+          "id": "task",
+          "label": {
+            "slot": "es.b2.perspectives.rubric.task.label"
+          },
+          "guidance": {
+            "slot": "es.b2.perspectives.rubric.task.guidance"
+          }
+        },
+        {
+          "id": "structure",
+          "label": {
+            "slot": "es.b2.perspectives.rubric.structure.label"
+          },
+          "guidance": {
+            "slot": "es.b2.perspectives.rubric.structure.guidance"
+          }
+        },
+        {
+          "id": "language",
+          "label": {
+            "slot": "es.b2.perspectives.rubric.language.label"
+          },
+          "guidance": {
+            "slot": "es.b2.perspectives.rubric.language.guidance"
+          }
+        }
+      ],
+      "model_answers": [
+        {
+          "id": "es.b2.perspectives.model",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "assessments": []
+}

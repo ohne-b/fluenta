@@ -1,0 +1,120 @@
+{
+  "grammar": [
+    {
+      "content": {
+        "id": "es.a1.hay.grammar",
+        "revision": 1
+      },
+      "title": {
+        "slot": "es.a1.hay.topic-title"
+      },
+      "summary": {
+        "slot": "es.a1.hay.summary"
+      },
+      "band": "A1",
+      "category": "verbs",
+      "order": 20,
+      "explanations": [
+        {
+          "id": "es.a1.hay.guide",
+          "revision": 1
+        }
+      ],
+      "lessons": [
+        {
+          "id": "es.a1.hay.recognise",
+          "revision": 1
+        },
+        {
+          "id": "es.a1.hay.context",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "content": {
+        "id": "es.a1.hay.guide",
+        "revision": 1
+      },
+      "searchable": true,
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "spans": [
+            {
+              "slot": "es.a1.hay.rule"
+            }
+          ]
+        },
+        {
+          "kind": "example",
+          "spans": [
+            {
+              "language": "es",
+              "text": "En mi instituto hay un laboratorio. Hay veinte ordenadores. Los ordenadores están en el laboratorio."
+            }
+          ],
+          "speech": null
+        },
+        {
+          "kind": "table",
+          "caption": {
+            "slot": "es.a1.hay.table-title"
+          },
+          "columns": [
+            {
+              "slot": "es.a1.hay.col1"
+            },
+            {
+              "slot": "es.a1.hay.col2"
+            }
+          ],
+          "rows": [
+            [
+              {
+                "language": "es",
+                "text": "hay + un/una"
+              },
+              {
+                "language": "es",
+                "text": "Hay una biblioteca."
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "hay + número"
+              },
+              {
+                "language": "es",
+                "text": "Hay tres aulas."
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "no hay + nombre"
+              },
+              {
+                "language": "es",
+                "text": "No hay deberes."
+              }
+            ],
+            [
+              {
+                "language": "es",
+                "text": "hay que + infinitivo"
+              },
+              {
+                "language": "es",
+                "text": "Hay que estudiar."
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}
