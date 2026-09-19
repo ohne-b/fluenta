@@ -1,6 +1,7 @@
 """Collect the actual dependency licenses for the installed build, without another toolchain."""
 import json
 from pathlib import Path
+import platform
 import shutil
 import subprocess
 import runpy
@@ -57,7 +58,8 @@ if __name__ == "__main__":
     collect("eSpeak-NG", "212928b394a96e8fd2096616bfd54e17845c48f6", "GPL-3.0-or-later and bundled data notices", "https://github.com/espeak-ng/espeak-ng", native / "piper-build/espeak_ng/src/espeak_ng_external")
     for directory in (native / "piper1-gpl-1.8.0/libpiper/lib").glob("onnxruntime-*"):
         collect("ONNX-Runtime", "1.22.0", "MIT and third-party notices", "https://github.com/microsoft/onnxruntime/tree/v1.22.0", directory)
-    for name, version in [("whisper", "b5130"), ("llama", "b10956")]:
+    whisper_version = "b5130" if platform.system() == "Windows" else "1.9.4"
+    for name, version in [("whisper", whisper_version), ("llama", "b10956")]:
         collect(name + ".cpp", version, "MIT", f"https://github.com/ggml-org/{name}.cpp", ROOT / "apps/desktop/src-tauri/resources/runtimes" / name)
     for name in ("LICENSE", "NOTICE.md"):
         shutil.copy2(ROOT / name, OUTPUT / name)
