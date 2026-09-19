@@ -12,6 +12,22 @@ export async function launchNative(directory: string, args: string[] = []) {
   await once(listener, "listening");
   const port = (listener.address() as { port: number }).port;
   await new Promise<void>((done) => listener.close(() => done()));
+  const browserArguments = `--remote-debugging-port=${port}`;
+  if (process.env.GITHUB_ACTIONS === "true" && process.platform === "win32") {
+    // Elevated runners ignore WebView2's environment override; HKLM is supported.
+    // This app-specific policy exists only on the disposable GitHub runner.
+    execFileSync("reg.exe", [
+      "add",
+      "HKLM\\Software\\Policies\\Microsoft\\Edge\\WebView2\\AdditionalBrowserArguments",
+      "/v",
+      "fluenta.exe",
+      "/t",
+      "REG_SZ",
+      "/d",
+      browserArguments,
+      "/f",
+    ]);
+  }
   // Match an Explorer launch: test runners set NO_COLOR and hide CLI ANSI bugs.
   const environment = { ...process.env };
   for (const key of [
@@ -30,10 +46,10 @@ export async function launchNative(directory: string, args: string[] = []) {
       windowsHide: true,
       env: {
         ...environment,
-        ...(!process.env.CI ? { FLUENTA_HEADLESS: "1" } : {}),
+        FLUENTA_HEADLESS: "1",
         FLUENTA_DATA_DIR: directory,
         WEBVIEW2_USER_DATA_FOLDER: mkdtempSync(join(directory, "webview-")),
-        WEBVIEW2_ADDITIONAL_BROWSER_ARGUMENTS: `--remote-debugging-port=${port}${process.env.CI ? " --enable-logging=stderr" : ""}`,
+        WEBVIEW2_ADDITIONAL_BROWSER_ARGUMENTS: browserArguments,
         ...(process.env.FLUENTA_TEST_OFFLINE
           ? {
               HTTP_PROXY: "http://127.0.0.1:9",

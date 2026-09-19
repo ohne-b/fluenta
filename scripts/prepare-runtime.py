@@ -151,7 +151,10 @@ def prepare_whisper() -> None:
         extract(archive, CACHE)
         source = CACHE / "whisper.cpp-1.9.4"
         build = CACHE / "whisper-build"
-        run(cmake(), "-S", source, "-B", build, "-DCMAKE_BUILD_TYPE=Release", "-DCMAKE_INSTALL_LIBDIR=lib", "-DGGML_NATIVE=OFF", "-DWHISPER_BUILD_TESTS=OFF", f"-DCMAKE_INSTALL_PREFIX={destination}")
+        # Recognition uses CPU inference; Metal still initializes even with -ng.
+        # Keep Intel Mac on the same CPU backend exercised on Windows and Linux.
+        options = ["-DGGML_BLAS=OFF"] if platform.system() == "Darwin" and platform.machine() == "x86_64" else []
+        run(cmake(), "-S", source, "-B", build, "-DCMAKE_BUILD_TYPE=Release", "-DCMAKE_INSTALL_LIBDIR=lib", "-DGGML_NATIVE=OFF", "-DGGML_METAL=OFF", "-DWHISPER_BUILD_TESTS=OFF", *options, f"-DCMAKE_INSTALL_PREFIX={destination}")
         run(cmake(), "--build", build, "--config", "Release", "--parallel", "6")
         run(cmake(), "--install", build, "--config", "Release")
     download("https://raw.githubusercontent.com/ggml-org/whisper.cpp/v1.9.4/LICENSE", destination / "LICENSE")
@@ -199,7 +202,7 @@ def verify_tutor_runtime() -> None:
     environment = os.environ.copy()
     environment["LD_LIBRARY_PATH"] = str(runtime / "lib")
     environment["DYLD_LIBRARY_PATH"] = str(runtime / "lib")
-    subprocess.run([str(executable), "--version"], env=environment, check=True)
+    subprocess.run([str(executable), "--version"], env=environment, check=True, timeout=90)
 
 
 if __name__ == "__main__":

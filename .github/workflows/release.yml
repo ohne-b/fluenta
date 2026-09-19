@@ -110,20 +110,23 @@ jobs:
         shell: bash
         env:
           FLUENTA_NATIVE_DIAGNOSTICS: "1"
+          WEBKIT_DISABLE_COMPOSITING_MODE: "1" # Xvfb has no hardware compositor.
+          LIBGL_ALWAYS_SOFTWARE: "1"
         run: |
+          set -x
           sudo apt-get install -y ./artifacts/release/*.deb
           resources=$(dirname "$(dpkg -L fluenta | grep '/resource-manifest.json$')")
           cargo run -p fluenta-speech --example verify_speech -- "$resources"
           mkdir -p .cache/linux-smoke
           set +e
-          FLUENTA_DATA_DIR="$PWD/.cache/linux-smoke/deb" xvfb-run -a timeout 20 fluenta >.cache/linux-smoke/deb.log 2>&1
+          FLUENTA_DATA_DIR="$PWD/.cache/linux-smoke/deb" dbus-run-session -- xvfb-run -a timeout 20 fluenta >.cache/linux-smoke/deb.log 2>&1
           result=$?
           set -e
           test "$result" = 124
           test -s .cache/linux-smoke/deb/learner/student.sqlite
           chmod +x artifacts/release/*.AppImage
           set +e
-          FLUENTA_DATA_DIR="$PWD/.cache/linux-smoke/appimage" xvfb-run -a timeout 20 artifacts/release/*.AppImage --appimage-extract-and-run >.cache/linux-smoke/appimage.log 2>&1
+          FLUENTA_DATA_DIR="$PWD/.cache/linux-smoke/appimage" dbus-run-session -- xvfb-run -a timeout 20 artifacts/release/*.AppImage --appimage-extract-and-run >.cache/linux-smoke/appimage.log 2>&1
           result=$?
           set -e
           test "$result" = 124

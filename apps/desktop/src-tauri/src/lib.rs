@@ -19,6 +19,7 @@ fn open_service(
     match service::Service::open(resources.clone(), directory.clone()) {
         Ok(service) => Ok(service),
         Err(error) => {
+            eprintln!("Fluenta startup failed: {error}");
             if cfg!(debug_assertions) && std::env::var_os("FLUENTA_HEADLESS").is_some() {
                 return Err(error);
             }
