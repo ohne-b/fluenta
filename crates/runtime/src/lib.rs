@@ -93,7 +93,13 @@ pub fn run(
         } else {
             Stdio::null()
         })
-        .stderr(Stdio::null());
+        .stderr(
+            if std::env::var_os("FLUENTA_NATIVE_DIAGNOSTICS").is_some() {
+                Stdio::inherit()
+            } else {
+                Stdio::null()
+            },
+        );
     command.stdout(if let Some(path) = output {
         Stdio::from(File::create(path)?)
     } else {

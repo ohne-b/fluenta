@@ -129,7 +129,7 @@ impl Speech {
             .arg(self.resources.join("models/ggml-small-q5_1.bin"))
             .arg("-f")
             .arg(&input)
-            .args(["-l", "es", "-otxt", "-nt", "-t", "6"])
+            .args(["-l", "es", "-otxt", "-nt", "-t", "6", "-ng"])
             .arg("-of")
             .arg(&output);
         library_path(&mut command, &runtime);

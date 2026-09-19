@@ -18,7 +18,7 @@ Download the latest version from [GitHub Releases](https://github.com/ohne-b/flu
 | --- | --- |
 | Windows x64 | Portable `.exe` or `-setup.exe` installer |
 | Linux x64 | `.AppImage` or `.deb` |
-| macOS Intel / Apple Silicon | Universal `.dmg`; `.app.tar.gz` for updates |
+| macOS 15+ Intel / Apple Silicon | Universal `.dmg`; `.app.tar.gz` for updates |
 
 Each release includes `SHA256SUMS.txt`, signed update metadata, and a corresponding-source archive. See the [changelog](CHANGELOG.md).
 

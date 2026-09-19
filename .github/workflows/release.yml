@@ -82,6 +82,8 @@ jobs:
       - run: npm run check
       - name: Verify native speech without a microphone
         run: cargo run -p fluenta-speech --example verify_speech
+        env:
+          FLUENTA_NATIVE_DIAGNOSTICS: "1"
       - name: Windows desktop tests
         if: runner.os == 'Windows'
         env:
@@ -106,6 +108,8 @@ jobs:
       - name: Smoke-test Linux packages
         if: runner.os == 'Linux'
         shell: bash
+        env:
+          FLUENTA_NATIVE_DIAGNOSTICS: "1"
         run: |
           sudo apt-get install -y ./artifacts/release/*.deb
           resources=$(dirname "$(dpkg -L fluenta | grep '/resource-manifest.json$')")
@@ -190,6 +194,8 @@ jobs:
           TAURI_SIGNING_PRIVATE_KEY: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY }}
           TAURI_SIGNING_PRIVATE_KEY_PASSWORD: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY_PASSWORD }}
       - name: Verify universal application
+        env:
+          FLUENTA_NATIVE_DIAGNOSTICS: "1"
         run: |
           app=target/universal-apple-darwin/release/bundle/macos/Fluenta.app
           lipo "$app/Contents/MacOS/fluenta" -verify_arch x86_64 arm64

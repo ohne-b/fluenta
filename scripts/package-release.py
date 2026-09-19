@@ -138,11 +138,17 @@ def main():
     name, bundles, extra, files, platforms = configurations[system]
     if system == "Darwin":
         environment["APPLE_SIGNING_IDENTITY"] = "-"
-        environment["MACOSX_DEPLOYMENT_TARGET"] = "12.0"
+        environment["MACOSX_DEPLOYMENT_TARGET"] = "15.0"
     if system == "Linux":
         # linuxdeploy's bundled strip cannot read newer system-library relocations.
         # https://github.com/tauri-apps/tauri/issues/8929
         environment["NO_STRIP"] = "true"
+        # linuxdeploy must also resolve the libraries used by bundled workers.
+        environment["LD_LIBRARY_PATH"] = os.pathsep.join([
+            *(str(ROOT / f"apps/desktop/src-tauri/resources/runtimes/{name}/lib")
+              for name in ("piper", "whisper", "llama")),
+            environment.get("LD_LIBRARY_PATH", ""),
+        ])
     OUTPUT.mkdir(parents=True, exist_ok=True)
     subprocess.run(["node", str(CLI), "build", "--ci", "--verbose", "--bundles", bundles, *extra,
                     "--config", '{"bundle":{"createUpdaterArtifacts":true}}'],

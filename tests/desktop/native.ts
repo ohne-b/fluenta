@@ -1,11 +1,17 @@
 import { chromium, type Browser, type Page } from "@playwright/test";
-import { spawn, type ChildProcess } from "node:child_process";
-import { appendFileSync } from "node:fs";
+import { spawn, execFileSync, type ChildProcess } from "node:child_process";
+import { appendFileSync, mkdtempSync } from "node:fs";
 import { join, resolve } from "node:path";
 import { once } from "node:events";
+import { createServer } from "node:net";
 
 export async function launchNative(directory: string, args: string[] = []) {
   const root = resolve(".");
+  const listener = createServer();
+  listener.listen(0, "127.0.0.1");
+  await once(listener, "listening");
+  const port = (listener.address() as { port: number }).port;
+  await new Promise<void>((done) => listener.close(() => done()));
   // Match an Explorer launch: test runners set NO_COLOR and hide CLI ANSI bugs.
   const environment = { ...process.env };
   for (const key of [
@@ -24,9 +30,10 @@ export async function launchNative(directory: string, args: string[] = []) {
       windowsHide: true,
       env: {
         ...environment,
-        FLUENTA_HEADLESS: "1",
+        ...(!process.env.CI ? { FLUENTA_HEADLESS: "1" } : {}),
         FLUENTA_DATA_DIR: directory,
-        WEBVIEW2_ADDITIONAL_BROWSER_ARGUMENTS: "--remote-debugging-port=9224",
+        WEBVIEW2_USER_DATA_FOLDER: mkdtempSync(join(directory, "webview-")),
+        WEBVIEW2_ADDITIONAL_BROWSER_ARGUMENTS: `--remote-debugging-port=${port}${process.env.CI ? " --enable-logging=stderr" : ""}`,
         ...(process.env.FLUENTA_TEST_OFFLINE
           ? {
               HTTP_PROXY: "http://127.0.0.1:9",
@@ -48,7 +55,7 @@ export async function launchNative(directory: string, args: string[] = []) {
     if (processHandle.exitCode !== null)
       throw new Error(`Fluenta exited. See ${directory}/native.log`);
     try {
-      browser = await chromium.connectOverCDP("http://127.0.0.1:9224");
+      browser = await chromium.connectOverCDP(`http://127.0.0.1:${port}`);
       break;
     } catch (error) {
       connectionError = error;
@@ -56,6 +63,20 @@ export async function launchNative(directory: string, args: string[] = []) {
     }
   }
   if (!browser) {
+    if (process.env.CI && process.platform === "win32") {
+      try {
+        appendFileSync(
+          join(directory, "native.log"),
+          execFileSync("powershell.exe", [
+            "-NoProfile",
+            "-Command",
+            "Get-CimInstance Win32_Process | Where-Object { $_.Name -match 'fluenta|msedgewebview2' } | Select-Object Name,ProcessId,ParentProcessId,CommandLine | ConvertTo-Json",
+          ]),
+        );
+      } catch {
+        /* Keep the original startup failure. */
+      }
+    }
     processHandle.kill();
     throw new Error(
       `Native WebView2 did not become available. See ${directory}/native.log. ${connectionError}`,

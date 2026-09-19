@@ -193,6 +193,15 @@ def inventory() -> None:
     (RESOURCES / "resource-manifest.json").write_text(json.dumps({"version": 1, "files": entries}, indent=2) + "\n", encoding="utf-8")
 
 
+def verify_tutor_runtime() -> None:
+    runtime = RESOURCES / "runtimes/llama"
+    executable = runtime / ("llama-completion.exe" if platform.system() == "Windows" else "llama-completion")
+    environment = os.environ.copy()
+    environment["LD_LIBRARY_PATH"] = str(runtime / "lib")
+    environment["DYLD_LIBRARY_PATH"] = str(runtime / "lib")
+    subprocess.run([str(executable), "--version"], env=environment, check=True)
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--models-only", action="store_true")
@@ -211,6 +220,7 @@ if __name__ == "__main__":
         prepare_llama()
         prepare_piper()
         windows_runtime()
+        verify_tutor_runtime()
     if args.tutor_evaluation:
         model = json.loads((ROOT / "crates/tutor/model.json").read_text())
         directory = ROOT / ".cache/evaluation"

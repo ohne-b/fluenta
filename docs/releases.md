@@ -28,7 +28,7 @@ latest.json
 
 This follows ohneguessr's platform naming and formats, with an additional corresponding-source ZIP for the GPL components. The source archive contains Fluenta, locked Rust dependency sources, Piper, and its pinned eSpeak NG source. npm dependencies remain locked; building from source can require network access.
 
-Windows Setup includes the offline WebView2 installer. The portable EXE extracts into a temporary directory, runs without installing, and preserves progress in the normal application profile; WebView2 must already be installed. Linux targets Ubuntu 24.04. The macOS app contains a universal main executable and separate native speech/runtime directories selected by the running architecture.
+Windows Setup includes the offline WebView2 installer. The portable EXE extracts into a temporary directory, runs without installing, and preserves progress in the normal application profile; WebView2 must already be installed. Linux targets Ubuntu 24.04. macOS targets version 15 or later, matching the native build hosts. Its app contains a universal main executable and separate native speech/runtime directories selected by the running architecture.
 
 Windows Authenticode signing and Apple notarization are not configured. macOS receives an ad-hoc signature. Tauri updater signatures verify update payloads; they do not replace platform code-signing identities.
 
