@@ -131,6 +131,19 @@ jobs:
           set -e
           test "$result" = 124
           test -s .cache/linux-smoke/appimage/learner/student.sqlite
+      - name: Verify DEB dependencies in a clean Ubuntu installation
+        if: runner.os == 'Linux'
+        run: |
+          docker run --rm \
+            -e FLUENTA_NATIVE_DIAGNOSTICS=1 \
+            -v "$PWD/artifacts/release:/packages:ro" \
+            -v "$PWD/target/debug/examples/verify_speech:/verify-speech:ro" \
+            ubuntu:24.04 bash -ec '
+              apt-get update -qq
+              apt-get install -y -qq --no-install-recommends /packages/*.deb
+              /verify-speech /usr/lib/Fluenta
+              LD_LIBRARY_PATH=/usr/lib/Fluenta/runtimes/llama/lib /usr/lib/Fluenta/runtimes/llama/llama-completion --version
+            '
       - name: Preserve macOS native resources and permissions
         if: runner.os == 'macOS'
         run: tar -czf ${{ matrix.platform }}.tar.gz -C apps/desktop/src-tauri/resources .

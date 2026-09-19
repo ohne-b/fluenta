@@ -54,6 +54,11 @@
         "installerIcon": "icons/icon.ico"
       }
     },
+    "linux": {
+      "deb": {
+        "depends": ["libasound2t64", "libgomp1"]
+      }
+    },
     "macOS": {
       "minimumSystemVersion": "15.0",
       "infoPlist": "Info.plist"
