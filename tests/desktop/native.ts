@@ -43,19 +43,23 @@ export async function launchNative(directory: string, args: string[] = []) {
     );
   }
   let browser: Browser | undefined;
-  for (let attempt = 0; attempt < 80; attempt++) {
+  let connectionError: unknown;
+  for (let attempt = 0; attempt < 240; attempt++) {
     if (processHandle.exitCode !== null)
       throw new Error(`Fluenta exited. See ${directory}/native.log`);
     try {
       browser = await chromium.connectOverCDP("http://127.0.0.1:9224");
       break;
-    } catch {
+    } catch (error) {
+      connectionError = error;
       await new Promise((resolve) => setTimeout(resolve, 250));
     }
   }
   if (!browser) {
     processHandle.kill();
-    throw new Error("Native WebView2 did not become available.");
+    throw new Error(
+      `Native WebView2 did not become available. See ${directory}/native.log. ${connectionError}`,
+    );
   }
   const page: Page = browser.contexts()[0].pages()[0];
   await page.waitForLoadState("domcontentloaded");

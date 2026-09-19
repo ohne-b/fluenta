@@ -22,6 +22,8 @@ env:
 jobs:
   prepare:
     runs-on: ubuntu-24.04
+    outputs:
+      commit: ${{ steps.revision.outputs.commit }}
     permissions:
       contents: write # GitHub requires write access to see draft releases.
     steps:
@@ -34,6 +36,8 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           test "$(gh release view "$RELEASE_TAG" --json isDraft --jq .isDraft)" = true
+      - id: revision
+        run: echo "commit=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
   native:
     needs: prepare
@@ -54,7 +58,11 @@ jobs:
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
-          ref: ${{ inputs.tag }}
+          ref: ${{ needs.prepare.outputs.commit }}
+      - uses: Swatinem/rust-cache@49a0bdc70d2e1b713ca9e2869b211fcce03d3c1c # v2
+        with:
+          shared-key: release-${{ matrix.platform }}
+          cache-on-failure: true
       - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
         with:
           node-version: 24
@@ -76,8 +84,18 @@ jobs:
         run: cargo run -p fluenta-speech --example verify_speech
       - name: Windows desktop tests
         if: runner.os == 'Windows'
+        env:
+          FLUENTA_TEST_EXE: ${{ github.workspace }}/target/debug/fluenta.exe
         run: |
-          cargo build -p fluenta-desktop
+          $runtime = Get-ItemProperty -Path 'HKLM:\SOFTWARE\WOW6432Node\Microsoft\EdgeUpdate\Clients\{F3017226-FE2A-4295-8BDF-00C3A9A7E4C5}', 'HKCU:\Software\Microsoft\EdgeUpdate\Clients\{F3017226-FE2A-4295-8BDF-00C3A9A7E4C5}' -Name pv -ErrorAction SilentlyContinue
+          if (-not ($runtime | Where-Object { $_.pv -and [version]$_.pv -gt [version]'0.0.0.0' })) {
+            $installer = Join-Path $env:RUNNER_TEMP 'MicrosoftEdgeWebview2Setup.exe'
+            Invoke-WebRequest 'https://go.microsoft.com/fwlink/p/?LinkId=2124703' -OutFile $installer
+            $setup = Start-Process -FilePath $installer -ArgumentList '/silent', '/install' -WindowStyle Hidden -Wait -PassThru
+            if ($setup.ExitCode -ne 0) { throw "WebView2 setup failed: $($setup.ExitCode)" }
+          }
+          npm run tauri -w @fluenta/desktop -- build --debug --no-bundle
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
           npm run test:e2e
       - name: Package Windows and Linux
         if: runner.os != 'macOS'
@@ -90,6 +108,8 @@ jobs:
         shell: bash
         run: |
           sudo apt-get install -y ./artifacts/release/*.deb
+          resources=$(dirname "$(dpkg -L fluenta | grep '/resource-manifest.json$')")
+          cargo run -p fluenta-speech --example verify_speech -- "$resources"
           mkdir -p .cache/linux-smoke
           set +e
           FLUENTA_DATA_DIR="$PWD/.cache/linux-smoke/deb" xvfb-run -a timeout 20 fluenta >.cache/linux-smoke/deb.log 2>&1
@@ -128,17 +148,22 @@ jobs:
           name: logs-${{ matrix.platform }}
           path: |
             .cache/playwright-report/
+            .cache/*/native.log
             .cache/linux-smoke/*.log
           include-hidden-files: true
 
   macos:
-    needs: native
+    needs: [prepare, native]
     runs-on: macos-15
     timeout-minutes: 90
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
-          ref: ${{ inputs.tag }}
+          ref: ${{ needs.prepare.outputs.commit }}
+      - uses: Swatinem/rust-cache@49a0bdc70d2e1b713ca9e2869b211fcce03d3c1c # v2
+        with:
+          shared-key: universal-macos
+          cache-on-failure: true
       - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
         with:
           node-version: 24
@@ -169,6 +194,7 @@ jobs:
           app=target/universal-apple-darwin/release/bundle/macos/Fluenta.app
           lipo "$app/Contents/MacOS/fluenta" -verify_arch x86_64 arm64
           codesign --verify --deep --strict "$app"
+          cargo run --release --target aarch64-apple-darwin -p fluenta-speech --example verify_speech -- "$app/Contents/Resources"
           FLUENTA_DATA_DIR="$PWD/.cache/mac-smoke" "$app/Contents/MacOS/fluenta" &
           pid=$!
           sleep 15
@@ -184,14 +210,14 @@ jobs:
           retention-days: 3
 
   upload:
-    needs: [native, macos]
+    needs: [prepare, native, macos]
     runs-on: ubuntu-24.04
     permissions:
       contents: write
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
-          ref: ${{ inputs.tag }}
+          ref: ${{ needs.prepare.outputs.commit }}
       - uses: actions/download-artifact@v8
         with:
           pattern: release-*

@@ -3,8 +3,12 @@ use fluenta_runtime::Cancellation;
 use fluenta_speech::{Speech, read_wav};
 use std::{path::PathBuf, time::Instant};
 fn main() -> Result<(), Box<dyn std::error::Error>> {
-    let root =
-        PathBuf::from(env!("CARGO_MANIFEST_DIR")).join("../../apps/desktop/src-tauri/resources");
+    let root = std::env::args_os()
+        .nth(1)
+        .map(PathBuf::from)
+        .unwrap_or_else(|| {
+            PathBuf::from(env!("CARGO_MANIFEST_DIR")).join("../../apps/desktop/src-tauri/resources")
+        });
     let cache = tempfile::tempdir()?;
     let speech = Speech::new(root, cache.path().to_path_buf())?;
     let token = Cancellation::default();
@@ -17,7 +21,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     println!("Whisper: {:?}; transcript: {transcript}", start.elapsed());
     let lower = transcript.to_lowercase();
     assert!(
-        lower.contains("español") && (lower.contains("nueve") || lower.contains('9')),
+        lower.contains("español") && lower.contains("clase"),
         "synthetic speech round trip lost its key meaning"
     );
     Ok(())

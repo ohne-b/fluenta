@@ -139,8 +139,12 @@ def main():
     if system == "Darwin":
         environment["APPLE_SIGNING_IDENTITY"] = "-"
         environment["MACOSX_DEPLOYMENT_TARGET"] = "12.0"
+    if system == "Linux":
+        # linuxdeploy's bundled strip cannot read newer system-library relocations.
+        # https://github.com/tauri-apps/tauri/issues/8929
+        environment["NO_STRIP"] = "true"
     OUTPUT.mkdir(parents=True, exist_ok=True)
-    subprocess.run(["node", str(CLI), "build", "--ci", "--bundles", bundles, *extra,
+    subprocess.run(["node", str(CLI), "build", "--ci", "--verbose", "--bundles", bundles, *extra,
                     "--config", '{"bundle":{"createUpdaterArtifacts":true}}'],
                    cwd=ROOT / "apps/desktop", env=environment, check=True)
     target = ROOT / "target" / ("universal-apple-darwin/release" if system == "Darwin" else "release")

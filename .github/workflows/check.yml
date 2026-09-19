@@ -5,11 +5,17 @@ on:
   pull_request:
 permissions:
   contents: read
+concurrency:
+  group: check-${{ github.ref }}
+  cancel-in-progress: true
 jobs:
   windows:
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: Swatinem/rust-cache@49a0bdc70d2e1b713ca9e2869b211fcce03d3c1c # v2
+        with:
+          cache-on-failure: true
       - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
         with:
           node-version: 24
@@ -21,13 +27,27 @@ jobs:
       - run: python scripts/prepare-runtime.py
       - run: python scripts/prepare-notices.py
       - run: npm run check
-      - run: cargo build -p fluenta-desktop
+      - name: Install WebView2 for native tests
+        shell: pwsh
+        run: |
+          $runtime = Get-ItemProperty -Path 'HKLM:\SOFTWARE\WOW6432Node\Microsoft\EdgeUpdate\Clients\{F3017226-FE2A-4295-8BDF-00C3A9A7E4C5}', 'HKCU:\Software\Microsoft\EdgeUpdate\Clients\{F3017226-FE2A-4295-8BDF-00C3A9A7E4C5}' -Name pv -ErrorAction SilentlyContinue
+          if (-not ($runtime | Where-Object { $_.pv -and [version]$_.pv -gt [version]'0.0.0.0' })) {
+            $installer = Join-Path $env:RUNNER_TEMP 'MicrosoftEdgeWebview2Setup.exe'
+            Invoke-WebRequest 'https://go.microsoft.com/fwlink/p/?LinkId=2124703' -OutFile $installer
+            $setup = Start-Process -FilePath $installer -ArgumentList '/silent', '/install' -WindowStyle Hidden -Wait -PassThru
+            if ($setup.ExitCode -ne 0) { throw "WebView2 setup failed: $($setup.ExitCode)" }
+          }
+      - run: npm run tauri -w @fluenta/desktop -- build --debug --no-bundle
       - run: npm run test:e2e
+        env:
+          FLUENTA_TEST_EXE: ${{ github.workspace }}/target/debug/fluenta.exe
       - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         if: failure()
         with:
           name: desktop-test-report
-          path: .cache/playwright-report/
+          path: |
+            .cache/playwright-report/
+            .cache/*/native.log
           include-hidden-files: true
   portable-core:
     strategy:

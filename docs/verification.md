@@ -8,7 +8,8 @@ For 0.0.1, both UI builds, the Rust workspace tests, Clippy, and release-manifes
 pass locally. Eight native Windows learner tests pass with external traffic blocked,
 including Piper playback, actual local tutor replies, vocabulary persistence, drafts,
 assistance restrictions, compact layouts, and the light-mode Settings overlay. Studio
-and the separately configured updater test are not part of that eight-test run.
+is not part of that eight-test run. A separate native updater check also passes:
+modified download bytes are rejected, the app stays open, and settings are preserved.
 
 For 0.4.3, Windows caption buttons use the system Segoe Fluent Icons font, with
 Segoe MDL2 Assets as the Windows 10 fallback. Other platforms retain the existing
