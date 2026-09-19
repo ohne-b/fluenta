@@ -351,15 +351,15 @@ impl Tutor {
                 "8192",
                 "-n",
                 "768",
-                "-t",
-                "6",
                 "--temp",
                 "0.2",
                 "--seed",
                 "42",
                 "-ngl",
                 "0",
-            ]);
+            ])
+            .arg("-t")
+            .arg(fluenta_runtime::inference_threads().to_string());
         #[cfg(target_os = "linux")]
         command.env("LD_LIBRARY_PATH", self.runtime.join("lib"));
         #[cfg(target_os = "macos")]

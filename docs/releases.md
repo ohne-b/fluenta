@@ -61,7 +61,7 @@ Unsigned development packages use `npm run desktop:build`. Studio remains a sepa
 | llama.cpp | b10956, platform-specific runtime |
 | Optional tutor | Gemma 4 E2B Q4_K_M, 3,106,738,272 bytes |
 
-`scripts/prepare-runtime.py` contains the pinned URLs and hashes. `prepare-notices.py` collects licenses and refreshes the resource inventory. The tutor model is downloaded separately in the app; it is not in the installer. Current inference is CPU-only with six threads.
+`scripts/prepare-runtime.py` contains the pinned URLs and hashes. `prepare-notices.py` collects licenses and refreshes the resource inventory. The tutor model is downloaded separately in the app; it is not in the installer. Current inference is CPU-only with up to six threads, bounded by available CPU parallelism.
 
 ## Updates
 

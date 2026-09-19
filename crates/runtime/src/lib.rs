@@ -19,6 +19,11 @@ pub fn cancellation() -> Cancellation {
 pub fn is_cancelled(token: &Cancellation) -> bool {
     token.load(Ordering::Relaxed)
 }
+
+/// Oversubscribing ggml's CPU thread pool can stall inference on Intel macOS.
+pub fn inference_threads() -> usize {
+    thread::available_parallelism().map_or(1, |count| count.get().min(6))
+}
 pub fn cancel(token: &Cancellation) {
     token.store(true, Ordering::Relaxed);
 }
