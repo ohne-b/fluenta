@@ -1,0 +1,51 @@
+name: Speech diagnostics
+on: workflow_dispatch
+permissions:
+  contents: read
+jobs:
+  intel:
+    runs-on: macos-15-intel
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      - name: Prepare recognition
+        run: |
+          python3 - <<'PY'
+          import runpy
+          build = runpy.run_path('scripts/prepare-runtime.py')
+          build['prepare_models']()
+          build['prepare_whisper']()
+          PY
+      - name: Compare CPU settings
+        run: |
+          python3 - <<'PY'
+          import os, pathlib, subprocess, time
+          root = pathlib.Path.cwd()
+          runtime = root / 'apps/desktop/src-tauri/resources/runtimes/whisper'
+          environment = dict(os.environ, DYLD_LIBRARY_PATH=str(runtime / 'lib'))
+          base = [str(runtime / 'bin/whisper-cli'), '-m', str(root / 'apps/desktop/src-tauri/resources/models/ggml-small-q5_1.bin'), '-f', str(root / '.cache/native/whisper.cpp-1.9.4/samples/jfk.wav'), '-l', 'en', '-ng']
+          for name, flags in [('one', ['-t', '1']), ('four', ['-t', '4']), ('six', ['-t', '6']), ('no-fa', ['-t', '4', '-nfa'])]:
+              log = root / f'.cache/{name}.log'
+              start = time.monotonic()
+              with log.open('w') as output:
+                  process = subprocess.Popen(base + flags, env=environment, stdout=output, stderr=output)
+                  try:
+                      process.wait(timeout=15)
+                  except subprocess.TimeoutExpired:
+                      subprocess.run(['sample', str(process.pid), '1', '-file', str(root / f'.cache/{name}-stack.txt')], check=False, timeout=10)
+                      try:
+                          process.wait(timeout=30)
+                      except subprocess.TimeoutExpired:
+                          process.kill()
+                          process.wait()
+              print(name, 'exit', process.returncode, 'seconds', round(time.monotonic()-start, 2), flush=True)
+              print(log.read_text()[-3000:], flush=True)
+          PY
+      - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
+        if: always()
+        with:
+          name: speech-diagnostics
+          path: |
+            .cache/*.log
+            .cache/*-stack.txt
+          include-hidden-files: true
