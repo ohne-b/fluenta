@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { useQuery, useQueryClient } from "@tanstack/react-query";
+import { invoke } from "@tauri-apps/api/core";
 import Icon from "../components/icon";
 import {
   mdiCheck,
@@ -14,6 +15,105 @@ import { useSettings } from "../lib/context";
 import { useI18n } from "../lib/i18n";
 import { Button, ErrorNotice, Loading, Modal } from "../components/ui";
 import { AppUpdates } from "./updates";
+
+function UninstallApp({
+  disabled,
+  beforeUninstall,
+  onUninstalling,
+}: {
+  disabled: boolean;
+  beforeUninstall: () => Promise<boolean>;
+  onUninstalling: (busy: boolean) => void;
+}) {
+  const { t } = useI18n();
+  const { data: available } = useQuery({
+    queryKey: ["can-uninstall"],
+    queryFn: () => invoke<boolean>("can_uninstall"),
+    staleTime: Infinity,
+  });
+  const [open, setOpen] = useState(false);
+  const [removeData, setRemoveData] = useState(false);
+  const [busy, setBusy] = useState(false);
+  const [error, setError] = useState<Parameters<typeof t>[0] | "">("");
+  if (!available) return null;
+  const uninstall = async () => {
+    setBusy(true);
+    setError("");
+    onUninstalling(true);
+    try {
+      if (!removeData && !(await beforeUninstall()))
+        throw new Error("Settings could not be saved");
+      await invoke("uninstall_app", { removeData });
+    } catch (error) {
+      setError(
+        error === "uninstall.busy"
+          ? "Finish or cancel the current activity before uninstalling."
+          : "The uninstaller could not start. Try again.",
+      );
+      setBusy(false);
+      onUninstalling(false);
+    }
+  };
+  return (
+    <>
+      <Button
+        variant="ghost"
+        disabled={disabled}
+        onClick={() => {
+          setRemoveData(false);
+          setError("");
+          setOpen(true);
+        }}
+      >
+        <Icon path={mdiTrashCanOutline} aria-hidden="true" size="17px" />
+        {t("Uninstall Fluenta")}
+      </Button>
+      <Modal
+        open={open}
+        onClose={() => setOpen(false)}
+        dismissible={!busy}
+        title={t("Uninstall Fluenta?")}
+        description={t("The AI model is always removed.")}
+      >
+        <label className="switch-row">
+          <span>
+            <strong>{t("Also delete my learning data")}</strong>
+            <span className="small muted">
+              {t("Progress, notes, drafts and recordings.")}
+            </span>
+          </span>
+          <input
+            type="checkbox"
+            checked={removeData}
+            disabled={busy}
+            onChange={(event) => setRemoveData(event.target.checked)}
+          />
+        </label>
+        {error && (
+          <p className="error-notice" role="alert">
+            {t(error)}
+          </p>
+        )}
+        <div className="modal-actions">
+          <Button
+            variant="secondary"
+            disabled={busy}
+            onClick={() => setOpen(false)}
+          >
+            {t("Cancel")}
+          </Button>
+          <Button
+            variant="danger"
+            disabled={busy}
+            onClick={() => void uninstall()}
+          >
+            {t("Uninstall")}
+          </Button>
+        </div>
+      </Modal>
+    </>
+  );
+}
 
 export function ModelDownload({ condensed = false }: { condensed?: boolean }) {
   const { t } = useI18n(),
@@ -406,6 +506,22 @@ function SettingsForm({
           beforeInstall={() => save()}
           disabled={busy || backup.busy || courses.busy}
           onInstalling={(value) => {
+            setInstalling(value);
+            onInstalling(value);
+          }}
+        />
+        <UninstallApp
+          disabled={
+            busy ||
+            installing ||
+            backup.busy ||
+            courses.busy ||
+            Boolean(
+              studioDraft && studioDraft.text !== studioDraft.document.text,
+            )
+          }
+          beforeUninstall={() => save()}
+          onUninstalling={(value) => {
             setInstalling(value);
             onInstalling(value);
           }}

@@ -10,6 +10,7 @@
     "node": ">=22"
   },
   "scripts": {
+    "icons": "node scripts/icons.mjs",
     "dev": "npm run dev -w @fluenta/desktop",
     "build": "npm run build -w @fluenta/desktop",
     "desktop:dev": "npm run tauri -w @fluenta/desktop -- dev",
@@ -18,7 +19,7 @@
     "studio:build": "npm run tauri -w @fluenta/desktop -- build --features studio --config src-tauri/tauri.studio.conf.json",
     "contracts": "cargo run -p fluenta-contracts --bin export && node scripts/contracts.mjs",
     "content:build": "cargo run -p fluenta-content --bin content-build -- content/foundation apps/desktop/src-tauri/resources/courses",
-    "check": "node --test scripts/test-release.mjs && node scripts/contracts.mjs --check && npm run build && npm run studio:ui:build -w @fluenta/desktop && cargo test --workspace --all-features && cargo clippy --workspace --all-targets --all-features -- -D warnings",
+    "check": "node --test scripts/test-release.mjs scripts/test-uninstall.mjs && node scripts/contracts.mjs --check && npm run build && npm run studio:ui:build -w @fluenta/desktop && cargo test --workspace --all-features && cargo clippy --workspace --all-targets --all-features -- -D warnings",
     "test:e2e": "playwright test",
     "format": "cargo fmt --all && prettier --write apps/desktop/src apps/studio/src packages/contracts scripts/*.mjs",
     "release": "node scripts/package-release.mjs"

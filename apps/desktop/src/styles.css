@@ -402,10 +402,9 @@ strong {
   letter-spacing: -1.1px;
 }
 .brand .brand-mark {
-  width: 48px;
-  height: 48px;
+  width: auto;
+  height: 40px;
   flex-shrink: 0;
-  margin: -5px;
   object-fit: contain;
 }
 .brand > span {
@@ -1278,8 +1277,7 @@ strong {
   margin-left: 4px;
 }
 .session-header .brand .brand-mark {
-  width: 40px;
-  height: 40px;
+  height: 32px;
 }
 .session-progress {
   border-radius: var(--radius);
@@ -2275,7 +2273,6 @@ strong {
   margin: 7px auto;
 }
 .chat-welcome .brand .brand-mark {
-  width: 48px;
   height: 48px;
   margin-bottom: 16px;
 }
@@ -2732,8 +2729,7 @@ strong {
     gap: 8px;
   }
   .brand .brand-mark {
-    width: 44px;
-    height: 44px;
+    height: 36px;
   }
   .page {
     padding: 6px 28px 32px;

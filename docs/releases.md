@@ -32,6 +32,10 @@ Windows Setup includes the offline WebView2 installer. The portable EXE extracts
 
 Windows Authenticode signing and Apple notarization are not configured. macOS receives an ad-hoc signature. Tauri updater signatures verify update payloads; they do not replace platform code-signing identities.
 
+Windows Setup installations expose **Uninstall Fluenta** in Settings. Learning data is kept unless the learner selects its removal. Uninstalling always removes downloaded tutor models and generated audio; updates preserve them. The same cleanup runs from Windows' own uninstaller. Portable, development, Studio, macOS and Linux builds do not expose this Windows-only action.
+
+The shared SVG has a cropped canvas; its artwork is unchanged. Run `npm run icons` after an intentional SVG update to regenerate the desktop PNG, ICO and ICNS assets.
+
 ## Local builds
 
 ```sh

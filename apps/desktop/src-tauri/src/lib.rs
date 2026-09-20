@@ -4,6 +4,7 @@ mod operations;
 mod service;
 #[cfg(feature = "studio")]
 mod studio;
+mod uninstall;
 mod workers;
 
 use fluenta_contracts::*;
@@ -104,10 +105,18 @@ pub fn run() {
             Ok(())
         });
     #[cfg(feature = "studio")]
-    let builder =
-        builder.invoke_handler(tauri::generate_handler![dispatch, studio::studio_dispatch]);
+    let builder = builder.invoke_handler(tauri::generate_handler![
+        dispatch,
+        studio::studio_dispatch,
+        uninstall::can_uninstall,
+        uninstall::uninstall_app
+    ]);
     #[cfg(not(feature = "studio"))]
-    let builder = builder.invoke_handler(tauri::generate_handler![dispatch]);
+    let builder = builder.invoke_handler(tauri::generate_handler![
+        dispatch,
+        uninstall::can_uninstall,
+        uninstall::uninstall_app
+    ]);
     let app = builder.build(tauri::generate_context!()).expect(
         "Fluenta could not initialize. Check its local data directory and bundled resources.",
     );

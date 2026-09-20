@@ -167,8 +167,8 @@ export function Brand({ compact = false }: { compact?: boolean }) {
         className="brand-mark"
         src={logo}
         alt={compact ? "Fluenta" : ""}
-        width={48}
-        height={48}
+        width={32}
+        height={40}
       />
       {!compact && <span>fluenta</span>}
     </span>

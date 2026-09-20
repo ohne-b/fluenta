@@ -105,6 +105,11 @@ jobs:
         env:
           TAURI_SIGNING_PRIVATE_KEY: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY }}
           TAURI_SIGNING_PRIVATE_KEY_PASSWORD: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY_PASSWORD }}
+      - name: Verify Windows uninstall data choices
+        if: runner.os == 'Windows'
+        run: node --test scripts/test-uninstall.mjs
+        env:
+          FLUENTA_REQUIRE_NSIS: "1"
       - name: Smoke-test Linux packages
         if: runner.os == 'Linux'
         shell: bash

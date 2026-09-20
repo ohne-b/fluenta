@@ -2,6 +2,17 @@ import { createContext, useContext, type ReactNode } from "react";
 import type { SourceLanguage } from "@fluenta/contracts";
 
 const de = {
+  "Uninstall Fluenta": "Fluenta deinstallieren",
+  "Uninstall Fluenta?": "Fluenta deinstallieren?",
+  "The AI model is always removed.": "Das KI-Modell wird immer entfernt.",
+  "Also delete my learning data": "Auch meine Lerndaten löschen",
+  "Progress, notes, drafts and recordings.":
+    "Fortschritt, Notizen, Entwürfe und Aufnahmen.",
+  "The uninstaller could not start. Try again.":
+    "Die Deinstallation konnte nicht gestartet werden. Versuche es erneut.",
+  Uninstall: "Deinstallieren",
+  "Finish or cancel the current activity before uninstalling.":
+    "Beende oder stoppe die laufende Aktivität vor der Deinstallation.",
   Studio: "Studio",
   "Grammar help": "Grammatikhilfe",
   "Grammar course": "Grammatikkurs",
