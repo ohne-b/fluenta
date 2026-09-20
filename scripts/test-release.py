@@ -45,10 +45,11 @@ class ReleaseTest(unittest.TestCase):
             installer = Path(directory) / "Fluenta Studio_0.2.0_x64-setup.exe"
             installer.write_bytes(b"not executable")
             installer.with_suffix(".exe.sig").write_text(encoded(b"ED" + b"key-id12" + bytes(64)), encoding="utf-8")
-            result = manifest(installer, "0.2.0", encoded(b"Ed" + b"key-id12" + bytes(32)), "Release notes")
+            result = manifest(installer, "0.2.0", encoded(b"Ed" + b"key-id12" + bytes(32)))
+            self.assertEqual(result["notes"], "[Check release notes on GitHub](https://github.com/ohne-b/fluenta/releases/tag/v0.2.0)")
             self.assertEqual(result["platforms"]["windows-x86_64"]["url"], "https://github.com/ohne-b/fluenta/releases/download/v0.2.0/Fluenta%20Studio_0.2.0_x64-setup.exe")
             with self.assertRaises(ValueError):
-                manifest(installer, "0.2.0", encoded(b"Ed" + b"otherkey" + bytes(32)), "")
+                manifest(installer, "0.2.0", encoded(b"Ed" + b"otherkey" + bytes(32)))
 
 
 if __name__ == "__main__":

@@ -65,7 +65,7 @@ Unsigned development packages use `npm run desktop:build`. Studio remains a sepa
 
 ## Updates
 
-The learner checks `https://github.com/ohne-b/fluenta/releases/latest/download/latest.json`. The repository and release must be public for unauthenticated checks. `latest.json` maps Windows to Setup, Linux to AppImage, and both Mac architectures to the universal app archive. Each payload carries a Tauri signature checked before installation. Portable Windows and DEB users should replace their download manually; the Windows in-app updater installs the Setup edition.
+The learner checks `https://github.com/ohne-b/fluenta/releases/latest/download/latest.json`. The repository and release must be public for unauthenticated checks. `latest.json` maps Windows to Setup, Linux to AppImage, and both Mac architectures to the universal app archive. Its `notes` field links to that version's GitHub release using `[Check release notes on GitHub](https://github.com/ohne-b/fluenta/releases/tag/vVERSION)`. Each payload carries a Tauri signature checked before installation. Portable Windows and DEB users should replace their download manually; the Windows in-app updater installs the Setup edition.
 
 Version 0.0.1 is the first GitHub release. Earlier local development builds used higher version numbers and need a manual installation of 0.0.1; automatic updates do not downgrade versions. The Windows installer permits that manual transition and keeps the learner profile.
 

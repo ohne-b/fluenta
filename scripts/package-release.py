@@ -23,7 +23,7 @@ SUFFIXES = (
 )
 
 
-def manifest(installer, version, public_key, notes, platforms=("windows-x86_64",)):
+def manifest(installer, version, public_key, platforms=("windows-x86_64",)):
     signature = installer.with_name(installer.name + ".sig").read_text(encoding="utf-8").strip()
     public = base64.b64decode(base64.b64decode(public_key).decode().splitlines()[1], validate=True)
     signed = base64.b64decode(base64.b64decode(signature).decode().splitlines()[1], validate=True)
@@ -33,7 +33,7 @@ def manifest(installer, version, public_key, notes, platforms=("windows-x86_64",
         raise ValueError("Signed artifact is missing or empty")
     return {
         "version": version,
-        "notes": notes,
+        "notes": f"[Check release notes on GitHub]({REPOSITORY}/releases/tag/v{version})",
         "pub_date": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "platforms": {key: {
             "url": f"{REPOSITORY}/releases/download/v{version}/{quote(installer.name)}",
@@ -111,7 +111,6 @@ def portable_windows(version, binary):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--key-file", type=Path)
-    parser.add_argument("--notes-file", type=Path, default=ROOT / "CHANGELOG.md")
     parser.add_argument("--tag", default=os.environ.get("RELEASE_TAG"))
     parser.add_argument("--check", action="store_true", help="Validate versions without building")
     parser.add_argument("--assemble", type=Path, help="Merge downloaded platform artifacts")
@@ -154,7 +153,6 @@ def main():
                     "--config", '{"bundle":{"createUpdaterArtifacts":true}}'],
                    cwd=ROOT / "apps/desktop", env=environment, check=True)
     target = ROOT / "target" / ("universal-apple-darwin/release" if system == "Darwin" else "release")
-    notes = args.notes_file.read_text(encoding="utf-8")
     for index, (pattern, suffix) in enumerate(files):
         matches = [p for p in (target / "bundle").glob(pattern) if p.name.lower().startswith(f"fluenta_{version}_") or p.name == "Fluenta.app.tar.gz"]
         if len(matches) != 1:
@@ -165,7 +163,7 @@ def main():
         if index == 0:
             signature = destination.with_name(destination.name + ".sig")
             shutil.copy2(original.with_name(original.name + ".sig"), signature)
-            feed = manifest(destination, version, public, notes, platforms)
+            feed = manifest(destination, version, public, platforms)
             (OUTPUT / f"{name}.json").write_text(json.dumps(feed, indent=2) + "\n", encoding="utf-8")
             signature.unlink()
     if system == "Windows":
