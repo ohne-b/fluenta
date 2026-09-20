@@ -72,18 +72,18 @@ Download the optional **Gemma 4 E2B** model in Settings (3.11 GB). The tutor run
 
 ## Development
 
-Tauri 2 and Rust, with React, TypeScript, and SQLite. Install Node.js 24, Rust via rustup, Python 3.12+, CMake 3.26+, and [Tauri's platform prerequisites](https://v2.tauri.app/start/prerequisites/). Windows also needs Visual Studio C++ Build Tools.
+Tauri 2 and Rust, with React, TypeScript, and SQLite. Install Node.js 24, Rust via rustup, CMake 3.26+, and [Tauri's platform prerequisites](https://v2.tauri.app/start/prerequisites/). Windows also needs Visual Studio C++ Build Tools.
 
 ```sh
 npm ci
 npm run contracts
 npm run content:build
-python scripts/prepare-runtime.py
-python scripts/prepare-notices.py
+node scripts/prepare-runtime.mjs
+node scripts/prepare-notices.mjs
 npm run desktop:dev
 ```
 
-The preparation scripts download pinned speech engines and models. Python is only a build dependency. `npm run dev` starts the renderer alone; storage and audio require the native app.
+The preparation scripts download pinned speech engines and models. `npm run dev` starts the renderer alone; storage and audio require the native app.
 
 ```sh
 npm run check

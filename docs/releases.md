@@ -37,8 +37,8 @@ Windows Authenticode signing and Apple notarization are not configured. macOS re
 ```sh
 npm ci
 npm run content:build
-python scripts/prepare-runtime.py
-python scripts/prepare-notices.py
+node scripts/prepare-runtime.mjs
+node scripts/prepare-notices.mjs
 npm run check
 cargo run -p fluenta-speech --example verify_speech
 npm run release -- --key-file .cache/signing/updater.key
@@ -61,7 +61,7 @@ Unsigned development packages use `npm run desktop:build`. Studio remains a sepa
 | llama.cpp | b10956, platform-specific runtime |
 | Optional tutor | Gemma 4 E2B Q4_K_M, 3,106,738,272 bytes |
 
-`scripts/prepare-runtime.py` contains the pinned URLs and hashes. `prepare-notices.py` collects licenses and refreshes the resource inventory. The tutor model is downloaded separately in the app; it is not in the installer. Current inference is CPU-only with up to six threads, bounded by available CPU parallelism.
+`scripts/prepare-runtime.mjs` contains the pinned URLs and hashes. `prepare-notices.mjs` collects licenses and refreshes the resource inventory. The tutor model is downloaded separately in the app; it is not in the installer. Current inference is CPU-only with up to six threads, bounded by available CPU parallelism.
 
 ## Updates
 

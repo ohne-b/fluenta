@@ -4,8 +4,6 @@ target/
 dist/
 dist-studio/
 *.tsbuildinfo
-__pycache__/
-*.py[cod]
 
 # Generated resources; pinned sources are in scripts/config
 /apps/desktop/src-tauri/gen/

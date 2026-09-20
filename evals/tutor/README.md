@@ -5,7 +5,7 @@ contrast and a conversation. `review` describes what a language reviewer must ch
 it is not a set of string matches that can certify the model.
 
 ```sh
-python scripts/prepare-runtime.py --tutor-evaluation
+node scripts/prepare-runtime.mjs --tutor-evaluation
 cargo run -p fluenta-tutor --example evaluate_tutor
 ```
 

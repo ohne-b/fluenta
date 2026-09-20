@@ -30,7 +30,10 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           ref: ${{ inputs.tag }}
-      - run: python3 scripts/package-release.py --check
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: 24
+      - run: node scripts/package-release.mjs --check
       - name: Require a draft release for the exact tag
         env:
           GH_TOKEN: ${{ github.token }}
@@ -67,9 +70,6 @@ jobs:
         with:
           node-version: 24
           cache: npm
-      - uses: actions/setup-python@v6
-        with:
-          python-version: "3.12"
       - name: Linux build dependencies
         if: runner.os == 'Linux'
         run: |
@@ -77,8 +77,8 @@ jobs:
           sudo apt-get install -y libwebkit2gtk-4.1-dev libappindicator3-dev librsvg2-dev patchelf libasound2-dev libfuse2t64 xvfb
       - run: npm ci
       - run: npm run content:build
-      - run: python scripts/prepare-runtime.py
-      - run: python scripts/prepare-notices.py
+      - run: node scripts/prepare-runtime.mjs
+      - run: node scripts/prepare-notices.mjs
       - run: npm run check
       - name: Verify native speech without a microphone
         run: cargo run -p fluenta-speech --example verify_speech
@@ -101,7 +101,7 @@ jobs:
           npm run test:e2e
       - name: Package Windows and Linux
         if: runner.os != 'macOS'
-        run: python scripts/package-release.py
+        run: node scripts/package-release.mjs
         env:
           TAURI_SIGNING_PRIVATE_KEY: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY }}
           TAURI_SIGNING_PRIVATE_KEY_PASSWORD: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY_PASSWORD }}
@@ -201,11 +201,11 @@ jobs:
           mkdir apps/desktop/src-tauri/resources/runtimes
           mv apps/desktop/src-tauri/resources/aarch64 apps/desktop/src-tauri/resources/runtimes/aarch64
           mv .cache/mac-x64/runtimes apps/desktop/src-tauri/resources/runtimes/x86_64
-          python3 -c "import runpy; runpy.run_path('scripts/prepare-runtime.py')['inventory']()"
+          node scripts/prepare-runtime.mjs --inventory
       - run: rustup target add aarch64-apple-darwin x86_64-apple-darwin
       - run: npm ci
       - name: Build universal application, DMG and updater archive
-        run: python3 scripts/package-release.py
+        run: node scripts/package-release.mjs
         env:
           TAURI_SIGNING_PRIVATE_KEY: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY }}
           TAURI_SIGNING_PRIVATE_KEY_PASSWORD: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY_PASSWORD }}
@@ -245,8 +245,11 @@ jobs:
           pattern: release-*
           path: artifacts/release
           merge-multiple: true
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: 24
       - name: Validate filenames, merge updater feed and hash all downloads
-        run: python3 scripts/package-release.py --assemble artifacts/release
+        run: node scripts/package-release.mjs --assemble artifacts/release
       - name: Upload to draft release
         env:
           GH_TOKEN: ${{ github.token }}

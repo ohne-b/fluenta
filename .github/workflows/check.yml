@@ -24,8 +24,8 @@ jobs:
       - run: npm run contracts
       - run: git diff --exit-code -- crates/contracts/schema packages/contracts/src
       - run: npm run content:build
-      - run: python scripts/prepare-runtime.py
-      - run: python scripts/prepare-notices.py
+      - run: node scripts/prepare-runtime.mjs
+      - run: node scripts/prepare-notices.mjs
       - run: npm run check
       - name: Install WebView2 for native tests
         shell: pwsh
